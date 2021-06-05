@@ -1,15 +1,12 @@
 ---
-title: Ämnestitel
+title: Webbutveckling 1
 layout: "home.njk"
 category: ämne
 eleventyNavigation:
-    key: ämnestitel
+    key: webbutveckling 1
 ---
 {% lead %}
-Detta är ämnets indexsida som kommer att visas innan ämnets olika områden.
-Just den här delen skrivs med en shortcode för en stilad ingress.
+Välkommen till kurssidan för Webbutveckling.
+Här hittar du en lista över de teman och områden som kursen innehåller.
 {% endlead %}
-
-Innehåll kan självklart skrivas som en vanlig paragraf och formatteras med [Markdown](https://www.markdownguide.org/).
-
-Den här sidan är uppbyggd med samma system som du kommer att skapa.
+Du kan även se hur långt du har kommit med dina självstudier.
