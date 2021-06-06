@@ -64,6 +64,6 @@ Skapa listan.
 {% extra %}
 
 #### Uppgift 3
-Testa att skapa en ordnad lista i dokumentet, [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
+Skapa en ordnad lista i ett dokument, taggen för det är [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
 {% endextra %}
 {% enduppgifter %}
