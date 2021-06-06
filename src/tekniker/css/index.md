@@ -5,7 +5,7 @@ category: område
 eleventyNavigation:
     key: css
     parent: tekniker
-    order: 1
+    order: 2
     excerpt: Cascading Style Sheets
 ---
 ## Området {{ title }} innehåller följande delar

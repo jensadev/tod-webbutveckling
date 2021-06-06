@@ -1,11 +1,11 @@
 ---
-title: Javascript
+title: Webben
 layout: "area.njk"
 category: område
 eleventyNavigation:
-    key: javascript
+    key: webben
     parent: tekniker
-    order: 4
+    order: 3
     excerpt: 
 ---
 ## Området {{ title }} innehåller följande delar
