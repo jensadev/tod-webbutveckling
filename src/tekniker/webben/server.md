@@ -10,9 +10,11 @@ eleventyNavigation:
 
 ## Introduktion
 
+En server är det som din webbklient talar med. Det är servern som svarar på anrop
+(requests) och skickar data till din klient när du surfar.
 
 ### Tänk på
-
+ - En server indentifieras med en domän, se delen om [adresser](adresser.html)
 
 {% endintro %}
 

@@ -10,9 +10,12 @@ eleventyNavigation:
 
 ## Introduktion
 
+Skapandet av Prototyp.
 
 ### Tänk på
-
+ - Börja enkelt
+ - Öka komplexitet stegvis
+ - Öka detaljrikedom stegvis
 
 {% endintro %}
 
@@ -28,6 +31,9 @@ eleventyNavigation:
 ## Uppgifter
 ### ⭐
 #### Uppgift 1
+
+Pappersskiss
+
 
 
 
