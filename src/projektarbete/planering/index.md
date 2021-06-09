@@ -1,11 +1,11 @@
 ---
-title: Dokumentation
+title: Planering
 layout: "area.njk"
 category: område
 eleventyNavigation:
-    key: dokumentation
+    key: planering
     parent: projektarbete
-    order: 3
+    order: 1
     excerpt: 
 ---
 ## Området {{ title }} innehåller följande delar
