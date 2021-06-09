@@ -4,6 +4,7 @@ eleventyNavigation:
     key: linta
     parent: kod
     order: 2
+    excerpt: Att linta kod skiljer sig något från att validera och det görs på kod från ett programmeringsspråk
 ---
 
 {% intro %}

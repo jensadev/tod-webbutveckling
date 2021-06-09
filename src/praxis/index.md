@@ -7,6 +7,6 @@ eleventyNavigation:
     key: praxis
     parent: webbutveckling 1
     order: 1
-    excerpt: Tema praxis
+    excerpt: Med praxis menas ett sätt att arbeta, ett sätt att göra något på
 ---
 ## Temat {{ title }} innehåller följande områden

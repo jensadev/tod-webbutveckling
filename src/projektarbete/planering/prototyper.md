@@ -4,7 +4,7 @@ eleventyNavigation:
     key: prototyper
     parent: planering
     order: 2
-    excerpt: 
+    excerpt: Att skapa en prototyp för en produkt är ett snabbt och kostnadseffektivt sätt att prova den
 ---
 {% intro %}
 

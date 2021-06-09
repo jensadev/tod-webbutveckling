@@ -7,6 +7,6 @@ eleventyNavigation:
     key: tekniker
     parent: webbutveckling 1
     order: 0
-    excerpt: Tema tekniker
+    excerpt: Webben är uppbyggd av ett stort antal olika tekniker
 ---
 ## Temat {{ title }} innehåller följande områden

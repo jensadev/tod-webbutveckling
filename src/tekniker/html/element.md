@@ -4,7 +4,7 @@ eleventyNavigation:
     key: element
     parent: html
     order: 1
-    excerpt: Element är en del av en webbsida
+    excerpt: Element är en del av den textstruktur som utgör en webbsida
 ---
 {% intro %}
 

@@ -4,7 +4,7 @@ eleventyNavigation:
     key: adresser
     parent: webben
     order: 1
-    excerpt: 
+    excerpt: För att hitta rätt på webben används adresser, eller URL
 ---
 {% intro %}
 

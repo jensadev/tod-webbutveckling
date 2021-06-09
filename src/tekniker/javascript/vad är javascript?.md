@@ -6,12 +6,13 @@ eleventyNavigation:
     key: vad är javascript?
     parent: javascript
     order: 0
+    excerpt: Javascript är ett programmeringsspråk för webben
 ---
 
 {% intro %}
 
 ## Introduktion
-Javascript är ett programmerings-språk för webben. Det används främst på klient-sidan, 
+Javascript är ett programmeringsspråk för webben. Det används främst på klient-sidan, 
 alltså i din webbläsare.
 Javascript används för att kontrollera en webbsidas funktion.
 

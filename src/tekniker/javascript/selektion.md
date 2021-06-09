@@ -4,7 +4,7 @@ eleventyNavigation:
     key: selektion
     parent: javascript
     order: 4
-    excerpt:
+    excerpt: Att välja, det är vad selektion betyder i programmeringen
 ---
 {% intro %}
 

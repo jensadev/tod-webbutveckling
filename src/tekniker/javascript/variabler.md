@@ -4,7 +4,7 @@ eleventyNavigation:
     key: variabler
     parent: javascript
     order: 1
-    excerpt: För att spara värden behöver vi variabler
+    excerpt: För att spara värden i ett programmeringsspråk används variabler
 ---
 {% intro %}
 

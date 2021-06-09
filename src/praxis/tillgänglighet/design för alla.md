@@ -1,10 +1,10 @@
 ---
 title: Design för alla
 eleventyNavigation:
-    key: "design för alla"
+    key: design för alla
     parent: tillgänglighet
     order: 1
-    excerpt: Tillgänglighet är en mänsklig rättighet
+    excerpt: Att skapa en design för alla handlar om att inkludera den mångfald som finns
 ---
 
 {% intro %}
@@ -17,9 +17,9 @@ för alla, mycket för att det tenderar att förbättra funktionen för just all
 
 ### Tänk på
  - En webbplats är användbar när den låter användarna uppnå sina mål lätt och smidigt
+ - Så långt som möjligt bör de ordinarie lösningarna fungera för alla
  - Bestäm hur din webbplats ska användas och av vem
  - Testa din webbplats på dina användare, ofta och tidigt
- - Testa igen
 
 {% endintro %}
 

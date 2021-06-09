@@ -4,7 +4,7 @@ eleventyNavigation:
     key: post mortem
     parent: dokumentation
     order: 2
-    excerpt: 
+    excerpt: Post mortem är en form av ett retrospekt, en vanlig dokumentationsform inom agilt utvecklingsarbete
 ---
 {% intro %}
 
@@ -13,7 +13,8 @@ eleventyNavigation:
 Post Mortem är en dokumentationsform som är populär inom 
 [Agilt](https://sv.wikipedia.org/wiki/Agil_systemutveckling) utvecklingsarbete.
 Fokus ligger på att identifiera och analysera dina erfarenheter, både positiva och 
-negativa. Syftet är att veta vad som antingen kan undvikas eller upprepas.
+negativa. Syftet är att analysera projektet för att komma fram till vad som 
+antingen ska undvikas eller upprepas.
 
 ### Tänk på
  - Skriv mer än X och Y gick bra eller dåligt, fundera på varför
