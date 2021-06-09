@@ -1,6 +1,7 @@
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const markdownIt = require('markdown-it');
+const mila = require('markdown-it-link-attributes');
 const markdownItAnchor = require('markdown-it-anchor');
 const slugify = require('slugify');
 const emojiReadTime = require('@11tyrocks/eleventy-plugin-emoji-readtime');
@@ -46,9 +47,9 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
-    eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
-    eleventyConfig.addLiquidShortcode("image", imageShortcode);
-    eleventyConfig.addJavaScriptFunction("image", imageShortcode);
+    eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
+    eleventyConfig.addLiquidShortcode('image', imageShortcode);
+    eleventyConfig.addJavaScriptFunction('image', imageShortcode);
 
     eleventyConfig.addShortcode('youtube', (code) => {
         return `<div class="video-wrapper"><iframe 
@@ -109,20 +110,28 @@ module.exports = function (eleventyConfig) {
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({
         html: true
-    }).use(markdownItAnchor, {
-        permalink: true,
-        permalinkClass: 'anchor',
-        permalinkSymbol: '#',
-        permalinkSpace: false,
-        permalinkBefore: true,
-        level: [1, 2, 3],
-        slugify: (s) =>
-            s
-                .trim()
-                .toLowerCase()
-                .replace(/[\s+~\/]/g, '-')
-                .replace(/[().`,%·'"!?¿:@*]/g, '')
-    });
+    })
+        .use(markdownItAnchor, {
+            permalink: true,
+            permalinkClass: 'anchor',
+            permalinkSymbol: '#',
+            permalinkSpace: false,
+            permalinkBefore: true,
+            level: [1, 2, 3],
+            slugify: (s) =>
+                s
+                    .trim()
+                    .toLowerCase()
+                    .replace(/[\s+~\/]/g, '-')
+                    .replace(/[().`,%·'"!?¿:@*]/g, '')
+        })
+        .use(mila, {
+            pattern: /^https:/,
+            attrs: {
+                target: '_blank',
+                rel: 'noopener'
+            }
+        });
     eleventyConfig.setLibrary('md', markdownLibrary);
 
     return {
