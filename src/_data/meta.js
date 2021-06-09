@@ -15,7 +15,7 @@ module.exports = {
     url: process.env.URL || 'http://localhost:8080',
     language: 'sv',
     siteName: 'Webbutveckling 1',
-    themeColor: '#f3722c', // replace with themeColor: pick, for a random color
+    themeColor: pick, // replace with themeColor: pick, for a random color '#f3722c'
     siteDescription:
         'Kurssida för webbutveckling. HTML, CSS, javascript, tillgänglighet',
     author: {
