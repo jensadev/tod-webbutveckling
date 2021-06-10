@@ -1,10 +1,10 @@
 ---
-title: Linta
+title: Automatisera
 eleventyNavigation:
-    key: linta
+    key: automatisera
     parent: kod
-    order: 4
-    excerpt: Linta(eng. lint)
+    order: 5
+    excerpt: Automatisera kodstil
 ---
 
 {% intro %}
