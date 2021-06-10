@@ -6,7 +6,7 @@ permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 eleventyNavigation:
     key: responsiv design
     parent: webbutveckling 1
-    order: 0
+    order: 3
     excerpt: Design för alla enheter(eng. devices)
 ---
 ## Temat {{ title }} innehåller följande områden
