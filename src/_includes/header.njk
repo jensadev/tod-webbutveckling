@@ -1,0 +1,18 @@
+<header class="bg-theme color-theme">
+    <div class="container pt-3 pb-2 d-md-flex align-items-center justify-content-between">
+        {% if page.fileSlug === '' %}
+            <h1 class="text-nowrap text-uppercase">
+                <a class="site-header" href="/" title="Tillbaka till startsidan">
+                    {{ meta.siteName }}
+                </a>
+            </h1>
+        {% else %}
+            {% include "breadcrumbs.njk" %}
+        {% endif %}
+        <div class="dropdown">
+            <label class="visually-hidden" for="searchField">Sök</label>
+            <input class="form-control" autocomplete="off" type="search" placeholder="Sök..." id="search-input" aria-label="Sök"/>
+            <ol id="search-results" class="dropdown-menu"></ol>
+        </div>
+    </div>
+</header>
