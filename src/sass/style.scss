@@ -84,20 +84,20 @@ h4 {
 }
 
 .anchor {
-    text-decoration:none;
-    margin-left: map-get($spacers , 1);
+    text-decoration: none;
+    margin-left: map-get($spacers, 1);
 }
 a[href].anchor,
 a[href].anchor:visited {
-    visibility:hidden
+    visibility: hidden;
 }
-:focus>a[href].anchor,
-:focus>a[href].anchor:visited,
-:hover>a[href].anchor,
-:hover>a[href].anchor:visited,
+:focus > a[href].anchor,
+:focus > a[href].anchor:visited,
+:hover > a[href].anchor,
+:hover > a[href].anchor:visited,
 a[href].anchor:focus,
 a[href].anchor:focus:visited {
-    visibility:visible;
+    visibility: visible;
 }
 
 .accordion {
@@ -221,10 +221,15 @@ a[href].anchor:focus:visited {
 }
 
 .site-header {
-    text-decoration: none;
-    color: inherit;
-    &:hover {
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin-bottom: 0rem;
+    a {
+        text-decoration: none;
         color: inherit;
+        &:hover {
+            color: inherit;
+        }
     }
 }
 
@@ -261,4 +266,8 @@ pre {
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
+
+    p {
+        overflow: hidden;
+    }
 }

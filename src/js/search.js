@@ -7,10 +7,13 @@ window.addEventListener('load', () => {
 
         const resultElement = document.querySelector('#search-results');
 
+        let i = 0;
+
         resultElement.innerHTML = '';
         if (results && results.length > 0) {
             resultElement.classList.add('show');
             results.map((result) => {
+                if (i > 10) return;
                 const { id, title, excerpt } = result.doc;
                 const li = document.createElement('li');
                 li.classList.add('dropdown-item');
@@ -32,6 +35,8 @@ window.addEventListener('load', () => {
                     document.querySelector('#search-input').value = '';
                     window.removeEventListener('click', handler);
                 });
+
+                i += 1;
             });
         } else {
             resultElement.classList.remove('show');
