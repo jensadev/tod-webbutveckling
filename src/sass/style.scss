@@ -119,16 +119,18 @@ a[href].anchor:focus:visited {
     &:hover {
         color: #0a58ca;
     }
-    &:focus {
-        z-index: 3;
-        border: none;
-        outline: 0;
-        box-shadow: none;
-    }
     &:not(.collapsed) {
         color: inherit;
         background-color: inherit;
+        outline: 0;
         box-shadow: none;
+    }
+    &:focus {
+        // z-index: 3;
+        border: none;
+        outline: 0;
+        // box-shadow: none;
+        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
     }
 }
 
@@ -253,21 +255,23 @@ pre {
     margin-bottom: map-get($spacers, 3) !important;
 }
 
-.dropdown-menu {
-    @media (min-width: map-get($grid-breakpoints, md)) {
-        right: 0;
-    }
-    @media (max-width: map-get($grid-breakpoints, md)) {
-        width: 100%;
-    }
-}
+// .dropdown-menu {
+//     @media (min-width: map-get($grid-breakpoints, md)) {
+//         right: 0;
+//     }
+//     @media (max-width: map-get($grid-breakpoints, md)) {
+//         width: 100%;
+//     }
+// }
 
 .dropdown-item {
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-
     p {
         overflow: hidden;
+    }
+    a:active {
+        color: #fff !important;
     }
 }
