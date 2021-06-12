@@ -1,7 +1,8 @@
 ---
 title: Webben
-layout: "area.njk"
+layout: area.njk
 category: område
+tags: ["tekniker", "webben", "område"]
 eleventyNavigation:
     key: webben
     parent: tekniker

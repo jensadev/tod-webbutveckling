@@ -1,7 +1,8 @@
 ---
 title: Tekniker
-layout: "theme.njk"
+layout: theme.njk
 category: tema
+tags: tema
 permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 eleventyNavigation:
     key: tekniker

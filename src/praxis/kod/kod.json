@@ -1,5 +1,5 @@
 {
-    "tags": "tillgänglighet",
+    "tags": ["praxis", "kod", "del"],
     "category": "del",
     "layout": "part.njk",
     "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"

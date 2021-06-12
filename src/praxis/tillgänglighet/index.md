@@ -1,7 +1,8 @@
 ---
 title: Tillgänglighet
-layout: "area.njk"
+layout: area.njk
 category: område
+tags: ["praxis", "tillgänglighet", "område"]
 eleventyNavigation:
     key: tillgänglighet
     parent: praxis
