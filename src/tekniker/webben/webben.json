@@ -1,5 +1,5 @@
 {
-    "tags": ["tekniker", "webben"],
+    "tags": ["tekniker", "webben", "del"],
     "category": "del",
     "layout": "part.njk",
     "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"

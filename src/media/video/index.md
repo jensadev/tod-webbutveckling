@@ -1,7 +1,8 @@
 ---
 title: Video
-layout: "area.njk"
+layout: area.njk
 category: område
+tags: ["media", "video", "område"]
 eleventyNavigation:
     key: video
     parent: media

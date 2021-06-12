@@ -1,7 +1,8 @@
 ---
 title: Javascript
-layout: "area.njk"
+layout: area.njk
 category: område
+tags: ["tekniker", "javascript", "område"]
 eleventyNavigation:
     key: javascript
     parent: tekniker

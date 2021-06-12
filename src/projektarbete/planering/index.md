@@ -1,7 +1,8 @@
 ---
 title: Planering
-layout: "area.njk"
+layout: area.njk
 category: område
+tags: ["projektarbete", "planering", "område"]
 eleventyNavigation:
     key: planering
     parent: projektarbete

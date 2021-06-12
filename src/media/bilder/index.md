@@ -1,7 +1,8 @@
 ---
 title: Bilder
-layout: "area.njk"
+layout: area.njk
 category: område
+tags: ["media", "bilder", "område"]
 eleventyNavigation:
     key: bilder
     parent: media

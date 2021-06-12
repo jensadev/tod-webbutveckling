@@ -1,7 +1,8 @@
 ---
 title: Mobile first
-layout: "area.njk"
+layout: area.njk
 category: område
+tags: ["responsiv design", "mobile first", "område"]
 eleventyNavigation:
     key: mobile first
     parent: responsiv design
