@@ -1,10 +1,10 @@
 ---
-title: Validering
+title: Validera CSS
 eleventyNavigation:
-    key: validering
+    key: validera css
     parent: kod
-    order: 1
-    excerpt: Att validera HTML eller CSS är att kontrollera dess syntax
+    order: 2
+    excerpt: Att validera CSS är att kontrollera dess syntax
 ---
 
 {% intro %}
@@ -28,16 +28,6 @@ HTML och CSS valideras främst med automatiska verktyg.
 
 ## Instruktioner
 
-För att validera din HTML kod så kan du använda [validator.nu](https://validator.nu/).
-Du kan validera med en adress, ladda upp en fil eller klistra in ditt dokument.
-
- - Öppna ett av dina tidigare HTML dokument
- - Validera genom att ladda upp filen
- - Validera genom att klistra in koden
- - Studera eventuella fel, vad får du för meddelande, vad betyder det
- - Har du inga fel, skapa några!
- - Validera en webbplats du använder, klistra in adressen
-
 För att validera din CSS kod så kan du använda [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
 
@@ -47,6 +37,7 @@ Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
  - Studerar eventuella fel
  - Har du inga fel, skapa några!
  - Validera en webbplats du använder, du kan behöva titta på källan(CTRL+u) och sedan hitta en länkad CSS fil 
+
 
 {% endinstruktioner %}
 

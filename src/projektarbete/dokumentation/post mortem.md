@@ -4,7 +4,7 @@ eleventyNavigation:
     key: post mortem
     parent: dokumentation
     order: 2
-    excerpt: Post mortem är en form av ett retrospekt, en vanlig dokumentationsform inom agilt utvecklingsarbete
+    excerpt: Post mortem är en form av retrospekt, en vanlig dokumentationsform inom agilt utvecklingsarbete
 ---
 {% intro %}
 

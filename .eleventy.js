@@ -6,6 +6,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const slugify = require('slugify');
 const emojiReadTime = require('@11tyrocks/eleventy-plugin-emoji-readtime');
 const Image = require('@11ty/eleventy-img');
+const searchFilter = require('./src/filters/searchFilter');
 
 async function imageShortcode(src, alt, sizes) {
     let metadata = await Image(src, {
@@ -36,6 +37,11 @@ module.exports = function (eleventyConfig) {
         label: 'minuters läsning',
         wpm: 160,
         bucketSize: 3
+    });
+
+    eleventyConfig.addFilter('search', searchFilter);
+    eleventyConfig.addCollection('tod', (collection) => {
+        return [...collection.getFilteredByGlob('./src/**/*.md')];
     });
 
     eleventyConfig.addWatchTarget('./src/sass/');
