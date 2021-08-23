@@ -1,6 +1,6 @@
 ---
 title: HTML
-layout: layouts/area.njk
+layout: "layouts/area.njk"
 category: område
 eleventyNavigation:
     key: html
@@ -8,4 +8,4 @@ eleventyNavigation:
     order: 2
     excerpt: Hypertext Markup Language
 ---
-## Området {{ title }} innehåller följande delar
+## Delar i området {{ title }}

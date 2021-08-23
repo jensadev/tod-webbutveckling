@@ -4,7 +4,6 @@ layout: "layouts/home.njk"
 category: ämne
 eleventyNavigation:
     key: webbutveckling 1
-    excerpt: Kursens startsida
 ---
 {% lead %}
 Välkommen till kurssidan för Webbutveckling.

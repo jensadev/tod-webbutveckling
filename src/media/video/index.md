@@ -2,7 +2,6 @@
 title: Video
 layout: layouts/area.njk
 category: område
-tags: ["media", "video", "område"]
 eleventyNavigation:
     key: video
     parent: media

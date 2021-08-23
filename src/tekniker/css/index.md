@@ -1,6 +1,6 @@
 ---
 title: CSS
-layout: layouts/area.njk
+layout: "layouts/area.njk"
 category: område
 eleventyNavigation:
     key: css
@@ -8,4 +8,4 @@ eleventyNavigation:
     order: 3
     excerpt: Cascading Style Sheets
 ---
-## Området {{ title }} innehåller följande delar
+## Delar i området {{ title }}
