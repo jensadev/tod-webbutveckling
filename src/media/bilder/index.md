@@ -1,6 +1,6 @@
 ---
 title: Bilder
-layout: area.njk
+layout: layouts/area.njk
 category: område
 tags: ["media", "bilder", "område"]
 eleventyNavigation:

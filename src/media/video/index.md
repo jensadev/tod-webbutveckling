@@ -1,6 +1,6 @@
 ---
 title: Video
-layout: area.njk
+layout: layouts/area.njk
 category: område
 tags: ["media", "video", "område"]
 eleventyNavigation:

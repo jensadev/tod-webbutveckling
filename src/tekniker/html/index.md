@@ -1,6 +1,6 @@
 ---
 title: HTML
-layout: area.njk
+layout: layouts/area.njk
 category: område
 tags: ["tekniker", "html", "område"]
 eleventyNavigation:

@@ -1,6 +1,6 @@
 ---
 title: Kod
-layout: area.njk
+layout: layouts/area.njk
 category: område
 tags: ["praxis", "kod", "område"]
 eleventyNavigation:

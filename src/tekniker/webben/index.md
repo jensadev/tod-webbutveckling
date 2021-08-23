@@ -1,6 +1,6 @@
 ---
 title: Webben
-layout: area.njk
+layout: layouts/area.njk
 category: område
 tags: ["tekniker", "webben", "område"]
 eleventyNavigation:

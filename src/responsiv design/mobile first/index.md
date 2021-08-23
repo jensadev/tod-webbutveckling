@@ -1,6 +1,6 @@
 ---
 title: Mobile first
-layout: area.njk
+layout: layouts/area.njk
 category: område
 tags: ["responsiv design", "mobile first", "område"]
 eleventyNavigation:

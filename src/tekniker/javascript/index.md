@@ -1,6 +1,6 @@
 ---
 title: Javascript
-layout: area.njk
+layout: layouts/area.njk
 category: område
 tags: ["tekniker", "javascript", "område"]
 eleventyNavigation:
