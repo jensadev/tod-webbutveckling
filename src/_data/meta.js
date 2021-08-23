@@ -23,7 +23,7 @@ module.exports = {
     // adjusted pending your host
     url: process.env.URL || 'http://localhost:8080',
     language: 'sv',
-    siteName: 'Webbutveckling 1',
+    siteName: 'Webbutveckling',
     themeColor: getColorPick(), // replace with themeColor: pick, for a random color '#f3722c'
     siteDescription:
         'Kurssida för webbutveckling. HTML, CSS, javascript, tillgänglighet',

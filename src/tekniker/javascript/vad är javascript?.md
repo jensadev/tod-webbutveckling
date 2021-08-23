@@ -1,6 +1,5 @@
 ---
 title: Vad är javascript?
-layout: part.njk
 category: del
 eleventyNavigation:
     key: vad är javascript?

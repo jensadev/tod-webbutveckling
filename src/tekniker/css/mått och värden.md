@@ -4,7 +4,7 @@ eleventyNavigation:
     key: mått och värden
     parent: css
     order: 3
-    excerpt: 
+    excerpt: Viktigt
 ---
 {% intro %}
 

@@ -4,7 +4,7 @@ eleventyNavigation:
     key: box model
     parent: css
     order: 4
-    excerpt: 
+    excerpt: Viktigt
 ---
 {% intro %}
 

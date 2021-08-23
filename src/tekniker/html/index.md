@@ -2,7 +2,6 @@
 title: HTML
 layout: layouts/area.njk
 category: område
-tags: ["tekniker", "html", "område"]
 eleventyNavigation:
     key: html
     parent: tekniker
