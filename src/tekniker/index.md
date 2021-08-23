@@ -1,8 +1,7 @@
 ---
 title: Tekniker
-layout: theme.njk
+layout: "layouts/theme.njk"
 category: tema
-tags: tema
 permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 eleventyNavigation:
     key: tekniker
@@ -10,4 +9,4 @@ eleventyNavigation:
     order: 1
     excerpt: Webben är uppbyggd av ett stort antal olika tekniker
 ---
-## Temat {{ title }} innehåller följande områden
+## Områden i temat {{ title }}

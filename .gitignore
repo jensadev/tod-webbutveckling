@@ -104,4 +104,6 @@ dist
 .tern-port
 
 public
+dist
 .vscode/settings.json
+src/scss/_color-tokens.scss

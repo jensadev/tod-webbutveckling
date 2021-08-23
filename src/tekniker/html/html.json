@@ -1,6 +1,6 @@
 {
-    "tags": ["tekniker", "html", "del"],
+    "tags": "html",
     "category": "del",
-    "layout": "part.njk",
+    "layout": "layouts/part.njk",
     "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 }

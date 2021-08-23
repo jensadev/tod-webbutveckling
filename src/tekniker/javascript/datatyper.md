@@ -4,7 +4,7 @@ eleventyNavigation:
     key: datatyper
     parent: javascript
     order: 2
-    excerpt: Alla variabler har en datatyp som påverkar hur variabeln fungerar
+    excerpt: Variabler har en tillhörande datatyp baserat på vad variabeln innehå¨ller
 ---
 {% intro %}
 

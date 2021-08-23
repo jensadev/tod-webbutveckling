@@ -1,6 +1,6 @@
 {
-    "tags": ["media", "bilder", "del"],
+    "tags": "bilder",
     "category": "del",
-    "layout": "part.njk",
+    "layout": "layouts/part.njk",
     "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 }

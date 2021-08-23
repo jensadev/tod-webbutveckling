@@ -11,12 +11,14 @@ module.exports = function (collection) {
 
     // loop through each page and add it to the index
     collection.forEach((page) => {
-        let tags = page.template.frontMatter.data.tags ? page.template.frontMatter.data.tags.toString() : '';
+        let tags = page.template.frontMatter.data.tags
+            ? page.template.frontMatter.data.tags.toString()
+            : '';
         index.addDoc({
             id: page.url,
             title: page.template.frontMatter.data.title,
             tags: tags,
-            excerpt: page.template.frontMatter.data.eleventyNavigation.excerpt,
+            excerpt: page.template.frontMatter.data.eleventyNavigation.excerpt
         });
     });
 

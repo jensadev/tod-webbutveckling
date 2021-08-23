@@ -1,6 +1,6 @@
 {
-    "tags": ["responsiv design", "mobile first", "del"],
+    "tags": "mobile first",
     "category": "del",
-    "layout": "part.njk",
+    "layout": "layouts/part.njk",
     "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 }

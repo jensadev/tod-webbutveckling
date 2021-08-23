@@ -1,7 +1,6 @@
 ---
 title: Dokumentation
-layout: area.njk
-tags: ["projektarbete", "dokumentation", "område"]
+layout: layouts/area.njk
 category: område
 eleventyNavigation:
     key: dokumentation

@@ -1,12 +1,11 @@
 ---
 title: Mobile first
-layout: area.njk
+layout: layouts/area.njk
 category: område
-tags: ["responsiv design", "mobile first", "område"]
 eleventyNavigation:
     key: mobile first
     parent: responsiv design
     order: 1
-    excerpt: 
+    excerpt: Viktigt
 ---
 ## Området {{ title }} innehåller följande delar

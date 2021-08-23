@@ -1,12 +1,11 @@
 ---
 title: CSS
-layout: area.njk
+layout: "layouts/area.njk"
 category: område
-tags: ["tekniker", "css", "område"]
 eleventyNavigation:
     key: css
     parent: tekniker
     order: 3
     excerpt: Cascading Style Sheets
 ---
-## Området {{ title }} innehåller följande delar
+## Delar i området {{ title }}
