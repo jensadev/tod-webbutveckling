@@ -66,6 +66,6 @@ Skapa index.html
 
 #### Uppgift 2
 
-Redigera index.html
+Redigera innehållet i index.html
 
 {% enduppgifter %}

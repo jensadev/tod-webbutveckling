@@ -19,8 +19,9 @@ Ett HTML element kan innehålla andra element, det kallas för nästlade element
 ### Tänk på
  - Börja alltid med HTML grundstrukturen
  - HTML är otroligt robust, det låter dig göra fel
- - Öppna och stänga alla taggar du använder
+ - Öppna och stäng alla taggar du använder
  - Element som har en radbrytning efter sig kallas för **block** element
+ 
 {% endintro %}
 
 {% instruktioner %}
