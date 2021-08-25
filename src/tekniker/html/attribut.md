@@ -32,15 +32,15 @@ skrivet mellan enkel- ```'...'``` eller dubbel-fnuttar ```"..."```.
 <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">kom igång med HTML på MDN</a>.
 Läs gärna mer där.
 </p>
-<p>Det går även att länka till dina andra webbsidor, men var noga med sökvägen.</p>
-<a href="exempel.html">exempel.html</a>
+<p>Det går även att länka till dina andra webbsidor, var noga med sökvägen.</p>
+<a href="element.html">element.html</a>
 ```
 
 Skapa ett nytt dokument, navigation.html. Inkludera HTML grundstrukturen.
 ```html
 <ul>
     <li><a href="index.html" title="Tillbaka till startsidan">Hem</a></li>
-    <li><a href="exempel.html">Exempel</></li>
+    <li><a href="element.html">element</></li>
 </ul>
 ```
 
@@ -51,7 +51,7 @@ Skapa ett nytt dokument, navigation.html. Inkludera HTML grundstrukturen.
 ## Uppgifter
 ### ⭐
 #### Uppgift 1
-Redigera index.html
+Redigera index.html och länka till element.html
 
 #### Uppgift 2
 Skapa navigation.html
@@ -60,10 +60,12 @@ Skapa navigation.html
 {% extra %}
 
 #### Uppgift 3
-Testa ```<img>``` elementet i ditt HTML-dokument.
-```<img src="fil.typ">``` använder src attributet för att peka till en
+Använd ```<img>``` elementet i index.html.
+```<img src="fil.typ">``` använder ```src``` attributet för att peka till en
 bild. Likt ```href``` attributet så är det viktigt att sökvägen är korrekt
 om det är en lokal fil.
+
+Kopiera in en bildfil i samma mapp som index.html. Använd ```img``` för att visa bilden på index.html.
 
 Det går även att länka till bilder med en url.
 
