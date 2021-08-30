@@ -28,9 +28,13 @@ så menas det du ser i din webbläsare.
 
 Testa en eller flera klienter och undersök en webbplats. Exempel på klienter är:
 
- - Webbläsare, både på desktop och mobil
+ - Webbläsare
+ - Mobiltelefon
  - [curl](https://curl.se/)
  - Skärmläsare, du kan testa [Chromes inbyggda](https://support.google.com/accessibility/answer/7031755?hl=en)
+ - [Lynx](https://lynx.invisible-island.net/), enklast om du har tillgång till Linux (installera då med APT)
+
+Använd gärna utvecklarläget i din webbläsare(F12 eller genom menyn) för att testa olika klienter. 
 
 {% endinstruktioner %}
 
@@ -40,9 +44,12 @@ Testa en eller flera klienter och undersök en webbplats. Exempel på klienter �
 ### ⭐
 #### Uppgift 1
 
-Testa olika klienter.
+Testa olika klienter, gärna skärmläsare.
 
 #### Uppgift 2
 
+Testa utvecklarverktygen i din webbläsare.
+
+Jämför en eller flera webbsidor med olika klienter.
 
 {% enduppgifter %}
