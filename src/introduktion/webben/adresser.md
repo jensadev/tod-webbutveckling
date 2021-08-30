@@ -35,7 +35,7 @@ Ditt mål är att förstå adressens element
  - Hur en domän ser ut
  - Vilken resurs du hämtar
  - Fragment, eller ankare som skrivs med #
- - Query parametrar 
+ - Query parametrar, skrivs efter adressen med ```?parameter=värde```
 
 {% endinstruktioner %}
 

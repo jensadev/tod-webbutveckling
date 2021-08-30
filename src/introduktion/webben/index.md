@@ -4,7 +4,7 @@ layout: "layouts/area.njk"
 category: område
 eleventyNavigation:
     key: webben
-    parent: tekniker
+    parent: introduktion
     order: 1
     excerpt: Här hittar du övergripande information om webben och hur den fungerar
 ---
