@@ -168,6 +168,11 @@ const assignments = () => {
     checkBoxElements.forEach(el => {
         el.insertAdjacentElement('beforebegin', createLabel(el.id));
     });
+
+    const urlParams = new URLSearchParams(location.search);
+    if (urlParams.toString().length > 0) {
+        alert('Du skrev in följande queryparameter: ' + urlParams);
+    }
 };
 
 export { assignments };
