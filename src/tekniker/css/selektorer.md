@@ -30,7 +30,7 @@ Selektorer används även av javascript för att välja element.
 
 ## Instruktioner
 
-Skapa två dokument, selektorer.html och en tillhörande css fil.
+Skapa två dokument, ```selektorer.html``` och en tillhörande css fil.
 HTML filen behöver innehålla den grundläggande HTML strukturen.
 Lägg sedan till följande.
 
@@ -58,7 +58,7 @@ body {
     justify-content: center;
 
     color: #121212;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;    
 }
 main {
