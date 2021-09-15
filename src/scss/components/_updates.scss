@@ -1,0 +1,12 @@
+.updates {
+    color: $gray-700;
+    &__header {
+        font-size: ms(1);
+    }
+
+    &__list-item {
+        time {
+            color: $gray-600;
+        }
+    }
+}
