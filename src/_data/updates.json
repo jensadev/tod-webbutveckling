@@ -1,12 +1,16 @@
 {
     "items": [
-      {
-        "text": "Uppdaterat kod för att visa uppdateringar",
-        "date": "2021-09-13"
-      },
-      {
-        "text": "CSS, Mått och värden",
-        "date": "2021-09-11"
-      }
+        {
+            "text": "🐛 Fixat accordion bug + saknade fonter",
+            "date": "2021-10-12"
+        },
+        {
+            "text": "Uppdaterat kod för att visa uppdateringar",
+            "date": "2021-09-13"
+        },
+        {
+            "text": "CSS, Mått och värden",
+            "date": "2021-09-11"
+        }
     ]
-  }
+}
