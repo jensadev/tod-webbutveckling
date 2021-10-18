@@ -1,6 +1,10 @@
 {
     "items": [
         {
+            "text": "📄 Uppdatering innehåll",
+            "date": "2021-10-18"
+        },
+        {
             "text": "🐛 Fixat accordion bug + saknade fonter",
             "date": "2021-10-12"
         },
