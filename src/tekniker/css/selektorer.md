@@ -103,6 +103,22 @@ Skriv CSS-regler för text, rubriker samt paragrafer ```h1 h2 p```:
 
 #### Uppgift 3
 
-Skapa en CSS-regel för ```.backto``` länken som är kopplad till ```#start```.
+Skapa en CSS-regel för ```.backto``` länken.
 
 {% enduppgifter %}
+
+{% facit %}
+
+Element kan ha olika states. Detta ses framförallt på länkar. Ett state är tillexempel ```hover``` och state skrivs ```regel:state```.
+
+```css
+a {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+```
+
+{% endfacit %}
