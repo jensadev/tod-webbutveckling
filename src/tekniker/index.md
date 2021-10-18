@@ -2,7 +2,7 @@
 title: Tekniker
 layout: "layouts/theme.njk"
 category: tema
-permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
+permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
     key: tekniker
     parent: webbutveckling 1
