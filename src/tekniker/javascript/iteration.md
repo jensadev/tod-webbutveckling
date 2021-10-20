@@ -67,6 +67,8 @@ Koda i ett dokument.
 
 {% facit %}
 
+## Facit
+
 Det har blivit allt vanligare att i javascript använda olika metoder för att iterera över arrayer. Ett exempel på det är
 ```map()``` som tar en funktion som argument och returnerar en ny array.
 
