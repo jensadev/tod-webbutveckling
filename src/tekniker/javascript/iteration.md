@@ -66,7 +66,9 @@ Koda i ett dokument.
 {% enduppgifter %}
 
 {% facit %}
-Det har blivit allt vanligare att i javascript använda olika metoder för att iterera över arrayer. Ett exempel på det är ```map()``` som tar en funktion som argument och returnerar en ny array.
+
+Det har blivit allt vanligare att i javascript använda olika metoder för att iterera över arrayer. Ett exempel på det är
+```map()``` som tar en funktion som argument och returnerar en ny array.
 
 ```js
 friends.map(friend => {
