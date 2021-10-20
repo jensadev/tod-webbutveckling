@@ -39,6 +39,10 @@ main {
     background-color: $color-primary;
 }
 
+.fg-theme {
+    color: $color-on-primary;
+}
+
 .stars {
     padding-left: ms(-1);
 }
