@@ -2,6 +2,7 @@
 title: Webben
 layout: "layouts/area.njk"
 category: område
+permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
     key: webben
     parent: introduktion

@@ -2,10 +2,10 @@
 title: Media
 layout: layouts/theme.njk
 category: tema
-permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
+permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
     key: media
-    parent: webbutveckling 1
+    parent: webbutveckling
     order: 3
     excerpt: Bilder, video och annan media på webben
 ---

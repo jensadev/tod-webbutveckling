@@ -23,13 +23,13 @@ module.exports = {
     // adjusted pending your host
     url: process.env.URL || 'http://localhost:8080',
     language: 'sv',
-    siteName: 'Webbutveckling 1',
+    siteName: 'Webbutveckling',
     themeColor: getColorPick(), // replace with themeColor: pick, for a random color '#f3722c'
     siteDescription:
-        'Kurssida för webbutveckling. HTML, CSS, javascript, tillgänglighet',
+        'Kurssida för webbutveckling. Tekniker, tillgänglighet och projektarbete.',
     author: {
         name: 'Jens Andreasson',
-        email: 'jensandreasson77@gmail.com',
+        email: 'jens.andreasson@ntig.se',
         url: 'https://jensa.xyz'
     }
 };

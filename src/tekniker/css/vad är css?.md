@@ -14,19 +14,18 @@ att skapa stil och layout. CSS kan bland annat användas för att byta färger,
 sätta marginaler och dela upp ditt innehåll.
 
 ### Tänk på
- - Filändelsen för CSS är .css 
- - CSS kan skrivas inline(i ett HTML dokument) eller i ett eget dokument
+ - Filändelsen för CSS-dokument är .css 
  - CSS skrivs med regler
  - En regel har en selektor(eng. selector) för att välja vilka(et) element som ska påverkas
- - Alla CSS regler ska öppnas och stängas, det görs med ```{ ... }```
+ - Alla CSS regler ska öppnas och stängas, det görs med måsvingar ```{ ... }```
 
 {% endintro %}
 
 {% instruktioner %}
 
 ## Instruktioner
-Öppna ett tidigare HTML dokument. Skriv inline(dvs. i dokumentet) CSS med ```<style>``` taggen.
-Style taggen skrivs oftast nästlad i ```<head>```.
+Öppna ett tidigare HTML dokument. Skriv CSS (i HTML-dokumentet) med ```<style>``` taggen.
+Style taggen skrivs oftast nästlad i ```<head>```, men det är inte ett måste.
 
 ```html
 <head>
@@ -45,10 +44,10 @@ Style taggen skrivs oftast nästlad i ```<head>```.
 Kopiera CSS koden till ett eget dokument, döp dokumentet till ```style.css```.
 ```css
 h1 {
-    color: red;
+    color: blue;
 }
 p {
-    color: green;
+    color: yellow;
 }
 ```
 
@@ -59,6 +58,11 @@ nästlat i HTML-dokumentets ```<head>``` tagg.
     ...
     <link rel="stylesheet" href="style.css">
 </head>
+```
+
+Du kan även skriva CSS inline, det vill säga direkt i taggen.
+```html
+<p style="color: grey;">
 ```
 
 {% endinstruktioner %}
@@ -74,5 +78,33 @@ Redigera ett HTML-dokument och skriv CSS.
 #### Uppgift 2
 
 Skapa ett CSS-dokument och redigera HTML dokumentet.
+Om du fortfarande har kvar style taggen i HTML-dokumentet, vilka stilar används.
+
+Ta bort style taggen från HTML-dokumentet.
+
+#### Uppgift 3
+
+Prova att skriva CSS inline i HTML-dokumentet.
 
 {% enduppgifter %}
+
+{% facit %}
+
+## Facit
+
+CSS cascade-egenskap är det som styr vilken CSS-regel som används.
+
+Ordningen för det är:
+1. Inline CSS
+2. CSS-dokument
+3. Style tagg
+
+Om du ska tvinga en regel att gälla över andra kan du använda ```!important``` efter CSS-egenskapen.
+```css
+h1 {
+    color: red !important;
+}
+```
+Var försiktig med ```!important``` eftersom det kan göra din kod svår att felsöka.
+
+{% endfacit %}

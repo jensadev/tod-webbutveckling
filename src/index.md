@@ -1,9 +1,9 @@
 ---
-title: Webbutveckling 1
+title: Webbutveckling
 layout: "layouts/home.njk"
 category: ämne
 eleventyNavigation:
-    key: webbutveckling 1
+    key: webbutveckling
     excerpt: Kursens startsida
 ---
 {% lead %}
