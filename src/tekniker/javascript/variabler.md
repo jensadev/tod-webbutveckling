@@ -10,18 +10,20 @@ eleventyNavigation:
 
 ## Introduktion
 En variabel är en behållare för att spara ett värde. En variabel deklareras med ett namn och tilldelas sedan ett värde.
-För att deklarera en variabel i javascipt använder du let, i vissa fall var, följt av namnet.
+För att deklarera en variabel i javascipt använder du ```let``` följt av namnet.
 
 ``` js
 let myVar;
 ```
 
+I mycket javascript kommer du se variabler deklareras med ```var``` och ```const```. Du kan byta ut dessa mot ```let```.
+
 ### Tänk på
- - Ett semikolon indikerar vars raden, eller uttrycket slutar.
+ - Ett semikolon indikerar vars raden, eller uttrycket slutar (men det är valfritt).
  - En variabel kan namnges till nästan vadsomhelst, men det finns vissa [regler](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variables).
  - En variabels namn är skifteskänsligt(case sensitive).
  - I konsollen kan du se en variabels värde genom att skriva dess namn.
- - I ett dokument så använder du ```console.log(var)``` för att skriva ut värdet till konsollen.
+ - I ett dokument så använder du ```console.log(variabelnamn)``` för att skriva ut värdet till konsollen.
 
 {% endintro %}
 

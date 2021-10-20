@@ -11,15 +11,15 @@ eleventyNavigation:
 {% intro %}
 
 ## Introduktion
-Javascript är ett programmeringsspråk för webben. Det används främst på klient-sidan, 
-alltså i din webbläsare.
-Javascript används för att kontrollera en webbsidas funktion.
+Javascript är ett programmeringsspråk för webben. Det körs både på klient-sidan (alltså i din webbläsare) och på serversidan.
+Javascript används för att göra webbsidor dynamiska och förbättra dess funktion.
+
+Det här avsnittet kommer att handla om grunderna i javascript och koden kommer att köras i din webbläsare.
 
 ### Tänk på
 - Javascript är inte samma som Java, men de har likheter
 - Logiken är samma som i de flesta andra programmeringsspråk
 - Syntax påminner om andra C språk
-- Att språket körs i din webbläsare
 
 {% endintro %}
 

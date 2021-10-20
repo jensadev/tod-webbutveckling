@@ -20,6 +20,8 @@ if (...) {
 }
 ```
 
+Javascript stöder även switch-satser.
+
 ### Tänk på
  - Du måste inte använda dig av ```else```
  - För att skriva flera uttryck använder du ```else if (...)```
