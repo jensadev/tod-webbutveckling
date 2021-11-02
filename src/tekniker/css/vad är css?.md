@@ -90,8 +90,6 @@ Prova att skriva CSS inline i HTML-dokumentet.
 
 {% facit %}
 
-## Facit
-
 CSS cascade-egenskap är det som styr vilken CSS-regel som används.
 
 Ordningen för det är:
