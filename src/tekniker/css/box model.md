@@ -55,6 +55,17 @@ html, body {
 }
 ```
 
+Skapa sedan regler för nav, main eller footer. Prova att sätta margin, padding och border.
+Gör sedan liknande på element i dessa för att se effekten.
+
+```css
+main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+```
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -67,6 +78,20 @@ Undersök och studera boxmodellen.
 
 #### Uppgift 2
 
-
+Koda, testa och undersök elementens storlek.
 
 {% enduppgifter %}
+
+{% facit %}
+
+Notera att ett HTML dokument har ett par inbyggda stilar för att göra det läsbar. Det finns en inbyggd padding och margin samt att text har olika storlekar. Förekomsten av detta kan ställa till arbetet med layout och boxmodellen.
+
+För att ta bort inbyggd padding och margin på alla element:
+```css
+* {
+    padding: 0;
+    margin: 0;
+}
+```
+
+{% endfacit %}

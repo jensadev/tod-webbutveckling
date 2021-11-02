@@ -90,7 +90,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addPairedShortcode('facit', function (content) {
-        return `<section class="part__solution flow">${content}</section>`;
+        return `<section class="part__solution flow"><h2>Hjälp</h2>${content}</section>`;
     });
 
     eleventyConfig.addPairedShortcode('lead', function (content) {

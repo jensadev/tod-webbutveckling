@@ -109,8 +109,6 @@ Skapa en CSS-regel för ```.backto``` länken.
 
 {% facit %}
 
-## Facit
-
 Element kan ha olika states. Detta ses framförallt på länkar. Ett state är tillexempel ```hover``` och state skrivs ```regel:state```.
 
 ```css
