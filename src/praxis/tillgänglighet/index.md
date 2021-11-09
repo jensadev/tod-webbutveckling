@@ -1,6 +1,6 @@
 ---
 title: Tillgänglighet
-layout: layouts/area.njk
+layout: layouts/theme-area.njk
 category: område
 eleventyNavigation:
     key: tillgänglighet

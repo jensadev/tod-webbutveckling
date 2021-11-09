@@ -1,8 +1,8 @@
 ---
-title: Vad är javascript?
+title: Vad är javascript
 category: del
 eleventyNavigation:
-    key: vad är javascript?
+    key: vad är javascript
     parent: javascript
     order: 0
     excerpt: Javascript är ett programmeringsspråk för webben

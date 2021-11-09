@@ -1,6 +1,6 @@
 ---
 title: Responsiv design
-layout: layouts/theme.njk
+layout: layouts/theme-area.njk
 category: tema
 permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:

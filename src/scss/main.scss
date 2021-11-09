@@ -39,16 +39,16 @@ main {
     background-color: $color-primary;
 }
 
-.fg-theme {
-    color: $color-on-primary;
-}
-
 .stars {
     padding-left: ms(-1);
 }
 
 .invisible {
-    display: none;
+    display: none !important;
+}
+
+li.test{
+    font-weight: 700;
 }
 
 @import "components/navbar";

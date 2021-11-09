@@ -71,7 +71,7 @@ Det har blivit allt vanligare att i javascript använda olika metoder för att i
 ```map()``` som tar en funktion som argument och returnerar en ny array.
 
 ```js
-friends.map(friend => {
+const arr = friends.map(friend => {
     return friend.toUpperCase();
 });
 ```
