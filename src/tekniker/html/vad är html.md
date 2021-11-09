@@ -1,7 +1,7 @@
 ---
-title: Vad är HTML?
+title: Vad är HTML
 eleventyNavigation:
-    key: vad är html?
+    key: vad är html
     parent: html
     order: 0
     excerpt: Hypertext Markup Language, webbens språk

@@ -1,7 +1,7 @@
 ---
-title: Vad är CSS?
+title: Vad är CSS
 eleventyNavigation:
-    key: vad är css?
+    key: vad är css
     parent: css
     order: 1
     excerpt: Cascading Style Sheets, språket som presenterar din HTML
