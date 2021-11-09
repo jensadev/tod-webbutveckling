@@ -82,120 +82,6 @@
       ]
     },
     {
-      "theme": "projektarbete",
-      "areas": [
-        {
-          "area": "dokumentation",
-          "parts": [
-            {
-              "part": "post-mortem",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "planering",
-          "parts": [
-            {
-              "part": "att-skapa-en-produkt",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "prototyper-figma",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "prototyper-papper",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "responsiv-design",
-      "areas": [
-        {
-          "area": "mobile-first",
-          "parts": []
-        },
-        {
-          "area": "responsiv-css",
-          "parts": []
-        }
-      ]
-    },
-    {
       "theme": "praxis",
       "areas": [
         {
@@ -206,11 +92,11 @@
               "assignments": []
             },
             {
-              "part": "linta",
+              "part": "stil",
               "assignments": []
             },
             {
-              "part": "stil",
+              "part": "linta",
               "assignments": []
             },
             {
@@ -292,8 +178,122 @@
       ]
     },
     {
+      "theme": "responsiv-design",
+      "areas": [
+        {
+          "area": "responsiv-css",
+          "parts": []
+        },
+        {
+          "area": "mobile-first",
+          "parts": []
+        }
+      ]
+    },
+    {
       "theme": "slutuppgifter",
       "areas": []
+    },
+    {
+      "theme": "projektarbete",
+      "areas": [
+        {
+          "area": "dokumentation",
+          "parts": [
+            {
+              "part": "post-mortem",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "area": "planering",
+          "parts": [
+            {
+              "part": "att-skapa-en-produkt",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "prototyper-papper",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "prototyper-figma",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-4",
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "theme": "tekniker",
@@ -410,7 +410,7 @@
           "area": "html",
           "parts": [
             {
-              "part": "attribut",
+              "part": "element",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
@@ -433,7 +433,7 @@
               ]
             },
             {
-              "part": "element",
+              "part": "attribut",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
@@ -501,6 +501,46 @@
               ]
             },
             {
+              "part": "dom",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "iteration",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
               "part": "operatorer",
               "assignments": [
                 {
@@ -530,69 +570,6 @@
               ]
             },
             {
-              "part": "iteration",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "selektion",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "dom",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "vad-ar-javascript",
               "assignments": [
                 {
@@ -605,6 +582,29 @@
             },
             {
               "part": "variabler",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "selektion",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
