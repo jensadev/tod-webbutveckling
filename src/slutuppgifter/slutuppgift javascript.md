@@ -3,21 +3,21 @@ title: Slutuppgift javascript
 eleventyNavigation:
     key: slutuppgift javascript
     parent: javascript
-    order: 100
+    order: 110
     excerpt: För att testa dina kunskaper på området kan du göra denna slutuppgift.
     test: true
 ---
 
 För att avsluta området så ska du kombinera det du hittills arbetat med i en slutuppgift.
 
-### Instruktioner
+## Instruktioner
 
 Skapa ett html-dokument, ```index.html```. I dokumentet ska du skapa följande element: ```ul```, ```input``` och ```button```.
 Ge dessa element ett ```#id``` och en ```.class```.
 
 Ladda sedan in din din tidigare lösning där användaren fick gissa ett tal. Du ska nu använda dig av javascript för att välja DOM elementen och använda dessa till spelet istället för prompt och alert.
 
-### Tips
+## Tips
 
 Du väljer element från DOM. För input så kan du komma åt värdet med ```inputelement.value```.
 Du kommer att behöva lyssna på när användaren klickar på knappen och då läsa av inputelementets värde.
