@@ -133,23 +133,6 @@
               ]
             },
             {
-              "part": "prototyper-papper",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "prototyper-figma",
               "assignments": [
                 {
@@ -177,8 +160,38 @@
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "prototyper-papper",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "theme": "responsiv-design",
+      "areas": [
+        {
+          "area": "mobile-first",
+          "parts": []
+        },
+        {
+          "area": "responsiv-css",
+          "parts": []
         }
       ]
     },
@@ -279,19 +292,6 @@
       ]
     },
     {
-      "theme": "responsiv-design",
-      "areas": [
-        {
-          "area": "mobile-first",
-          "parts": []
-        },
-        {
-          "area": "responsiv-css",
-          "parts": []
-        }
-      ]
-    },
-    {
       "theme": "slutuppgifter",
       "areas": []
     },
@@ -301,6 +301,23 @@
         {
           "area": "css",
           "parts": [
+            {
+              "part": "box-model",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
             {
               "part": "matt-och-varden",
               "assignments": [
@@ -319,7 +336,7 @@
               ]
             },
             {
-              "part": "selektorer",
+              "part": "vad-ar-css",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
@@ -342,7 +359,7 @@
               ]
             },
             {
-              "part": "vad-ar-css?",
+              "part": "selektorer",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
@@ -382,23 +399,6 @@
                 {
                   "assignment": "uppgift-3",
                   "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "box-model",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
                   "completed": false,
                   "date": null
                 }
@@ -456,7 +456,7 @@
               ]
             },
             {
-              "part": "vad-ar-html?",
+              "part": "vad-ar-html",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
@@ -479,29 +479,6 @@
           "parts": [
             {
               "part": "datatyper",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "dom",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
@@ -571,6 +548,29 @@
             },
             {
               "part": "selektion",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "dom",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
