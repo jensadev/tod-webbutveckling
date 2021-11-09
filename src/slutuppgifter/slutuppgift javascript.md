@@ -1,11 +1,11 @@
 ---
 title: Slutuppgift javascript
-layout: "layouts/test.njk"
 eleventyNavigation:
     key: slutuppgift javascript
     parent: javascript
     order: 100
     excerpt: För att testa dina kunskaper på området kan du göra denna slutuppgift.
+    test: true
 ---
 
 För att avsluta området så ska du kombinera det du hittills arbetat med i en slutuppgift.

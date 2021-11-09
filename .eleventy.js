@@ -9,6 +9,8 @@ const Image = require('@11ty/eleventy-img');
 const searchFilter = require('./src/filters/search-filter');
 const dateFilter = require('./src/filters/date-filter');
 
+const parseTransform = require('./src/transforms/parse-transform.js');
+
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -90,11 +92,23 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addPairedShortcode('facit', function (content) {
-        return `<section class="part__solution flow"><h2>Hjälp</h2>${content}</section>`;
+        return `<section class="part__solution flow">${content}</section>`;
     });
 
     eleventyConfig.addPairedShortcode('lead', function (content) {
         return `<p class="lead">${content}</p>`;
+    });
+
+    eleventyConfig.addFilter('fixTestsPages', (object) => {
+        const result = [];
+        for (const [key, value] of Object.entries(object)) {
+            let temp = {}
+            temp.title = value.data.title;
+            temp.excerpt = value.data.eleventyNavigation.excerpt;
+            temp.url = value.url;
+            result.push(temp);
+          }
+        return result;
     });
 
     eleventyConfig.addFilter('splice', (path) => {
@@ -123,33 +137,35 @@ module.exports = function (eleventyConfig) {
         });
     });
 
+    
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({
         html: true
     })
-        .use(markdownItAnchor, {
-            permalink: true,
-            permalinkClass: 'anchor',
-            permalinkSymbol: '#',
-            permalinkSpace: false,
-            permalinkBefore: false,
-            level: [1, 2, 3],
-            slugify: (s) =>
-                s
-                    .trim()
-                    .toLowerCase()
-                    .replace(/[\s+~\/]/g, '-')
-                    .replace(/[().`,%·'"!?¿:@*]/g, '')
-        })
-        .use(mila, {
-            pattern: /^https:/,
-            attrs: {
-                target: '_blank',
-                rel: 'noopener'
-            }
-        });
+    .use(markdownItAnchor, {
+        permalink: true,
+        permalinkClass: 'anchor',
+        permalinkSymbol: '#',
+        permalinkSpace: false,
+        permalinkBefore: false,
+        level: [1, 2, 3],
+        slugify: (s) =>
+        s
+        .trim()
+        .toLowerCase()
+        .replace(/[\s+~\/]/g, '-')
+        .replace(/[().`,%·'"!?¿:@*]/g, '')
+    })
+    .use(mila, {
+        pattern: /^https:/,
+        attrs: {
+            target: '_blank',
+            rel: 'noopener'
+        }
+    });
     eleventyConfig.setLibrary('md', markdownLibrary);
-
+    
+    eleventyConfig.addTransform('parse', parseTransform);
     eleventyConfig.setUseGitIgnore(false);
 
     return {
