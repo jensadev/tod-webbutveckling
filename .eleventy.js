@@ -34,6 +34,21 @@ async function imageShortcode(src, alt, sizes) {
     });
 }
 
+// https://stackoverflow.com/questions/1129216/sort-array-of-objects-by-string-property-value
+function sortArray(array, property, direction) {
+    direction = direction || 1;
+    array.sort(function compare(a, b) {
+        let comparison = 0;
+        if (a[property] > b[property]) {
+            comparison = 1 * direction;
+        } else if (a[property] < b[property]) {
+            comparison = -1 * direction;
+        }
+        return comparison;
+    });
+    return array; // Chainable
+}
+
 module.exports = function (eleventyConfig) {
     eleventyConfig.setDataDeepMerge(true);
     eleventyConfig.addPlugin(syntaxHighlight);
@@ -100,14 +115,16 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter('fixTestsPages', (object) => {
-        const result = [];
+        let result = [];
         for (const [key, value] of Object.entries(object)) {
             let temp = {}
             temp.title = value.data.title;
             temp.excerpt = value.data.eleventyNavigation.excerpt;
+            temp.order = value.data.eleventyNavigation.order;
             temp.url = value.url;
             result.push(temp);
           }
+        result = sortArray(result, 'order');
         return result;
     });
 
