@@ -1,4 +1,4 @@
-import strip from '../utils/strip';
+import { restore, strip } from './strip';
 
 const showElement = (element) => {
     element.classList.remove('invisible');
@@ -51,14 +51,18 @@ const createCheckbox = (element, id, checked) => {
 
 const setupAssignments = (element, storage, tod) => {
     if (!element) return;
-    let status = storage.find(...tod);
+    const status = storage.find(...tod);
     showHideElements(storage.checkCompleted(status, 'basic'), 'basic');
     const assignmentsElements = element.querySelectorAll('h4');
     assignmentsElements.forEach((element) => {
         const result = status.assignments.find(
             ({ assignment }) => assignment === strip(element.textContent)
         );
-        const box = createCheckbox(element, result.assignment, result.completed);
+        const box = createCheckbox(
+            element,
+            result.assignment,
+            result.completed
+        );
         box.addEventListener('change', () => {
             storage.updateAssignment(...tod, result);
             showHideElements(
@@ -79,12 +83,12 @@ const createStars = (element, type = 'basic') => {
         el.textContent = '⭐⭐';
     }
     element.appendChild(el);
-}
+};
 
 const createProgressBar = (element, total = 0, completed = 0) => {
     if (!element) return;
     const width = 100 / total;
-    const segmentWidth = total != 0 ? (width) : 0; 
+    const segmentWidth = total != 0 ? width : 0;
     const progress = document.createElement('div');
     progress.classList.add('progress');
     const bar = document.createElement('div');
@@ -106,13 +110,58 @@ const showHideTests = (elements, storage) => {
             result = a ? a : element;
         }
         const areaTitle = strip(result.textContent).replace('slutuppgift-', '');
-        let checkArea = storage.checkArea(areaTitle);
+        const checkArea = storage.checkArea(areaTitle);
         if (checkArea) {
             showElement(element);
         } else {
             hideElement(element);
         }
     });
-}
+};
 
-export { setupAssignments, createStars, createProgressBar, showHideTests };
+const popupItem = (element, text, href) => {
+    if (!element) return;
+    const link = element.querySelector('a');
+    if (link) {
+        link.textContent = restore(text);
+        link.href = href;
+    }
+};
+
+const continuePopup = (element, check, last) => {
+    if (element) {
+        if (check) {
+            element.classList.add('invisible');
+        }
+        const close = element.querySelector('.button__close');
+        close.addEventListener('click', () => {
+            const now = Date.now();
+            localStorage.setItem('continue', now);
+            element.classList.add('invisible');
+        });
+        const list = element.querySelectorAll('li');
+        popupItem(list[0], last.theme, `/${last.theme}`);
+        popupItem(list[1], last.area, `/${last.theme}/${last.area}/`);
+        popupItem(
+            list[2],
+            last.part,
+            `/${last.theme}/${last.area}/${last.part}.html`
+        );
+    }
+    const continueButton = document.querySelector('.continue__button');
+    if (continueButton) {
+        continueButton.href = `/${last.theme}/${last.area}/${last.part}.html`;
+        continueButton.addEventListener('click', () => {
+            const now = Date.now();
+            localStorage.setItem('continue', now);
+        });
+    }
+};
+
+export {
+    continuePopup,
+    createProgressBar,
+    createStars,
+    setupAssignments,
+    showHideTests,
+};

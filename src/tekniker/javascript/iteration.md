@@ -6,6 +6,7 @@ eleventyNavigation:
     order: 5
     excerpt: Att upprepa
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -19,9 +20,10 @@ for (let i = 0; i < 10; i = i + 1) {
     console.log(i);
 }
 ```
+
 ### Tänk på
 
-- Att det finns fler sätt att iterera än for-loopen
+-   Att det finns fler sätt att iterera än for-loopen
 
 {% endintro %}
 
@@ -42,9 +44,10 @@ while (number !== guess) {
 En stor del av iteration sker över mer komplexa datatyper, som arrayer. Det går att använda ett fleratal funktioner för att iterera över dessa, men även en variant av for-loopen.
 
 Foreach itererar över varje index i arrayen och skapar en temporär variabel med det nuvarande värdet.
+
 ```js
 const friends = ['Skalman', 'Lille Skutt', 'Bamse', 'Vargen'];
-friends.forEach(friend => {
+friends.forEach((friend) => {
     console.log(friend);
 });
 ```
@@ -54,7 +57,9 @@ friends.forEach(friend => {
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Koda i konsollen.
@@ -68,11 +73,12 @@ Koda i ett dokument.
 {% facit %}
 
 Det har blivit allt vanligare att i javascript använda olika metoder för att iterera över arrayer. Ett exempel på det är
-```map()``` som tar en funktion som argument och returnerar en ny array.
+`map()` som tar en funktion som argument och returnerar en ny array.
 
 ```js
-const arr = friends.map(friend => {
+const arr = friends.map((friend) => {
     return friend.toUpperCase();
 });
 ```
+
 {% endfacit %}

@@ -6,6 +6,7 @@ eleventyNavigation:
     order: 4
     excerpt: Viktigt
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -20,8 +21,8 @@ Utöver detta så är storleken på elementets box en summa av flera delar.
 
 ### Tänk på
 
-- En padding på 8 pixlar resulterar att elementets box blir 16 pixlar större, det vill säga den dubblas
-- Se till att dina element innehåller sitt innehåll, att det inte är tomt
+-   En padding på 8 pixlar resulterar att elementets box blir 16 pixlar större, det vill säga den dubblas
+-   Se till att dina element innehåller sitt innehåll, att det inte är tomt
 
 {% endintro %}
 
@@ -35,9 +36,9 @@ Prova detta verktyg för att undersöka elements storlek.
 
 {% image "./src/images/boxmodel.png", "Box model" %}
 
-Skapa ett nytt html dokument, ```index.html```.
-Börja med att skapa grundläggande HTML-element. 
-I detta skapa sedan en semantisk sidstruktur, ```nav```, ```main```, ```footer```.
+Skapa ett nytt html dokument, `index.html`.
+Börja med att skapa grundläggande HTML-element.
+I detta skapa sedan en semantisk sidstruktur, `nav`, `main`, `footer`.
 
 ```html
 <body>
@@ -50,7 +51,8 @@ I detta skapa sedan en semantisk sidstruktur, ```nav```, ```main```, ```footer``
 Undersök elementens storlek utan innehåll. Prova sedan att sätta innehåll och CSS för att påverka elementens storlek.
 
 ```css
-html, body {
+html,
+body {
     height: 100%;
 }
 ```
@@ -71,7 +73,9 @@ main {
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Undersök och studera boxmodellen.
@@ -87,6 +91,7 @@ Koda, testa och undersök elementens storlek.
 Notera att ett HTML dokument har ett par inbyggda stilar för att göra det läsbar. Det finns en inbyggd padding och margin samt att text har olika storlekar. Förekomsten av detta kan ställa till arbetet med layout och boxmodellen.
 
 För att ta bort inbyggd padding och margin på alla element:
+
 ```css
 * {
     padding: 0;

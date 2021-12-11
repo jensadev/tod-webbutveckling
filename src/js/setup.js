@@ -1,13 +1,26 @@
 import data from '../json/tod.json';
-import strip from '../utils/strip';
+import {
+    continuePopup,
+    createProgressBar,
+    createStars,
+    setupAssignments,
+    showHideTests,
+} from './dom';
 import Storage from './Storage';
-import { setupAssignments, createStars, createProgressBar, showHideTests } from './dom';
+import { strip } from './strip';
 
 const setup = () => {
-    let subject, theme, area, part;
+    let subject;
+    let theme;
+    let area;
+    let part;
     const nav = document.querySelectorAll('nav .breadcrumb li');
     if (nav.length === 0) {
         subject = strip(document.title);
+        if (subject.includes('404')) {
+            // prevent subject from being set to 404
+            subject = subject.split('---')[2];
+        }
     } else {
         subject = strip(nav[0].textContent);
         theme = nav[1] ? strip(nav[1].textContent) : null;
@@ -16,6 +29,19 @@ const setup = () => {
     }
 
     const storage = new Storage(data, subject);
+
+    const lastCompletedAssignment = storage.lastCompletedAssignment();
+    const continueElement = document.querySelector('.continue');
+    if (lastCompletedAssignment) {
+        let check = localStorage.getItem('continue');
+        if (check && Date.now() - 7200000 > check) {
+            localStorage.removeItem('continue');
+            check = false;
+        }
+        continuePopup(continueElement, check, lastCompletedAssignment);
+    } else {
+        continueElement.classList.add('invisible');
+    }
 
     if (part) {
         setupAssignments(
@@ -33,7 +59,7 @@ const setup = () => {
                 let areaCompleted = 0;
                 area.parts.map((part) => {
                     // works needs refactor
-                    let count = storage.countAssignments(part, 'basic');
+                    const count = storage.countAssignments(part, 'basic');
                     areaTotal += count.total;
                     areaCompleted += count.completed;
                     if (storage.checkCompleted(part, 'basic')) {
