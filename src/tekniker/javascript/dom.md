@@ -6,6 +6,7 @@ eleventyNavigation:
     order: 6
     excerpt: Document object model
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -16,7 +17,7 @@ Det är det interface som du arbetar mot när du skriver javascript för att än
 
 ### Tänk på
 
-- Alla tillåter inte javascript, fungerar din sida ändå?
+-   Alla tillåter inte javascript, fungerar din sida ändå?
 
 {% endintro %}
 
@@ -33,8 +34,8 @@ DOM låter oss välja element direkt från en sida. Element väljs med CSS-selek
 
 ```js
 let header = document.querySelector('.part__header-title');
-header.childNodes // listar alla childnodes för header
-header.childNodes[0] // första childnode
+header.childNodes; // listar alla childnodes för header
+header.childNodes[0]; // första childnode
 header.childNodes[0].textContent = 'Jag lär mig om DOM';
 ```
 
@@ -42,7 +43,7 @@ Det går även att manipulera klasser och attribut för element.
 
 ```js
 let instruktioner = document.querySelector('#instruktioner');
-instruktioner.classList // skriv ut elementets klasser
+instruktioner.classList; // skriv ut elementets klasser
 instruktioner.classList.add('lead'); // lägg till klass
 instruktioner.classList.remove('lead'); // ta bort klass
 instruktioner.classList.add('bg-theme', 'fg-theme'); // lägg till flera klasser
@@ -53,7 +54,9 @@ instruktioner.classList.add('bg-theme', 'fg-theme'); // lägg till flera klasser
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Koda i konsollen.

@@ -1,4 +1,4 @@
-module.exports = function strip(str) {
+const strip = (str) => {
     return str
         .trim()
         .toLowerCase()
@@ -7,3 +7,5 @@ module.exports = function strip(str) {
         .replace(/ä/g, 'a')
         .replace(/ö/g, 'o');
 };
+
+module.exports = strip;

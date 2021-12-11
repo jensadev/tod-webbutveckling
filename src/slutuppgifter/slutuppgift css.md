@@ -12,9 +12,9 @@ För att avsluta området så ska du kombinera det du hittills arbetat med i en 
 
 ## Instruktioner
 
-Kopiera ditt HTML-dokument från den tidigare slutuppgiften, ```index.html```. Sidan ska innehålla HTML-grundstrukturen samt ett antal element.
+Kopiera ditt HTML-dokument från den tidigare slutuppgiften, `index.html`. Sidan ska innehålla HTML-grundstrukturen samt ett antal element.
 
-```html	
+```html
 ...
 <header>
     <h1>...</h1>
@@ -29,26 +29,30 @@ Kopiera ditt HTML-dokument från den tidigare slutuppgiften, ```index.html```. S
 ```
 
 Dokumentet innehåller ett antal olika HTML-element som du ska formattera med CSS.
-Skapa en CSS-regel för body-elementet som ändrar ```color```, ```background-color```.
+Skapa en CSS-regel för body-elementet som ändrar `color`, `background-color`.
 
 ### Container
+
 För struktur-elementen på sidan, header, main och footer, ska du använda följande CSS-klass:
 
 ```css
-.container {}
+.container {
+}
 ```
 
-För ```.container``` sätt attributen ```max-width: 48rem;``` och ```margin: 0 auto;```.
+För `.container` sätt attributen `max-width: 48rem;` och `margin: 0 auto;`.
 
 ### Font
+
 Använd en font från [Google Fonts](https://fonts.google.com/).
-Du kan sätta ```font-family``` på body-elementet eller text-elementen.
+Du kan sätta `font-family` på body-elementet eller text-elementen.
 
 Styla sedan rubriker och paragrafer.
 
 ### Border
-Skapa en CSS-klass som sätter ```border-top``` för main elementet.
 
-##  6665Tips
-Ett tips för bilder är att sätta ```max-width``` till ```100%``` för img-element. Då skalar bilderna efter sidans storlek. 
+Skapa en CSS-klass som sätter `border-top` för main elementet.
 
+## 6665Tips
+
+Ett tips för bilder är att sätta `max-width` till `100%` för img-element. Då skalar bilderna efter sidans storlek.

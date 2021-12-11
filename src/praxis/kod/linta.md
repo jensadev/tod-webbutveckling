@@ -14,14 +14,15 @@ eleventyNavigation:
 Än så länge ett test av youtube shortcode.
 
 ### Tänk på
- - Att alla blir gladare av en konsekvent kodstil
 
+-   Att alla blir gladare av en konsekvent kodstil
 
 {% endintro %}
 
 {% instruktioner %}
 
 ## Instruktioner
+
 {% youtube '5y1L3Y4OuX4' %}
 
 {% endinstruktioner %}
@@ -29,13 +30,12 @@ eleventyNavigation:
 {% uppgifter %}
 
 ## Uppgifter
-### ⭐
 
+### ⭐
 
 ### ⭐⭐
 
 {% extra %}
-
 
 {% endextra %}
 

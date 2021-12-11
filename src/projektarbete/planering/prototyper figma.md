@@ -6,6 +6,7 @@ eleventyNavigation:
     order: 3
     excerpt: En prototyp skapas med olika komplexitet, efter en pappersskiss kan den med fördel digitaliseras
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -13,9 +14,10 @@ eleventyNavigation:
 För att öka komplexiteten i en prototyp är det vanliga att använda en mjukvara för detta. [Figma](https://www.figma.com) är ett gratisverktyg för att skapa och redigera prototyper.
 
 ### Tänk på
- - Börja enkelt
- - Öka komplexitet stegvis
- - Öka detaljrikedom stegvis
+
+-   Börja enkelt
+-   Öka komplexitet stegvis
+-   Öka detaljrikedom stegvis
 
 {% endintro %}
 
@@ -43,7 +45,9 @@ Försök återskapa delarna i din skissade prototyp med Figma.
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Registrera dig och titta på den första filmen.
