@@ -2,6 +2,7 @@
 title: Tillgänglighet
 layout: layouts/theme-area.njk
 category: område
+permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
     key: tillgänglighet
     parent: praxis
