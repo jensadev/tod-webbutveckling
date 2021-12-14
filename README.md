@@ -1,8 +1,7 @@
 # Tema område del
 
 En starter för kurswebbar.
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cc1f0004-20d2-47c2-bfc3-48086c7be408/deploy-status)](https://app.netlify.com/sites/silly-bhaskara-09612e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c15c3c62-74ab-428a-9bd2-46d870bacfdd/deploy-status)](https://app.netlify.com/sites/keen-jones-305b5d/deploys)
 
 # Licens
 
