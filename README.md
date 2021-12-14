@@ -6,7 +6,9 @@ En starter för kurswebbar.
 
 # Licens
 
-Systemet och innehållet på den här sidan är licensierat under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Systemet TOD är licensierat under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Kursens text och innehåll är copyright Jens Andreasson.
 
 ## Syfte
 
