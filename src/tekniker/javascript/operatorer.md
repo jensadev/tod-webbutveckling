@@ -89,7 +89,7 @@ Skapa ett nytt dokument.
 
 #### Uppgift 3
 
-Skapa ett nytt dokument. Koda utträkningar för alla räknesätten.
+Skapa ett nytt dokument. Koda uträkningar för alla räknesätten.
 Låt användaren mata in värden med `prompt()`.
 
 #### Uppgift 4

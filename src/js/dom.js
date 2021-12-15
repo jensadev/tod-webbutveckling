@@ -77,11 +77,7 @@ const createStars = (element, type = 'basic') => {
     if (!element) return;
     const el = document.createElement('span');
     el.classList.add('stars');
-    if (type === 'basic') {
-        el.textContent = '⭐';
-    } else {
-        el.textContent = '⭐⭐';
-    }
+    el.textContent = type === 'basic' ? '⭐' : '⭐⭐';
     element.appendChild(el);
 };
 
