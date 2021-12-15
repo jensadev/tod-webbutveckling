@@ -4,7 +4,7 @@ eleventyNavigation:
     key: operatorer
     parent: javascript
     order: 3
-    excerpt: För att kunna skriva uttryck behövs operatorer
+    excerpt: För att kunna skriva uttryck behövs operatorer.
 ---
 
 {% intro %}

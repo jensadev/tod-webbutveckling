@@ -4,7 +4,7 @@ eleventyNavigation:
     key: display flex
     parent: css
     order: 5
-    excerpt: Webblayoutens schweiziska armekniv
+    excerpt: Webblayoutens silvertejp.
 ---
 
 {% intro %}

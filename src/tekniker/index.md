@@ -7,7 +7,7 @@ eleventyNavigation:
     key: tekniker
     parent: webbutveckling
     order: 2
-    excerpt: Webben är uppbyggd av ett stort antal olika tekniker
+    excerpt: Webben är uppbyggd av ett antal olika tekniker. Det här temat handlar om HTML, CSS och Javascript.
 ---
 
 ## Områden i temat {{ title }}

@@ -7,7 +7,7 @@ eleventyNavigation:
     key: introduktion
     parent: webbutveckling
     order: 1
-    excerpt: Introduktion av kursen
+    excerpt: Introduktion av kursen.
 ---
 
 ## Områden i temat {{ title }}

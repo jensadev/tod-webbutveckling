@@ -4,7 +4,7 @@ eleventyNavigation:
     key: automatisera
     parent: kod
     order: 5
-    excerpt: Automatisera kodstil
+    excerpt: Automatisera kodstil.
 ---
 
 {% intro %}

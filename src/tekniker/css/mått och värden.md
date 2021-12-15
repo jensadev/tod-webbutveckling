@@ -4,7 +4,7 @@ eleventyNavigation:
     key: mått och värden
     parent: css
     order: 3
-    excerpt: Viktigt
+    excerpt: CSS använder olika typer av måttenheter för att ange storleken på element, fonter och så vidare.
 ---
 
 {% intro %}

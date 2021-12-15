@@ -4,7 +4,7 @@ eleventyNavigation:
     key: linta
     parent: kod
     order: 4
-    excerpt: Linta(eng. lint)
+    excerpt: Linta(eng. lint), att automatiskt kontrollera kod efter programmatiska och stilmässiga fel.
 ---
 
 {% intro %}

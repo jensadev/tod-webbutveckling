@@ -4,7 +4,7 @@ eleventyNavigation:
     key: klient
     parent: webben
     order: 2
-    excerpt: När du använder webben så använder du med största sannolikhet någon form av klient, men vad är det
+    excerpt: När du använder webben så använder du med största sannolikhet någon form av klient, men vad är en klient?
 ---
 
 {% intro %}

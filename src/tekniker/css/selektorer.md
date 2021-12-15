@@ -4,7 +4,7 @@ eleventyNavigation:
     key: selektorer
     parent: css
     order: 2
-    excerpt: Selektorer används för att skriva regler och välja element
+    excerpt: Selektorer används för att skriva regler och välja element.
 ---
 
 {% intro %}

@@ -4,7 +4,7 @@ eleventyNavigation:
     key: prototyper papper
     parent: planering
     order: 2
-    excerpt: Att skapa en prototyp för en produkt är ett snabbt och kostnadseffektivt sätt att prova den
+    excerpt: Att skapa en prototyp för en produkt är ett snabbt och kostnadseffektivt sätt att prova den.
 ---
 
 {% intro %}

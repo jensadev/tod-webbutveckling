@@ -4,7 +4,7 @@ eleventyNavigation:
     key: design för alla
     parent: tillgänglighet
     order: 1
-    excerpt: Att skapa en design för alla handlar om att inkludera den mångfald som finns
+    excerpt: Att skapa en design för alla handlar om att inkludera den mångfald som finns. Vi är alla olika.
 ---
 
 {% intro %}

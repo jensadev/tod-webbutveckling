@@ -4,7 +4,7 @@ eleventyNavigation:
     key: vad är css
     parent: css
     order: 1
-    excerpt: Cascading Style Sheets, språket som presenterar din HTML
+    excerpt: Cascading Style Sheets, språket som styr presentationen av HTML.
 ---
 
 {% intro %}

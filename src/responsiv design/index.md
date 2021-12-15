@@ -7,7 +7,7 @@ eleventyNavigation:
     key: responsiv design
     parent: webbutveckling
     order: 4
-    excerpt: Design för alla enheter(eng. devices)
+    excerpt: Design för alla enheter(eng. devices).
 ---
 
 ## Temat {{ title }} innehåller följande områden

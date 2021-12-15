@@ -4,7 +4,7 @@ eleventyNavigation:
     key: att skapa en produkt
     parent: planering
     order: 1
-    excerpt: Hur skapas en produkt och vilka moment innehåller det
+    excerpt: Hur skapas en produkt och vilka moment innehåller det.
 ---
 
 {% intro %}

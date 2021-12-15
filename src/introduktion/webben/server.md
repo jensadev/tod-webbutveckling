@@ -4,7 +4,7 @@ eleventyNavigation:
     key: server
     parent: webben
     order: 3
-    excerpt: Alla delar av webben finns på någon server, men vad är det
+    excerpt: Alla delar av webben finns på någon server, men vad är en server?
 ---
 
 {% intro %}

@@ -4,7 +4,7 @@ eleventyNavigation:
     key: box model
     parent: css
     order: 4
-    excerpt: Viktigt
+    excerpt: Box model är det som omger varje element i HTML.
 ---
 
 {% intro %}

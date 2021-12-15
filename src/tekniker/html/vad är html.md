@@ -4,7 +4,7 @@ eleventyNavigation:
     key: vad är html
     parent: html
     order: 0
-    excerpt: Hypertext Markup Language, webbens språk
+    excerpt: Hypertext Markup Language, webbens språk.
 ---
 
 {% intro %}

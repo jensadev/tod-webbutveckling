@@ -4,7 +4,7 @@ eleventyNavigation:
     key: iteration
     parent: javascript
     order: 5
-    excerpt: Att upprepa
+    excerpt: Att upprepa, loopa.
 ---
 
 {% intro %}

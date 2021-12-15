@@ -4,7 +4,7 @@ eleventyNavigation:
     key: validera css
     parent: kod
     order: 2
-    excerpt: Att validera CSS är att kontrollera dess syntax
+    excerpt: Att validera CSS är att kontrollera dess syntax.
 ---
 
 {% intro %}

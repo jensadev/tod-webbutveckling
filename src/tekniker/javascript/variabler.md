@@ -4,7 +4,7 @@ eleventyNavigation:
     key: variabler
     parent: javascript
     order: 1
-    excerpt: För att spara värden i ett programmeringsspråk används variabler
+    excerpt: För att spara värden i ett programmeringsspråk används variabler.
 ---
 
 {% intro %}
@@ -12,13 +12,13 @@ eleventyNavigation:
 ## Introduktion
 
 En variabel är en behållare för att spara ett värde. En variabel deklareras med ett namn och tilldelas sedan ett värde.
-För att deklarera en variabel i javascipt använder du `let` följt av namnet.
+För att deklarera en variabel i javascript använder du `let` följt av namnet.
 
 ```js
 let myVar;
 ```
 
-I mycket javascript kommer du se variabler deklareras med `var` och `const`. Du kan byta ut dessa mot `let`.
+I mycket javascript kommer du se variabler deklareras med `var` och `const`. Förenklat sagt så kan byta ut dessa mot `let`.
 
 ### Tänk på
 

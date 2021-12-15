@@ -4,7 +4,7 @@ eleventyNavigation:
     key: prototyper figma
     parent: planering
     order: 3
-    excerpt: En prototyp skapas med olika komplexitet, efter en pappersskiss kan den med fördel digitaliseras
+    excerpt: En prototyp skapas med olika komplexitet, efter en pappersskiss kan den med fördel digitaliseras.
 ---
 
 {% intro %}

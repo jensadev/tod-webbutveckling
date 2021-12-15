@@ -4,7 +4,7 @@ eleventyNavigation:
     key: dom
     parent: javascript
     order: 6
-    excerpt: Document object model
+    excerpt: Document object model.
 ---
 
 {% intro %}

@@ -7,7 +7,7 @@ eleventyNavigation:
     key: html
     parent: tekniker
     order: 2
-    excerpt: Hypertext Markup Language
+    excerpt: Hypertext Markup Language.
 ---
 
 ## Delar i området {{ title }}

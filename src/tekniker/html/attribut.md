@@ -4,7 +4,7 @@ eleventyNavigation:
     key: attribut
     parent: html
     order: 2
-    excerpt: Element kan ha attribut, de ger extra informatuion om elementet
+    excerpt: Element kan ha attribut, de ger extra information om elementet.
 ---
 
 {% intro %}

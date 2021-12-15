@@ -4,7 +4,7 @@ eleventyNavigation:
     key: validera html
     parent: kod
     order: 1
-    excerpt: Att validera HTML är att kontrollera dess syntax
+    excerpt: Att validera HTML är att kontrollera dess syntax.
 ---
 
 {% intro %}

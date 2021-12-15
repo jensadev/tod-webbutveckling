@@ -5,7 +5,7 @@ eleventyNavigation:
     key: vad är javascript
     parent: javascript
     order: 0
-    excerpt: Javascript är ett programmeringsspråk för webben
+    excerpt: Javascript är ett programmeringsspråk för webben.
 ---
 
 {% intro %}
