@@ -2,7 +2,6 @@
 title: Hjälp
 layout: layouts/theme-area.njk
 permalink: /help/index.html
-eleventyExcludeFromCollections: true
 eleventyNavigation:
     key: hjälp
     parent: webbutveckling

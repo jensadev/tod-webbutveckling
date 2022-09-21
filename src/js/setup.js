@@ -20,7 +20,7 @@ const setup = () => {
     const nav = document.querySelectorAll('nav .breadcrumb li');
     if (nav.length === 0) {
         subject = strip(document.title);
-        if (subject.includes('404')) {
+        if (subject.includes('404') || subject.includes('help')) {
             // prevent subject from being set to 404
             subject = subject.split('---')[2];
         }
