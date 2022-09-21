@@ -39,6 +39,11 @@ module.exports = (eleventyConfig) => {
         );
     });
 
+    // get rid of help page for navigation / front page list
+    eleventyConfig.addFilter('noHelp', (value) => {
+        return value.filter((item) => item.key !== 'hjälp');
+    });
+
     // Shortcodes
     glob.sync(['src/shortcodes/*.js']).forEach((file) => {
         let shortcodes = require('./' + file);
