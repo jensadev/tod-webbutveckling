@@ -13,8 +13,8 @@
         justify-items: end;
     }
     &__button {
-        background-color: $gray-200 !important;
-        border: none !important;
+        color: $color-on-primary !important;
+        background-color: $color-primary !important;
         &:hover {
             box-shadow: none !important;
         }
