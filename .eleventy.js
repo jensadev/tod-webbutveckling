@@ -26,9 +26,9 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addWatchTarget('./src/sass/');
     eleventyConfig.addWatchTarget('./src/js/');
 
-    eleventyConfig.addPassthroughCopy('src/robots.txt');
-    eleventyConfig.addPassthroughCopy('./src/fonts');
-    eleventyConfig.addPassthroughCopy('./src/favicon.ico');
+    eleventyConfig.addPassthroughCopy({'src/assets/robots.txt': 'robots.txt'});
+    eleventyConfig.addPassthroughCopy('./src/assets/fonts');
+    eleventyConfig.addPassthroughCopy({'./src/assets/favicon.ico': '/favicon.ico'});
     // eleventyConfig.addPassthroughCopy({'./src/assets/icons': 'icons'});
 
     // Filters
@@ -39,9 +39,10 @@ module.exports = (eleventyConfig) => {
         );
     });
 
-    // get rid of help page for navigation / front page list
-    eleventyConfig.addFilter('noHelp', (value) => {
-        return value.filter((item) => item.key !== 'hjälp');
+    // filter filtered [pages] from navPages
+    eleventyConfig.addFilter('filterNavPages', (value) => {
+        const filtered = ['hjälp', 'tack'];
+        return value.filter((item) => !filtered.includes(item.key));
     });
 
     // Shortcodes

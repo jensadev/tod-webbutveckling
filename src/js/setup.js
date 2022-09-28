@@ -1,10 +1,10 @@
 import data from '../json/tod.json';
 import {
     continuePopup,
-    createProgressBar,
     createAreaLink,
     createGridProgressBar,
     createInitials,
+    createProgressBar,
     createStars,
     setupAssignments,
     showHideTests,
@@ -20,7 +20,7 @@ const setup = () => {
     const nav = document.querySelectorAll('nav .breadcrumb li');
     if (nav.length === 0) {
         subject = strip(document.title);
-        if (subject.includes('404') || subject.includes('help')) {
+        if (subject.includes('404')) {
             // prevent subject from being set to 404
             subject = subject.split('---')[2];
         }
@@ -45,8 +45,7 @@ const setup = () => {
         button.textContent = `Ok`;
         const p = document.createElement('p');
         p.textContent = `Den här webbplatsen sparar information i din webbläsare 
-        om vilka uppgifter du arbetat med och slutfört. Utan ditt godkännande 
-        fungerar inte webbplatsen som den ska.`;
+        om vilka uppgifter du arbetat med och slutfört.`;
         message.appendChild(p);
         inner.appendChild(button);
         button.addEventListener('click', () => {

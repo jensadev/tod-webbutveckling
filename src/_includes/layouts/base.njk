@@ -29,6 +29,7 @@
             {{ content | safe }}
         </main>
         {% include "components/continue.njk" %}
+        {% include "components/feedback.njk" %}
         {% include "components/footer.njk" %}
         {% include "components/flash-message.njk" %}
         <script
@@ -38,6 +39,6 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         ></script>
-        <script defer src="/js/bundle.js"></script>
+        <script defer src="/js/bundle.min.js"></script>
     </body>
 </html>

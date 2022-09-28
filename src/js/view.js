@@ -11,19 +11,19 @@ const view = () => {
 
     const button = document.querySelector('.button__view');
     if (button) {
-        const listButton = document.querySelector('.button__view--list');
-        const gridButton = document.querySelector('.button__view--grid');
+        const list = document.querySelector('.button__view--list');
+        const grid = document.querySelector('.button__view--grid');
 
         const view = localStorage.getItem('view');
         if (!view) {
             localStorage.setItem('view', 'list');
-            gridButton.classList.toggle('invisible');
+            grid.classList.toggle('invisible');
         }
         if (view === 'list') {
-            gridButton.classList.toggle('invisible');
+            grid.classList.toggle('invisible');
         }
         if (view === 'grid') {
-            listButton.classList.toggle('invisible');
+            list.classList.toggle('invisible');
         }
 
         button.addEventListener('click', () => {

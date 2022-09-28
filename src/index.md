@@ -8,6 +8,5 @@ eleventyNavigation:
 ---
 
 {% lead %}
-Välkommen till kurssidan för {{ title }}.
-Här hittar du en lista över de teman och områden som kursen innehåller.
+{{ meta.courseIntro }}
 {% endlead %}
