@@ -6,13 +6,14 @@ layout: layouts/base.njk
 {% include "components/updates.njk" %}
 <div class="accordion" id="accordion">
     {% set navPages = collections.all | eleventyNavigation(title.toLowerCase()) %}
-    {% for entry in navPages | noHelp %}
+    {% for entry in navPages | filterNavPages %}
     <div class="accordion__inner flow">
         <div class="accordion__item accordion__item--top" title="Tema: {{ entry.excerpt }}">
             <h2
                 class="accordion__item-header"
                 id="heading-{{ entry.title | slug }}">
-                    {{ entry.title | capitalize }}
+                {{ entry | log }}
+                    <a href="{{ entry.url }}">{{ entry.title | capitalize }}</a>
             </h2>
         </div>
         {% if entry.children.length %}

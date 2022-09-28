@@ -9,8 +9,8 @@ const getRandomIntInclusive = (min, max) => {
 
 const getColorPick = () => {
     try {
-        const color = colors[getRandomIntInclusive(0, colors.length)];
-        const pick = color[getRandomIntInclusive(0, color.length)];
+        const color = colors[getRandomIntInclusive(0, colors.length - 1)];
+        const pick = color[getRandomIntInclusive(0, color.length - 1)];
         return pick;
     } catch (e) {
         console.log(e);
@@ -27,6 +27,8 @@ module.exports = {
     themeColor: getColorPick(), // replace with themeColor: pick, for a random color '#f3722c'
     siteDescription:
         'Kurssida för webbutveckling. Tekniker, tillgänglighet och projektarbete.',
+    courseIntro:
+        'På den här sidan hittar du information och övningar kopplade till ämnet webbutveckling. Här hittar du tekniker du behöver för att kunna skapa webbplatser och webbapplikationer. Här finns även material för att lära dig om rådande praxis.',
     author: {
         name: 'Jens Andreasson',
         email: 'jens.andreasson@ntig.se',
