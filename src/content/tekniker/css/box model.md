@@ -34,7 +34,7 @@ I utvecklingsverktygen i din webbläsare (F12) kan du inspektera element för at
 
 Prova detta verktyg för att undersöka elements storlek.
 
-{% image "./src/images/boxmodel.png", "Box model" %}
+{% image "boxmodel.png", "Box model" %}
 
 Skapa ett nytt html dokument, `index.html`.
 Börja med att skapa grundläggande HTML-element.

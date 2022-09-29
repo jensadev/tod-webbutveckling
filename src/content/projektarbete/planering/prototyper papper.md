@@ -36,7 +36,7 @@ För den här övningen behöver du A4 papper och en penna.
 -   Skissa sedan en webbplats du gillar, försök göra det ur minnet.
 -   Vänd sedan på pappret så att du får en ny tom yta. Rotera pappret 90 grader så att det blir stående. Formatet liknar nu mer en mobil, skissa samma sida fast som den ser ut på en mobiltelefon.
 
-{% image "./src/images/skiss.jpg", "Skiss av webbsida" %}
+{% image "skiss.jpg", "Skiss av webbsida" %}
 
 För att skapa en prototyp skriv ned en idé (använd SMART) och skriv sedan en kort beskrivning av prototypen.
 Fortsätt arbeta med pappret från tidigare övning.
