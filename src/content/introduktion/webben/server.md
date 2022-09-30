@@ -53,7 +53,7 @@ Undersök en eller flera tjänster.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

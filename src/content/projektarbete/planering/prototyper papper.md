@@ -48,7 +48,7 @@ Ta fram en tom sida på pappret och skissa den här gången din idé. Du kan bö
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

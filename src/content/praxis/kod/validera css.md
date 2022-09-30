@@ -45,7 +45,7 @@ Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -55,7 +55,7 @@ Validera HTML.
 
 Validera CSS.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

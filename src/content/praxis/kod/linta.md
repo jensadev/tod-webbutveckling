@@ -31,9 +31,9 @@ eleventyNavigation:
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

@@ -45,7 +45,7 @@ Du kan även använda utvecklarläget i din webbläsare(F12 / CTRL + SHIFT + i /
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

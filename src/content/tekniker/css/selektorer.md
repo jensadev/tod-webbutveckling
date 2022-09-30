@@ -107,7 +107,7 @@ En ingress (eng. lead) är en inledning till en artikel, den kan oftast identifi
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

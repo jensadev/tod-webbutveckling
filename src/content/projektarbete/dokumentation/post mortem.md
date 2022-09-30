@@ -50,7 +50,7 @@ att skriva ditt PM i Markdown.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

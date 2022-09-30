@@ -66,7 +66,7 @@ I det tillhörande CSS dokumentet ska följande regler skapas:
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

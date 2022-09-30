@@ -66,7 +66,7 @@ Fortsätt redigera i dokumentet.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -76,7 +76,7 @@ Skapa element.html
 
 Skapa listan.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

@@ -69,7 +69,7 @@ Redigera filen, byt språk och titel.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

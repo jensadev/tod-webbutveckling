@@ -73,7 +73,7 @@ if (number == guess) {
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -83,7 +83,7 @@ Koda i konsollen.
 
 Koda i ett dokument.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

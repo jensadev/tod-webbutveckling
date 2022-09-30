@@ -58,7 +58,7 @@ friends.forEach((friend) => {
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

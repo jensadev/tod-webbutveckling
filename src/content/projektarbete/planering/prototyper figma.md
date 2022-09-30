@@ -46,7 +46,7 @@ Försök återskapa delarna i din skissade prototyp med Figma.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -60,7 +60,7 @@ Testa Figma och titta på instruktionsfilmen.
 
 Testa att skapa din prototyp med Figma.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

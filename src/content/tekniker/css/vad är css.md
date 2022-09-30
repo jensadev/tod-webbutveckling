@@ -78,7 +78,7 @@ Du kan även skriva CSS inline, det vill säga direkt i taggen.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

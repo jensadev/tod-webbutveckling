@@ -90,7 +90,7 @@ nav {
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -104,7 +104,7 @@ Testa olika varianter av flex egenskaperna.
 
 Du hittar ytterligare läsning på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout).
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

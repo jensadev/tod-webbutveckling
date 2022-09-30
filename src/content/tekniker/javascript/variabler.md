@@ -62,7 +62,7 @@ alert('Oj ' + name + ', ' + birthYear + ' var länge sedan!');
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -72,7 +72,7 @@ Koda i konsollen.
 
 Skapa ett nytt dokument.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

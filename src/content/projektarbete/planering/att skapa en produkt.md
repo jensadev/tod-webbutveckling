@@ -47,7 +47,7 @@ papper och penna.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -57,7 +57,7 @@ Använd [Bamses](https://www.bamse.se/) webbsida och försök svara på frågorn
 
 Använd [Marvels](https://www.marvel.com/) hemsida och försök svara på frågorna.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

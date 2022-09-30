@@ -55,7 +55,7 @@ instruktioner.classList.add('bg-theme', 'fg-theme'); // lägg till flera klasser
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -65,7 +65,7 @@ Koda i konsollen.
 
 Koda i ett dokument.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

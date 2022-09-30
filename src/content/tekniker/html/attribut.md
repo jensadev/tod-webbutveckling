@@ -60,7 +60,7 @@ Skapa ett nytt dokument, navigation.html. Inkludera HTML grundstrukturen.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -70,7 +70,7 @@ Redigera index.html och länka till element.html
 
 Skapa navigation.html
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

@@ -54,7 +54,7 @@ Förbered en kort presentation av dina resultat.
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -64,7 +64,7 @@ Ladda ned verktyg.
 
 Testa.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 

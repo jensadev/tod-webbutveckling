@@ -46,7 +46,7 @@ Ditt mål är att förstå de olika delarna:
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -59,7 +59,7 @@ Hur används ankare på den här webbplatsen? Prova att sätta muspekaren över 
 
 Vad händer när du klickar på en sådan länk?
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 
@@ -76,6 +76,8 @@ Vad händer om du använder en queryparameter på den här webbsidan?
 <script>
     window.addEventListener('DOMContentLoaded', () => {
         const url = new URL(window.location.href);
-        alert(`Du skrev följande query: ${url.search}`);
+        if (url.search) {
+            alert(`Du skrev följande query: ${url.search}`);
+        }
     });
 </script>

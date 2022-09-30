@@ -54,7 +54,7 @@ Kan du hitta någon annan webbplats med ett meddelande likt Facebooks?
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 

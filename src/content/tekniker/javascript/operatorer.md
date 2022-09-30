@@ -73,7 +73,7 @@ console.log(message);
 
 ## Uppgifter
 
-### ⭐
+### {% star %}
 
 #### Uppgift 1
 
@@ -83,7 +83,7 @@ Koda i konsollen.
 
 Skapa ett nytt dokument.
 
-### ⭐⭐
+### {% star %}{% star %}
 
 {% extra %}
 
