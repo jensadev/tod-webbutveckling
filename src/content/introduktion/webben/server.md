@@ -11,8 +11,8 @@ eleventyNavigation:
 
 ## Introduktion
 
-En server är det som din webbklient talar med. Det är servern som svarar på anrop
-(requests) och skickar data till din klient när du surfar.
+En server är det som din webbklient utbyter information med. Det är servern som svarar på anrop
+(requests) från din klient och svarar med data.
 De flesta servrar kan:
 
 -   Svara med HTTP(S)
@@ -21,7 +21,9 @@ De flesta servrar kan:
 
 ### Tänk på
 
--   En server identifieras med en domän, se delen om [adresser](adresser.html)
+-   En server identifieras med en domän, se delen om [adresser](adresser.html).
+-  En server kan ha flera domäner och tjänster.
+
 
 {% endintro %}
 
@@ -29,8 +31,8 @@ De flesta servrar kan:
 
 ## Instruktioner
 
-Det finns ett stort antal olika webbservrar med olika funktioner och egenskaper.
-Undersök och hitta en eller flera typer av servrar.
+Det finns ett stort antal olika [webbservrar](https://en.wikipedia.org/wiki/Web_server) med olika funktioner och egenskaper.
+Undersök en eller flera av följande webbservrar.
 
 -   [Apache](https://www.apache.org/)
 -   [nginx](https://nginx.org/)
@@ -39,9 +41,11 @@ Undersök och hitta en eller flera typer av servrar.
 De senaste åren har molntjänster kommit att ersätta de traditionella webbservrarna mer och mer.
 Undersök en eller flera tjänster.
 
--   [Netlify](https://www.netlify.com/)
 -   [GitHub Pages](https://pages.github.com/)
--   [Heroku](https://www.heroku.com/)
+-   [Netlify](https://www.netlify.com/)
+- [Glitch](https://glitch.com/)
+- [Vercel](https://vercel.com/)
+
 
 {% endinstruktioner %}
 
@@ -53,10 +57,13 @@ Undersök en eller flera tjänster.
 
 #### Uppgift 1
 
-Hitta en eller flera webbservrar som du kan använda.
+Undersök och läs på om de olika webbservrarna. Jämför dem, vad skiljer dem åt?
+
+Vilken webbserver är den mest använda på nätet idag?
 
 #### Uppgift 2
 
-Hitta en eller flera molntjänster du kan använda för att hosta en webbplats.
+Undersök och läs på om de olika molntjänster du kan använda för att hosta en webbplats.
+Vad skiljer de olika alternativen åt?
 
 {% enduppgifter %}

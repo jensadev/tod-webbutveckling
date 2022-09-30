@@ -17,9 +17,9 @@ som oftast en webbplats. Den webbplatsen finns på en server och för att nå de
 
 ### Tänk på
 
--   Som mycket annat på webben är URL en levande standard
+-   Som mycket annat på webben är URL en levande standard.
 -   Hur skriver du en URL och var?
--   Ibland kallas det för URI, Uniform Resource Identifier, det är en URLs syntax
+-   Ibland kallas det för URI, Uniform Resource Identifier, det är en URLs syntax.
 
 {% endintro %}
 
@@ -28,13 +28,13 @@ som oftast en webbplats. Den webbplatsen finns på en server och för att nå de
 ## Instruktioner
 
 En URL består av flera delar.
-Läs igenom wikipedia artikeln om [URL](https://sv.wikipedia.org/wiki/URL).
+Använd dig av följande [Wikipedia-artikel](https://sv.wikipedia.org/wiki/URL) för att förstå en URLs uppbyggnad.
 
-Ditt mål är att förstå adressens element
+Ditt mål är att förstå de olika delarna:
 
 -   Protokoll på webben
-    -   http, Hypertext Transfer Protocol
-    -   https, Hypertext Transfer Protocol Secure
+    -   http, Hypertext Transfer Protocol 🔓
+    -   https, Hypertext Transfer Protocol Secure 🔒
 -   Hur en domän ser ut
 -   Vilken resurs du hämtar
 -   Fragment, eller ankare som skrivs med #
@@ -55,7 +55,9 @@ identifiera.
 
 #### Uppgift 2
 
-Hur används ankare på den här webbplatsen?
+Hur används ankare på den här webbplatsen? Prova att sätta muspekaren över de olika rubrikerna.
+
+Vad händer när du klickar på en sådan länk?
 
 ### ⭐⭐
 
@@ -64,8 +66,16 @@ Hur används ankare på den här webbplatsen?
 #### Uppgift 3
 
 Besök youtube, klicka på ett klipp och studera dess URL.
+
 Vad händer om du använder en queryparameter på den här webbsidan?
 
 {% endextra %}
 
 {% enduppgifter %}
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const url = new URL(window.location.href);
+        alert(`Du skrev följande query: ${url.search}`);
+    });
+</script>
