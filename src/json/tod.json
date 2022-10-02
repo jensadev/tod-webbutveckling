@@ -69,6 +69,28 @@
               ]
             }
           ]
+        },
+        {
+          "area": "verktyg",
+          "parts": [
+            {
+              "part": "visual-studio-code",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
         }
       ]
     },
