@@ -73,10 +73,10 @@ Redigera filen, byt språk och titel.
 
 #### Uppgift 1
 
-Skapa index.html
+Skapa index.html enligt instruktionerna. Spara och öppna i webbläsaren.
 
 #### Uppgift 2
 
-Redigera innehållet i index.html
+Redigera innehållet i index.html.
 
 {% enduppgifter %}
