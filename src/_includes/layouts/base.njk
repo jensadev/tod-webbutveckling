@@ -7,7 +7,7 @@
         <meta name="description" content="{{ meta.siteDescription }}" />
         <meta name="theme-color" content="{{ meta.themeColor }}" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="{{ '/css/main.css' }}" />
+        <link rel="stylesheet" href="{{ '/css/style.css' }}" />
         <title>
             {% if page.fileSlug %}
             {{ title }} - {% endif %}
@@ -28,10 +28,10 @@
         >
             {{ content | safe }}
         </main>
-        {% include "components/continue.njk" %}
-        {% include "components/feedback.njk" %}
         {% include "components/footer.njk" %}
-        {% include "components/flash-message.njk" %}
+        {% include "components/templates/feedback.njk" %}
+        {% include "components/templates/continue.njk" %}
+        {% include "components/templates/flash.njk" %}
         <script
             defer
             src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"
