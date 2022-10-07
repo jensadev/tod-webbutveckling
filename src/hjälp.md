@@ -5,7 +5,7 @@ permalink: /help/index.html
 excludeFromCollections: true
 eleventyNavigation:
     key: hjälp
-    parent: ämnestitel
+    parent: webbutveckling
     excerpt: Hjälpsida.
 ---
 
