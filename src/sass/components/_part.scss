@@ -32,7 +32,7 @@
     &__introduction {
         padding: var(--step--1);
 
-        @media (min-width: 768px) {
+        @media (min-width: 820px) {
             flex: 0 0 auto;
             width: 25%;
         }
@@ -41,7 +41,7 @@
     &__instructions {
         padding: var(--step--1);
 
-        @media (min-width: 768px) {
+        @media (min-width: 820px) {
             flex: 0 0 auto;
             width: 50%;
 
@@ -106,13 +106,10 @@
 
     &__assignments {
         padding: var(--step--1);
-        h3 {
-            display: flex;
-            > svg {
-                fill: var(--color-primary);
-            }
+        h3 > svg {
+            fill: var(--color-primary);
         }
-        @media (min-width: 768px) {
+        @media (min-width: 820px) {
             flex: 0 0 auto;
             width: 25%;
         }
@@ -134,7 +131,7 @@
             column-span: all;
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 820px) {
             column-count: 2;
         }
     }
