@@ -17,7 +17,7 @@
         }
         + .breadcrumb__item {
             padding-left: var(--step--2);
-            letter-spacing: ms(-8);
+            letter-spacing: var(--ls-neg);
             &::before {
                 content: '>';
                 float: left;
