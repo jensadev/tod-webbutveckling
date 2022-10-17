@@ -10,7 +10,6 @@ eleventyNavigation:
 
 För att avsluta området så ska du kombinera det du hittills arbetat med i en slutuppgift.
 
-
 Kopiera ditt HTML-dokument från den tidigare slutuppgiften, `index.html`. Sidan ska innehålla HTML-grundstrukturen samt ett antal element.
 
 ```html
@@ -27,8 +26,7 @@ Kopiera ditt HTML-dokument från den tidigare slutuppgiften, `index.html`. Sidan
 </footer>
 ```
 
-Dokumentet innehåller ett antal olika HTML-element som du ska formattera med CSS.
-Skapa en CSS-regel för body-elementet som ändrar `color`, `background-color`.
+Dokumentet innehåller ett antal olika HTML-element som du ska formattera med CSS. Skapa en CSS-regel för body-elementet som ändrar `color`, `background-color`.
 
 ### Container
 
@@ -43,8 +41,7 @@ För `.container` sätt attributen `max-width: 48rem;` och `margin: 0 auto;`.
 
 ### Font
 
-Använd en font från [Google Fonts](https://fonts.google.com/).
-Du kan sätta `font-family` på body-elementet eller text-elementen.
+Använd en font från [Google Fonts](https://fonts.google.com/). Du kan sätta `font-family` på body-elementet eller text-elementen.
 
 Styla sedan rubriker och paragrafer.
 
