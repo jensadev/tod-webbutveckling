@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Än så länge ett test av youtube shortcode.
 
 ### Tänk på
@@ -21,22 +19,7 @@ eleventyNavigation:
 
 {% instruktioner %}
 
-## Instruktioner
 
 {% youtube '5y1L3Y4OuX4' %}
 
 {% endinstruktioner %}
-
-{% uppgifter %}
-
-## Uppgifter
-
-### {% star %}
-
-### {% star %}{% star %}
-
-{% extra %}
-
-{% endextra %}
-
-{% enduppgifter %}

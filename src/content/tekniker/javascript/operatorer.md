@@ -9,23 +9,18 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
-En operator är en matematisk symbol som producerar ett resultat. Genom att kombinera variabler, värden och
-operatorer kan vi skapa uttryck.
+En operator är en matematisk symbol som producerar ett resultat. Genom att kombinera variabler, värden och operatorer kan vi skapa uttryck.
 
 ### Tänk på
 
--   Additions operatorn kan användas både för att räkna addition men också för att kombinera strängar.
--   Att likameds tecknet används för att tilldela värden i programmeringen.
+-   Additions operatorn `+` kan användas både för att räkna addition men också för att kombinera strängar.
+-   Att likamedstecknet `=` används för att tilldela värden i programmeringen.
 -   Ett uttryck som resulterar i ett numeriskt värde kallas för ett aritmetiskt uttryck.
 -   Du kan inte räkna med strängar. Använd `parseInt()`.
 
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare(F12) och välj console.
 
@@ -47,7 +42,7 @@ let name = firstName + lastName; // fixa 🤨
 firstName === lastName;
 ```
 
-Skapa ett nytt HTML dokument, koda i ett `<script>` element.
+Skapa ett HTML-dokument, `operatorer.html`. Koda i `<script>` elementet.
 
 ```javascript
 console.log('Addition');
@@ -71,25 +66,25 @@ console.log(message);
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
-Koda i konsollen.
+Koda i konsollen. Testa olika uttryck och operatorer.
 
 #### Uppgift 2
 
-Skapa ett nytt dokument.
+Skapa `operatorer.html`. Skriv av koden, redigare och testa operatorer och uttryck.
 
-### {% star %}{% star %}
+Undersök skillnaden på `==` och `===`.
+
+{% endbas %}
 
 {% extra %}
 
 #### Uppgift 3
 
-Skapa ett nytt dokument. Koda uträkningar för alla räknesätten.
+Redigare `operatorer.html`. Koda uträkningar för alla räknesätten.
 Låt användaren mata in värden med `prompt()`.
 
 #### Uppgift 4

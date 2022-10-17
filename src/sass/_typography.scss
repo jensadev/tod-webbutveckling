@@ -61,6 +61,8 @@ $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberati
     --step-3: clamp(1.94rem, calc(1.65rem + 1.45vw), 2.69rem);
     --step-4: clamp(2.33rem, calc(1.93rem + 2.00vw), 3.36rem);
     --step-5: clamp(2.80rem, calc(2.25rem + 2.73vw), 4.20rem);
+
+    --ls-neg: -0.02em;
 }
 
 ::after {
@@ -96,7 +98,7 @@ h3 {
 // }
 
 h1 {
-    letter-spacing: -0.01em;
+    letter-spacing: var(--ls-neg);
 }
 
 h2,
@@ -107,4 +109,9 @@ h3 {
 .lead {
     font-size: var(--step-1);
     font-weight: 300;
+    color: var(--color-gray-700)
+}
+
+.text-muted {
+    color: var(--color-gray-700)
 }

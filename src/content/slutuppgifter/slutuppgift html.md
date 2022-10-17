@@ -10,7 +10,6 @@ eleventyNavigation:
 
 För att avsluta området så ska du kombinera det du hittills arbetat med i en slutuppgift.
 
-## Instruktioner
 
 Skapa ett html-dokument, `index.html`. Dokumentet ska innehålla en HTML grundstruktur.
 
@@ -24,8 +23,7 @@ Dokumentet ska innehålla följande element:
 
 På sidan ska du använda text från [Löksås ipsum](http://xn--lkss-soa3h.vogelius.se/).
 
-Textens rubrik ska skrivas i ett h1-element, `<h1>`, i sidans header.
-Resterande text ska skrivas i main-elementet och formatteras med paragrafer, , `<p>`,.
+Textens rubrik ska skrivas i ett h1-element, `<h1>`, i sidans header. Resterande text ska skrivas i main-elementet och formatteras med paragrafer, , `<p>`,.
 
 ### Länk
 

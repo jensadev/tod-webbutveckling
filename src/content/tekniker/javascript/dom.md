@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Document Object Model (DOM) är ett objekt som representerar en webbsida.
 
 Det är det interface som du arbetar mot när du skriver javascript för att ändra struktur, stil och innehåll på en webbsida.
@@ -18,19 +16,17 @@ Det är det interface som du arbetar mot när du skriver javascript för att än
 ### Tänk på
 
 -   Alla tillåter inte javascript, fungerar din sida ändå?
+    - Testa genom att slå av javascript i din webbläsare.
 
 {% endintro %}
 
 {% instruktioner %}
 
-## Instruktioner
+Att introducera, förklara och lära sig DOM och hur javascript arbetar med det är lite för ambitiöst för en sida. Så detta är bara en introduktion. Läs gärna mer på [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
 
-Att introducera, förklara och lära sig DOM och hur javascript arbetar med det är lite för ambitiöst för en sida.
-Detta är en liten titt, läs gärna mer på [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
+DOM låter oss välja element direkt från en sida. Element väljs med [CSS-seleketorer](/tekniker/css/selektorer/) (element, class, id).
 
-DOM låter oss välja element direkt från en sida. Element väljs med CSS-seleketorer (element, class, id).
-
-Öppna konsollen (CTRL+SHIFT+i) och koda direkt här brevid.
+Öppna konsollen (CTRL+SHIFT+i) i webbläsaren och koda på den här sidan.
 
 ```js
 let header = document.querySelector('.part__header-title');
@@ -53,19 +49,17 @@ instruktioner.classList.add('bg-theme', 'fg-theme'); // lägg till flera klasser
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
-Koda i konsollen.
+Koda i konsollen och ändra på den här sidan.
 
 #### Uppgift 2
 
-Koda i ett dokument.
+Manipulera klasserna och attributen på den här sidan.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

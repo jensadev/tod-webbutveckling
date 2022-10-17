@@ -9,25 +9,18 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
-Att designa för alla människor oavsett förmåga borde vara en självklarhet. I vissa fall är
-det ett lagkrav, som offentlig verksamhet, men det är långtifrån alla.
-Oavsett vad din webbplats fyller för funktion så tjänar du som alltid på att designa
-för alla, mycket för att det tenderar att förbättra funktionen för just alla.
+Att designa för alla människor oavsett förmåga borde vara en självklarhet. I vissa fall är det ett lagkrav, som offentlig verksamhet, men det är långtifrån alla. Oavsett vad din webbplats fyller för funktion så tjänar du som alltid på att designa för alla, mycket för att det tenderar att förbättra funktionen för just alla.
 
 ### Tänk på
 
--   En webbplats är användbar när den låter användarna uppnå sina mål lätt och smidigt
--   Så långt som möjligt bör de ordinarie lösningarna fungera för alla
--   Bestäm hur din webbplats ska användas och av vem
--   Testa din webbplats på dina användare, ofta och tidigt
+-   En webbplats är användbar när den låter användarna uppnå sina mål lätt och smidigt.
+-   Så långt som möjligt bör de ordinarie lösningarna fungera för alla.
+-   Bestäm hur din webbplats ska användas och av vem.
+-   Testa din webbplats på dina användare, ofta och tidigt.
 
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Ladda ned ett eller flera verktyg för att testa användbarhet på webbplatser.
 
@@ -52,25 +45,23 @@ Förbered en kort presentation av dina resultat.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
-Ladda ned verktyg.
+Ladda ned verktyg ett eller flera verktyg för att testa användbarhet på webbplatser.
 
 #### Uppgift 2
 
-Testa.
+Använd verktygen för att testa en eller flera webb-platser utifrån instruktionerna.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 
 #### Uppgift 3
 
-Skapa presentationen.
+Skriv och skapa presentationen.
 
 {% endextra %}
 

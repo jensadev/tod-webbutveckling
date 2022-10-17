@@ -9,15 +9,13 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
+En server är det som din webbklient utbyter information med. Det är en webb-server som svarar på anrop (requests) från din klient och svarar med data (HTML, CSS, bilder och så vidare).
 
-En server är det som din webbklient utbyter information med. Det är servern som svarar på anrop
-(requests) från din klient och svarar med data.
 De flesta servrar kan:
 
--   Svara med HTTP(S)
--   Logga trafik
--   Kontrollera trafik
+-   Svara med HTTP(S).
+-   Logga trafik.
+-   Kontrollera trafik.
 
 ### Tänk på
 
@@ -29,20 +27,16 @@ De flesta servrar kan:
 
 {% instruktioner %}
 
-## Instruktioner
-
-Det finns ett stort antal olika [webbservrar](https://en.wikipedia.org/wiki/Web_server) med olika funktioner och egenskaper.
-Undersök en eller flera av följande webbservrar.
+Det finns ett stort antal olika [webbservrar](https://en.wikipedia.org/wiki/Web_server) med olika funktioner och egenskaper. De flesta är öppna källkodsprogram som du kan ladda ner och köra på din egen dator. Det finns också tjänster som erbjuder webbservering, så kallade [webbhotell](https://en.wikipedia.org/wiki/Web_hosting_service).
 
 -   [Apache](https://www.apache.org/)
 -   [nginx](https://nginx.org/)
 -   [IIS](https://www.iis.net/)
 
 De senaste åren har molntjänster kommit att ersätta de traditionella webbservrarna mer och mer.
-Undersök en eller flera tjänster.
 
--   [GitHub Pages](https://pages.github.com/)
--   [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://www.netlify.com/)
 - [Glitch](https://glitch.com/)
 - [Vercel](https://vercel.com/)
 
@@ -51,9 +45,7 @@ Undersök en eller flera tjänster.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -65,5 +57,7 @@ Vilken webbserver är den mest använda på nätet idag?
 
 Undersök och läs på om de olika molntjänster du kan använda för att hosta en webbplats.
 Vad skiljer de olika alternativen åt?
+
+{% endbas %}
 
 {% enduppgifter %}

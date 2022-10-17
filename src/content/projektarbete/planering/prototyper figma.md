@@ -9,58 +9,53 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
-För att öka komplexiteten i en prototyp är det vanliga att använda en mjukvara för detta. [Figma](https://www.figma.com) är ett gratisverktyg för att skapa och redigera prototyper.
+För att öka komplexiteten (fidelity) i en prototyp är det vanliga att använda en mjukvara. Det ger dig flera möjligheter att komma så nära slutprodukten som möjligt, både visuellt och interaktivt. [Figma](https://www.figma.com) är ett gratisverktyg (än så länge) som ägs av Adobe för att skapa och redigera prototyper.
 
 ### Tänk på
 
--   Börja enkelt
--   Öka komplexitet stegvis
--   Öka detaljrikedom stegvis
+-   Börja enkelt.
+-   Öka komplexitet stegvis.
+-   Öka detaljrikedom stegvis.
 
 {% endintro %}
 
 {% instruktioner %}
 
-## Instruktioner
-
 Registrera dig på [Figma](https://www.figma.com).
-Se på följande video för en kort beskrivning av vad Figma är. Videon är en del i playlist om Figma om du vill veta mer.
+
+Titta på följande video för en kort beskrivning av vad Figma är. Videon är en del i playlist om Figma.
 
 {% youtube 'Cx2dkpBxst8' %}
 
-Logga sedan in på Figma och skapa en ny arbetsyta.
-Titta på följande video och testa att göra det som instruktören gör i filmen. **Testa Figma!**
+Titta på följande video och testa att göra det som instruktören gör i filmen. 
 
 {% youtube '3q3FV65ZrUs' %}
 
 När du har en grundläggande förståelse för hur Figma fungerar så är det dags att prova eget arbete.
 
-Utgå från skisserna av din prototyp.
-Försök återskapa delarna i din skissade prototyp med Figma.
+Utgå från skisserna av din prototyp. Försök återskapa delarna i din skissade prototyp med Figma.
 
 {% endinstruktioner %}
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
 Registrera dig och titta på den första filmen.
 
+Starta Figma och prova verktyget.
+
 #### Uppgift 2
 
-Testa Figma och titta på instruktionsfilmen.
+Titta på den andra instruktionsfilmen. Följ med och skapa en prototyp utifrån videon.
 
 #### Uppgift 3
 
-Testa att skapa din prototyp med Figma.
+Skapa en prototyp utifrån skisserna du skapade i föregående [del](/projektarbete/planering/prototyper-papper/).
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

@@ -2,7 +2,7 @@
 <nav class="navbar" role="navigation" aria-label="Primary">
     <div class="container navbar__inner">
         {% set currentPage = page.fileSlug %}
-        {% if currentPage == '' or currentPage.includes('404') %}
+        {% if currentPage == '' or currentPage.includes('404') or currentPage.includes('tack') or currentPage.includes('hjälp') %}
         <h1 class="navbar__header">
             <a href="/" title="Tillbaka till startsidan">
                 {{ meta.siteName }}
@@ -27,7 +27,7 @@
                 <form class="search-form">
                     <label class="visually-hidden" for="search-input">Sök</label>
                     <input
-                        class="form__control"
+                        class="search-form__control"
                         autocomplete="off"
                         type="search"
                         placeholder="Sök..."
@@ -45,11 +45,6 @@
                 <span class="visually-hidden">Hjälp</span>
                 {% svg "help_FILL0_wght400_GRAD0_opsz24.svg", "icon" %}
             </a>
-            <!-- <button class="button button__icon button__view">
-                <span class="visually-hidden">Byt vy</span>
-                {% svg "account_tree_FILL0_wght400_GRAD0_opsz24.svg", "icon button__view--grid invisible" %}
-                {% svg "list_FILL0_wght400_GRAD0_opsz24.svg", "icon button__view--list invisible" %}
-            </button> -->
         </div>
     </div>
 </nav>

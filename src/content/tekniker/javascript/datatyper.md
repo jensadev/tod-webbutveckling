@@ -9,12 +9,9 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Alla programmeringsspråk har ett antal olika datatyper. Datatyper kan tillsammans utgöra datastrukturer.
 
-Javascript är ett språk som är dynamiskt typat. Dynamiskt typat betyder att en variabel inte är kopplad till en viss datatyp.
-Du behöver därför inte ange en variabels datatyp när du deklarerar den.
+Javascript är ett språk som är dynamiskt typat. Dynamiskt typat betyder att en variabel inte är kopplad till en viss datatyp. Du behöver därför inte ange en variabels datatyp när du deklarerar den.
 
 ### Tänk på
 
@@ -26,8 +23,6 @@ Du behöver därför inte ange en variabels datatyp när du deklarerar den.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Koda först i konsollen och testa.
 
@@ -44,7 +39,7 @@ console.log('Den nya summan blir: ' + sum); // 🤔
 sum = parseInt(num) + num1; // 🙂
 ```
 
-Skapa ett nytt html-dokument, koda i ett `<script>` element.
+Skapa sedan ett HTML-dokument, `datatyper.html`. Koda i `<script>` elementet i dokumentet.
 
 ```js
 let bamse = {
@@ -74,19 +69,17 @@ console.log(bamse[0]);
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
-Koda i konsollen.
+Skriv av koden i konsollen och testa olika datatyper utifrån listan.
 
 #### Uppgift 2
 
-Skapa ett nytt dokument.
+Skapa `datatyper.html`. Skriv av koden, testkör och studera.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

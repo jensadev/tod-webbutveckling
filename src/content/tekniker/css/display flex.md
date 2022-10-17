@@ -9,24 +9,20 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Flexbox är ett layout-system som används med CSS för att styra layouten på en webbplats. I ett element med `display: flex` kan element placeras i valfri ordning.
 
-Elementens ordning kan styras och elementen kan placers i rader eller kolumner.
+Elementens ordning kan styras och elementen kan placeras i rader eller kolumner.
 
 ### Tänk på
 
 -   Syntax, `display: flex`
--   Flex är nästan alltid lösningen™
+-   Flex är ofta lösningen™
 
 {% endintro %}
 
 {% instruktioner %}
 
-## Instruktioner
-
-Skapa två dokument, flex.html och flex.css. HTML filen ska innehålla den grundläggande HTML strukturen med en länk till .css filen
+Skapa två dokument, `flex.html` och `flex.css`. HTML filen ska innehålla den grundläggande HTML strukturen med en länk till .css filen
 
 Skapa ett `<main>` element i dokumentets `<body>`. Skapa sedan följande struktur för en navigation:
 
@@ -46,18 +42,15 @@ Skapa ett `<main>` element i dokumentets `<body>`. Skapa sedan följande struktu
 </nav>
 ```
 
-Strukturen består av en lista i ett `<nav>` element, detta är vanligt förekommande på webbsidor.
-Flex kan nu användas på listan för att placera navigationen på en rad.
+Strukturen består av en lista i ett `<nav>` element, detta är vanligt förekommande på webbsidor. Flex kan nu användas på listan för att placera navigationen på en rad.
 
 Testa även egenskapen `flex-direction` och sätt dess värde till `row` eller `column`.
 
 ```css
 ul {
     display: flex;
+    gap: 1rem;
     list-style: none;
-}
-li {
-    padding-right: 1rem;
 }
 ```
 
@@ -68,7 +61,7 @@ Men om vi exempelvis behöver en logo eller en rubrik för sidan så kan flex an
 ```html
 <nav>
     <h1>Sidans titel</h1>
-    ...
+    <!-- Listan -->
 </nav>
 ```
 
@@ -80,7 +73,7 @@ Men den riktning som styrs av dessa genskaper ändras om `flex-direction` ändra
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 ```
 
@@ -88,23 +81,25 @@ nav {
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
-Skapa dokument och skriv koden.
+Skapa `flex.html` och `flex.css` och skriv koden för navigationen och listan.
 
-Öppna utvecklarverktyget i Chrome och sök reda på de element som har egenskapen flex. Undersök verktygen för att testa och arbeta med flex.
+Öppna utvecklarverktyget i Chrome och sök reda på de element som har egenskapen flex. Undersök verktygen.
 
 #### Uppgift 2
 
-Testa olika varianter av flex egenskaperna.
+Skapa koden för logo elementet.
 
-Du hittar ytterligare läsning på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout).
+Testa olika varianter av flex egenskaperna. Du hittar mer på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout).
 
-### {% star %}{% star %}
+#### Uppgifter 3
+
+Från tidigare dokument, hämta `.container` klassen. Använd klassen på `<nav>` elementet.
+
+{% endbas %}
 
 {% extra %}
 
@@ -116,7 +111,7 @@ Koda en layout med två kolumner. Den första kolumnen ska innehålla din naviga
 
 {% enduppgifter %}
 
-{% facit %}
+{% facit "Tips" %}
 
 Tänk på att gruppera dina element i containers. För att förstå och kunna skapa bra layouter med kontroll i HTML och CSS så behöver du kunna arbeta med detta.
 Gruppera liknande innehåll för att styra dess position.

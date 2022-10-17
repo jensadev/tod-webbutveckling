@@ -7,7 +7,7 @@ eleventyNavigation:
     key: video
     parent: media
     order: 2
-    excerpt:
+    excerpt: Placeholder
 ---
 
 ## Området {{ title }} innehåller följande delar

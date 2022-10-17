@@ -9,11 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
-Ett program behöver kunna göra val. Selektion är kodstruktur som testar om
-uttryck är sant eller falskt.
-Ett vanligt sätt att utföra det är `if` satsen.
+Ett program behöver kunna göra val. Selektion är kodstruktur som testar om uttryck är sant eller falskt. Ett vanligt sätt att utföra det är `if` satsen.
 
 ```javascript
 if (...) {
@@ -27,15 +23,13 @@ Javascript stöder även switch-satser.
 
 ### Tänk på
 
--   Du måste inte använda dig av `else`
--   För att skriva flera uttryck använder du `else if (...)`
--   Om det första uttrycket är sant, körs inte något av de andra
+-   Du måste inte använda dig av `else`.
+-   För att skriva flera uttryck använder du `else if (...)`.
+-   Om det första uttrycket är sant, körs inte något av de andra.
 
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare och koda där.
 
@@ -54,7 +48,7 @@ if (name) {
 }
 ```
 
-Öppna ett HTML-dokument, koda i ett `<script>` element.
+Skapa ett HTML-dokument, `selektion.html`. Koda i ett `<script>` element.
 
 ```javascript
 let number = 7;
@@ -71,9 +65,7 @@ if (number == guess) {
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -81,18 +73,20 @@ Koda i konsollen.
 
 #### Uppgift 2
 
-Koda i ett dokument.
-
-### {% star %}{% star %}
-
-{% extra %}
+Skapa `selektion.html`. Skriv koden från den första delen men testa olika villkor, `b == a`.
 
 #### Uppgift 3
 
-Koda i dokument.
-Använd `else if (guess > number)` för att skriva
-ut om gissningen var för stor. Hur skriver du med `else if (...)`
-att gissningen var för liten?
+Redigare `selektion.html` och skapa grunden för gissa talet spelet.
+Kan du skriva färdigt logiken?
+
+{% endbas %}
+
+{% extra %}
+
+#### Uppgift 4
+
+Koda i `selektion.html`. Använd `else if (guess > number)` för att skriva ut om gissningen var för stor. Kan du skriva `else if (...)` som skriver ut om gissningen var för liten?
 
 {% endextra %}
 
