@@ -9,8 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-HTML består av element. Element märks upp med taggar som berättar för webbläsaren
-vilken sorts innehåll det är.
+HTML består av element. Element märks upp med taggar som berättar för webbläsaren vilken sorts innehåll det är.
 
 Ett HTML element har tre delar. En öppningstag `<p>` innehåll och en stängnings tag `</p>`.
 
@@ -18,10 +17,10 @@ Ett HTML element kan innehålla andra element, det kallas för nästlade element
 
 ### Tänk på
 
--   Börja alltid med HTML grundstrukturen
--   HTML är otroligt robust, det låter dig göra fel
--   Öppna och stäng alla taggar du använder
--   Element som har en radbrytning efter sig kallas för **block** element
+-   Börja alltid med HTML grundstrukturen.
+-   HTML är otroligt robust, det låter dig göra fel.
+-   Öppna och stäng alla taggar du använder.
+-   Element som har en radbrytning efter sig kallas för **block** element.
 
 {% endintro %}
 
@@ -64,11 +63,11 @@ Fortsätt redigera i dokumentet.
 
 #### Uppgift 1
 
-Skapa element.html
+Skapa ```element.html``` med koden.
 
 #### Uppgift 2
 
-Skapa listan.
+Redigera ```element.html``` och skriv en punktlista över dina 5 favoritdjur.
 
 {% endbas %}
 
@@ -76,7 +75,8 @@ Skapa listan.
 
 #### Uppgift 3
 
-Skapa en ordnad lista i ett dokument, taggen för det är [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
+Skapa en ordnad lista över dina favoritfilmer (1-5) i ```element.html```. Taggen för en ordnad lista är [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
+
 {% endextra %}
 
 {% enduppgifter %}

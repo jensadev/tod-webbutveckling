@@ -9,23 +9,22 @@ eleventyNavigation:
 
 {% intro %}
 
-Hypertext Markup Language(HTML) är ett märkspråk som används för att märka upp webbsidor.
-HTML strukturerar upp text och ger texten semantisk betydelse med hjälp av taggar. Det för att en webbläsare ska kunna tolka texten och visa den som en webbsida.
+Hypertext Markup Language(HTML) är ett märkspråk som används för att märka upp webbsidor. HTML strukturerar upp text och ger texten semantisk betydelse med hjälp av taggar. Det för att en webbläsare ska kunna tolka texten och visa den som en webbsida.
 
 HTML är en standard som styrs av [World Wide Web Consortium](https://www.w3.org/).
 
 ### Tänk på
 
--   Filändelsen för HTML dokument är .html
--   Döp din webbplats startsida till index.html
--   Använd små bokstäver, undvik specialtecken `()@'"&%/&åäö` och mellanslag i filnamnet
--   Använd en [IDE](https://sv.wikipedia.org/wiki/Integrerad_utvecklingsmilj%C3%B6) som [Visual Studio Code](https://code.visualstudio.com/) för att skapa dina dokument
+-   Filändelsen för HTML dokument är .html.
+-   Döp din webbplats startsida till index.html (då laddas den in automatiskt).
+-   Använd små bokstäver, undvik specialtecken `()@'"&%/&åäö` och mellanslag i filnamn.
+-   Använd en [IDE](https://sv.wikipedia.org/wiki/Integrerad_utvecklingsmilj%C3%B6) som [Visual Studio Code](https://code.visualstudio.com/) för att skapa och redigera dina dokument.
 
 {% endintro %}
 
 {% instruktioner %}
 
-Skapa ett fil, index.html, med följande innehåll. Det här är ett exempel på en korrekt HTML grundstruktur.
+Skapa en fil, ```index.html```. Öppna filen och skapa följande innehåll. Det här är ett exempel på en korrekt validerande HTML grundstruktur.
 
 ```html
 <!DOCTYPE html>
@@ -67,12 +66,22 @@ Redigera filen, byt språk och titel.
 
 #### Uppgift 1
 
-Skapa index.html
+Skapa ```index.html```.
 
 #### Uppgift 2
 
-Redigera innehållet i index.html
+Redigera innehållet i ```index.html```.
 
 {% endbas %}
 
 {% enduppgifter %}
+
+{% facit "Tips" %}
+
+Om du använder Visual Studio så får du med verktyget [Emmet](https://emmet.io/). Emmet underlättar otroligt mycket för att skriva HTML.
+
+Ett exempel är att du kan skriva ```html:5``` och direkt få ut grundstrukturen i ett HTML dokument.
+
+[Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
+
+{% endfacit %}
