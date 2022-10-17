@@ -9,9 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-För att navigera på webben så använder vi adresser, [URL](https://url.spec.whatwg.org/) (eng. Uniform Resource locator).
-Det är en för oss människor läsbar sträng som identifierar en resurs. Resursen är allt
-som oftast en webbplats. Den webbplatsen finns på en server och för att nå den behöver du en klient.
+För att navigera på webben så använder vi adresser, [URL](https://url.spec.whatwg.org/) (eng. Uniform Resource locator). Det är en för oss människor läsbar sträng som identifierar en resurs. Resursen är allt som oftast en webbplats. Den webbplatsen finns på en server och för att nå den behöver du en klient.
 
 ### Tänk på
 
@@ -23,18 +21,17 @@ som oftast en webbplats. Den webbplatsen finns på en server och för att nå de
 
 {% instruktioner %}
 
-En URL består av flera delar.
-Använd dig av följande [Wikipedia-artikel](https://sv.wikipedia.org/wiki/URL) för att förstå en URLs uppbyggnad.
+En URL består av flera delar. Läs det du behöver från Wikipedia artikeln om [URL](https://sv.wikipedia.org/wiki/URL) för att förstå en URLs uppbyggnad.
 
-Ditt mål är att förstå de olika delarna:
+Ditt mål är att förstå och känna igen de olika delarna:
 
--   Protokoll på webben
+-   Protokoll
     -   http, Hypertext Transfer Protocol 🔓
     -   https, Hypertext Transfer Protocol Secure 🔒
 -   Hur en domän ser ut
 -   Vilken resurs du hämtar
 -   Fragment, eller ankare som skrivs med #
--   Query parametrar, skrivs efter adressen med `?parameter=värde`
+-   Query parametrar, som skrivs efter adressen med `?parameter=värde`
 
 {% endinstruktioner %}
 
@@ -44,8 +41,7 @@ Ditt mål är att förstå de olika delarna:
 
 #### Uppgift 1
 
-Studera den här webbplatsens URL i adressfältet på din webbläsare, vilka delar kan du
-identifiera.
+Studera den här webbplatsens URL i adressfältet på din webbläsare, vilka delar kan du identifiera.
 
 #### Uppgift 2
 
@@ -61,7 +57,7 @@ Vad händer när du klickar på en sådan länk?
 
 Besök youtube, klicka på ett klipp och studera dess URL.
 
-Vad händer om du använder en queryparameter på den här webbsidan?
+Vad händer om du använder en query-parameter på den här webbsidan?
 
 {% endextra %}
 

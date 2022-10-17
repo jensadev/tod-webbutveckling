@@ -10,30 +10,28 @@ eleventyNavigation:
 {% intro %}
 
 Med klient menas som oftast din webbläsare. Du är en användare som använder en
-klient för att konsumera webbinnehåll.
-I den här kursen så ligger fokus på det som kallas front end tekniker. Med front end
-så menas det du ser i din webbläsare.
+klient för att konsumera webbinnehåll. I den här kursen så ligger fokus på det som kallas front end tekniker. Med front end så menas det du ser / som sker i din webbläsare.
 
 ### Tänk på
 
 -   Front end teknikerna körs i din webbläsare, i din klient.
 -   De påverkas av prestandan på din dator och din surfhastighet.
--   Eftersom de körs i din webbläsare, finns även koden tillgänglig i den.
+-   Eftersom de körs i din webbläsare, finns även koden tillgänglig i webbläsaren.
 
 {% endintro %}
 
 {% instruktioner %}
 
-Testa en eller flera klienter och undersök en webbplats. Exempel på klienter är:
+För att utföra uppgifterna behöver du testa ett antal olika klienter. Exempel på klienter är:
 
--   Webbläsare på dator
--   Webbläsare på mobiltelefon
+-   Webbläsare på dator.
+-   Webbläsare på mobiltelefon.
 -   [curl](https://curl.se/)
--   Skärmläsare, du kan testa [Chromes inbyggda](https://support.google.com/accessibility/answer/7031755?hl=en)
-- Skärmläsare, [Chrome tillägg](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn)
--   [Lynx](https://lynx.invisible-island.net/), enklast om du har tillgång till Linux (installera då med APT)
+-   Skärmläsare, du kan testa [Chromes inbyggda](https://support.google.com/accessibility/answer/7031755?hl=en).
+- Skärmläsare, [Chrome tillägg](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn).
+-   [Lynx](https://lynx.invisible-island.net/), enklast om du har tillgång till Linux (installera då med APT).
 
-Du kan även använda utvecklarläget i din webbläsare(F12 / CTRL + SHIFT + i / meny) för att testa olika klienter. Verktygen låter dig emulera olika enheter och olika nätverk.
+Du kan även använda utvecklarläget i din webbläsare (F12 / CTRL + SHIFT + i / meny) för att testa olika klienter. Verktygen låter dig emulera olika enheter och olika nätverk.
 
 {% endinstruktioner %}
 
