@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Med klient menas som oftast din webbläsare. Du är en användare som använder en
 klient för att konsumera webbinnehåll.
 I den här kursen så ligger fokus på det som kallas front end tekniker. Med front end
@@ -25,8 +23,6 @@ så menas det du ser i din webbläsare.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Testa en eller flera klienter och undersök en webbplats. Exempel på klienter är:
 
@@ -43,9 +39,7 @@ Du kan även använda utvecklarläget i din webbläsare(F12 / CTRL + SHIFT + i /
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -57,5 +51,7 @@ Testa utvecklarverktygen i din webbläsare (F12 / CTRL + SHIFT + i / meny).
 Hitta enhetsverktygen och testa att emulera olika enheter. Vad händer med webbplatsen när du ändrar storlek på fönstret?
 
 Jämför en eller flera webbsidor med olika klienter.
+
+{% endbas %}
 
 {% enduppgifter %}

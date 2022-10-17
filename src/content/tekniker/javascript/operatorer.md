@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 En operator är en matematisk symbol som producerar ett resultat. Genom att kombinera variabler, värden och
 operatorer kan vi skapa uttryck.
 
@@ -24,8 +22,6 @@ operatorer kan vi skapa uttryck.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare(F12) och välj console.
 
@@ -71,9 +67,7 @@ console.log(message);
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -83,7 +77,7 @@ Koda i konsollen.
 
 Skapa ett nytt dokument.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

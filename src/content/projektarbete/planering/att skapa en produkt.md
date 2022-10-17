@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Att ta en ide till färdig produkt kräver planering, genomförande och utvärdering.
 Det är en process och det kräver övning.
 Att skapa en produkt utan att tänka igenom vad, hur och varför är som att ge sig ut på en resa
@@ -26,8 +24,6 @@ utan destination och färdmedel.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Nu när du är här är det dags att prova på den här arbetsmodellen. Se till att du har
 papper och penna.
@@ -45,9 +41,7 @@ papper och penna.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -57,7 +51,7 @@ Använd [Bamses](https://www.bamse.se/) webbsida och försök svara på frågorn
 
 Använd [Marvels](https://www.marvel.com/) hemsida och försök svara på frågorna.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

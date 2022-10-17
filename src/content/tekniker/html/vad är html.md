@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Hypertext Markup Language(HTML) är ett märkspråk som används för att märka upp webbsidor.
 HTML strukturerar upp text och ger texten semantisk betydelse med hjälp av taggar. Det för att en webbläsare ska kunna tolka texten och visa den som en webbsida.
 
@@ -26,8 +24,6 @@ HTML är en standard som styrs av [World Wide Web Consortium](https://www.w3.org
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Skapa ett fil, index.html, med följande innehåll. Det här är ett exempel på en korrekt HTML grundstruktur.
 
@@ -67,9 +63,7 @@ Redigera filen, byt språk och titel.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -78,5 +72,7 @@ Skapa index.html
 #### Uppgift 2
 
 Redigera innehållet i index.html
+
+{% endbas %}
 
 {% enduppgifter %}

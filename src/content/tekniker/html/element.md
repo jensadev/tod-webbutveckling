@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 HTML består av element. Element märks upp med taggar som berättar för webbläsaren
 vilken sorts innehåll det är.
 
@@ -28,8 +26,6 @@ Ett HTML element kan innehålla andra element, det kallas för nästlade element
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Skapa ett nytt dokument, element.html.
 
@@ -64,9 +60,7 @@ Fortsätt redigera i dokumentet.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -76,7 +70,7 @@ Skapa element.html
 
 Skapa listan.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 
@@ -84,4 +78,5 @@ Skapa listan.
 
 Skapa en ordnad lista i ett dokument, taggen för det är [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
 {% endextra %}
+
 {% enduppgifter %}

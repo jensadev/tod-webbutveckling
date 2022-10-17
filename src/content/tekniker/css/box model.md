@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Ett elements position i en CSS-konstruktion är en box. Boxen är lika stor som elementets innehåll, vilket i sin tur kan vara andra element.
 Utöver detta så är storleken på elementets box en summa av flera delar.
 
@@ -27,8 +25,6 @@ Utöver detta så är storleken på elementets box en summa av flera delar.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 I utvecklingsverktygen i din webbläsare (F12) kan du inspektera element för att undersöka boxen. Leta efter Styles >> Computed.
 
@@ -72,9 +68,7 @@ main {
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -84,9 +78,11 @@ Undersök och studera boxmodellen.
 
 Koda, testa och undersök elementens storlek.
 
+{% endbas %}
+
 {% enduppgifter %}
 
-{% facit %}
+{% facit "Tips" %}
 
 Notera att ett HTML dokument har ett par inbyggda stilar för att göra det läsbar. Det finns en inbyggd padding och margin samt att text har olika storlekar. Förekomsten av detta kan ställa till arbetet med layout och boxmodellen.
 

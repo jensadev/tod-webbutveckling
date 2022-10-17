@@ -10,7 +10,6 @@ eleventyNavigation:
 
 För att avsluta området så ska du kombinera det du hittills arbetat med i en slutuppgift.
 
-## Instruktioner
 
 Kopiera ditt HTML-dokument från den tidigare slutuppgiften, `index.html`. Sidan ska innehålla HTML-grundstrukturen samt ett antal element.
 

@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Ett program behöver förutom att kunna göra val även kunna upprepa kod. Det är klart att ett program kan skrivas med väldigt mycket upprepning, men i sågott som alla fall är det enklare att skriva en loop som upprepar koden så länge ett eller flera villkor är sanna.
 
 Javascript har tillgång till ett stort antal sätt att iterera kod.
@@ -29,7 +27,6 @@ for (let i = 0; i < 10; i = i + 1) {
 
 {% instruktioner %}
 
-## Instruktioner
 
 Fortsätt arbeta med uppgiften från föregående del, [selektion](selektion.html).
 Skapa en loop som låter spelaren gissa tills det rätta svaret är givet.
@@ -56,9 +53,7 @@ friends.forEach((friend) => {
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -68,9 +63,11 @@ Koda i konsollen.
 
 Koda i ett dokument.
 
+{% endbas %}
+
 {% enduppgifter %}
 
-{% facit %}
+{% facit "Tips" %}
 
 Det har blivit allt vanligare att i javascript använda olika metoder för att iterera över arrayer. Ett exempel på det är
 `map()` som tar en funktion som argument och returnerar en ny array.
@@ -79,6 +76,7 @@ Det har blivit allt vanligare att i javascript använda olika metoder för att i
 const arr = friends.map((friend) => {
     return friend.toUpperCase();
 });
+console.log(arr);
 ```
 
 {% endfacit %}

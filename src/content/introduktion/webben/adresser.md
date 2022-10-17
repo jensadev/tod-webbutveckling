@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 För att navigera på webben så använder vi adresser, [URL](https://url.spec.whatwg.org/) (eng. Uniform Resource locator).
 Det är en för oss människor läsbar sträng som identifierar en resurs. Resursen är allt
 som oftast en webbplats. Den webbplatsen finns på en server och för att nå den behöver du en klient.
@@ -24,8 +22,6 @@ som oftast en webbplats. Den webbplatsen finns på en server och för att nå de
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 En URL består av flera delar.
 Använd dig av följande [Wikipedia-artikel](https://sv.wikipedia.org/wiki/URL) för att förstå en URLs uppbyggnad.
@@ -44,9 +40,7 @@ Ditt mål är att förstå de olika delarna:
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -59,7 +53,7 @@ Hur används ankare på den här webbplatsen? Prova att sätta muspekaren över 
 
 Vad händer när du klickar på en sådan länk?
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

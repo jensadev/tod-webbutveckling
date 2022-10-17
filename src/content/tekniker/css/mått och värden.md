@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 För att skapa en webbplats med CSS så krävs det ett antal måttenheter. Flera av måtten grundar sig i pixlar.
 Måtten behövs för att bestämma storleken på allt från fonter, bilder och layouter.
 Några av de vanligaste måttenheter är:
@@ -28,8 +26,6 @@ Några av de vanligaste måttenheter är:
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Skapa två dokument, `units.html` och `units.css`.
 HTML filen ska innehålla den grundläggande HTML strukturen med en länk till `.css` filen.
@@ -64,9 +60,7 @@ I det tillhörande CSS dokumentet ska följande regler skapas:
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -80,5 +74,7 @@ Hur har webbläsaren räknat ut måttenheterna?
 Vad händer om du ändrar font storleken på body elementet.
 
 Prova att ändra webbläsarens font storlek, det finns i settings, hur påverkas sidan?
+
+{% endbas %}
 
 {% enduppgifter %}

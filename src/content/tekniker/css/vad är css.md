@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används för
 att skapa stil och layout. CSS kan bland annat användas för att byta färger,
 sätta marginaler och dela upp ditt innehåll.
@@ -25,8 +23,6 @@ sätta marginaler och dela upp ditt innehåll.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Öppna ett tidigare HTML dokument. Skriv CSS (i HTML-dokumentet) med `<style>` taggen.
 Style taggen skrivs oftast nästlad i `<head>`, men det är inte ett måste.
@@ -76,9 +72,7 @@ Du kan även skriva CSS inline, det vill säga direkt i taggen.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -95,11 +89,13 @@ Ta bort style taggen från HTML-dokumentet.
 
 Prova att skriva CSS inline i HTML-dokumentet.
 
+{% endbas %}
+
 {% enduppgifter %}
 
-{% facit %}
+{% facit "CSS cascade" %}
 
-CSS cascade-egenskap är det som styr vilken CSS-regel som används.
+CSS cascade, det som styr vilken CSS-regel som används.
 
 Ordningen för det är:
 

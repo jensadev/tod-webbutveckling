@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 En variabel är en behållare för att spara ett värde. En variabel deklareras med ett namn och tilldelas sedan ett värde.
 För att deklarera en variabel i javascript använder du `let` följt av namnet.
 
@@ -31,8 +29,6 @@ I mycket javascript kommer du se variabler deklareras med `var` och `const`. Fö
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare(F12) och välj console.
 
@@ -60,9 +56,7 @@ alert('Oj ' + name + ', ' + birthYear + ' var länge sedan!');
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -72,7 +66,7 @@ Koda i konsollen.
 
 Skapa ett nytt dokument.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

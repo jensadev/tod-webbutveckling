@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Element kan ha attribut(egenskaper). Ett attribut är en egenskap som låter oss skriva
 extra information om ett element, men det syns inte i innehållet.
 
@@ -27,8 +25,6 @@ skrivet mellan enkel- `'...'` eller dubbel-fnuttar `"..."`.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Öppna ett av dina tidigare dokument, index.html.
 
@@ -58,9 +54,7 @@ Skapa ett nytt dokument, navigation.html. Inkludera HTML grundstrukturen.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -70,7 +64,7 @@ Redigera index.html och länka till element.html
 
 Skapa navigation.html
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 
@@ -86,4 +80,5 @@ Kopiera in en bildfil i samma mapp som index.html. Använd `img` för att visa b
 Det går även att länka till bilder med en url.
 
 {% endextra %}
+
 {% enduppgifter %}

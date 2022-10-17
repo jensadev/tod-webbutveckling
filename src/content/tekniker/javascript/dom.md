@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Document Object Model (DOM) är ett objekt som representerar en webbsida.
 
 Det är det interface som du arbetar mot när du skriver javascript för att ändra struktur, stil och innehåll på en webbsida.
@@ -22,8 +20,6 @@ Det är det interface som du arbetar mot när du skriver javascript för att än
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Att introducera, förklara och lära sig DOM och hur javascript arbetar med det är lite för ambitiöst för en sida.
 Detta är en liten titt, läs gärna mer på [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
@@ -53,9 +49,7 @@ instruktioner.classList.add('bg-theme', 'fg-theme'); // lägg till flera klasser
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -65,7 +59,7 @@ Koda i konsollen.
 
 Koda i ett dokument.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

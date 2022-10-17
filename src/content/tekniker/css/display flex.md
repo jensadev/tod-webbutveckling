@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Flexbox är ett layout-system som används med CSS för att styra layouten på en webbplats. I ett element med `display: flex` kan element placeras i valfri ordning.
 
 Elementens ordning kan styras och elementen kan placers i rader eller kolumner.
@@ -23,8 +21,6 @@ Elementens ordning kan styras och elementen kan placers i rader eller kolumner.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Skapa två dokument, flex.html och flex.css. HTML filen ska innehålla den grundläggande HTML strukturen med en länk till .css filen
 
@@ -88,9 +84,7 @@ nav {
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -104,7 +98,7 @@ Testa olika varianter av flex egenskaperna.
 
 Du hittar ytterligare läsning på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout).
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 
@@ -116,7 +110,7 @@ Koda en layout med två kolumner. Den första kolumnen ska innehålla din naviga
 
 {% enduppgifter %}
 
-{% facit %}
+{% facit "Tips" %}
 
 Tänk på att gruppera dina element i containers. För att förstå och kunna skapa bra layouter med kontroll i HTML och CSS så behöver du kunna arbeta med detta.
 Gruppera liknande innehåll för att styra dess position.

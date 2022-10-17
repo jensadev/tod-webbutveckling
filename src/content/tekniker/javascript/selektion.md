@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Ett program behöver kunna göra val. Selektion är kodstruktur som testar om
 uttryck är sant eller falskt.
 Ett vanligt sätt att utföra det är `if` satsen.
@@ -34,8 +32,6 @@ Javascript stöder även switch-satser.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare och koda där.
 
@@ -71,9 +67,7 @@ if (number == guess) {
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -83,7 +77,7 @@ Koda i konsollen.
 
 Koda i ett dokument.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Alla programmeringsspråk har ett antal olika datatyper. Datatyper kan tillsammans utgöra datastrukturer.
 
 Javascript är ett språk som är dynamiskt typat. Dynamiskt typat betyder att en variabel inte är kopplad till en viss datatyp.
@@ -26,8 +24,6 @@ Du behöver därför inte ange en variabels datatyp när du deklarerar den.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Koda först i konsollen och testa.
 
@@ -74,9 +70,7 @@ console.log(bamse[0]);
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -86,7 +80,7 @@ Koda i konsollen.
 
 Skapa ett nytt dokument.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

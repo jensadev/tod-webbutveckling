@@ -9,9 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
-För att öka komplexiteten i en prototyp är det vanliga att använda en mjukvara för detta. [Figma](https://www.figma.com) är ett gratisverktyg för att skapa och redigera prototyper.
+För att öka komplexiteten i en prototyp är det vanliga att använda en mjukvara för detta. [Figma](https://www.figma.com) är ett gratisverktyg (än så länge) som ägs av Adobe för att skapa och redigera prototyper.
 
 ### Tänk på
 
@@ -22,8 +20,6 @@ För att öka komplexiteten i en prototyp är det vanliga att använda en mjukva
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Registrera dig på [Figma](https://www.figma.com).
 Se på följande video för en kort beskrivning av vad Figma är. Videon är en del i playlist om Figma om du vill veta mer.
@@ -44,9 +40,7 @@ Försök återskapa delarna i din skissade prototyp med Figma.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -60,7 +54,7 @@ Testa Figma och titta på instruktionsfilmen.
 
 Testa att skapa din prototyp med Figma.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

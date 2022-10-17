@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Efter att en idé har tagits fram och specificerats så är det efterföljande steget att skapa en prototyp.
 De flesta produkter börjar som en prototyp. Prototypen är en version av produkten under utveckling. Prototypen skapas för att kunna testa och iterera över dess kvaliteter.
 
@@ -28,8 +26,6 @@ Ett exempel på detta är att börja med papper för att sedan använda en mjukv
 
 {% instruktioner %}
 
-## Instruktioner
-
 För den här övningen behöver du A4 papper och en penna.
 
 -   Vik A4 pappret på mitten, vrid sedan pappret 90 grader och vik pappret igen. Resultatet bör vara en rektangel som kan liknas vid en skärm (i liggande format).
@@ -46,9 +42,7 @@ Ta fram en tom sida på pappret och skissa den här gången din idé. Du kan bö
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -61,5 +55,7 @@ Skapa minst en uppsättning skisser för desktop- och mobilformat.
 Skapa en prototyp av din idé.
 
 När den första skissen är klar, gör en annan skiss. Variera dig.
+
+{% endbas %}
 
 {% enduppgifter %}

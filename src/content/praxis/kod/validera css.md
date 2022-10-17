@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Att skriva korrekt och felfri kod är viktigt av flera anledningar. Först och främst
 så påverkar det sidans funktion, men det har även positiva effekter på användbarheten.
 Det är även en bra väg mot att framtidssäkra din webbplats.
@@ -27,8 +25,6 @@ HTML och CSS valideras främst med automatiska verktyg.
 
 {% instruktioner %}
 
-## Instruktioner
-
 För att validera din CSS kod så kan du använda [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
 
@@ -43,9 +39,7 @@ Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -55,7 +49,7 @@ Validera HTML.
 
 Validera CSS.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

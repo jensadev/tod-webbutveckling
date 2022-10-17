@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 En CSS selektor bestämmer vilket eller vilka element som en CSS-regel påverkar. Det finns ett antal olika typer av selektorer.
 
 -   typ (eng. type) selektor, väljer ett element `p`
@@ -28,8 +26,6 @@ Selektorer används även av javascript för att välja element.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Skapa två dokument, `selektorer.html` och en tillhörande css fil.
 HTML filen behöver innehålla den grundläggande HTML strukturen.
@@ -105,9 +101,7 @@ En ingress (eng. lead) är en inledning till en artikel, den kan oftast identifi
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -127,6 +121,8 @@ Skriv CSS-regler för text, rubriker samt paragrafer `h1 h2 p`:
 #### Uppgift 3
 
 Skapa en CSS-regel för `.backto` länken.
+
+{% endbas %}
 
 {% enduppgifter %}
 

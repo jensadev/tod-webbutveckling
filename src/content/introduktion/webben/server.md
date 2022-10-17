@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 En server är det som din webbklient utbyter information med. Det är servern som svarar på anrop
 (requests) från din klient och svarar med data.
 De flesta servrar kan:
@@ -28,8 +26,6 @@ De flesta servrar kan:
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Det finns ett stort antal olika [webbservrar](https://en.wikipedia.org/wiki/Web_server) med olika funktioner och egenskaper.
 Undersök en eller flera av följande webbservrar.
@@ -51,9 +47,7 @@ Undersök en eller flera tjänster.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -65,5 +59,7 @@ Vilken webbserver är den mest använda på nätet idag?
 
 Undersök och läs på om de olika molntjänster du kan använda för att hosta en webbplats.
 Vad skiljer de olika alternativen åt?
+
+{% endbas %}
 
 {% enduppgifter %}

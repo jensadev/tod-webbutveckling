@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Att designa för alla människor oavsett förmåga borde vara en självklarhet. I vissa fall är
 det ett lagkrav, som offentlig verksamhet, men det är långtifrån alla.
 Oavsett vad din webbplats fyller för funktion så tjänar du som alltid på att designa
@@ -26,8 +24,6 @@ för alla, mycket för att det tenderar att förbättra funktionen för just all
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Ladda ned ett eller flera verktyg för att testa användbarhet på webbplatser.
 
@@ -52,9 +48,7 @@ Förbered en kort presentation av dina resultat.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -64,7 +58,7 @@ Ladda ned verktyg.
 
 Testa.
 
-### {% star %}{% star %}
+{% endbas %}
 
 {% extra %}
 

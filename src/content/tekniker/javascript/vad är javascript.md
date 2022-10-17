@@ -10,8 +10,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Javascript är ett programmeringsspråk för webben. Det körs både på klient-sidan (alltså i din webbläsare) och på serversidan.
 Javascript används för att göra webbsidor dynamiska och förbättra dess funktion.
 
@@ -26,8 +24,6 @@ Det här avsnittet kommer att handla om grunderna i javascript och koden kommer 
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 För att prova på javascript kan du använda utvecklarverktygen i webbläsaren.
 
@@ -52,12 +48,12 @@ Kan du hitta någon annan webbplats med ett meddelande likt Facebooks?
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
 Undersök utvecklarverktygen i webbläsaren.
+
+{% endbas %}
 
 {% enduppgifter %}

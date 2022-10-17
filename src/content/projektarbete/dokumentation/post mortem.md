@@ -9,8 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
-## Introduktion
-
 Post Mortem är en dokumentationsform som är populär inom
 [Agilt](https://sv.wikipedia.org/wiki/Agil_systemutveckling) utvecklingsarbete.
 Fokus ligger på att identifiera och analysera dina erfarenheter, både positiva och
@@ -26,8 +24,6 @@ antingen ska undvikas eller upprepas.
 {% endintro %}
 
 {% instruktioner %}
-
-## Instruktioner
 
 Ditt Post Mortem ska innehålla följande delar.
 
@@ -48,9 +44,7 @@ att skriva ditt PM i Markdown.
 
 {% uppgifter %}
 
-## Uppgifter
-
-### {% star %}
+{% bas %}
 
 #### Uppgift 1
 
@@ -59,5 +53,7 @@ Bekanta dig med dokumentationsformen.
 #### Uppgift 2
 
 Dokumentera ditt arbete.
+
+{% endbas %}
 
 {% enduppgifter %}
