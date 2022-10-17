@@ -39,8 +39,8 @@ module.exports = {
     url: process.env.URL || 'http://localhost:8080',
     language: 'sv',
     siteName: 'Webbutveckling',
-    primaryColor: curated[9].primary,
-    secondaryColor: curated[9].secondary,
+    primaryColor: curated[30].primary,
+    secondaryColor: curated[30].secondary,
     siteDescription:
         'Kurssida för webbutveckling. Tekniker, tillgänglighet och projektarbete.',
     courseIntro:
