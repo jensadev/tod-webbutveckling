@@ -42,7 +42,7 @@ Verktygen låter dig komma åt mycket av funktionen för en webbplats men det ka
 
 Kan du hitta någon annan webbplats med ett meddelande som på Facebook?
 
-{% image 'fb-alert.png', 'Facebooks meddelande' %}{.w-revert}
+{% image 'fb-alert.png', 'Facebooks meddelande' %}
 
 {% endinstruktioner %}
 
