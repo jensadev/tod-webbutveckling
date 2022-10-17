@@ -9,17 +9,13 @@ eleventyNavigation:
 
 {% intro %}
 
-Post Mortem är en dokumentationsform som är populär inom
-[Agilt](https://sv.wikipedia.org/wiki/Agil_systemutveckling) utvecklingsarbete.
-Fokus ligger på att identifiera och analysera dina erfarenheter, både positiva och
-negativa. Syftet är att analysera projektet för att komma fram till vad som
-antingen ska undvikas eller upprepas.
+Post Mortem är en dokumentationsform som är populär inom [Agilt](https://sv.wikipedia.org/wiki/Agil_systemutveckling) utvecklingsarbete. Fokus ligger på att identifiera och analysera dina erfarenheter, både positiva och negativa. Syftet är att analysera projektet för att komma fram till vad som antingen ska undvikas eller upprepas i ditt kommande arbete.
 
 ### Tänk på
 
--   Skriv mer än X och Y gick bra eller dåligt, fundera på varför
--   Reflektera över varför och hur det ska kunna upprepas eller undvikas
--   Var konkret
+-   Skriv mer än X och Y gick bra eller dåligt, fundera på varför.
+-   Reflektera över varför och hur det ska kunna upprepas eller undvikas.
+-   Var konkret i dina beskrivningar.
 
 {% endintro %}
 
@@ -28,17 +24,15 @@ antingen ska undvikas eller upprepas.
 Ditt Post Mortem ska innehålla följande delar.
 
 -   Titel
--   Inledning
--   Bakgrund
+-   Inledning: Förklara vad projektet är, vilken teknik som användes och varför.
+-   Bakgrund: Förklara projektets syfte och mål. Vilka problem ska lösas och hur ska det lösas?
 -   Positiva erfarenheter
 -   Negativa erfarenheter
 -   Sammanfattning
 
 Använd gärna bilder för att illustrera och visa vad du skriver om.
 
-Du kan utgå och kopiera den här
-[mallen](https://gist.github.com/jensnti/c377e37ceb4138c4c29c6ab5f5f64c2f) för
-att skriva ditt PM i Markdown.
+Du kan utgå och kopiera den här [mallen](https://gist.github.com/jensnti/c377e37ceb4138c4c29c6ab5f5f64c2f) för att skriva ditt PM i Markdown.
 
 {% endinstruktioner %}
 
@@ -48,11 +42,11 @@ att skriva ditt PM i Markdown.
 
 #### Uppgift 1
 
-Bekanta dig med dokumentationsformen.
+Bekanta dig med dokumentationsformen och dess syfte.
 
 #### Uppgift 2
 
-Dokumentera ditt arbete.
+Använd dig av mallen och skriv ett retrospektivt post mortem för ditt senaste projekt.
 
 {% endbas %}
 
