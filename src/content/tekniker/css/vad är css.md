@@ -9,27 +9,24 @@ eleventyNavigation:
 
 {% intro %}
 
-Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används för
-att skapa stil och layout. CSS kan bland annat användas för att byta färger,
-sätta marginaler och dela upp ditt innehåll.
+Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används för att skapa stil och layout. CSS kan bland annat användas för att byta färger, sätta marginaler och dela upp ditt innehåll.
 
 ### Tänk på
 
--   Filändelsen för CSS-dokument är .css
--   CSS skrivs med regler
--   En regel har en selektor(eng. selector) för att välja vilka(et) element som ska påverkas
--   Alla CSS regler ska öppnas och stängas, det görs med måsvingar `{ ... }`
+-   Filändelsen för CSS-dokument är .css.
+-   CSS skrivs med regler.
+-   En regel har en selektor (eng. selector) för att välja vilka(et) element som ska påverkas av regeln.
+-   Alla CSS regler ska öppnas och stängas, det görs med måsvingar `{ ... }`.
 
 {% endintro %}
 
 {% instruktioner %}
 
-Öppna ett tidigare HTML dokument. Skriv CSS (i HTML-dokumentet) med `<style>` taggen.
-Style taggen skrivs oftast nästlad i `<head>`, men det är inte ett måste.
+Öppna ett tidigare HTML dokument, ```index.html```. Du kan skriva CSS direkt i HTML-dokumentet med `<style>` taggen. Style taggen skrivs oftast nästlad i `<head>`, men det är inte ett måste.
 
 ```html
 <head>
-    ...
+    <!-- tidigare kod -->
     <style>
         h1 {
             color: red;
@@ -52,12 +49,11 @@ p {
 }
 ```
 
-Skapa sedan en länk till stilmallen från ditt HTML-dokument. Detta görs som tidigare
-nästlat i HTML-dokumentets `<head>` tagg.
+Skapa sedan en länk till stilmallen från ditt HTML-dokument. Detta görs som tidigare nästlat i HTML-dokumentets `<head>` tagg.
 
 ```html
 <head>
-    ...
+    <!-- tidigare kod -->
     <link rel="stylesheet" href="style.css" />
 </head>
 ```
@@ -76,20 +72,27 @@ Du kan även skriva CSS inline, det vill säga direkt i taggen.
 
 #### Uppgift 1
 
-Redigera ett HTML-dokument och skriv CSS.
+Redigera ```index.html``` och skriv CSS i med ```<style>``` i dokumentet.
 
 #### Uppgift 2
 
-Skapa ett CSS-dokument och redigera HTML dokumentet.
-Om du fortfarande har kvar style taggen i HTML-dokumentet, vilka stilar används.
+Skapa ett CSS-dokument, kopiera koden. Länka sedan CSS filen från ```index.html```. Ladda om i webbläsaren, vilka stilar är det som används?
 
-Ta bort style taggen från HTML-dokumentet.
+Ta bort style taggen från ```index.html```.
 
 #### Uppgift 3
 
 Prova att skriva CSS inline i HTML-dokumentet.
 
 {% endbas %}
+
+{% extra %}
+
+#### Uppgift 4
+
+Länka ditt CSS-dokument från ett annat HTML-dokument.
+
+{% endextra %}
 
 {% enduppgifter %}
 

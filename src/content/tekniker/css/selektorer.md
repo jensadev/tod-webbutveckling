@@ -11,29 +11,28 @@ eleventyNavigation:
 
 En CSS selektor bestämmer vilket eller vilka element som en CSS-regel påverkar. Det finns ett antal olika typer av selektorer.
 
--   typ (eng. type) selektor, väljer ett element `p`
--   klass (eng. class) selektor, väljer ett element med en specifik klass `.class`
--   id selektor, väljer ett element med en specifik id `#id`
+-   typ (eng. type) selektor, väljer ett element `p`.
+-   klass (eng. class) selektor, väljer ett element med en specifik klass `.class`.
+-   id selektor, väljer ett element med en specifik id `#id`.
 
 Selektorer används även av javascript för att välja element.
 
 ### Tänk på
 
--   Använd främst klass selektorer
--   Selektorer kan kombineras
--   ID selektorer är unika, det vill säga två element kan inte ha samma id
+-   Använd främst klass selektorer ```.class```.
+-   Selektorer kan kombineras ```p.class```.
+-   ID selektorer är unika, det vill säga två element kan inte ha samma id ```#unik```.
+- Ett element kan använda flera klasser, separera dem med ett blanksteg ```<p class="class1 class2">```.
 
 {% endintro %}
 
 {% instruktioner %}
 
-Skapa två dokument, `selektorer.html` och en tillhörande css fil.
-HTML filen behöver innehålla den grundläggande HTML strukturen.
-Lägg sedan till följande.
+Skapa två dokument, `selektorer.html` och en tillhörande css fil. HTML filen behöver innehålla den grundläggande HTML strukturen.
 
 ```html
-<main>
-    <h1 id="#start">Lorem ipsum</h1>
+<main id="main-content">
+    <h1 id="start">Lorem ipsum</h1>
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <p>
         Suspendisse sollicitudin id lacus at tristique. Aenean sem neque, mollis
@@ -65,31 +64,22 @@ Lägg sedan till följande.
 </main>
 ```
 
-Skapa CSS för dokumentet.
-En bra start är att se till att dokumentet är läsbart för alla.
-Detta kan göras med bland annat att centrera innehållet, inte göra det "för brett", håll nere radlängden.
+Skapa ett CSS-dokument, `selektorer.css` och länka till det i HTML dokumentet.
+
+En bra start är att se till att dokumentet är läsbart för alla. Detta kan göras med bland annat att centrera innehållet, inte göra det "för brett", det vill säga begränsa radlängden.
 
 ```css
 body {
-    display: flex;
-    justify-content: center;
+    width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
 
     color: #121212;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-main {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 40rem;
-}
-p {
-    max-width: 60ch;
+    font-family: sans-serif;
+    font-size: 1rem;
 }
 ```
 
-Ett nästa steg efter detta är att arbeta med text, storlek, typsnitt och färg. Skapa en eller flera regler för text.
-En ingress (eng. lead) är en inledning till en artikel, den kan oftast identifieras visuellt.
+Ett nästa steg efter detta är att arbeta med text, storlek, typsnitt och färg. Skapa en eller flera regler för text. En ingress (eng. lead) är en inledning till en artikel, den kan oftast identifieras visuellt.
 
 ```css
 .lead {
@@ -105,28 +95,32 @@ En ingress (eng. lead) är en inledning till en artikel, den kan oftast identifi
 
 #### Uppgift 1
 
-Skapa dokument.
+Skapa `selektorer.html` samt `selektorer.css` och länka samman dem.
 
-Studera koden.
+Studera html koden och identifiera de olika selektorer som kan användas i dokumentet.
 
 #### Uppgift 2
 
-Identifiera och testa olika selektorer.
+Testa olika selektorer i dokumentet.
 Skriv CSS-regler för text, rubriker samt paragrafer `h1 h2 p`:
 
 -   storlek
 -   typsnitt
 -   färg
 
+{% endbas %}
+
+{% extra %}
+
 #### Uppgift 3
 
-Skapa en CSS-regel för `.backto` länken.
+Skapa en CSS-regel för länken med `.backto` klassen.
 
-{% endbas %}
+{% endextra %}
 
 {% enduppgifter %}
 
-{% facit %}
+{% facit "Tips: länkar" %}
 
 Element kan ha olika states. Detta ses framförallt på länkar. Ett state är tillexempel `hover` och state skrivs `regel:state`.
 
