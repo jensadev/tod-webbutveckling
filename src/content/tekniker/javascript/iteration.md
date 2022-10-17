@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Ett program behöver förutom att kunna göra val även kunna upprepa kod. Det är klart att ett program kan skrivas med väldigt mycket upprepning, men i sågott som alla fall är det enklare att skriva en loop som upprepar koden så länge ett eller flera villkor är sanna.
 
-Javascript har tillgång till ett stort antal sätt att iterera kod.
+Javascript har tillgång till ett stort antal sätt att iterera kod. `for` är ett exempel.
 
 ```js
 for (let i = 0; i < 10; i = i + 1) {
@@ -21,12 +21,11 @@ for (let i = 0; i < 10; i = i + 1) {
 
 ### Tänk på
 
--   Att det finns fler sätt att iterera än for-loopen
+-   Att det finns fler sätt att iterera än for-loopen.
 
 {% endintro %}
 
 {% instruktioner %}
-
 
 Fortsätt arbeta med uppgiften från föregående del, [selektion](selektion.html).
 Skapa en loop som låter spelaren gissa tills det rätta svaret är givet.
@@ -34,13 +33,13 @@ Skapa en loop som låter spelaren gissa tills det rätta svaret är givet.
 ```js
 while (number !== guess) {
     let guess = prompt('Kan du gissa på det hemliga numret?');
-    ...
+    // tidigare kod
 }
 ```
 
 En stor del av iteration sker över mer komplexa datatyper, som arrayer. Det går att använda ett fleratal funktioner för att iterera över dessa, men även en variant av for-loopen.
 
-Foreach itererar över varje index i arrayen och skapar en temporär variabel med det nuvarande värdet.
+`foreach` itererar över varje index i en array och skapar en temporär variabel med det nuvarande värdet.
 
 ```js
 const friends = ['Skalman', 'Lille Skutt', 'Bamse', 'Vargen'];
@@ -57,11 +56,11 @@ friends.forEach((friend) => {
 
 #### Uppgift 1
 
-Koda i konsollen.
+Redigera `selektion.html` från föregående del.
 
 #### Uppgift 2
 
-Koda i ett dokument.
+Testa exemplet med `foreach` och skriv ut alla vänner i konsollen.
 
 {% endbas %}
 
