@@ -43,14 +43,20 @@ Bilder är något som kan och ofta tar stor plats, därför är det viktigt att 
 #### Uppgift 1
 
 Öppna bilden för storleksförhållanden i en ny flik (högerklicka på bilden). Zooma in bilden eller spara den.
+Undersök sedan olika bildförhållanden med hjälp av din webbläsare / skrivbordsupplösningar. 
 
 #### Uppgift 2
 
-Använd [Statcounter](https://gs.statcounter.com/) för att undersöka vilken upplösning som är vanligast.
-
-Vilka bildförhållande är vanligast?
+Ta reda på hur många PPI din mobiltelefon har, antalet pixlar och storleken på skärmen. På många telefoner är förhållandet annorlunda än vad som är vanligt på datorer.
 
 {% endbas %}
+
+{% extra %}
+#### Uppgift 3
+
+Ta en bild och undersök hur stor filen blir. Ändra sedan upplösningen på bilden och undersök hur stor filen blir.
+
+{% endextra %}
 
 {% enduppgifter %}
 

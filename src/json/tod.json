@@ -38,25 +38,6 @@
               ]
             },
             {
-              "part": "server",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 2563094276,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 2563094279,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "klient",
               "assignments": [
                 {
@@ -74,8 +55,131 @@
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "server",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 2563094276,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 2563094279,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "theme": "media",
+      "areas": [
+        {
+          "area": "bilder",
+          "parts": [
+            {
+              "part": "bildformat",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3372949248,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3372949251,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3372949250,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "bildoptimering",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3053005275,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3053005272,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3053005273,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "bildstorlek",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 148858203,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 148858200,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "skarmupplosning",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3938542125,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3938542126,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "area": "video",
+          "parts": []
         }
       ]
     },
@@ -98,6 +202,25 @@
               "assignments": []
             },
             {
+              "part": "validera-css",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 1316212991,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 1316212988,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
               "part": "validera-html",
               "assignments": [
                 {
@@ -118,25 +241,6 @@
                   "assignment": "uppgift-3",
                   "id": 1834048803,
                   "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "validera-css",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 1316212991,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 1316212988,
-                  "type": "basic",
                   "completed": false,
                   "date": null
                 }
@@ -186,58 +290,6 @@
         },
         {
           "area": "responsiv-css",
-          "parts": []
-        }
-      ]
-    },
-    {
-      "theme": "media",
-      "areas": [
-        {
-          "area": "bilder",
-          "parts": [
-            {
-              "part": "skarmupplosning",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 3938542125,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 3938542126,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "bildstorlek",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 148858203,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 148858200,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "video",
           "parts": []
         }
       ]
@@ -299,6 +351,25 @@
               ]
             },
             {
+              "part": "prototyper-papper",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 4268589211,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 4268589208,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
               "part": "prototyper-figma",
               "assignments": [
                 {
@@ -326,25 +397,6 @@
                   "assignment": "uppgift-4",
                   "id": 2386563292,
                   "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "prototyper-papper",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 4268589211,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 4268589208,
-                  "type": "basic",
                   "completed": false,
                   "date": null
                 }
@@ -413,32 +465,6 @@
               ]
             },
             {
-              "part": "matt-och-varden",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 3223028752,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 3223028755,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 3223028754,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "selektorer",
               "assignments": [
                 {
@@ -491,6 +517,32 @@
                 {
                   "assignment": "uppgift-4",
                   "id": 2792143604,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "matt-och-varden",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3223028752,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3223028755,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3223028754,
                   "type": "extra",
                   "completed": false,
                   "date": null
@@ -631,6 +683,25 @@
               ]
             },
             {
+              "part": "iteration",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3540741333,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3540741334,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
               "part": "operatorer",
               "assignments": [
                 {
@@ -697,18 +768,11 @@
               ]
             },
             {
-              "part": "iteration",
+              "part": "vad-ar-javascript",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "id": 3540741333,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 3540741334,
+                  "id": 2325845521,
                   "type": "basic",
                   "completed": false,
                   "date": null
@@ -736,18 +800,6 @@
                   "assignment": "uppgift-3",
                   "id": 30077172,
                   "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "vad-ar-javascript",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 2325845521,
-                  "type": "basic",
                   "completed": false,
                   "date": null
                 }
