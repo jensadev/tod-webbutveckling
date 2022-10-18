@@ -9,11 +9,11 @@ eleventyNavigation:
 
 {% intro %}
 
-Optimering är viktigt.
+Optimering av bilder är viktigt.
 
 ### Tänk på
 
-- 
+- Dina användares surfpotter, batteri och prestanda. Du har ett ansvar som utvecklare.
 
 {% endintro %}
 
@@ -39,9 +39,7 @@ Använd dig av bilden du tidigare fotograferat. Sök reda på en eller flera tj�
 
 #### Uppgift 2
 
-Spara bilden i några olika format. Vilka format är lämpliga för olika bilder? Vilka format är lämpliga för olika användningsområden?
-
-Om bilden ska användas som bakgrundsbild eller i ett fotogalleri, vilken kvalitet väljer du?
+Spara bilden i några olika format. Vilka format är lämpliga för olika bilder och användningsområden?
 
 {% endbas %}
 
@@ -50,10 +48,26 @@ Om bilden ska användas som bakgrundsbild eller i ett fotogalleri, vilken kvalit
 #### Uppgift 3
 
 Skapa ett HTML-dokument ```optimering.html```.
-Använd dig av bilden du tidigare fotograferat. Optimera bilden i ett antal olika format, kvalitetsinställningar och storlekar. Lägg sedan in bilden i HTML-dokumentet med hjälp av ```<img>```-elementet.
+Använd dig av bilden du tidigare fotograferat. Optimera bilden i ett antal olika format, kvalitetsinställningar och storlekar. Lägg sedan in bilderna i HTML-dokumentet med hjälp av ```<img>```-elementet.
 
 {% endextra %}
 
 {% enduppgifter %}
+
+{% facit "Tips" %}
+
+Ett rutnät av bilder är ett utmärkt tillfälle att öva på CSS olika display-modeller. Du kan testa att använda `display: flex` i en container som innehåller alla bilder, prova olika inställningar för `flex-wrap` och hur innehållet ska visas.
+
+Du kan även prova att använda dig av `display: grid`. Följande kod ger dig ett rutnät som upprepas med 3 lika stora kolumner.
+
+```css
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+```
+
+{% endfacit %}
 
 
