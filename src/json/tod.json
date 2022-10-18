@@ -6,19 +6,6 @@
       "areas": []
     },
     {
-      "theme": "media",
-      "areas": [
-        {
-          "area": "bilder",
-          "parts": []
-        },
-        {
-          "area": "video",
-          "parts": []
-        }
-      ]
-    },
-    {
       "theme": "introduktion",
       "areas": [
         {
@@ -51,25 +38,6 @@
               ]
             },
             {
-              "part": "klient",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 1681101648,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 1681101651,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "server",
               "assignments": [
                 {
@@ -87,6 +55,25 @@
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "klient",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 1681101648,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 1681101651,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
             }
           ]
         }
@@ -99,11 +86,15 @@
           "area": "kod",
           "parts": [
             {
+              "part": "automatisera",
+              "assignments": []
+            },
+            {
               "part": "linta",
               "assignments": []
             },
             {
-              "part": "automatisera",
+              "part": "stil",
               "assignments": []
             },
             {
@@ -150,10 +141,6 @@
                   "date": null
                 }
               ]
-            },
-            {
-              "part": "stil",
-              "assignments": []
             }
           ]
         },
@@ -187,6 +174,71 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "theme": "responsiv-design",
+      "areas": [
+        {
+          "area": "mobile-first",
+          "parts": []
+        },
+        {
+          "area": "responsiv-css",
+          "parts": []
+        }
+      ]
+    },
+    {
+      "theme": "media",
+      "areas": [
+        {
+          "area": "bilder",
+          "parts": [
+            {
+              "part": "skarmupplosning",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3938542125,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3938542126,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "bildstorlek",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 148858203,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 148858200,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "area": "video",
+          "parts": []
         }
       ]
     },
@@ -299,19 +351,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "theme": "responsiv-design",
-      "areas": [
-        {
-          "area": "mobile-first",
-          "parts": []
-        },
-        {
-          "area": "responsiv-css",
-          "parts": []
         }
       ]
     },
@@ -464,6 +503,32 @@
           "area": "html",
           "parts": [
             {
+              "part": "element",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 2431154290,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 2431154289,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 2431154288,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
               "part": "vad-ar-html",
               "assignments": [
                 {
@@ -502,32 +567,6 @@
                 {
                   "assignment": "uppgift-3",
                   "id": 2153189335,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "element",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 2431154290,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 2431154289,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 2431154288,
                   "type": "extra",
                   "completed": false,
                   "date": null
@@ -586,25 +625,6 @@
                   "assignment": "uppgift-3",
                   "id": 1184300902,
                   "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "iteration",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 3540741333,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 3540741334,
-                  "type": "basic",
                   "completed": false,
                   "date": null
                 }
@@ -677,11 +697,18 @@
               ]
             },
             {
-              "part": "vad-ar-javascript",
+              "part": "iteration",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "id": 2325845521,
+                  "id": 3540741333,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3540741334,
                   "type": "basic",
                   "completed": false,
                   "date": null
@@ -709,6 +736,18 @@
                   "assignment": "uppgift-3",
                   "id": 30077172,
                   "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "vad-ar-javascript",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 2325845521,
+                  "type": "basic",
                   "completed": false,
                   "date": null
                 }
