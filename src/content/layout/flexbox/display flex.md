@@ -2,8 +2,8 @@
 title: Display flex
 eleventyNavigation:
     key: display flex
-    parent: css
-    order: 5
+    parent: flexbox
+    order: 1
     excerpt: Webblayoutens silvertejp.
 ---
 

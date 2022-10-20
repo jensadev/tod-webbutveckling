@@ -37,7 +37,7 @@ För struktur-elementen på sidan, header, main och footer, ska du använda föl
 }
 ```
 
-För `.container` sätt attributen `max-width: 48rem;` och `margin: 0 auto;`.
+För `.container` sätt attributen `min(80ch, 100vw - 2rem);` och `margin-inline: auto;`.
 
 ### Font
 

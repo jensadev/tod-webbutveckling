@@ -1,13 +1,11 @@
 ---
-title: Responsiv CSS
+title: Flexbox
 layout: layouts/theme-area.njk
 category: område
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: responsiv css
-    parent: responsiv design
-    order: 1
+    key: flexbox
+    parent: layout
+    order: 2
     excerpt: Viktigt
 ---
-
-## Området {{ title }} innehåller följande delar
