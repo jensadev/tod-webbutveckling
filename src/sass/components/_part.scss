@@ -1,3 +1,5 @@
+@use "../vars";
+
 .part {
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +8,7 @@
 
     background-color: var(--color-gray-100);
 
-    @media (min-width: 820px) {
+    @media (min-width: vars.$width-mid) {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
@@ -15,6 +17,7 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+        flex-wrap: wrap;
 
         width: 100%;
         padding: 0 var(--step--1);
@@ -22,38 +25,40 @@
 
         border-bottom: var(--border-solid-300);
 
-        @media (min-width: 820px) {
+        @media (min-width: vars.$width-mid) {
             grid-column: span 4 / auto;
         }
-        @media (max-width: 480px) {
-            span {
-                display: none;
-            }
+        > span {
+            padding-bottom: var(--step--4);
         }
     }
 
     &__test {
         width: 100%;
         padding: var(--step--1);
-        @media (min-width: 820px) {
+        @media (min-width: vars.$width-mid) {
             grid-column: span 4 / auto;
         }
     }
 
     &__introduction {
+        width: 100%;
+
         padding: var(--step--1);
         padding-top: 0;
 
-        @media (min-width: 820px) {
+        @media (min-width: vars.$width-mid) {
             grid-column: span 3 / auto;
         }
     }
 
     &__instructions {
+        width: 100%;
+
         padding: var(--step--1);
         padding-top: 0;
 
-        @media (min-width: 820px) {
+        @media (min-width: vars.$width-mid) {
             grid-column: span 3 / auto;
         }
 
@@ -119,6 +124,8 @@
     }
 
     &__assignments {
+        width: 100%;
+
         padding: var(--step--1);
         padding-top: 0;
 
@@ -130,7 +137,7 @@
             fill: var(--color-primary);
         }
 
-        @media (min-width: 820px) {
+        @media (min-width: vars.$width-min) {
             grid-row: 2 / 4;
             grid-column: 4;
 
@@ -155,9 +162,9 @@
             column-span: all;
         }
 
-        @media (min-width: 820px) {
+        @media (min-width: vars.$width-mid) {
             column-count: 2;
-            grid-column: span 4;
+            grid-column: span 4 / auto;
         }
     }
 }

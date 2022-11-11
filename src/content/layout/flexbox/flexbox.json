@@ -1,5 +1,5 @@
 {
-    "tags": "mobile first",
+    "tags": "flexbox",
     "category": "del",
     "layout": "layouts/part.njk",
     "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}/"

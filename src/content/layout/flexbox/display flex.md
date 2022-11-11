@@ -2,8 +2,8 @@
 title: Display flex
 eleventyNavigation:
     key: display flex
-    parent: css
-    order: 5
+    parent: flexbox
+    order: 1
     excerpt: Webblayoutens silvertejp.
 ---
 
@@ -103,7 +103,7 @@ Från tidigare dokument, hämta `.container` klassen. Använd klassen på `<nav>
 
 {% extra %}
 
-#### Uppgift 3
+#### Uppgift 4
 
 Koda en layout med två kolumner. Den första kolumnen ska innehålla din navigation och den andra huvudinnehållet.
 

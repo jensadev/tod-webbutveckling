@@ -8,6 +8,7 @@ const emojiReadTime = require('@11tyrocks/eleventy-plugin-emoji-readtime');
 const fs = require('fs');
 const Image = require('@11ty/eleventy-img');
 const mia = require('markdown-it-attrs');
+const htmlmin = require('html-minifier');
 
 const parseTransform = require('./src/transforms/parse-transform.js');
 
@@ -20,7 +21,7 @@ async function imageShortcode(
     sizes = '(min-width: 30em) 50vw, 100vw'
 ) {
     const metadata = await Image(`./src/images/${src}`, {
-        widths: [300, 600, null],
+        widths: [500, 1000, null],
         outputDir: './dist/img/',
     });
 
@@ -38,7 +39,7 @@ async function imageShortcode(
 }
 
 module.exports = (eleventyConfig) => {
-    eleventyConfig.setDataDeepMerge(true);
+    // eleventyConfig.setDataDeepMerge(true);
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(emojiReadTime, {
@@ -58,7 +59,9 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy({
         './src/assets/favicon.ico': '/favicon.ico',
     });
-    eleventyConfig.addPassthroughCopy({ './src/assets/icons': 'icons' });
+    eleventyConfig.addPassthroughCopy('./src/assets/icons');
+    eleventyConfig.addPassthroughCopy('./src/manifest.json');
+    eleventyConfig.addPassthroughCopy('./src/service-worker.js');
 
     // Filters
     glob.sync(['src/filters/*.js']).forEach((file) => {
@@ -151,6 +154,20 @@ module.exports = (eleventyConfig) => {
 
     // Transforms
     eleventyConfig.addTransform('parse', parseTransform);
+
+    // Minify
+    eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
+        if (outputPath.indexOf('.html') > -1) {
+            let minified = htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true,
+                minifyCSS: true,
+            });
+            return minified;
+        }
+        return content;
+    });
 
     return {
         markdownTemplateEngine: 'njk',
