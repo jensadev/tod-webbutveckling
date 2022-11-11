@@ -1,7 +1,7 @@
 {
-    "name": "Tema, område, del",
+    "name": "Webbutveckling",
     "short_name": "TOD",
-    "description": "App för kurswebbar med Tema, område, del",
+    "description": "App för Webbutveckling med Tema, område, del",
     "icons": [
         {
             "src": "/assets/icons/48.png",
@@ -37,7 +37,7 @@
     "lang": "sv",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#e0e0e0",
-    "theme_color": "#484172",
+    "background_color": "#fafafa",
+    "theme_color": "#087b9d",
     "scope": "/"
 }
