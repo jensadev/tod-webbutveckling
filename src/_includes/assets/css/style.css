@@ -105,8 +105,8 @@ select {
     scroll-behavior: auto;
   }
   *,
-  *::before,
-  *::after {
+*::before,
+*::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
@@ -118,12 +118,12 @@ select {
   Modify colors in src/_theme/color-tokens.js
  */
 :root {
-  --color-primary: #484172;
-  --color-on-primary: #B6B2CF;
-  --color-primary--light: #5d5492;
-  --color-primary--dark: #332e52;
-  --color-on-primary--light: #d4d1e3;
-  --color-on-primary--dark: #9893bb;
+  --color-primary: #087b9d;
+  --color-on-primary: #EEF9FC;
+  --color-primary--light: #0aa1ce;
+  --color-primary--dark: #06556c;
+  --color-on-primary--light: white;
+  --color-on-primary--dark: #c3eaf4;
   --color-white: hsl(0deg, 0%, 98%);
   --color-gray-100: hsl(0deg, 0%, 96%);
   --color-gray-200: hsl(0deg, 0%, 93%);
@@ -368,7 +368,10 @@ a[href].header-anchor:focus:visited {
   }
 }
 @media (max-width: 640px) {
-  .breadcrumb__item:nth-child(-n+2) {
+  .breadcrumb__item:nth-child(2) {
+    display: none;
+  }
+  .breadcrumb__item:nth-child(3) {
     display: none;
   }
 }
