@@ -80,11 +80,102 @@
       ]
     },
     {
+      "theme": "layout",
+      "areas": [
+        {
+          "area": "flexbox",
+          "parts": [
+            {
+              "part": "display-flex",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 995728840,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 995728843,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgifter-3",
+                  "id": 2014433021,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 995728842,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "area": "grid",
+          "parts": [
+            {
+              "part": "display-grid",
+              "assignments": []
+            }
+          ]
+        },
+        {
+          "area": "responsive-design",
+          "parts": [
+            {
+              "part": "media-queries",
+              "assignments": []
+            },
+            {
+              "part": "mobile-first",
+              "assignments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "theme": "media",
       "areas": [
         {
           "area": "bilder",
           "parts": [
+            {
+              "part": "bildformat",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3372949248,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3372949251,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3372949250,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
             {
               "part": "bildoptimering",
               "assignments": [
@@ -148,32 +239,6 @@
                   "date": null
                 }
               ]
-            },
-            {
-              "part": "bildformat",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 3372949248,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 3372949251,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 3372949250,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
             }
           ]
         },
@@ -195,10 +260,6 @@
             },
             {
               "part": "linta",
-              "assignments": []
-            },
-            {
-              "part": "stil",
               "assignments": []
             },
             {
@@ -245,6 +306,10 @@
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "stil",
+              "assignments": []
             }
           ]
         },
@@ -288,6 +353,10 @@
           "area": "dokumentation",
           "parts": [
             {
+              "part": "commits",
+              "assignments": []
+            },
+            {
               "part": "post-mortem",
               "assignments": [
                 {
@@ -305,10 +374,6 @@
                   "date": null
                 }
               ]
-            },
-            {
-              "part": "commits",
-              "assignments": []
             }
           ]
         },
@@ -398,76 +463,30 @@
       ]
     },
     {
-      "theme": "layout",
+      "theme": "tekniker",
       "areas": [
         {
-          "area": "flexbox",
+          "area": "css",
           "parts": [
             {
-              "part": "display-flex",
+              "part": "box-model",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "id": 995728840,
+                  "id": 3091451717,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "id": 995728843,
+                  "id": 3091451718,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgifter-3",
-                  "id": 2014433021,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 995728842,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
               ]
-            }
-          ]
-        },
-        {
-          "area": "grid",
-          "parts": [
-            {
-              "part": "display-grid",
-              "assignments": []
-            }
-          ]
-        },
-        {
-          "area": "responsive-design",
-          "parts": [
-            {
-              "part": "mobile-first",
-              "assignments": []
             },
-            {
-              "part": "media-queries",
-              "assignments": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "tekniker",
-      "areas": [
-        {
-          "area": "css",
-          "parts": [
             {
               "part": "matt-och-varden",
               "assignments": [
@@ -528,25 +547,6 @@
               ]
             },
             {
-              "part": "box-model",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 3091451717,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 3091451718,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "selektorer",
               "assignments": [
                 {
@@ -577,6 +577,32 @@
         {
           "area": "html",
           "parts": [
+            {
+              "part": "attribut",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 2153189333,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 2153189334,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 2153189335,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
             {
               "part": "element",
               "assignments": [
@@ -621,57 +647,12 @@
                   "date": null
                 }
               ]
-            },
-            {
-              "part": "attribut",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 2153189333,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 2153189334,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 2153189335,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
             }
           ]
         },
         {
           "area": "javascript",
           "parts": [
-            {
-              "part": "iteration",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "id": 3540741333,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "id": 3540741334,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
             {
               "part": "datatyper",
               "assignments": [
@@ -693,6 +674,25 @@
                   "assignment": "uppgift-3",
                   "id": 4077775834,
                   "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "iteration",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 3540741333,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 3540741334,
+                  "type": "basic",
                   "completed": false,
                   "date": null
                 }

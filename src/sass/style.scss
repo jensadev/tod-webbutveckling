@@ -5,6 +5,9 @@
 @use "utilities";
 
 body {
+    display: flex;
+    flex-direction: column;
+
     color: var(--color-gray-900);
     background-color: var(--color-gray-200);
 }
@@ -42,14 +45,15 @@ main {
     display: none;
 }
 
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 li.test{
     font-weight: 700;
 }
 
 .icon {
     font-size: var(--step-1);
-}
-
-.w-revert * {
-    width: revert !important;
 }

@@ -48,6 +48,6 @@ module.exports = {
     author: {
         name: 'Jens Andreasson',
         email: 'jens.andreasson@ntig.se',
-        url: 'https://jensa.xyz',
+        url: 'https://jensa.dev',
     },
 };

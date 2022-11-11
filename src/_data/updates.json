@@ -1,6 +1,18 @@
 {
     "items": [
         {
+            "text": "📝 Innehållsuppdatering, ändrad struktur.",
+            "date": "2022-11-11"
+        },
+        {
+            "text": "📝 Anteckningsfunktion för delar.",
+            "date": "2022-11-11"
+        },
+        {
+            "text": "🔽 PWA stöd. Du kan nu installera Webbutveckling som en app.",
+            "date": "2022-11-11"
+        },
+        {
             "text": "📄 Temat Media har nu innehåll i området Bilder.",
             "date": "2022-10-18"
         },
