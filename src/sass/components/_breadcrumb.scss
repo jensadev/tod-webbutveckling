@@ -17,7 +17,10 @@
 
     &__item {
         @media (max-width: vars.$width-mid) {
-            &:nth-child(n+2) {
+            &:nth-child(2) {
+                display: none;
+            }
+            &:nth-child(3) {
                 display: none;
             }
         }
