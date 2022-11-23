@@ -13,7 +13,7 @@ Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används
 
 ### Tänk på
 
--   Filändelsen för CSS-dokument är .css.
+-   Filändelsen för CSS-dokument är `.css`.
 -   CSS skrivs med regler.
 -   En regel har en selektor (eng. selector) för att välja vilka(et) element som ska påverkas av regeln.
 -   Alla CSS regler ska öppnas och stängas, det görs med måsvingar `{ ... }`.
@@ -49,7 +49,7 @@ p {
 }
 ```
 
-Skapa sedan en länk till stilmallen från ditt HTML-dokument. Detta görs som tidigare nästlat i HTML-dokumentets `<head>` tagg.
+Skapa sedan en länk till stilmallen från ditt HTML-dokument. Detta görs som tidigare nästlat i HTML-dokumentets `<head>` tagg. Glöm inte att ta bort style taggen från HTML-dokumentet.
 
 ```html
 <head>
@@ -72,17 +72,11 @@ Du kan även skriva CSS inline, det vill säga direkt i taggen.
 
 #### Uppgift 1
 
-Redigera ```index.html``` och skriv CSS i med ```<style>``` i dokumentet.
+Vad betyder CSS, vad är det och vad används det till?
 
 #### Uppgift 2
 
-Skapa ett CSS-dokument, kopiera koden. Länka sedan CSS filen från ```index.html```. Ladda om i webbläsaren, vilka stilar är det som används?
-
-Ta bort style taggen från ```index.html```.
-
-#### Uppgift 3
-
-Prova att skriva CSS inline i HTML-dokumentet.
+Vilka olika sätt finns det att skriva CSS på?
 
 {% endbas %}
 
@@ -90,7 +84,9 @@ Prova att skriva CSS inline i HTML-dokumentet.
 
 #### Uppgift 4
 
-Länka ditt CSS-dokument från ett annat HTML-dokument.
+För CSS är det viktigt i vilken ordning de olika reglera skrivs. Det kallas för cascade (en del av namnet).
+
+Vilka regler har högst prioritet?
 
 {% endextra %}
 
