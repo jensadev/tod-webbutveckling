@@ -9,7 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-En server är det som din webbklient utbyter information med. Det är en webb-server som svarar på anrop (requests) från din klient och svarar med data (HTML, CSS, bilder och så vidare).
+En server är det som din klient utbyter information med. Det är en webb-server som svarar på anrop (requests) från din klient och svarar med data (HTML, CSS, bilder och så vidare).
 
 De flesta servrar kan:
 
@@ -19,9 +19,8 @@ De flesta servrar kan:
 
 ### Tänk på
 
--   En server identifieras med en domän, se delen om [adresser](adresser.html).
--  En server kan ha flera domäner och tjänster.
-
+- En server identifieras med en domän, se delen om [adresser](adresser.html).
+- En server kan ha flera domäner och tjänster.
 
 {% endintro %}
 
@@ -33,13 +32,16 @@ Det finns ett stort antal olika [webbservrar](https://en.wikipedia.org/wiki/Web_
 -   [nginx](https://nginx.org/)
 -   [IIS](https://www.iis.net/)
 
-De senaste åren har molntjänster kommit att ersätta de traditionella webbservrarna mer och mer.
+Undersök en eller flera webbservrar. Jämför dem, kan du hitta något som skiljer dem åt? Vilken webbserver är den mest använda på nätet idag?
+
+De senaste åren har molntjänster kommit att ersätta de traditionella webbservrarna mer och mer. Här är några exempel på molntjänster:
 
 - [GitHub Pages](https://pages.github.com/)
 - [Netlify](https://www.netlify.com/)
 - [Glitch](https://glitch.com/)
 - [Vercel](https://vercel.com/)
 
+Undersök och läs på om de olika molntjänster du kan använda för att hosta en webbplats. Vad skiljer de olika alternativen åt?
 
 {% endinstruktioner %}
 
@@ -49,15 +51,22 @@ De senaste åren har molntjänster kommit att ersätta de traditionella webbserv
 
 #### Uppgift 1
 
-Undersök och läs på om de olika webbservrarna. Jämför dem, vad skiljer dem åt?
-
-Vilken webbserver är den mest använda på nätet idag?
+Vad är en webbserver? Hur kan du använda en webbserver?
 
 #### Uppgift 2
 
-Undersök och läs på om de olika molntjänster du kan använda för att hosta en webbplats.
-Vad skiljer de olika alternativen åt?
+Vad är en molntjänst och hur används de?
 
 {% endbas %}
+
+{% extra %}
+
+#### Uppgift 3
+
+Vilka skillnader kan du se mellan en traditionell webbserver och en molntjänst?
+
+Försök hitta fördelar och nackdelar.
+
+{% endextra %}
 
 {% enduppgifter %}

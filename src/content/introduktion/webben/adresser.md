@@ -25,13 +25,19 @@ En URL består av flera delar. Läs det du behöver från Wikipedia artikeln om 
 
 Ditt mål är att förstå och känna igen de olika delarna:
 
--   Protokoll
+-   Protokoll:
     -   http, Hypertext Transfer Protocol 🔓
     -   https, Hypertext Transfer Protocol Secure 🔒
--   Hur en domän ser ut
--   Vilken resurs du hämtar
+-   Vilken del är en domän i en URL?
+-   Vilken resurs du hämtar från domänen
 -   Fragment, eller ankare som skrivs med #
 -   Query parametrar, som skrivs efter adressen med `?parameter=värde`
+
+Studera sedan den här webbplatsens URL i adressfältet på din webbläsare, vilka delar kan du identifiera?
+
+Hur används ankare på den här webbplatsen? Prova att sätta muspekaren över de olika rubrikerna. Vad händer när du klickar på en sådan länk?
+
+Besök youtube, klicka på ett klipp och studera den URL som visas i adressfältet på din webbläsare. Om du vill så testa sedan att använda en query-parameter på den här webbsidan, vad sker då?
 
 {% endinstruktioner %}
 
@@ -41,27 +47,41 @@ Ditt mål är att förstå och känna igen de olika delarna:
 
 #### Uppgift 1
 
-Studera den här webbplatsens URL i adressfältet på din webbläsare, vilka delar kan du identifiera.
+Vad är ett protokoll och vad är skillnaden mellan http och https?
 
 #### Uppgift 2
 
-Hur används ankare på den här webbplatsen? Prova att sätta muspekaren över de olika rubrikerna.
+Vad är en domän och en resurs?
 
-Vad händer när du klickar på en sådan länk?
+#### Uppgift 3
+
+Vad är ett fragment och vad används det till?
+
+#### Uppgift 4
+
+Vad är en query parameter och vad används det till?
 
 {% endbas %}
 
 {% extra %}
 
-#### Uppgift 3
+#### Uppgift 5
 
-Besök youtube, klicka på ett klipp och studera dess URL.
-
-Vad händer om du använder en query-parameter på den här webbsidan?
+Hur går det till att registrera en domän?
 
 {% endextra %}
 
 {% enduppgifter %}
+
+{% facit "Extra" %}
+
+Domäner behöver registreras för att de ska fungera. Förenklat så går det till så att du betalar en domänregister för att få en domän. Domänen registreras sedan i en databas som alla datorer som är anslutna till internet kan söka i. När en dator söker efter en domän så får den tillbaka en IP-adress som den kan använda för att kommunicera med den domänen.
+
+Du kan prova att söka efter en domän att registrera på [Internetstiftelsen](https://internetstiftelsen.se/domaner/). För andra domäner så kan du använda [Name.com](https://name.com).
+
+
+{% endfacit %}
+
 
 <script>
     window.addEventListener('DOMContentLoaded', () => {
