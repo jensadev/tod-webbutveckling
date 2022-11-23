@@ -9,7 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-Element kan ha attribut(egenskaper). Ett attribut är en egenskap som låter oss skriva extra information om ett element.
+Element kan ha attribut (egenskaper). Ett attribut är en egenskap som låter oss skriva extra information om ett element.
 
 Ett attribut skrivs med ett namn, följt av ett likhetstecken. Efter det följer attributets värde skrivet mellan enkel- `'...'` eller dubbel-fnuttar `"..."`.
 
@@ -24,7 +24,7 @@ Ett attribut skrivs med ett namn, följt av ett likhetstecken. Efter det följer
 
 {% instruktioner %}
 
-Skapa ett nytt dokument, ```attribut.html``` med korrekt grundstruktur.
+Skapa ett nytt dokument, ```attribut.html``` med korrekt HTML-grundstruktur.
 
 ```html
 <p>
@@ -38,7 +38,7 @@ Skapa ett nytt dokument, ```attribut.html``` med korrekt grundstruktur.
 <p>Det går även att länka till dina andra webbsidor, var noga med sökvägen.</p>
 ```
 
-Redigera dina tidigare dokument, ```index.html```, ```element.html``` och ```attribut.html```.
+Redigera dina tidigare dokument, ```index.html```, ```element.html``` och ```attribut.html```. Se till att dokumenten ligger i samma mapp.
 
 ```html
 <ul>
@@ -56,10 +56,10 @@ Redigera dina tidigare dokument, ```index.html```, ```element.html``` och ```att
 
 #### Uppgift 1
 
-Skapa ```attribut.html``` och skriv av koden.
+Vad är ett attribut och vad används det till?
 #### Uppgift 2
 
-Redigera dina HTML-sidor och inkludera navigationen i samtliga.
+Vilka delar består ett attribut av? Ge ett exempel.
 
 {% endbas %}
 
@@ -67,15 +67,20 @@ Redigera dina HTML-sidor och inkludera navigationen i samtliga.
 
 #### Uppgift 3
 
-Använd `<img>` elementet i index.html.
-`<img src="fil.typ">` använder `src` attributet för att peka till en
-bild. Likt `href` attributet så är det viktigt att sökvägen är korrekt
-om det är en lokal fil.
+Hur används attribut för att peka till andra filer?
 
-Kopiera in en bildfil i samma mapp som index.html. Använd `img` för att visa bilden på index.html.
-
-Det går även att länka till bilder med en url.
+Jämför `<a>` element och `<img>` element.
 
 {% endextra %}
 
 {% enduppgifter %}
+
+{% facit "Extra" %}
+
+Använd `<img>` elementet i index.html. `<img src="fil.typ">` använder `src` attributet för att peka till en bild. Likt `href` attributet så är det viktigt att sökvägen är korrekt om det är en lokal fil.
+
+Kopiera in en bildfil i samma mapp som index.html. Använd sedan `<img>` taggen för att visa bilden på index.html.
+
+Det går även att länka till bilder med en URL.
+
+{% endfacit %}

@@ -66,11 +66,11 @@ Redigera filen, byt språk och titel.
 
 #### Uppgift 1
 
-Skapa ```index.html```.
+Vad är HTML för typ av språk och hur skrivs det?
 
 #### Uppgift 2
 
-Redigera innehållet i ```index.html```.
+Varför ska du använda små bokstäver i filnamn och undvika specialtecken?
 
 {% endbas %}
 

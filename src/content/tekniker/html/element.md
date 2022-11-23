@@ -9,9 +9,12 @@ eleventyNavigation:
 
 {% intro %}
 
-HTML består av element. Element märks upp med taggar som berättar för webbläsaren vilken sorts innehåll det är.
+HTML består av element. Element märks upp med `<taggar>` som berättar för webbläsaren vilken sorts innehåll det är.
 
-Ett HTML element har tre delar. En öppningstag `<p>` innehåll och en stängnings tag `</p>`.
+En HTML tagg består av tre delar:
+- En öppningstagg `<p>`
+- Det innehåll som kommer mellan öppnings- och stängningstaggarna
+- En stängningstagg `</p>`
 
 Ett HTML element kan innehålla andra element, det kallas för nästlade element.
 
@@ -44,7 +47,7 @@ Skapa ett nytt dokument, element.html.
 <p>Det finns ett 140 tal olika taggar, leta reda på någon och prova!</p>
 ```
 
-Fortsätt redigera i dokumentet.
+Redigera dokumentet element.html och gör följande ändringar.
 
 ```html
 <p>Prova att skapa en punktlista.</p>
@@ -63,11 +66,11 @@ Fortsätt redigera i dokumentet.
 
 #### Uppgift 1
 
-Skapa ```element.html``` med koden.
+Vad är ett HTML element?
 
 #### Uppgift 2
 
-Redigera ```element.html``` och skriv en punktlista över dina 5 favoritdjur.
+Vilka tre delar har en HTML tagg?
 
 {% endbas %}
 
@@ -75,8 +78,18 @@ Redigera ```element.html``` och skriv en punktlista över dina 5 favoritdjur.
 
 #### Uppgift 3
 
-Skapa en ordnad lista över dina favoritfilmer (1-5) i ```element.html```. Taggen för en ordnad lista är [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
+Vad skiljer ett `ol` från ett `ul` element?
+
+Varför är det semantiskt viktigt att använda rätt tagg?
 
 {% endextra %}
 
 {% enduppgifter %}
+
+{% facit "Extra" %}
+
+Redigera ```element.html``` och skriv en punktlista över dina 5 favoritnånting. Du kan använda dig av [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) för att skapa en ordnad lista.
+
+Ett elements semantik är viktig för att webbläsaren ska kunna tolka innehållet på rätt sätt. Det är viktigt att använda rätt tagg för att skapa en lista, så att webbläsaren kan tolka innehållet som rätt typ av lista. Du kan läsa mer om  [semantik på MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics).
+
+{% endfacit %}
