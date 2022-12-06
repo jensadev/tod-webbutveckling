@@ -9,7 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-För att skapa en webbplats med CSS så krävs det ett antal måttenheter. Flera av måtten grundar sig i pixlar. Måtten behövs för att bestämma storleken på allt från fonter, bilder och layouter.
+För att skapa en webbplats med CSS så kommer du med största sannolikhet behöva använda ett antal måttenheter. Flera av måtten grundar sig i pixlar. Måtten behövs för att bestämma storleken på allt från fonter, bilder och layouter.
 Vanliga måttenheter är:
 
 -   px (pixlar)
@@ -21,8 +21,9 @@ Vanliga måttenheter är:
 
 ### Tänk på
 
--   Måttenheter är relativa och inte absoluta.
--   Måttenheter är relativa till en annan måttenhet, det vill säga ett annat element.
+-   Måttenheter kan vara relativa eller absoluta.
+-   Relativa måttenheter är relativa till något annat, exempelvis bredden på ett element.
+-   Absoluta måttenheter är alltid lika, exempelvis `16px` är alltid lika med `16px`.
 - Inline element kan inte ha en höjd eller bredd, så dessa måttenheter fungerar inte på dessa element.
 
 {% endintro %}
@@ -57,6 +58,12 @@ I det tillhörande CSS dokumentet ska följande regler skapas:
     -   `p`, `font-size: 1rem;`
     -   `li`, `font-size: 1em;`
 
+Undersök ditt dokument i webbläsaren, hur ser det ut?
+Öppna utvecklarverktyget i Chrome och sök reda på Styles >> Computed.
+Hur har webbläsaren räknat ut måttenheterna?
+
+Öppna din webbläsares inställningar. Prova att ändra webbläsarens standard-storlek för typsnitt, hur påverkas sidan? Vilka mått påverkas?
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -65,16 +72,10 @@ I det tillhörande CSS dokumentet ska följande regler skapas:
 
 #### Uppgift 1
 
-Skapa dokumenten och skriv koden.
-
-Öppna utvecklarverktyget i Chrome och sök reda på Styles>Computed.
-Hur har webbläsaren räknat ut måttenheterna?
-
+Ge exempel på tre måttenheter
 #### Uppgift 2
 
-Applicera ```container``` klassen på `main` elementet.
-
-Testa att ändra storleksmåtten på elementen. Vad händer?
+Vad är skillnaden på en absolut och en relativ måttenhet?
 
 {% endbas %}
 
@@ -82,9 +83,7 @@ Testa att ändra storleksmåtten på elementen. Vad händer?
 
 #### Uppgift 3
 
-Vad händer om du ändrar font storleken på body elementet.
-
-Prova att ändra webbläsarens font storlek, det finns i settings, hur påverkas sidan?
+Vad är skillnaden på `em` och `rem`?
 
 {% endextra %}
 
