@@ -9,13 +9,11 @@ eleventyNavigation:
 
 {% intro %}
 
-En CSS selektor bestämmer vilket eller vilka element som en CSS-regel påverkar. Det finns ett antal olika typer av selektorer.
+En CSS-selektor bestämmer vilket eller vilka element som en CSS-regel påverkar. Det finns ett antal olika typer av selektorer.
 
 -   typ (eng. type) selektor, väljer ett element `p`.
 -   klass (eng. class) selektor, väljer ett element med en specifik klass `.class`.
 -   id selektor, väljer ett element med en specifik id `#id`.
-
-Selektorer används även av javascript för att välja element.
 
 ### Tänk på
 
@@ -28,7 +26,9 @@ Selektorer används även av javascript för att välja element.
 
 {% instruktioner %}
 
-Skapa två dokument, `selektorer.html` och en tillhörande css fil. HTML filen behöver innehålla den grundläggande HTML strukturen.
+Skapa två dokument, `selektorer.html` och en tillhörande css fil, ```selektorer.css```. HTML filen behöver innehålla den grundläggande HTML strukturen och en länk till CSS-dokumentet.
+
+Skriv följande HTML i dokumentet.
 
 ```html
 <main id="main-content">
@@ -40,11 +40,6 @@ Skapa två dokument, `selektorer.html` och en tillhörande css fil. HTML filen b
         risus lectus, porttitor vitae aliquam in, laoreet eget sem. Morbi mollis
         efficitur rhoncus. Fusce dapibus orci vitae est ullamcorper viverra.
         Aenean a neque elit.
-    </p>
-    <p>
-        Vestibulum tristique luctus tellus non porttitor. Morbi a nibh non odio
-        tincidunt mattis eu laoreet lectus. Interdum et malesuada fames ac ante
-        ipsum primis in faucibus.
     </p>
     <h2>Vivamus sed</h2>
     <p>
@@ -64,24 +59,31 @@ Skapa två dokument, `selektorer.html` och en tillhörande css fil. HTML filen b
 </main>
 ```
 
-Skapa ett CSS-dokument, `selektorer.css` och länka till det i HTML dokumentet.
-
 En bra start är att se till att dokumentet är läsbart för alla. Detta kan göras med bland annat att centrera innehållet, inte göra det "för brett", det vill säga begränsa radlängden.
+
+Skriv de två följande CSS reglerna i dokumentet. De använder typ selektorer och heter `body` och `main`.
+
+- `body` regeln sätter färg, typsnitt och storlek på text.
+- `main` regeln begränsar innehållets bredd och centrerar det.
 
 ```css
 body {
-    width: min(80ch, 100vw - 2rem);
-    margin-inline: auto;
-
     color: #121212;
     font-family: sans-serif;
     font-size: 1rem;
 }
+main {
+    width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
 ```
 
-Ett nästa steg efter detta är att arbeta med text, storlek, typsnitt och färg. Skapa en eller flera regler för text. En ingress (eng. lead) är en inledning till en artikel, den kan oftast identifieras visuellt.
+Du har nu en start för en layout. Fortsätt med att skapa fler regler. Använd dig av egenskaperna `color` och `font-size`. Skapa regler för `h1`-elementet samt använd klassen `.lead`. Lead är engelska för ingress och det är en inledning till en text. En ingress kan oftast identifieras visuellt.
 
 ```css
+h1 {
+    // ...
+}
 .lead {
     font-size: 1.4rem;
 }
@@ -95,26 +97,23 @@ Ett nästa steg efter detta är att arbeta med text, storlek, typsnitt och färg
 
 #### Uppgift 1
 
-Skapa `selektorer.html` samt `selektorer.css` och länka samman dem.
-
-Studera html koden och identifiera de olika selektorer som kan användas i dokumentet.
+Vad är en selektor?
 
 #### Uppgift 2
 
-Testa olika selektorer i dokumentet.
-Skriv CSS-regler för text, rubriker samt paragrafer `h1 h2 p`:
+Ge exempel på två eller fler olika typer av selektorer.
 
--   storlek
--   typsnitt
--   färg
+#### Uppgift 3
+
+Hur kan du använda flera css regler för ett element?
 
 {% endbas %}
 
 {% extra %}
 
-#### Uppgift 3
+#### Uppgift 4
 
-Skapa en CSS-regel för länken med `.backto` klassen.
+Vad kan du använda pseudo-klasser till?
 
 {% endextra %}
 
@@ -122,7 +121,7 @@ Skapa en CSS-regel för länken med `.backto` klassen.
 
 {% facit "Tips: länkar" %}
 
-Element kan ha olika states. Detta ses framförallt på länkar. Ett state är tillexempel `hover` och state skrivs `regel:state`.
+Element kan ha olika states. Detta ses framförallt på länkar. Ett state är tillexempel `hover` och state skrivs `regel:state`. Detta kallas för pseudo-klasser (eng. pseudo-classes).
 
 ```css
 a {
@@ -133,5 +132,9 @@ a:hover {
     color: blue;
 }
 ```
+
+Använd `:hover` för att skapa en stil för `.backto` länken.
+
+Det finns väldigt många fler pseudo-klasser. På [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) hittar du en lista.
 
 {% endfacit %}
