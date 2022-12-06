@@ -10,7 +10,7 @@ eleventyNavigation:
 {% intro %}
 
 Med klient menas som oftast din webbläsare. Du är en användare som använder en
-klient för att konsumera webbinnehåll. I den här kursen så ligger fokus på det som kallas front end tekniker. Med front end så menas det du ser / som sker i din webbläsare.
+klient för att konsumera webbinnehåll. I den här kursen så ligger fokus på det som kallas front-end tekniker. Med front-end så menas det du ser / som sker i din webbläsare.
 
 ### Tänk på
 
@@ -22,16 +22,21 @@ klient för att konsumera webbinnehåll. I den här kursen så ligger fokus på 
 
 {% instruktioner %}
 
-För att utföra uppgifterna behöver du testa ett antal olika klienter. Exempel på klienter är:
+I den här delen ska du prova på att använda en eller flera klienter. Exempel på klienter är:
 
--   Webbläsare på dator.
--   Webbläsare på mobiltelefon.
--   [curl](https://curl.se/)
--   Skärmläsare, du kan testa [Chromes inbyggda](https://support.google.com/accessibility/answer/7031755?hl=en).
-- Skärmläsare, [Chrome tillägg](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn).
--   [Lynx](https://lynx.invisible-island.net/), enklast om du har tillgång till Linux (installera då med APT).
+-   Webbläsare på dator
+-   Webbläsare på mobiltelefon
+-   Command line (CLI) verktyg, [curl](https://curl.se/)
+-   Skärmläsare:
+    - [Chromes inbyggda](https://support.google.com/accessibility/answer/7031755?hl=en)
+    - [Chrome tillägg](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn)
+-   Terminal/text webbläsare, [Lynx](https://lynx.invisible-island.net/)
+
+Välj någon klient att testa, surfa till en eller flera webbplattser. Prova sedan en skärmläsare för att lyssna på en webbplats, klarar du att navigera med tangentbordet när du blundar?
 
 Du kan även använda utvecklarläget i din webbläsare (F12 / CTRL + SHIFT + i / meny) för att testa olika klienter. Verktygen låter dig emulera olika enheter och olika nätverk.
+
+{% image "device-toolbar.png", "Utvecklarverktyg, enhetsverktyg i Chrome" %}
 
 {% endinstruktioner %}
 
@@ -41,14 +46,13 @@ Du kan även använda utvecklarläget i din webbläsare (F12 / CTRL + SHIFT + i 
 
 #### Uppgift 1
 
-Testa en eller flera klienter utifrån instruktionerna. Prova en skärmläsare för att lyssna på en webbplats, klarar du att navigera med tangentbordet när du blundar?
+Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?
 
 #### Uppgift 2
 
-Testa utvecklarverktygen i din webbläsare (F12 / CTRL + SHIFT + i / meny).
-Hitta enhetsverktygen och testa att emulera olika enheter. Vad händer med webbplatsen när du ändrar storlek på fönstret?
+Hur fungerar utvecklarverktygen i din webbläsare?
 
-Jämför en eller flera webbsidor med olika klienter.
+Vad kan du göra med utvecklarverktygen?
 
 {% endbas %}
 

@@ -13,7 +13,7 @@ Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används
 
 ### Tänk på
 
--   Filändelsen för CSS-dokument är .css.
+-   Filändelsen för CSS-dokument är `.css`.
 -   CSS skrivs med regler.
 -   En regel har en selektor (eng. selector) för att välja vilka(et) element som ska påverkas av regeln.
 -   Alla CSS regler ska öppnas och stängas, det görs med måsvingar `{ ... }`.
@@ -22,7 +22,7 @@ Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används
 
 {% instruktioner %}
 
-Öppna ett tidigare HTML dokument, ```index.html```. Du kan skriva CSS direkt i HTML-dokumentet med `<style>` taggen. Style taggen skrivs oftast nästlad i `<head>`, men det är inte ett måste.
+Öppna ett tidigare HTML dokument, ```index.html```. CSS kan skrivas direkt i HTML-dokumentet med hjälp av `<style>` taggen. Style taggen skrivs oftast nästlad i `<head>`, men det är inte ett måste.
 
 ```html
 <head>
@@ -38,7 +38,9 @@ Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används
 </head>
 ```
 
-Kopiera CSS koden till ett eget dokument, döp dokumentet till `style.css`.
+För att separera HTML och CSS så skrivs CSS oftast i en separat fil. Det gör att du kan använda samma CSS på flera HTML dokument och det blir lättare att felsöka.
+
+För att använda en separat CSS-fil skapa en ny fil, ```style.css```. Kopiera sedan in CSS-reglerna från HTML-dokumentet.
 
 ```css
 h1 {
@@ -49,7 +51,7 @@ p {
 }
 ```
 
-Skapa sedan en länk till stilmallen från ditt HTML-dokument. Detta görs som tidigare nästlat i HTML-dokumentets `<head>` tagg.
+För att använda ett separat CSS-dokument så måste du länka till det i HTML-dokumentet. Länkningen sker med `<link>` elementet. Skriv länk-elementet nästlat i HTML-dokumentets `<head>` tagg. 
 
 ```html
 <head>
@@ -58,10 +60,12 @@ Skapa sedan en länk till stilmallen från ditt HTML-dokument. Detta görs som t
 </head>
 ```
 
-Du kan även skriva CSS inline, det vill säga direkt i taggen.
+Ta sedan bort `<style>` taggen från HTML-dokumentet.
+
+CSS kan även skrivas inline, med det menas att CSS-reglerna skrivs direkt i HTML-elementet. Detta är inte rekommenderat eftersom det blir svårare att felsöka.
 
 ```html
-<p style="color: grey;"></p>
+<p style="color: purple;"></p>
 ```
 
 {% endinstruktioner %}
@@ -72,17 +76,15 @@ Du kan även skriva CSS inline, det vill säga direkt i taggen.
 
 #### Uppgift 1
 
-Redigera ```index.html``` och skriv CSS i med ```<style>``` i dokumentet.
+Vad är CSS?
 
 #### Uppgift 2
 
-Skapa ett CSS-dokument, kopiera koden. Länka sedan CSS filen från ```index.html```. Ladda om i webbläsaren, vilka stilar är det som används?
-
-Ta bort style taggen från ```index.html```.
+Vad bör du tänka på när du namnger CSS-dokument? Vilken filändelse ska du använda?
 
 #### Uppgift 3
 
-Prova att skriva CSS inline i HTML-dokumentet.
+Ge exempel på hur du kan skriva CSS-regler för att använda i HTML-dokument.
 
 {% endbas %}
 
@@ -90,7 +92,7 @@ Prova att skriva CSS inline i HTML-dokumentet.
 
 #### Uppgift 4
 
-Länka ditt CSS-dokument från ett annat HTML-dokument.
+Förklara vad cascade är och hur det fungerar.
 
 {% endextra %}
 
@@ -98,7 +100,7 @@ Länka ditt CSS-dokument från ett annat HTML-dokument.
 
 {% facit "CSS cascade" %}
 
-CSS cascade, det som styr vilken CSS-regel som används.
+För CSS är det viktigt i vilken ordning de olika reglera skrivs. Det kallas för cascade (en del av namnet). Cascade styr vilken CSS-regel som används.
 
 Ordningen för det är:
 
@@ -115,5 +117,7 @@ h1 {
 ```
 
 Var försiktig med `!important` eftersom det kan göra din kod svår att felsöka.
+
+Cascade påverkas av flera faktorer, du kan läsa mer om [Cascade, specificity, and inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade) på MDN.
 
 {% endfacit %}

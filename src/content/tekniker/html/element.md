@@ -9,9 +9,12 @@ eleventyNavigation:
 
 {% intro %}
 
-HTML består av element. Element märks upp med taggar som berättar för webbläsaren vilken sorts innehåll det är.
+HTML består av element. Element skrivs med `<taggar>` som märker upp text. Webbläsaren tolkar taggarna och vilka element de representerar och visar upp resultatet som en webbsida.
 
-Ett HTML element har tre delar. En öppningstag `<p>` innehåll och en stängnings tag `</p>`.
+En HTML tagg består av tre delar:
+- En öppningstagg `<p>`
+- Det innehåll som kommer mellan öppnings- och stängningstaggarna
+- En stängningstagg `</p>`
 
 Ett HTML element kan innehålla andra element, det kallas för nästlade element.
 
@@ -26,7 +29,9 @@ Ett HTML element kan innehålla andra element, det kallas för nästlade element
 
 {% instruktioner %}
 
-Skapa ett nytt dokument, element.html.
+Skapa ett nytt dokument, `element.html`.
+
+Skriv följande kod i dokumentet. Element som ska visas för användaren skrivs alltid mellan `<body>` taggarna i dokumentet.
 
 ```html
 <h1>Detta är en rubrik, med rubriknivå 1</h1>
@@ -44,7 +49,7 @@ Skapa ett nytt dokument, element.html.
 <p>Det finns ett 140 tal olika taggar, leta reda på någon och prova!</p>
 ```
 
-Fortsätt redigera i dokumentet.
+Redigera dokumentet element.html och gör följande ändringar.
 
 ```html
 <p>Prova att skapa en punktlista.</p>
@@ -63,20 +68,36 @@ Fortsätt redigera i dokumentet.
 
 #### Uppgift 1
 
-Skapa ```element.html``` med koden.
+Vad är ett HTML element och hur används det?
 
 #### Uppgift 2
 
-Redigera ```element.html``` och skriv en punktlista över dina 5 favoritdjur.
+Vilka tre delar har en HTML tagg?
+
+#### Uppgift 3
+
+Var skriver du HTML elementen som användaren ska se i ditt dokument?
 
 {% endbas %}
 
 {% extra %}
 
-#### Uppgift 3
+#### Uppgift 4
 
-Skapa en ordnad lista över dina favoritfilmer (1-5) i ```element.html```. Taggen för en ordnad lista är [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol).
+Hur tolkar webbläsaren en HTML tagg som inte finns och vad visas då?
 
 {% endextra %}
 
 {% enduppgifter %}
+
+{% facit "Tips" %}
+
+Testa att skriva ett element med taggar som inte finns. 
+
+```html
+<hej>Detta är ett element som inte finns</hej>
+```
+
+{% endfacit %}
+
+

@@ -9,7 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-Ett elements position i en CSS-konstruktion är en box. Boxen är lika stor som elementets innehåll, vilket i sin tur kan vara andra element.
+Allt i CSS är boxar. Boxen kan förenklat vara av två typer, block och inline. Block element har en höjd och bredd som är lika stor som dess innehåll. Inline element har ingen höjd eller bredd, så dessa måttenheter fungerar inte på dessa element.
 Utöver detta så är storleken på elementets box en summa av flera delar.
 
 1. Innehållet
@@ -19,10 +19,8 @@ Utöver detta så är storleken på elementets box en summa av flera delar.
 
 ### Tänk på
 
--   En padding på 8 pixlar resulterar att elementets box blir 16 pixlar större, det vill säga den dubblas.
+-   Måttet på en padding/border/margin dubblas, detta eftersom den finns på båda sidorna av ett element.
 -   Se till att dina element har innehåll.
-- Block element har en höjd och bredd som är lika stor som dess innehåll.
-- Inline element har ingen höjd eller bredd, så dessa måttenheter fungerar inte på dessa element.
 
 {% endintro %}
 
@@ -63,6 +61,26 @@ main {
 }
 ```
 
+Elementen du arbetat med här ovan är block element. Prova att göra några av dessa till inline element. Vad händer med storleken?
+
+```css
+main {
+    display: inline;
+}
+```
+
+Skapa sedan ett `<p>` element. Märk upp en del av texten med `<span>`, testa sedan att sätta `width` och `height` för `span` elementet.
+
+```html
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>Ut enim ad minim veniam</span>, quis nostrud exercitation
+    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+    deserunt mollit anim id est laborum.
+</p>
+```
+
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -71,11 +89,11 @@ main {
 
 #### Uppgift 1
 
-Undersök och studera boxmodellen med hjälp av webbläsarens utvecklingsverktyg.
+Förklara vad boxmodellen är och hur den fungerar.
 
 #### Uppgift 2
 
-Skapa `box.html` och `box.css` och länka samman dem. Skriv koden och undersöka elements storlek.
+Ge exempel på CSS-egenskaper som påverkar boxmodellen.
 
 {% endbas %}
 
@@ -83,7 +101,7 @@ Skapa `box.html` och `box.css` och länka samman dem. Skriv koden och undersöka
 
 {% facit "Tips" %}
 
-Notera att ett HTML dokument har ett par inbyggda stilar för att göra det mer läsbart. Det finns en inbyggd padding och margin samt att text har olika storlekar. Förekomsten av detta kan ställa till arbetet med layout och boxmodellen.
+Webbläsaren har ett antal inbyggda stilar för att göra "ostilat" HTML-innehåll mer läsbart. De grundstilarna sätter padding och margin på element samt ändrar text-storlekar. Det är bra att känna till då detta påverkar hur dina element ser ut.
 
 För att ta bort inbyggd padding och margin på alla element kan du använda:
 
