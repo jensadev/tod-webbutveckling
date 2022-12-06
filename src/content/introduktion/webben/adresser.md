@@ -47,19 +47,19 @@ Besök youtube, klicka på ett klipp och studera den URL som visas i adressfält
 
 #### Uppgift 1
 
-Vad är ett protokoll och vad är skillnaden mellan http och https?
+Vad är ett protokoll? Förklara skillnaden mellan http och https?
 
 #### Uppgift 2
 
-Vad är en domän och en resurs?
+Vad menas med en domän och en resurs?
 
 #### Uppgift 3
 
-Vad är ett fragment och vad används det till?
+Hur används ett fragment och varför används det?
 
 #### Uppgift 4
 
-Vad är en query parameter och vad används det till?
+Vad är query parameterar och vad kan de används till?
 
 {% endbas %}
 

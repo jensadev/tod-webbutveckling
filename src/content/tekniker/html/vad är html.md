@@ -9,15 +9,15 @@ eleventyNavigation:
 
 {% intro %}
 
-Hypertext Markup Language(HTML) är ett märkspråk som används för att märka upp webbsidor. HTML strukturerar upp text och ger texten semantisk betydelse med hjälp av taggar. Det för att en webbläsare ska kunna tolka texten och visa den som en webbsida.
+Hypertext Markup Language(HTML) är ett märkspråk som används för att märka upp webbsidor. HTML strukturerar upp text och märker upp den med taggar. Det för att en webbläsare ska kunna tolka texten och visa den som en webbsida.
 
 HTML är en standard som styrs av [World Wide Web Consortium](https://www.w3.org/).
 
 ### Tänk på
 
 -   Filändelsen för HTML dokument är .html.
--   Döp din webbplats startsida till index.html (då laddas den in automatiskt).
--   Använd små bokstäver, undvik specialtecken `()@'"&%/&åäö` och mellanslag i filnamn.
+-   Startsidan på webben är alltid index.html.
+-   Använd små bokstäver, undvik specialtecken `()@'"&%/&åäö` och mellanslag i filnamn för att undvika problem.
 -   Använd en [IDE](https://sv.wikipedia.org/wiki/Integrerad_utvecklingsmilj%C3%B6) som [Visual Studio Code](https://code.visualstudio.com/) för att skapa och redigera dina dokument.
 
 {% endintro %}
@@ -66,11 +66,11 @@ Redigera filen, byt språk och titel.
 
 #### Uppgift 1
 
-Vad är HTML för typ av språk och hur skrivs det?
+Vad är HTML?
 
 #### Uppgift 2
 
-Varför ska du använda små bokstäver i filnamn och undvika specialtecken?
+Hur bör du namnge dina HTML dokument? Vilken filändelse ska du använda?
 
 {% endbas %}
 
@@ -80,7 +80,7 @@ Varför ska du använda små bokstäver i filnamn och undvika specialtecken?
 
 Om du använder Visual Studio så får du med verktyget [Emmet](https://emmet.io/). Emmet underlättar otroligt mycket för att skriva HTML.
 
-Ett exempel är att du kan skriva ```html:5``` och direkt få ut grundstrukturen i ett HTML dokument.
+Ett exempel är att du kan skriva ```html:5```, tabba &#11134; och direkt få ut grundstrukturen i ett HTML dokument.
 
 [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
 

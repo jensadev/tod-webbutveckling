@@ -9,7 +9,7 @@ eleventyNavigation:
 
 {% intro %}
 
-HTML består av element. Element märks upp med `<taggar>` som berättar för webbläsaren vilken sorts innehåll det är.
+HTML består av element. Element skrivs med `<taggar>` som märker upp text. Webbläsaren tolkar taggarna och vilka element de representerar och visar upp resultatet som en webbsida.
 
 En HTML tagg består av tre delar:
 - En öppningstagg `<p>`
@@ -29,7 +29,9 @@ Ett HTML element kan innehålla andra element, det kallas för nästlade element
 
 {% instruktioner %}
 
-Skapa ett nytt dokument, element.html.
+Skapa ett nytt dokument, `element.html`.
+
+Skriv följande kod i dokumentet. Element som ska visas för användaren skrivs alltid mellan `<body>` taggarna i dokumentet.
 
 ```html
 <h1>Detta är en rubrik, med rubriknivå 1</h1>
@@ -66,30 +68,36 @@ Redigera dokumentet element.html och gör följande ändringar.
 
 #### Uppgift 1
 
-Vad är ett HTML element?
+Vad är ett HTML element och hur används det?
 
 #### Uppgift 2
 
 Vilka tre delar har en HTML tagg?
 
+#### Uppgift 3
+
+Var skriver du HTML elementen som användaren ska se i ditt dokument?
+
 {% endbas %}
 
 {% extra %}
 
-#### Uppgift 3
+#### Uppgift 4
 
-Vad skiljer ett `ol` från ett `ul` element?
-
-Varför är det semantiskt viktigt att använda rätt tagg?
+Hur tolkar webbläsaren en HTML tagg som inte finns och vad visas då?
 
 {% endextra %}
 
 {% enduppgifter %}
 
-{% facit "Extra" %}
+{% facit "Tips" %}
 
-Redigera ```element.html``` och skriv en punktlista över dina 5 favoritnånting. Du kan använda dig av [ol](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) för att skapa en ordnad lista.
+Testa att skriva ett element med taggar som inte finns. 
 
-Ett elements semantik är viktig för att webbläsaren ska kunna tolka innehållet på rätt sätt. Det är viktigt att använda rätt tagg för att skapa en lista, så att webbläsaren kan tolka innehållet som rätt typ av lista. Du kan läsa mer om  [semantik på MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics).
+```html
+<hej>Detta är ett element som inte finns</hej>
+```
 
 {% endfacit %}
+
+

@@ -46,13 +46,13 @@ Du kan även använda utvecklarläget i din webbläsare (F12 / CTRL + SHIFT + i 
 
 #### Uppgift 1
 
-Vad menas med en klient? Kan du ge några exempel på klienter och vad som skiljer dem åt?
+Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?
 
 #### Uppgift 2
 
 Hur fungerar utvecklarverktygen i din webbläsare?
 
-Vad kan du göra med dem?
+Vad kan du göra med utvecklarverktygen?
 
 {% endbas %}
 

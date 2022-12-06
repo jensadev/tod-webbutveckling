@@ -51,11 +51,11 @@ Undersök och läs på om de olika molntjänster du kan använda för att hosta 
 
 #### Uppgift 1
 
-Vad är en webbserver? Hur kan du använda en webbserver?
+Vad menas med en webbserver? Ge exempel på tre olika webbserverar.
 
 #### Uppgift 2
 
-Vad är en molntjänst och hur används de?
+Vad är en molntjänst för webbhosting?
 
 {% endbas %}
 
@@ -63,9 +63,8 @@ Vad är en molntjänst och hur används de?
 
 #### Uppgift 3
 
-Vilka skillnader kan du se mellan en traditionell webbserver och en molntjänst?
-
-Försök hitta fördelar och nackdelar.
+Förklara skillnaden mellan traditionella webbservrar och molntjänster?
+Ge exempel på fördelar och nackdelar.
 
 {% endextra %}
 
