@@ -30,7 +30,7 @@ I mycket javascript kommer du se variabler deklareras med `var` och `const`. Fö
 
 {% instruktioner %}
 
-Öppna utvecklarverktygen i din webbläsare(F12) och välj console.
+Öppna utvecklarverktygen i din webbläsare(F12) och välj console. Skriv in följande kod.
 
 ```js
 let firstName;
@@ -41,6 +41,8 @@ name = firstName + ' ' + lastName; // förnamn efternamn
 let age = 00;
 let greeting = `Hej ${name}, du är ${age} år gammal`;
 ```
+
+Testa att skriva in olika namn och födelseår. Vad händer om du skriver `let firstName = 'förnamn';` två gånger?
 
 Att sätta ihop text (sträng) variabler med + tecknet kallas för konkatenering. Det går även att använda backticks \` för att skapa en sträng och sedan använda `${variabel} `för att sätta ihop strängen.
 
@@ -54,6 +56,8 @@ let birthYear = prompt(`Kan du skriva vilket år du föddes ${name}?`);
 alert('Oj ' + name + ', ' + birthYear + ' var länge sedan!');
 ```
 
+Prova olika sätt att skriva ut text i din webbläsare.
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -62,14 +66,11 @@ alert('Oj ' + name + ', ' + birthYear + ' var länge sedan!');
 
 #### Uppgift 1
 
-Skriv av koden ovan i webbläsarens utvecklarverktyg.
-Testa att skriva in olika namn och födelseår.
+Förklara hur du deklarerar en variabel i javascript.
 
 #### Uppgift 2
 
-Skapa ```js.html```. Skriv koden och testa.
-
-Prova olika sätt att skriva ut text.
+Ge exempel på hur javascript kan skriva ut meddelanden till användaren.
 
 {% endbas %}
 
@@ -77,14 +78,20 @@ Prova olika sätt att skriva ut text.
 
 #### Uppgift 3
 
-Redigera ```js.html```.
-Skapa inmatning för följande frågor och skriv ut användarens svar.
+Vad menas med konkatenering?
+
+{% endextra %}
+
+{% enduppgifter %}
+
+{% facit "Övning" %}
+
+Redigera filen ```js.html```.
+Skapa inmatning för följande frågor och skriv ut användarens svar (använd dig av `prompt` och `alert`).
 
 -   Hur skriver du för att deklarera en variabel i javascript?
 -   Vilken metod kan du använda för att skriva ut en variabel?
 
 Skriv ut svaret på fråga ett och två som **ett** meddelande till användaren.
 
-{% endextra %}
-
-{% enduppgifter %}
+{% endfacit %}

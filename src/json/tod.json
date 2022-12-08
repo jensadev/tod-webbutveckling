@@ -790,13 +790,13 @@
                 {
                   "assignment": "uppgift-3",
                   "id": 1273040599,
-                  "type": "extra",
+                  "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
-                  "assignment": "uppgift-4",
-                  "id": 1273040592,
+                  "assignment": "uppgift-3",
+                  "id": 1273040599,
                   "type": "extra",
                   "completed": false,
                   "date": null
@@ -817,6 +817,13 @@
                   "assignment": "uppgift-2",
                   "id": 3540741334,
                   "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3540741335,
+                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
@@ -894,13 +901,6 @@
                 {
                   "assignment": "uppgift-3",
                   "id": 3713415400,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "id": 3713415407,
                   "type": "extra",
                   "completed": false,
                   "date": null
@@ -913,6 +913,13 @@
                 {
                   "assignment": "uppgift-1",
                   "id": 2325845521,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 2325845522,
                   "type": "basic",
                   "completed": false,
                   "date": null
