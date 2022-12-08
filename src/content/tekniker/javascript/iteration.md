@@ -4,7 +4,7 @@ eleventyNavigation:
     key: iteration
     parent: javascript
     order: 5
-    excerpt: Att upprepa, loopa.
+    excerpt: Med iteration menas att upprepa, loopa. Kod som gör något flera gånger.
 ---
 
 {% intro %}
@@ -56,13 +56,22 @@ friends.forEach((friend) => {
 
 #### Uppgift 1
 
-Redigera `selektion.html` från föregående del.
+Vad menas med iteration, vad är det som sker?
 
 #### Uppgift 2
 
-Testa exemplet med `foreach` och skriv ut alla vänner i konsollen.
+Ge exempel på olika typer av loopar i javascript.
+
 
 {% endbas %}
+
+{% extra %}
+
+#### Uppgift 3
+
+Förklara hur foreach fungerar.
+
+{% endextra %}
 
 {% enduppgifter %}
 
@@ -77,5 +86,7 @@ const arr = friends.map((friend) => {
 });
 console.log(arr);
 ```
+
+Andra exempel är `filter()` och `reduce()`.
 
 {% endfacit %}

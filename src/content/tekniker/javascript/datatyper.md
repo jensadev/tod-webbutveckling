@@ -51,7 +51,7 @@ let bamse = {
 console.log(bamse.quote);
 bamse.quote = 'Man ska vara snäll mot dem som är stygga, för de behöver det mest, och då blir de kanske snällare.';
 console.log(bamse.quote);
-let skalman = {...}; // fyll på
+let skalman = {}; // fyll på med egenskaper
 let friends = []; // tom array
 friends.push(bamse); // lägg till vännerna med push() metoden
 console.log(bamse[0]);
@@ -73,11 +73,11 @@ console.log(bamse[0]);
 
 #### Uppgift 1
 
-Skriv av koden i konsollen och testa olika datatyper utifrån listan.
+Ge exempel på datatyper i javascript.
 
 #### Uppgift 2
 
-Skapa `datatyper.html`. Skriv av koden, testkör och studera.
+Vad menas med dynamiskt typat?
 
 {% endbas %}
 
@@ -85,6 +85,15 @@ Skapa `datatyper.html`. Skriv av koden, testkör och studera.
 
 #### Uppgift 3
 
+Förklara vad som menas med punktnotation?
+
+{% endextra %}
+
+{% enduppgifter %}
+
+{% facit "Övning" %}
+
+Fortsätt att koda och lägg till Bamse och hans vänner i en array.
 [Figurer](https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_figurer_i_Bamse#Bamse)
 
 -   Skapa flera objekt för karaktärer.
@@ -94,6 +103,4 @@ Skapa `datatyper.html`. Skriv av koden, testkör och studera.
 
 För att räkna antalet element i en array kan du använda `array.length`.
 
-{% endextra %}
-
-{% enduppgifter %}
+{% endfacit %}

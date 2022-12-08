@@ -54,6 +54,10 @@ let message = 'Summan av ' + num1 + ' + ' + num2 + ' är ' + sum;
 console.log(message);
 ```
 
+Skapa en resultatsträng där du kombinerar siffror och strängar.
+Skriv ut resultatsträngen med både `console.log()` och `alert()`. Du kan använda `prompt()` för att mata in värden.
+
+
 | Operator                              | Symbol  | Förklaring                                                 |
 | ------------------------------------- | ------- | ---------------------------------------------------------- |
 | Addition                              | `+`     | Addera två tal eller kombinera strängar.                   |
@@ -70,13 +74,15 @@ console.log(message);
 
 #### Uppgift 1
 
-Koda i konsollen. Testa olika uttryck och operatorer.
+Vad menas med en operator?
 
 #### Uppgift 2
 
-Skapa `operatorer.html`. Skriv av koden, redigare och testa operatorer och uttryck.
+Förklara skillnaderna mellan `=` och `==`.
 
-Undersök skillnaden på `==` och `===`.
+#### Uppgift 3
+
+Ge tre exmpel på uttryck som resulterar i ett numeriskt värde.
 
 {% endbas %}
 
@@ -84,13 +90,7 @@ Undersök skillnaden på `==` och `===`.
 
 #### Uppgift 3
 
-Redigare `operatorer.html`. Koda uträkningar för alla räknesätten.
-Låt användaren mata in värden med `prompt()`.
-
-#### Uppgift 4
-
-Skapa en resultatsträng där du kombinerar siffror och strängar.
-Skriv ut resultatsträngen med både `console.log()` och `alert()`.
+Förklara skillnaden mellan `==` och `===`.
 
 {% endextra %}
 

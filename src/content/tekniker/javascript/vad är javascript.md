@@ -52,9 +52,11 @@ Kan du hitta någon annan webbplats med ett meddelande som på Facebook?
 
 #### Uppgift 1
 
-Undersök utvecklarverktygen i webbläsaren.
+Vad är javascript?
 
-Skriv några rader javascript och kör dem.
+#### Uppgift 2
+
+Vad menas med att javascript körs på klient-sidan?
 
 {% endbas %}
 

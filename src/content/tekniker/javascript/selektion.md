@@ -12,7 +12,7 @@ eleventyNavigation:
 Ett program behöver kunna göra val. Selektion är kodstruktur som testar om uttryck är sant eller falskt. Ett vanligt sätt att utföra det är `if` satsen.
 
 ```javascript
-if (...) {
+if (uttryck) {
     // om sant
 } else {
     // annars falskt
@@ -48,6 +48,8 @@ if (name) {
 }
 ```
 
+Testa olika villkor, `b == a`, `b > a`, `b < a`, `b >= a`, `b <= a`, `b != a`.
+
 Skapa ett HTML-dokument, `selektion.html`. Koda i ett `<script>` element.
 
 ```javascript
@@ -61,6 +63,8 @@ if (number == guess) {
 }
 ```
 
+
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -69,25 +73,28 @@ if (number == guess) {
 
 #### Uppgift 1
 
-Koda i konsollen.
+Vad menas med selektion?
 
 #### Uppgift 2
 
-Skapa `selektion.html`. Skriv koden från den första delen men testa olika villkor, `b == a`.
-
-#### Uppgift 3
-
-Redigare `selektion.html` och skapa grunden för gissa talet spelet.
-Kan du skriva färdigt logiken?
+Ge tre exempel på när selektion kan vara användbart.
 
 {% endbas %}
 
 {% extra %}
 
-#### Uppgift 4
+#### Uppgift 3
 
-Koda i `selektion.html`. Använd `else if (guess > number)` för att skriva ut om gissningen var för stor. Kan du skriva `else if (...)` som skriver ut om gissningen var för liten?
+Förklara skillnaden på `>` och `>=`.
 
 {% endextra %}
 
 {% enduppgifter %}
+
+{% facit "Övning" %}
+
+I det sista exemplet finns en grund för ett gissa-tal spel. Kan du skriva färdigt logiken?
+
+Du kan använda `else if (guess > number)` för att skriva ut om gissningen var för stor. Kan du skriva `else if (...)` som skriver ut om gissningen var för liten?
+
+{% endfacit %}

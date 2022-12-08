@@ -9,14 +9,14 @@ eleventyNavigation:
 
 {% intro %}
 
-Document Object Model (DOM) är ett objekt som representerar en webbsida.
+Document Object Model (DOM) är ett objekt som representerar en webbsida. DOM Är en trädstruktur av noder som representerar en webbsida.
 
-Det är det interface som du arbetar mot när du skriver javascript för att ändra struktur, stil och innehåll på en webbsida.
+DOM är det interface som du arbetar mot när du skriver javascript för att ändra struktur, stil och innehåll på en webbsida. En stor del av javascript-kodande handlar om att manipulera DOM.
 
 ### Tänk på
 
--   Alla tillåter inte javascript, fungerar din sida ändå?
-    - Testa genom att slå av javascript i din webbläsare.
+- HTML är en textstruktur, DOM är ett objekt som representerar den.
+- När du väljer element med javascript, använder du CSS-selektorer.
 
 {% endintro %}
 
@@ -53,11 +53,11 @@ instruktioner.classList.add('bg-theme', 'fg-theme'); // lägg till flera klasser
 
 #### Uppgift 1
 
-Koda i konsollen och ändra på den här sidan.
+Vad menas med DOM?
 
 #### Uppgift 2
 
-Manipulera klasserna och attributen på den här sidan.
+Ge exempel på hur du kan välja element med javascript.
 
 {% endbas %}
 
@@ -65,8 +65,14 @@ Manipulera klasserna och attributen på den här sidan.
 
 #### Uppgift 3
 
-Läs och arbeta med materialet på [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
+Är alla noder i DOM HTML-element?
 
 {% endextra %}
 
 {% enduppgifter %}
+
+{% facit "Utmaning" %}
+
+Kan du välja ett checkbox-elementet på den här sidan med javascript och markera den som kryssad?
+
+{% endfacit %}

@@ -16,6 +16,7 @@ På grund av tekniska begränsningar användes webben enbart från stationära d
 ### Tänk på
 
 -   Att dina tekniska förutsättningar inte är allmängiltiga.
+- Testa alltid ditt arbete på flera enheter/inställningar.
 
 {% endintro %}
 
@@ -27,11 +28,15 @@ Eftersom enheters upplösning påverkar hur en webbsida ser ut är det viktigt a
 
 Bilden är hämtad från [Statcounter](https://gs.statcounter.com/) och visar hur många enheter som använts för att besöka webbsidor under de senaste 12 månaderna. Det är tydligt att mobila enheter är mer populära än stationära datorer.
 
+Vilken enhet använder du och vilken upplösning har den? Undersök både din dator och telefon.
+
 Statcounter har information kring vilka upplösningar är vanligast. Undersök detta eftersom det är viktigt att känna till. Historiskt har upplösningen 1366 x 768 vart den vanligaste på stationära datorer, men det har ändrats globalt, men hur ser det ut i andra regioner än Sverige?
 
 {% hint "info" %}
 Även om användaren har en hög skärmupplösning, blir få gränssnitt bra med en fullskräms-bredd på 1920 pixlar.
 {% endhint %}
+
+Använd [Statcounter](https://gs.statcounter.com/) för att undersöka vilken upplösning som är vanligast.
 
 {% endinstruktioner %}
 
@@ -41,14 +46,11 @@ Statcounter har information kring vilka upplösningar är vanligast. Undersök d
 
 #### Uppgift 1
 
-Vilken upplösning har din enhet?
-Undersök både din stationära dator och din mobiltelefon.
+Vad menas med skärmupplösning?
 
 #### Uppgift 2
 
-Använd [Statcounter](https://gs.statcounter.com/) för att undersöka vilken upplösning som är vanligast.
-
-Vilka bildförhållande är vanligast?
+Vad menas med bildförhållande?
 
 {% endbas %}
 
