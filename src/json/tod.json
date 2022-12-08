@@ -97,6 +97,61 @@
               ]
             }
           ]
+        },
+        {
+          "area": "kom-igang",
+          "parts": [
+            {
+              "part": "sokvagar",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 965222510,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "id": 965222509,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 965222508,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "verktyg",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 636752986,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "ide",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "id": 461384498,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
         }
       ]
     },
