@@ -9,10 +9,12 @@ eleventyNavigation:
 
 {% intro %}
 
-Optimering av bilder är viktigt.
+Optimering av bilder är viktigt. Det är ditt ansvar som utvecklare att se till att dina användare inte behöver ladda ner stora bilder som de inte behöver.
 
 ### Tänk på
 
+- Anpassa dina bilders storlek och kvalitet till användningsområdet.
+- Redigera bilderna så att de är så stora som de visas på webbplatsen. Undvika att sätta storleken med CSS.
 - Dina användares surfpotter, batteri och prestanda. Du har ett ansvar som utvecklare.
 
 {% endintro %}
@@ -27,6 +29,10 @@ En [sökning på Google](https://www.google.com/search?q=image+optimizer) ger di
 Var noga med att kontrollera verktygens användaravtal så att du inte bryter mot några regler, men också så att du är medveten om vad som händer med din bild.
 {% endhint %}
 
+Använd dig av en bild du har eller tar. Sök reda på en eller flera tjänster för bildoptimering och bearbeta bilden.
+
+Testa att spara bilden i några olika format.
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -35,30 +41,22 @@ Var noga med att kontrollera verktygens användaravtal så att du inte bryter mo
 
 #### Uppgift 1
 
-Använd dig av bilden du tidigare fotograferat. Sök reda på en eller flera tjänster för bildoptimering och optimera bilden.
+Vad innebär det att optimera en bild?
 
 #### Uppgift 2
 
-Spara bilden i några olika format. Vilka format är lämpliga för olika bilder och användningsområden?
+Ge exempel på bildformat och vad de passar för.
 
 {% endbas %}
 
-{% extra %}
-
-#### Uppgift 3
-
-Skapa ett HTML-dokument ```optimering.html```.
-Använd dig av bilden du tidigare fotograferat. Optimera bilden i ett antal olika format, kvalitetsinställningar och storlekar. Lägg sedan in bilderna i HTML-dokumentet med hjälp av ```<img>```-elementet.
-
-{% endextra %}
-
 {% enduppgifter %}
 
-{% facit "Tips" %}
+{% facit "Övning" %}
 
-Ett rutnät av bilder är ett utmärkt tillfälle att öva på CSS olika display-modeller. Du kan testa att använda `display: flex` i en container som innehåller alla bilder, prova olika inställningar för `flex-wrap` och hur innehållet ska visas.
+Skapa ett HTML-dokument ```optimering.html```.
+Använd dig av din bild. Optimera bilden i ett antal olika format, kvalitetsinställningar och storlekar. Lägg sedan in bilderna i HTML-dokumentet med hjälp av ```<img>```-elementet.
 
-Du kan även prova att använda dig av `display: grid`. Följande kod ger dig ett rutnät som upprepas med 3 lika stora kolumner.
+Ett rutnät av bilder är ett utmärkt tillfälle att öva på CSS olika display-modeller.  Med `display: grid` kan du skapa detta. Följande kod ger dig ett rutnät som upprepas med 3 lika stora kolumner.
 
 ```css
 .grid {

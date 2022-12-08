@@ -23,16 +23,28 @@ Tillsammans så avgöra bildens dimension och upplösning hur mycket information
 {% instruktioner %}
 
 ### Dimension
+
 Alla bilder som är sparade på en dator har en bredd och en höjd. Det är vanligt att prata om en bilds upplösning (engelska resolution) men det är något annat. Dimensionerna på en bild kan till exempel vara 320 bred och 240 hög (skrivs 320 x 240). Att en bild är 320 bred betyder att den är 320 pixlar bred. Pixlar är små fyrkanter som innehåller färginformation.
 
 {% image "storleksförhållanden.png", "Storleksförhållanden" %}
 
+Öppna bilden för storleksförhållanden i en ny flik (högerklicka på bilden). Zooma in bilden eller spara den.
+Undersök sedan olika bildförhållanden med hjälp av din webbläsare / skrivbordsupplösningar. 
+
 ### Upplösning
+
 Den faktiska bildupplösningen som en bild har mäts i antalet pixlar som bilden har, då används måtten Pixels Per Inch (PPI) eller Dots Per Inch (DPI). Måttet DPI används för tryck (utskrift) och då är det viktigt att bilden har åtminstone 300 DPI för att bilden ska bli skarp. På skärmar fungerar det annorlunda och en måttstock är att använda 72 PPI för digitala bilder.
 
+Ta reda på hur många PPI din mobiltelefon har, antalet pixlar och storleken på skärmen. På många telefoner är förhållandet annorlunda än vad som är vanligt på datorer.
 ### Fil
+
 Alla filer på en dator har en storlek, vilket mäts i bytes. När bilder används på en webbsida så blir det en del av en helhet som måste skickas till användarens enhet. Detta tar bandbredd och påverkar hur snabbt sidan visas. Av den anledning så är det viktigt att begränsa storleken på alla filer.
 Bilder är något som kan och ofta tar stor plats, därför är det viktigt att begränsa bildernas filstorlek. Något som spelar stor roll för detta är bildens format.
+
+För att undersöka bilder och filformat kan du använda din dators kamera eller din telefon. 
+* Ta en bild och undersök hur stor filen blir.
+* Vilket filformat är bilden sparad i?
+* Ändra upplösningen på bilden och undersök hur det påverkar filens storlek. 
 
 {% endinstruktioner %}
 
@@ -42,19 +54,18 @@ Bilder är något som kan och ofta tar stor plats, därför är det viktigt att 
 
 #### Uppgift 1
 
-Öppna bilden för storleksförhållanden i en ny flik (högerklicka på bilden). Zooma in bilden eller spara den.
-Undersök sedan olika bildförhållanden med hjälp av din webbläsare / skrivbordsupplösningar. 
+Beskriv vad som menas med en bilds dimension och upplösning.
 
 #### Uppgift 2
 
-Ta reda på hur många PPI din mobiltelefon har, antalet pixlar och storleken på skärmen. På många telefoner är förhållandet annorlunda än vad som är vanligt på datorer.
+Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift.
 
 {% endbas %}
 
 {% extra %}
 #### Uppgift 3
 
-Ta en bild och undersök hur stor filen blir. Ändra sedan upplösningen på bilden och undersök hur stor filen blir.
+Vilka samband finns det mellan bildens upplösning, storlek och filformat?
 
 {% endextra %}
 

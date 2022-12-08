@@ -16,6 +16,7 @@ Alla bilder sparade på en dator använder sig av ett bildformat. Det finns ett 
 - Att välja bildformat efter vad bilden föreställer och vilket användningsområde den ska ha.
 - Att använda bildformat som är lämpliga för webben.
 - Att en bilds komprimering kan påverka din bilds kvalité.
+- En utförlig lista över format hittar du på [Image file type and format guide](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types)
 
 {% endintro %}
 
@@ -55,7 +56,7 @@ SVG är ett vektorgrafik-format. Vektorgrafik är baserat på koordinater och SV
 SVG använder CSS för bland annat färg och typsnitt.
 {% endhint %}
 
-#### Webbformat
+#### Webbformat (WebP, AVIF)
 
 Det finns ett antal nya experimentella bildformat som används på webben. De optimerar bilder i väldigt hög grad, men de stöds ännu inte av alla webbläsare. När dessa format används är det viktigt att kontrollera i vilka webbläsare det fungerar och erbjuda alternativ.
 
@@ -71,13 +72,11 @@ Använd experimentella format med försiktighet.
 
 #### Uppgift 1
 
-Läs igenom instruktionerna. Vilka bildformat känner du till och hur har du använt dem?
+Ge tre exempel på bildformat och varför de är lämpliga för webben.
 
 #### Uppgift 2
 
-Ta en bild med kameran på din dator eller telefon. Vilket format sparas bilden i, vilka dimensioner har bilden och vilken upplösning har bilden?
-
-Hur stor är bilden i kilobyte? 
+Vad är viktiga att tänka på om du använder webbformat?
 
 {% endbas %}
 
@@ -85,7 +84,7 @@ Hur stor är bilden i kilobyte?
 
 #### Uppgift 3
 
-Ändra format på bilden till PNG och JPEG. Hur stor är bilden i kilobyte?
+Förklara skillnaden mellan pixel- och vektorgrafik.
 
 {% endextra %}
 
