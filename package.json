@@ -1,6 +1,6 @@
 {
     "name": "tod-webbutveckling",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "description": "Tema område del för webbutveckling",
     "scripts": {
         "clean:tod": "rm -f src/json/*.json",

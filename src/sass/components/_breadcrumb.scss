@@ -1,5 +1,5 @@
-@use "sass:color";
-@use "../vars";
+@use 'sass:color';
+@use '../vars';
 
 .breadcrumb {
     display: flex;
@@ -24,7 +24,6 @@
                 display: none;
             }
         }
-
         &--active {
             color: var(--color-on-primary);
         }

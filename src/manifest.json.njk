@@ -1,0 +1,48 @@
+---
+permalink: /manifest.json
+eleventyExcludeFromCollections: true
+---
+
+{
+    "name": "{{ meta.pwaName }}",
+    "short_name": "{{ meta.siteName }}",
+    "description": "{{ meta.siteDescription }}",
+    "icons": [
+        {
+            "src": "/assets/icons/48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/100.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/196.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "lang": "{{ meta.language }}",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#e0e0e0",
+    "theme_color": "{{ meta.primaryColor }}",
+    "scope": "/"
+}
