@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://webbutveckling.jensa.dev/sitemap.xml
+Sitemap: https://example.com/sitemap.xml
+Sitemap: http://www.example.com/sitemap.xml
