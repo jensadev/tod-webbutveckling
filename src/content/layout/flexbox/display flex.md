@@ -47,7 +47,7 @@ Strukturen består av en lista i ett `<nav>` element, detta är vanligt förekom
 Testa även egenskapen `flex-direction` och sätt dess värde till `row` eller `column`.
 
 ```css
-ul {
+nav > ul {
     display: flex;
     gap: 1rem;
     list-style: none;
@@ -77,6 +77,10 @@ nav {
 }
 ```
 
+Testa olika varianter av flex egenskaperna. Du hittar mer på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout).
+
+Prova att ladda in tidigare dokument och använd `.container` klassen tillsammans med en navigation.
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -85,29 +89,13 @@ nav {
 
 #### Uppgift 1
 
-Skapa `flex.html` och `flex.css` och skriv koden för navigationen och listan.
-
-Öppna utvecklarverktyget i Chrome och sök reda på de element som har egenskapen flex. Undersök verktygen.
+Vad händer när ett element har display flex till skillnad från block?
 
 #### Uppgift 2
 
-Skapa koden för logo elementet.
-
-Testa olika varianter av flex egenskaperna. Du hittar mer på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout).
-
-#### Uppgifter 3
-
-Från tidigare dokument, hämta `.container` klassen. Använd klassen på `<nav>` elementet.
+Hur fungerar flex-direction? Hur påverkar det align-items och justify-content?
 
 {% endbas %}
-
-{% extra %}
-
-#### Uppgift 4
-
-Koda en layout med två kolumner. Den första kolumnen ska innehålla din navigation och den andra huvudinnehållet.
-
-{% endextra %}
 
 {% enduppgifter %}
 
