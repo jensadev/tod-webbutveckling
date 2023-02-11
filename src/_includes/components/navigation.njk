@@ -22,7 +22,7 @@
         {% else %}
         {% include "components/breadcrumb.njk" %}
         {% endif %}
-        <div class="navbar__left">
+        <div class="navbar__right">
             <div class="dropdown">
                 <form class="search-form">
                     <label class="visually-hidden" for="search-input">Sök</label>
@@ -33,11 +33,12 @@
                     <li class="dropdown__menu-item--disabled">Skriv för att söka på sidan...</li>
                 </ol>
             </div>
-            <a class="button button__icon button__help" href="/oversikt">
+            <a class="button button__icon button__help {% if 'oversikt' in page.url %}active{% endif %}"
+                href="/oversikt">
                 <span class="visually-hidden">Översikt</span>
                 {% svg "view_list_FILL0_wght400_GRAD0_opsz24.svg", "icon" %}
             </a>
-            <a class="button button__icon button__help" href="/help">
+            <a class="button button__icon button__help {% if 'hjalp' in page.url %}active{% endif %}" href="/hjalp">
                 <span class="visually-hidden">Hjälp</span>
                 {% svg "help_FILL0_wght400_GRAD0_opsz24.svg", "icon" %}
             </a>

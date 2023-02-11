@@ -80,6 +80,7 @@ module.exports = (eleventyConfig) => {
         'offline',
         'questions',
         'översikt',
+        'hjalp',
     ];
     // filter filtered [pages] from navPages
     eleventyConfig.addFilter('filterNavPages', (value) => {
