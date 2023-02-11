@@ -37,6 +37,12 @@ För att testa den här arbetsmodellen ska du prova att använda den. Första st
     -   Realistiskt
     -   Tidsatt
 
+Använd [Bamses](https://www.bamse.se/) webbsida och försök svara på frågorna.
+
+Använd [Marvels](https://www.marvel.com/) hemsida och försök svara på frågorna.
+
+Fundera på vilka SMART mål du skulle kunna sätta för dessa två webbsidor.
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -45,23 +51,12 @@ För att testa den här arbetsmodellen ska du prova att använda den. Första st
 
 #### Uppgift 1
 
-Använd [Bamses](https://www.bamse.se/) webbsida och försök svara på frågorna.
+Vilka fördelar kan du identifiera med att planera en produkt?
 
 #### Uppgift 2
 
-Använd [Marvels](https://www.marvel.com/) hemsida och försök svara på frågorna.
-
-Fundera på vilka SMART mål du skulle kunna sätta för dessa två webbsidor.
+Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?
 
 {% endbas %}
-
-{% extra %}
-
-#### Uppgift 3
-
-Skapa en egen produkt-ide utifrån frågorna. Produkten är en webbsida.
-Fortsätt inom serietidningens värld.
-
-{% endextra %}
 
 {% enduppgifter %}

@@ -41,11 +41,11 @@ Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
 
 #### Uppgift 1
 
-Följ instruktionerna och validera CSS.
+Vad finns det för vinster med att validera din kod?
 
 #### Uppgift 2
 
-Validera CSS-dokument som innehåller fel. Studera felmeddelandet och försök förstå vad som är fel.
+Ge exempel på hur du kan använda validering för att felsöka din kod.
 
 {% endbas %}
 

@@ -295,7 +295,7 @@
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Använda papper och penna för att skissa en webbsida.",
+                  "text": "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
                   "id": 4268589211,
                   "type": "basic",
                   "completed": false,
@@ -303,7 +303,7 @@
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Skapa en prototyp av din idé från föregående del.",
+                  "text": "Vad menas med komplexitet och fidelity?",
                   "id": 4268589208,
                   "type": "basic",
                   "completed": false,
@@ -316,7 +316,7 @@
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Registrera dig och titta på den första filmen.",
+                  "text": "Hur använder du Figma för att skapa en prototyp?",
                   "id": 2386563289,
                   "type": "basic",
                   "completed": false,
@@ -324,24 +324,9 @@
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Titta på den andra instruktionsfilmen. Följ med och skapa en prototyp utifrån videon.",
+                  "text": "Varför är det viktigt att öka komplexiteten i en prototyp?",
                   "id": 2386563290,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "text": "Skapa en prototyp utifrån skisserna du skapade i föregående del.",
-                  "id": 2386563291,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "id": 2386563292,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
@@ -352,7 +337,7 @@
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Använd Bamses webbsida och försök svara på frågorna.",
+                  "text": "Vilka fördelar kan du identifiera med att planera en produkt?",
                   "id": 2424730400,
                   "type": "basic",
                   "completed": false,
@@ -360,16 +345,9 @@
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Använd Marvels hemsida och försök svara på frågorna.",
+                  "text": "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?",
                   "id": 2424730403,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 2424730402,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
@@ -385,7 +363,7 @@
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Bekanta dig med dokumentationsformen och dess syfte.",
+                  "text": "Vilka delar av ett Post Mortem är viktiga att ha med? Varför?",
                   "id": 2084285707,
                   "type": "basic",
                   "completed": false,
@@ -393,7 +371,7 @@
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Använd dig av mallen och skriv ett retrospektivt post mortem för ditt senaste projekt.",
+                  "text": "Vad är syftet med att berätta om positiva och negativa erfarenheter?",
                   "id": 2084285704,
                   "type": "basic",
                   "completed": false,
@@ -903,7 +881,7 @@
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Följ instruktionerna och validera HTML.",
+                  "text": "Varför är det viktigt att validera sin kod?",
                   "id": 1834048801,
                   "type": "basic",
                   "completed": false,
@@ -911,16 +889,9 @@
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Validera en HTML sida som innehåller fel. Studera felmeddelandet och försök förstå vad som är fel.",
+                  "text": "Beskriv hur du kan använda validering för att felsöka din kod.",
                   "id": 1834048802,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 1834048803,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
@@ -931,7 +902,7 @@
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Följ instruktionerna och validera CSS.",
+                  "text": "Vad finns det för vinster med att validera din kod?",
                   "id": 1316212991,
                   "type": "basic",
                   "completed": false,
@@ -939,7 +910,7 @@
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Validera CSS-dokument som innehåller fel. Studera felmeddelandet och försök förstå vad som är fel.",
+                  "text": "Ge exempel på hur du kan använda validering för att felsöka din kod.",
                   "id": 1316212988,
                   "type": "basic",
                   "completed": false,
@@ -957,7 +928,7 @@
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Ladda ned verktyg ett eller flera verktyg för att testa användbarhet på webbplatser.",
+                  "text": "Vad menas med design för alla?",
                   "id": 631948657,
                   "type": "basic",
                   "completed": false,
@@ -965,16 +936,9 @@
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Använd verktygen för att testa en eller flera webb-platser utifrån instruktionerna.",
+                  "text": "Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?",
                   "id": 631948658,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 631948659,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }

@@ -41,15 +41,11 @@ För att skapa en prototyp skriv ned en idé (använd SMART) och skriv sedan en 
 
 #### Uppgift 1
 
-Använda papper och penna för att skissa en webbsida.
-
-Skapa minst en uppsättning skisser för desktop- och mobilformat.
+Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?
 
 #### Uppgift 2
 
-Skapa en prototyp av din idé från föregående [del](/projektarbete/planering/att-skapa-en-produkt/).
-
-När den första skissen är klar, gör en **annan** skiss. Variera dig.
+Vad menas med komplexitet och fidelity?
 
 {% endbas %}
 
