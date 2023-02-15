@@ -27,7 +27,7 @@ Titta på följande video för en kort beskrivning av vad Figma är. Videon är 
 
 {% youtube 'Cx2dkpBxst8' %}
 
-Titta på följande video och testa att göra det som instruktören gör i filmen. 
+Titta på följande video och testa att göra det som instruktören gör i filmen.
 
 {% youtube '3q3FV65ZrUs' %}
 
@@ -43,26 +43,12 @@ Utgå från skisserna av din prototyp. Försök återskapa delarna i din skissad
 
 #### Uppgift 1
 
-Registrera dig och titta på den första filmen.
-
-Starta Figma och prova verktyget.
+Hur använder du Figma för att skapa en prototyp?
 
 #### Uppgift 2
 
-Titta på den andra instruktionsfilmen. Följ med och skapa en prototyp utifrån videon.
-
-#### Uppgift 3
-
-Skapa en prototyp utifrån skisserna du skapade i föregående [del](/projektarbete/planering/prototyper-papper/).
+Varför är det viktigt att öka komplexiteten i en prototyp?
 
 {% endbas %}
-
-{% extra %}
-
-#### Uppgift 4
-
-Arbeta vidare med din Figma prototyp. Skapa en version för mobil och desktop.
-
-{% endextra %}
 
 {% enduppgifter %}

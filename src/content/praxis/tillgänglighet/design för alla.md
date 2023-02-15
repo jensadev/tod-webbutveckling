@@ -49,20 +49,12 @@ Förbered en kort presentation av dina resultat.
 
 #### Uppgift 1
 
-Ladda ned verktyg ett eller flera verktyg för att testa användbarhet på webbplatser.
+Vad menas med design för alla?
 
 #### Uppgift 2
 
-Använd verktygen för att testa en eller flera webb-platser utifrån instruktionerna.
+Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?
 
 {% endbas %}
-
-{% extra %}
-
-#### Uppgift 3
-
-Skriv och skapa presentationen.
-
-{% endextra %}
 
 {% enduppgifter %}

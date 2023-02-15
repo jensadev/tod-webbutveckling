@@ -42,11 +42,11 @@ Du kan utgå och kopiera den här [mallen](https://gist.github.com/jensnti/c377e
 
 #### Uppgift 1
 
-Bekanta dig med dokumentationsformen och dess syfte.
+Vilka delar av ett Post Mortem är viktiga att ha med? Varför?
 
 #### Uppgift 2
 
-Använd dig av mallen och skriv ett retrospektivt post mortem för ditt senaste projekt.
+Vad är syftet med att berätta om positiva och negativa erfarenheter?
 
 {% endbas %}
 

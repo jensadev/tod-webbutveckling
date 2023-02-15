@@ -23,7 +23,6 @@ HTML och CSS valideras främst med automatiska verktyg.
 
 {% instruktioner %}
 
-
 För att validera din HTML kod så kan du använda [validator.nu](https://validator.nu/).
 Du kan validera med en adress, ladda upp en fil eller klistra in ditt dokument.
 
@@ -34,6 +33,8 @@ Du kan validera med en adress, ladda upp en fil eller klistra in ditt dokument.
 -   Har du inga fel, skapa några!
 -   Validera en webbplats du använder, klistra in adressen.
 
+Om du använder VSCode så kan du använda det för att sätta regler för din validering. Ett sätt är att använda tillägget [Prettier](https://prettier.io/).Prova att installera och använda det.
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -42,22 +43,12 @@ Du kan validera med en adress, ladda upp en fil eller klistra in ditt dokument.
 
 #### Uppgift 1
 
-Följ instruktionerna och validera HTML.
+Varför är det viktigt att validera sin kod?
 
 #### Uppgift 2
 
-Validera en HTML sida som innehåller fel. Studera felmeddelandet och försök förstå vad som är fel.
+Beskriv hur du kan använda validering för att felsöka din kod.
 
 {% endbas %}
-
-{% extra %}
-
-#### Uppgift 3
-
-Om du använder VSCode. Sök efter ett tillägg för att hjälpa dig skriva välformatterad och felfri kod.
-
-[Prettier](https://prettier.io/) är ett bra exempel på ett hjälpmedel för dig som utvecklare. Prova att installera och använda det.
-
-{% endextra %}
 
 {% enduppgifter %}
