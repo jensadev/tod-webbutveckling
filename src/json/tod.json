@@ -2,55 +2,15 @@
   "subject": "webbutveckling",
   "themes": [
     {
+      "theme": "slutuppgifter",
+      "areas": []
+    },
+    {
       "theme": "introduktion",
       "areas": [
         {
           "area": "webben",
           "parts": [
-            {
-              "part": "adresser",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad är ett protokoll? Förklara skillnaden mellan http och https?",
-                  "id": 1596416164,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Vad menas med en domän och en resurs?",
-                  "id": 1596416167,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "text": "Hur används ett fragment och varför används det?",
-                  "id": 1596416166,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "text": "Vad är query parameterar och vad kan de används till?",
-                  "id": 1596416161,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-5",
-                  "id": 1596416160,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
             {
               "part": "server",
               "assignments": [
@@ -99,43 +59,157 @@
                   "date": null
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "slutuppgifter",
-      "areas": []
-    },
-    {
-      "theme": "media",
-      "areas": [
-        {
-          "area": "bilder",
-          "parts": [
+            },
             {
-              "part": "bildformat",
+              "part": "adresser",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
-                  "id": 3372949248,
+                  "text": "Vad är ett protokoll? Förklara skillnaden mellan http och https?",
+                  "id": 1596416164,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Vad är viktiga att tänka på om du använder webbformat?",
-                  "id": 3372949251,
+                  "text": "Vad menas med en domän och en resurs?",
+                  "id": 1596416167,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-3",
-                  "id": 3372949250,
+                  "text": "Hur används ett fragment och varför används det?",
+                  "id": 1596416166,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-4",
+                  "text": "Vad är query parameterar och vad kan de används till?",
+                  "id": 1596416161,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-5",
+                  "id": 1596416160,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "layout",
+      "areas": [
+        {
+          "area": "flexbox",
+          "parts": [
+            {
+              "part": "display-flex",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad händer när ett element har display flex till skillnad från block?",
+                  "id": 995728840,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Hur fungerar flex-direction? Hur påverkar det align-items och justify-content?",
+                  "id": 995728843,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "area": "grid",
+          "parts": [
+            {
+              "part": "display-grid",
+              "assignments": []
+            }
+          ]
+        },
+        {
+          "area": "responsive-design",
+          "parts": [
+            {
+              "part": "media-queries",
+              "assignments": []
+            },
+            {
+              "part": "mobile-first",
+              "assignments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "tekniker",
+      "areas": [
+        {
+          "area": "css",
+          "parts": [
+            {
+              "part": "box-model",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Förklara vad boxmodellen är och hur den fungerar.",
+                  "id": 3091451717,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Ge exempel på CSS-egenskaper som påverkar boxmodellen.",
+                  "id": 3091451718,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "matt-och-varden",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Ge exempel på tre måttenheter",
+                  "id": 3223028752,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Vad är skillnaden på en absolut och en relativ måttenhet?",
+                  "id": 3223028755,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3223028754,
                   "type": "extra",
                   "completed": false,
                   "date": null
@@ -143,192 +217,440 @@
               ]
             },
             {
-              "part": "bildoptimering",
+              "part": "vad-ar-css",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Vad innebär det att optimera en bild?",
-                  "id": 3053005275,
+                  "text": "Vad är CSS?",
+                  "id": 2792143601,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Ge exempel på bildformat och vad de passar för.",
-                  "id": 3053005272,
+                  "text": "Vad bör du tänka på när du namnger CSS-dokument? Vilken filändelse ska du använda?",
+                  "id": 2792143602,
                   "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "text": "Ge exempel på hur du kan skriva CSS-regler för att använda i HTML-dokument.",
+                  "id": 2792143603,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-4",
+                  "id": 2792143604,
+                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
               ]
             },
             {
-              "part": "bildstorlek",
+              "part": "selektorer",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Beskriv vad som menas med en bilds dimension och upplösning.",
-                  "id": 148858203,
+                  "text": "Vad är en selektor?",
+                  "id": 1168235384,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift.",
-                  "id": 148858200,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "skarmupplosning",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad menas med skärmupplösning?",
-                  "id": 3938542125,
+                  "text": "Ge exempel på två eller fler olika typer av selektorer.",
+                  "id": 1168235387,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
-                  "assignment": "uppgift-2",
-                  "text": "Vad menas med bildförhållande?",
-                  "id": 3938542126,
+                  "assignment": "uppgift-3",
+                  "text": "Hur kan du använda flera css regler för ett element?",
+                  "id": 1168235386,
                   "type": "basic",
                   "completed": false,
                   "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "video",
-          "parts": [
-            {
-              "part": "videoformat",
-              "assignments": [
+                },
                 {
-                  "assignment": "uppgift-1",
-                  "text": "Vad menas med videoformat?",
-                  "id": 1460679671,
-                  "type": "basic",
+                  "assignment": "uppgift-4",
+                  "id": 1168235389,
+                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
               ]
             },
             {
-              "part": "videokontainer",
-              "assignments": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "praxis",
-      "areas": [
-        {
-          "area": "hosting",
-          "parts": [
-            {
-              "part": "molntjanster",
-              "assignments": []
-            },
-            {
-              "part": "utvecklingsserver",
+              "part": "en-webbsida-med-css",
               "assignments": []
             }
           ]
         },
         {
-          "area": "tillganglighet",
+          "area": "html",
           "parts": [
             {
-              "part": "design-for-alla",
+              "part": "attribut",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Vad menas med design för alla?",
-                  "id": 631948657,
+                  "text": "Förklara vad ett attribut är.",
+                  "id": 2153189333,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?",
-                  "id": 631948658,
+                  "text": "Ge exempel på vilka delar som ett attribut består av.",
+                  "id": 2153189334,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 2153189335,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-4",
+                  "id": 2153189328,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "element",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad är ett HTML element och hur används det?",
+                  "id": 2431154290,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Vilka tre delar har en HTML tagg?",
+                  "id": 2431154289,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "text": "Var skriver du HTML elementen som användaren ska se i ditt dokument?",
+                  "id": 2431154288,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-4",
+                  "id": 2431154295,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "semantiska-element",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad betyder semantik?",
+                  "id": 3099843951,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Ge tre exempel på semantiska element och deras betydelse.",
+                  "id": 3099843948,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3099843949,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "vad-ar-html",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad är HTML?",
+                  "id": 1803770449,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Hur bör du namnge dina HTML dokument? Vilken filändelse ska du använda?",
+                  "id": 1803770450,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "dokumentstruktur",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vilket element är root noden i HTML dokumentet?",
+                  "id": 2341660371,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Vilket element innehåller information om dokumentet?",
+                  "id": 2341660368,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "text": "Vilket element innehåller allt innehåll som ska visas för användaren?",
+                  "id": 2341660369,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "en-webbsida",
+              "assignments": []
             }
           ]
         },
         {
-          "area": "kod",
+          "area": "javascript",
           "parts": [
             {
-              "part": "automatisera",
-              "assignments": []
-            },
-            {
-              "part": "linta",
-              "assignments": []
-            },
-            {
-              "part": "validera-css",
+              "part": "dom",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Vad finns det för vinster med att validera din kod?",
-                  "id": 1316212991,
+                  "text": "Vad menas med DOM?",
+                  "id": 1184300900,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Ge exempel på hur du kan använda validering för att felsöka din kod.",
-                  "id": 1316212988,
+                  "text": "Ge exempel på hur du kan välja element med javascript.",
+                  "id": 1184300903,
                   "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 1184300902,
+                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
               ]
             },
             {
-              "part": "validera-html",
+              "part": "selektion",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Varför är det viktigt att validera sin kod?",
-                  "id": 1834048801,
+                  "text": "Vad menas med selektion?",
+                  "id": 3713415402,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Beskriv hur du kan använda validering för att felsöka din kod.",
-                  "id": 1834048802,
+                  "text": "Ge tre exempel på när selektion kan vara användbart.",
+                  "id": 3713415401,
                   "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3713415400,
+                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
               ]
             },
             {
-              "part": "stil",
-              "assignments": []
+              "part": "datatyper",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Ge exempel på datatyper i javascript.",
+                  "id": 4077775832,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Vad menas med dynamiskt typat?",
+                  "id": 4077775835,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 4077775834,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "operatorer",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad menas med en operator?",
+                  "id": 1273040597,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Förklara skillnaderna mellan = och ==.",
+                  "id": 1273040598,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "text": "Ge tre exmpel på uttryck som resulterar i ett numeriskt värde.",
+                  "id": 1273040599,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 1273040599,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "variabler",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Förklara hur du deklarerar en variabel i javascript.",
+                  "id": 30077174,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Ge exempel på hur javascript kan skriva ut meddelanden till användaren.",
+                  "id": 30077173,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 30077172,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "iteration",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad menas med iteration, vad är det som sker?",
+                  "id": 3540741333,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Ge exempel på olika typer av loopar i javascript.",
+                  "id": 3540741334,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-3",
+                  "id": 3540741335,
+                  "type": "extra",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "vad-ar-javascript",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad är javascript?",
+                  "id": 2325845521,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Vad menas med att javascript körs på klient-sidan?",
+                  "id": 2325845522,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
             }
           ]
         }
@@ -340,10 +662,6 @@
         {
           "area": "dokumentation",
           "parts": [
-            {
-              "part": "commits",
-              "assignments": []
-            },
             {
               "part": "post-mortem",
               "assignments": [
@@ -364,6 +682,10 @@
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "commits",
+              "assignments": []
             }
           ]
         },
@@ -438,26 +760,39 @@
       ]
     },
     {
-      "theme": "layout",
+      "theme": "praxis",
       "areas": [
         {
-          "area": "flexbox",
+          "area": "hosting",
           "parts": [
             {
-              "part": "display-flex",
+              "part": "molntjanster",
+              "assignments": []
+            },
+            {
+              "part": "utvecklingsserver",
+              "assignments": []
+            }
+          ]
+        },
+        {
+          "area": "tillganglighet",
+          "parts": [
+            {
+              "part": "design-for-alla",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Vad händer när ett element har display flex till skillnad från block?",
-                  "id": 995728840,
+                  "text": "Vad menas med design för alla?",
+                  "id": 631948657,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Hur fungerar flex-direction? Hur påverkar det align-items och justify-content?",
-                  "id": 995728843,
+                  "text": "Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?",
+                  "id": 631948658,
                   "type": "basic",
                   "completed": false,
                   "date": null
@@ -467,23 +802,60 @@
           ]
         },
         {
-          "area": "responsive-design",
+          "area": "kod",
           "parts": [
             {
-              "part": "media-queries",
+              "part": "validera-css",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Vad finns det för vinster med att validera din kod?",
+                  "id": 1316212991,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Ge exempel på hur du kan använda validering för att felsöka din kod.",
+                  "id": 1316212988,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "linta",
               "assignments": []
             },
             {
-              "part": "mobile-first",
-              "assignments": []
-            }
-          ]
-        },
-        {
-          "area": "grid",
-          "parts": [
+              "part": "validera-html",
+              "assignments": [
+                {
+                  "assignment": "uppgift-1",
+                  "text": "Varför är det viktigt att validera sin kod?",
+                  "id": 1834048801,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "assignment": "uppgift-2",
+                  "text": "Beskriv hur du kan använda validering för att felsöka din kod.",
+                  "id": 1834048802,
+                  "type": "basic",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
             {
-              "part": "display-grid",
+              "part": "stil",
+              "assignments": []
+            },
+            {
+              "part": "automatisera",
               "assignments": []
             }
           ]
@@ -491,26 +863,26 @@
       ]
     },
     {
-      "theme": "tekniker",
+      "theme": "media",
       "areas": [
         {
-          "area": "css",
+          "area": "bilder",
           "parts": [
             {
-              "part": "box-model",
+              "part": "bildoptimering",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Förklara vad boxmodellen är och hur den fungerar.",
-                  "id": 3091451717,
+                  "text": "Vad innebär det att optimera en bild?",
+                  "id": 3053005275,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Ge exempel på CSS-egenskaper som påverkar boxmodellen.",
-                  "id": 3091451718,
+                  "text": "Ge exempel på bildformat och vad de passar för.",
+                  "id": 3053005272,
                   "type": "basic",
                   "completed": false,
                   "date": null
@@ -518,35 +890,27 @@
               ]
             },
             {
-              "part": "selektorer",
+              "part": "bildformat",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Vad är en selektor?",
-                  "id": 1168235384,
+                  "text": "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
+                  "id": 3372949248,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Ge exempel på två eller fler olika typer av selektorer.",
-                  "id": 1168235387,
+                  "text": "Vad är viktiga att tänka på om du använder webbformat?",
+                  "id": 3372949251,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-3",
-                  "text": "Hur kan du använda flera css regler för ett element?",
-                  "id": 1168235386,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "id": 1168235389,
+                  "id": 3372949250,
                   "type": "extra",
                   "completed": false,
                   "date": null
@@ -554,64 +918,42 @@
               ]
             },
             {
-              "part": "vad-ar-css",
+              "part": "skarmupplosning",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Vad är CSS?",
-                  "id": 2792143601,
+                  "text": "Vad menas med skärmupplösning?",
+                  "id": 3938542125,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Vad bör du tänka på när du namnger CSS-dokument? Vilken filändelse ska du använda?",
-                  "id": 2792143602,
+                  "text": "Vad menas med bildförhållande?",
+                  "id": 3938542126,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "text": "Ge exempel på hur du kan skriva CSS-regler för att använda i HTML-dokument.",
-                  "id": 2792143603,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "id": 2792143604,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
               ]
             },
             {
-              "part": "matt-och-varden",
+              "part": "bildstorlek",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Ge exempel på tre måttenheter",
-                  "id": 3223028752,
+                  "text": "Beskriv vad som menas med en bilds dimension och upplösning.",
+                  "id": 148858203,
                   "type": "basic",
                   "completed": false,
                   "date": null
                 },
                 {
                   "assignment": "uppgift-2",
-                  "text": "Vad är skillnaden på en absolut och en relativ måttenhet?",
-                  "id": 3223028755,
+                  "text": "Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift.",
+                  "id": 148858200,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 3223028754,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }
@@ -620,325 +962,20 @@
           ]
         },
         {
-          "area": "html",
+          "area": "video",
           "parts": [
             {
-              "part": "attribut",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Förklara vad ett attribut är.",
-                  "id": 2153189333,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Ge exempel på vilka delar som ett attribut består av.",
-                  "id": 2153189334,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 2153189335,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "id": 2153189328,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
+              "part": "videokontainer",
+              "assignments": []
             },
             {
-              "part": "vad-ar-html",
+              "part": "videoformat",
               "assignments": [
                 {
                   "assignment": "uppgift-1",
-                  "text": "Vad är HTML?",
-                  "id": 1803770449,
+                  "text": "Vad menas med videoformat?",
+                  "id": 1460679671,
                   "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Hur bör du namnge dina HTML dokument? Vilken filändelse ska du använda?",
-                  "id": 1803770450,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "semantiska-element",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad betyder semantik?",
-                  "id": 3099843951,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Ge tre exempel på semantiska element och deras betydelse.",
-                  "id": 3099843948,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 3099843949,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "element",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad är ett HTML element och hur används det?",
-                  "id": 2431154290,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Vilka tre delar har en HTML tagg?",
-                  "id": 2431154289,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "text": "Var skriver du HTML elementen som användaren ska se i ditt dokument?",
-                  "id": 2431154288,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-4",
-                  "id": 2431154295,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "javascript",
-          "parts": [
-            {
-              "part": "datatyper",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Ge exempel på datatyper i javascript.",
-                  "id": 4077775832,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Vad menas med dynamiskt typat?",
-                  "id": 4077775835,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 4077775834,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "iteration",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad menas med iteration, vad är det som sker?",
-                  "id": 3540741333,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Ge exempel på olika typer av loopar i javascript.",
-                  "id": 3540741334,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 3540741335,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "operatorer",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad menas med en operator?",
-                  "id": 1273040597,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Förklara skillnaderna mellan = och ==.",
-                  "id": 1273040598,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "text": "Ge tre exmpel på uttryck som resulterar i ett numeriskt värde.",
-                  "id": 1273040599,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 1273040599,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "selektion",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad menas med selektion?",
-                  "id": 3713415402,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Ge tre exempel på när selektion kan vara användbart.",
-                  "id": 3713415401,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 3713415400,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "variabler",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Förklara hur du deklarerar en variabel i javascript.",
-                  "id": 30077174,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Ge exempel på hur javascript kan skriva ut meddelanden till användaren.",
-                  "id": 30077173,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 30077172,
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "vad-ar-javascript",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad är javascript?",
-                  "id": 2325845521,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Vad menas med att javascript körs på klient-sidan?",
-                  "id": 2325845522,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "dom",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "text": "Vad menas med DOM?",
-                  "id": 1184300900,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "text": "Ge exempel på hur du kan välja element med javascript.",
-                  "id": 1184300903,
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "id": 1184300902,
-                  "type": "extra",
                   "completed": false,
                   "date": null
                 }

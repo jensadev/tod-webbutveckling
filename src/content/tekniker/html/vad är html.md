@@ -11,6 +11,8 @@ eleventyNavigation:
 
 Hypertext Markup Language(HTML) är ett märkspråk som används för att märka upp webbsidor. HTML strukturerar upp text och märker upp den med taggar. Det för att en webbläsare ska kunna tolka texten och visa den som en webbsida.
 
+HTML dokument är träd av noder, där noderna är element eller text.
+
 HTML är en standard som styrs av [World Wide Web Consortium](https://www.w3.org/).
 
 ### Tänk på
@@ -24,38 +26,27 @@ HTML är en standard som styrs av [World Wide Web Consortium](https://www.w3.org
 
 {% instruktioner %}
 
-Skapa en fil, ```index.html```. Öppna filen och skapa följande innehåll. Det här är ett exempel på en korrekt validerande HTML grundstruktur.
+Skapa en fil, `index.html` och öppna den för redigering. Du kan använda ett valfritt textredigeringsprogram, men det underlättar om det stöder HTML.
+
+Prova sedan att skriva text i filen och spara den. Öppna sedan filen i en webbläsare, leta reda på filen på din dator och dubbelklicka på den för att öppna (förutsatt att du sparat med filändelsen `.html`).
+
+Du kommer se att texten visas som vanlig text.
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mitt första HTML dokument</title>
-    </head>
-    <body>
-        <h1>Hej världen!</h1>
-        <p>Detta är mitt första HTML dokument.</p>
-    </body>
-</html>
+Hej på dig! Det här är text i en html fil.
 ```
 
-Redigera filen, byt språk och titel.
+Fortsätt redigera filen, prova nu att skriva en rubrik med hjälp av en `h1` tagg.
 
 ```html
-<html lang="sv">
-    <!-- anger att sidans språk är svenska -->
-    <head>
-        <!-- head taggen innehåller meta information till webbläsaren -->
-        <title>Detta är sidans titel som visas i fliken i webbläsaren</title>
-    </head>
-    <body>
-        <!-- de här taggarna är kommentarer och syns inte alls på sidan -->
-        <h1>I sidans body finns det innehåll som faktiskt syns på webbsidan</h1>
-    </body>
-</html>
+<h1>Det här är en rubrik</h1>
+```
+
+Du kan även redigera den text du skrev tidigare. Prova att använda dig av en `p` tagg för att skapa en paragraf.
+
+```html
+<h1>Hej på dig!</h1>
+<p>Det här är text i en html fil.</p>
 ```
 
 {% endinstruktioner %}
@@ -75,13 +66,3 @@ Hur bör du namnge dina HTML dokument? Vilken filändelse ska du använda?
 {% endbas %}
 
 {% enduppgifter %}
-
-{% facit "Tips" %}
-
-Om du använder Visual Studio så får du med verktyget [Emmet](https://emmet.io/). Emmet underlättar otroligt mycket för att skriva HTML.
-
-Ett exempel är att du kan skriva ```html:5```, tabba &#11134; och direkt få ut grundstrukturen i ett HTML dokument.
-
-[Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
-
-{% endfacit %}

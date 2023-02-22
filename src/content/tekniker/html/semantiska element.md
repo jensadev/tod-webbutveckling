@@ -3,7 +3,7 @@ title: Semantiska element
 eleventyNavigation:
     key: semantiska element
     parent: html
-    order: 2
+    order: 3
     excerpt: Semantiska element ger mer information om innehållet.
 ---
 
@@ -13,9 +13,9 @@ Semantik betyder mening. Med semantiska element i HTML så får webbläsaren mer
 
 ### Tänk på
 
-- Att använda rätt tagg för innehållet.
-- När du använder semantiska element så ökar du användbarheten på din webbplats.
-- Din kod blir lättare att läsa och förstå.
+-   Att använda rätt tagg för innehållet.
+-   När du använder semantiska element så ökar du användbarheten på din webbplats.
+-   Din kod blir lättare att läsa och förstå.
 
 {% endintro %}
 
@@ -49,10 +49,11 @@ Listorna ska innehålla fem punkter med semantiska element. För varje punkt i l
 
 Första listan ska vara oordnad och andra listan ska vara ordnad. I båda fallen ska listan ha 5 punkter.
 
-- `h1` med texten "Oordnad lista"
-- `ul` med 5 punkter
-- `h1` med texten "Ordnad lista"
-- `ol` med 5 punkter
+-   `h1` med texten "Listelement"
+-   `h2` med texten "Oordnad lista"
+-   `ul` med 5 punkter
+-   `h2` med texten "Ordnad lista"
+-   `ol` med 5 punkter
 
 {% endinstruktioner %}
 

@@ -3,18 +3,21 @@ title: Element
 eleventyNavigation:
     key: element
     parent: html
-    order: 1
+    order: 2
     excerpt: Element är en del av den textstruktur som utgör en webbsida.
 ---
 
 {% intro %}
 
-HTML består av element. Element skrivs med `<taggar>` som märker upp text. Webbläsaren tolkar taggarna och vilka element de representerar och visar upp resultatet som en webbsida.
+HTML består av element. Element skrivs med hjälp av `<taggar>` som märker upp text. Webbläsaren tolkar taggarna och vilka element de representerar och visar upp resultatet som en webbsida.
 
-En HTML tagg består av tre delar:
-- En öppningstagg `<p>`
-- Det innehåll som kommer mellan öppnings- och stängningstaggarna
-- En stängningstagg `</p>`
+Ett HTML element består av tre delar:
+
+-   En öppningstagg `<p>`
+-   Det innehåll som kommer mellan öppnings- och stängningstaggarna
+-   En stängningstagg `</p>`
+
+![HTML element](/assets/images/element@2x.png){.w-100}
 
 Ett HTML element kan innehålla andra element, det kallas för nästlade element.
 
@@ -31,7 +34,7 @@ Ett HTML element kan innehålla andra element, det kallas för nästlade element
 
 Skapa ett nytt dokument, `element.html`.
 
-Skriv följande kod i dokumentet. Element som ska visas för användaren skrivs alltid mellan `<body>` taggarna i dokumentet.
+Skriv följande kod i dokumentet. Element som ska visas för användaren skrivs alltid mellan `<body>` taggarna i dokumentet. Det går alltså att säga att följande element ska vara nästlade i `<body>` taggen.
 
 ```html
 <h1>Detta är en rubrik, med rubriknivå 1</h1>
@@ -92,12 +95,10 @@ Hur tolkar webbläsaren en HTML tagg som inte finns och vad visas då?
 
 {% facit "Tips" %}
 
-Testa att skriva ett element med taggar som inte finns. 
+Testa att skriva ett element med taggar som inte finns.
 
 ```html
 <hej>Detta är ett element som inte finns</hej>
 ```
 
 {% endfacit %}
-
-

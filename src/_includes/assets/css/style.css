@@ -1129,3 +1129,10 @@ li.test {
 .icon {
   font-size: var(--step-1);
 }
+
+.w-100 {
+  width: 100%;
+}
+.w-100 img {
+  width: 100%;
+}

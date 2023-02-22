@@ -3,7 +3,7 @@ title: Attribut
 eleventyNavigation:
     key: attribut
     parent: html
-    order: 3
+    order: 4
     excerpt: Element kan ha attribut, de ger extra information om elementet.
 ---
 
@@ -17,6 +17,9 @@ Ett attribut skrivs med ett `namn`, likhetstecken `=` och värde. Värdet skrivs
 attribut="värde"
 ```
 
+Attribut skrivs alltid i öppningstaggen.
+
+![HTML element med egenskap](/assets/images/attributes@2x.png){.w-100}
 
 ### Tänk på
 
@@ -28,9 +31,17 @@ attribut="värde"
 
 {% instruktioner %}
 
-Skapa ett nytt dokument, ```attribut.html``` med korrekt HTML-grundstruktur.
+Skapa ett nytt dokument, `attribut.html` med korrekt HTML-grundstruktur.
 
 Skriv följande kod i dokumentet. [Ankar-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) `<a>` används för att visa länkar i ditt dokument. Använd attributet `href` för att ange länkens adress. Det text som användaren ser är innehållet i `<a>` taggen.
+
+Du kan även använda ankar element till att länka till andra filer i samma mapp.
+
+```html
+<a href="element.html">Element</a>
+```
+
+Det går även att länka till andra webbsidor. Använd attributet `target` för att öppna länken i ett nytt fönster.
 
 ```html
 <p>
@@ -41,19 +52,25 @@ Skriv följande kod i dokumentet. [Ankar-elementet](https://developer.mozilla.or
         >kom igång med HTML på MDN</a
     >. Läs gärna mer där.
 </p>
-<p>Det går även att länka till dina andra webbsidor, var noga med sökvägen.</p>
 ```
 
-Redigera dina tidigare dokument, ```index.html```, ```element.html``` och ```attribut.html```. Se till att dokumenten ligger i samma mapp. 
+Det finns väldigt många olika attribut som kan användas på olika element. Läs mer om attribut på [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
 
-Skapa en navigationslista överst i `<body>` taggen på varje sida.
+Bland de vanligaste attributen är `class` och `id`. De används för att identifiera element i CSS och JavaScript.
 
 ```html
-<ul>
-    <li><a href="index.html" title="Tillbaka till startsidan">Hem</a></li>
-    <li><a href="element.html">element</a></li>
-    <li><a href="attribut.html">aatribut</a></li>
-</ul>
+<p class="text-red">Det här är en röd text.</p>
+<button id="accept-button">Ok</button>
+```
+
+Klassens namn är kopplat till en CSS-regel. Men för att det ska fungera så måste du även skriva en CSS-regel. CSS-regler kan skrivas inuti `<style>` taggen i `<head>` taggen.
+
+```html
+<style>
+    .text-red {
+        color: red;
+    }
+</style>
 ```
 
 {% endinstruktioner %}
@@ -77,6 +94,7 @@ Ge exempel på vilka delar som ett attribut består av.
 #### Uppgift 3
 
 Vad gör attributet `target` på ett `a` element? Vilka värden kan det ha?
+
 #### Uppgift 4
 
 Hur används attribut för att peka till andra filer?

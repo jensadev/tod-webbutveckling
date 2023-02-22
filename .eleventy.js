@@ -57,6 +57,7 @@ module.exports = (eleventyConfig) => {
         './src/assets/favicon.ico': '/favicon.ico',
     });
     eleventyConfig.addPassthroughCopy('./src/assets/icons');
+    eleventyConfig.addPassthroughCopy('./src/assets/images');
     // eleventyConfig.addPassthroughCopy('./src/manifest.json');
     eleventyConfig.addPassthroughCopy('./src/service-worker.js');
 
