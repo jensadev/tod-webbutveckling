@@ -11,16 +11,17 @@ eleventyNavigation:
 
 En CSS-selektor bestämmer vilket eller vilka element som en CSS-regel påverkar. Det finns ett antal olika typer av selektorer.
 
--   typ (eng. type) selektor, väljer ett element `p`.
--   klass (eng. class) selektor, väljer ett element med en specifik klass `.class`.
--   id selektor, väljer ett element med en specifik id `#id`.
+-   typ (eng. type) selektor, väljer ett element `p`, `h1`, `main` osv.
+-   klass (eng. class) selektor, väljer ett element med en specifik klass `.class-name`.
+-   id selektor, väljer ett element med en specifik id `#id-name`.
 
 ### Tänk på
 
--   Använd främst klass selektorer ```.class```.
--   Selektorer kan kombineras ```p.class```.
--   ID selektorer är unika, det vill säga två element kan inte ha samma id ```#unik```.
-- Ett element kan använda flera klasser, separera dem med ett blanksteg ```<p class="class1 class2">```.
+-   Använd främst klass selektorer `.class`.
+-   Selektorer kan kombineras `p.class`.
+-   ID selektorer är unika, det vill säga två element kan inte ha samma id `#unik`.
+- Ett element kan använda flera klasser, separera dem med ett blanksteg `<p class="class1 class2">`.
+- För att identifiera selektorns typ så titta på hur den börjar, bokstav är element, punkt är klass och hashtag är id. 
 
 {% endintro %}
 
@@ -31,7 +32,7 @@ Skapa två dokument, `selektorer.html` och en tillhörande css fil, ```selektore
 Skriv följande HTML i dokumentet.
 
 ```html
-<main id="main-content">
+<main id="main-content" class="container">
     <h1 id="start">Lorem ipsum</h1>
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <p>
@@ -61,10 +62,10 @@ Skriv följande HTML i dokumentet.
 
 En bra start är att se till att dokumentet är läsbart för alla. Detta kan göras med bland annat att centrera innehållet, inte göra det "för brett", det vill säga begränsa radlängden.
 
-Skriv de två följande CSS reglerna i dokumentet. De använder typ selektorer och heter `body` och `main`.
+Skriv de två följande CSS reglerna i dokumentet. De använder typ selektorer och heter `body` och `.container`.
 
-- `body` regeln sätter färg, typsnitt och storlek på text.
-- `main` regeln begränsar innehållets bredd och centrerar det.
+- `body` regeln sätter färg, typsnitt och storlek på text. Det påverkar alla element i `body` elementet.
+- `.container` regeln begränsar innehållets bredd och centrerar det, denna klass går att använda på alla element där du önskar detta. Används på `main` med klassen.
 
 ```css
 body {
@@ -72,7 +73,7 @@ body {
     font-family: sans-serif;
     font-size: 1rem;
 }
-main {
+.container {
     width: min(80ch, 100vw - 2rem);
     margin-inline: auto;
 }
