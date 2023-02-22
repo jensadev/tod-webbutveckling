@@ -6,7 +6,7 @@ permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
     key: media
     parent: webbutveckling
-    order: 3
+    order: 4
     excerpt: Bilder, video och annan media på webben.
 ---
 

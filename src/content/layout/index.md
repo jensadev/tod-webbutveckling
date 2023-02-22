@@ -6,7 +6,7 @@ permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
     key: layout
     parent: webbutveckling
-    order: 4
+    order: 3
     excerpt: Layout för webben.
 ---
 
