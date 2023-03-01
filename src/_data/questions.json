@@ -3,37 +3,8 @@
     "theme": "media",
     "areas": [
       {
-        "area": "video",
-        "parts": [
-          {
-            "part": "videoformat",
-            "assignments": [
-              "Vad menas med videoformat?"
-            ]
-          },
-          {
-            "part": "videokontainer",
-            "assignments": []
-          }
-        ]
-      },
-      {
         "area": "bilder",
         "parts": [
-          {
-            "part": "bildformat",
-            "assignments": [
-              "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
-              "Vad är viktiga att tänka på om du använder webbformat?"
-            ]
-          },
-          {
-            "part": "bildoptimering",
-            "assignments": [
-              "Vad innebär det att optimera en bild?",
-              "Ge exempel på bildformat och vad de passar för."
-            ]
-          },
           {
             "part": "bildstorlek",
             "assignments": [
@@ -42,10 +13,39 @@
             ]
           },
           {
+            "part": "bildformat",
+            "assignments": [
+              "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
+              "Vad är viktiga att tänka på om du använder webbformat?"
+            ]
+          },
+          {
             "part": "skarmupplosning",
             "assignments": [
               "Vad menas med skärmupplösning?",
               "Vad menas med bildförhållande?"
+            ]
+          },
+          {
+            "part": "bildoptimering",
+            "assignments": [
+              "Vad innebär det att optimera en bild?",
+              "Ge exempel på bildformat och vad de passar för."
+            ]
+          }
+        ]
+      },
+      {
+        "area": "video",
+        "parts": [
+          {
+            "part": "videokontainer",
+            "assignments": []
+          },
+          {
+            "part": "videoformat",
+            "assignments": [
+              "Vad menas med videoformat?"
             ]
           }
         ]
@@ -80,45 +80,12 @@
         "area": "responsive-design",
         "parts": [
           {
-            "part": "media-queries",
-            "assignments": []
-          },
-          {
             "part": "mobile-first",
             "assignments": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "theme": "introduktion",
-    "areas": [
-      {
-        "area": "webben",
-        "parts": [
-          {
-            "part": "adresser",
-            "assignments": [
-              "Vad är ett protokoll? Förklara skillnaden mellan http och https?",
-              "Vad menas med en domän och en resurs?",
-              "Hur används ett fragment och varför används det?",
-              "Vad är query parameterar och vad kan de används till?"
-            ]
           },
           {
-            "part": "klient",
-            "assignments": [
-              "Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?",
-              "Hur fungerar utvecklarverktygen i din webbläsare?"
-            ]
-          },
-          {
-            "part": "server",
-            "assignments": [
-              "Vad menas med en webbserver? Ge exempel på tre olika webbserverar.",
-              "Vad är en molntjänst för webbhosting?"
-            ]
+            "part": "media-queries",
+            "assignments": []
           }
         ]
       }
@@ -128,13 +95,29 @@
     "theme": "projektarbete",
     "areas": [
       {
+        "area": "dokumentation",
+        "parts": [
+          {
+            "part": "commits",
+            "assignments": []
+          },
+          {
+            "part": "post-mortem",
+            "assignments": [
+              "Vilka delar av ett Post Mortem är viktiga att ha med? Varför?",
+              "Vad är syftet med att berätta om positiva och negativa erfarenheter?"
+            ]
+          }
+        ]
+      },
+      {
         "area": "planering",
         "parts": [
           {
-            "part": "prototyper-papper",
+            "part": "att-skapa-en-produkt",
             "assignments": [
-              "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
-              "Vad menas med komplexitet och fidelity?"
+              "Vilka fördelar kan du identifiera med att planera en produkt?",
+              "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?"
             ]
           },
           {
@@ -145,27 +128,11 @@
             ]
           },
           {
-            "part": "att-skapa-en-produkt",
+            "part": "prototyper-papper",
             "assignments": [
-              "Vilka fördelar kan du identifiera med att planera en produkt?",
-              "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?"
+              "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
+              "Vad menas med komplexitet och fidelity?"
             ]
-          }
-        ]
-      },
-      {
-        "area": "dokumentation",
-        "parts": [
-          {
-            "part": "post-mortem",
-            "assignments": [
-              "Vilka delar av ett Post Mortem är viktiga att ha med? Varför?",
-              "Vad är syftet med att berätta om positiva och negativa erfarenheter?"
-            ]
-          },
-          {
-            "part": "commits",
-            "assignments": []
           }
         ]
       }
@@ -192,6 +159,14 @@
             ]
           },
           {
+            "part": "selektorer",
+            "assignments": [
+              "Vad är en selektor?",
+              "Ge exempel på två eller fler olika typer av selektorer.",
+              "Hur kan du använda flera css regler för ett element?"
+            ]
+          },
+          {
             "part": "vad-ar-css",
             "assignments": [
               "Vad är CSS?",
@@ -200,67 +175,8 @@
             ]
           },
           {
-            "part": "selektorer",
-            "assignments": [
-              "Vad är en selektor?",
-              "Ge exempel på två eller fler olika typer av selektorer.",
-              "Hur kan du använda flera css regler för ett element?"
-            ]
-          }
-        ]
-      },
-      {
-        "area": "javascript",
-        "parts": [
-          {
-            "part": "dom",
-            "assignments": [
-              "Vad menas med DOM?",
-              "Ge exempel på hur du kan välja element med javascript."
-            ]
-          },
-          {
-            "part": "datatyper",
-            "assignments": [
-              "Ge exempel på datatyper i javascript.",
-              "Vad menas med dynamiskt typat?"
-            ]
-          },
-          {
-            "part": "operatorer",
-            "assignments": [
-              "Vad menas med en operator?",
-              "Förklara skillnaderna mellan = och ==.",
-              "Ge tre exmpel på uttryck som resulterar i ett numeriskt värde."
-            ]
-          },
-          {
-            "part": "selektion",
-            "assignments": [
-              "Vad menas med selektion?",
-              "Ge tre exempel på när selektion kan vara användbart."
-            ]
-          },
-          {
-            "part": "variabler",
-            "assignments": [
-              "Förklara hur du deklarerar en variabel i javascript.",
-              "Ge exempel på hur javascript kan skriva ut meddelanden till användaren."
-            ]
-          },
-          {
-            "part": "vad-ar-javascript",
-            "assignments": [
-              "Vad är javascript?",
-              "Vad menas med att javascript körs på klient-sidan?"
-            ]
-          },
-          {
-            "part": "iteration",
-            "assignments": [
-              "Vad menas med iteration, vad är det som sker?",
-              "Ge exempel på olika typer av loopar i javascript."
-            ]
+            "part": "en-webbsida-med-css",
+            "assignments": []
           }
         ]
       },
@@ -272,6 +188,14 @@
             "assignments": [
               "Förklara vad ett attribut är.",
               "Ge exempel på vilka delar som ett attribut består av."
+            ]
+          },
+          {
+            "part": "dokumentstruktur",
+            "assignments": [
+              "Vilket element är root noden i HTML dokumentet?",
+              "Vilket element innehåller information om dokumentet?",
+              "Vilket element innehåller allt innehåll som ska visas för användaren?"
             ]
           },
           {
@@ -294,6 +218,98 @@
             "assignments": [
               "Vad betyder semantik?",
               "Ge tre exempel på semantiska element och deras betydelse."
+            ]
+          },
+          {
+            "part": "en-webbsida",
+            "assignments": []
+          }
+        ]
+      },
+      {
+        "area": "javascript",
+        "parts": [
+          {
+            "part": "datatyper",
+            "assignments": [
+              "Ge exempel på datatyper i javascript.",
+              "Vad menas med dynamiskt typat?"
+            ]
+          },
+          {
+            "part": "dom",
+            "assignments": [
+              "Vad menas med DOM?",
+              "Ge exempel på hur du kan välja element med javascript."
+            ]
+          },
+          {
+            "part": "operatorer",
+            "assignments": [
+              "Vad menas med en operator?",
+              "Förklara skillnaderna mellan = och ==.",
+              "Ge tre exmpel på uttryck som resulterar i ett numeriskt värde."
+            ]
+          },
+          {
+            "part": "iteration",
+            "assignments": [
+              "Vad menas med iteration, vad är det som sker?",
+              "Ge exempel på olika typer av loopar i javascript."
+            ]
+          },
+          {
+            "part": "selektion",
+            "assignments": [
+              "Vad menas med selektion?",
+              "Ge tre exempel på när selektion kan vara användbart."
+            ]
+          },
+          {
+            "part": "vad-ar-javascript",
+            "assignments": [
+              "Vad är javascript?",
+              "Vad menas med att javascript körs på klient-sidan?"
+            ]
+          },
+          {
+            "part": "variabler",
+            "assignments": [
+              "Vad menas med att deklarera en variabel? Hur gör du det i javascript?",
+              "Ge exempel på hur du kan skriva ut en variabels värde i konsollen och i ett dokument."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "introduktion",
+    "areas": [
+      {
+        "area": "webben",
+        "parts": [
+          {
+            "part": "server",
+            "assignments": [
+              "Vad menas med en webbserver? Ge exempel på tre olika webbserverar.",
+              "Vad är en molntjänst för webbhosting?"
+            ]
+          },
+          {
+            "part": "klient",
+            "assignments": [
+              "Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?",
+              "Hur fungerar utvecklarverktygen i din webbläsare?"
+            ]
+          },
+          {
+            "part": "adresser",
+            "assignments": [
+              "Vad är ett protokoll? Förklara skillnaden mellan http och https?",
+              "Vad menas med en domän och en resurs?",
+              "Hur används ett fragment och varför används det?",
+              "Vad är query parameterar och vad kan de används till?"
             ]
           }
         ]
@@ -332,17 +348,17 @@
             "assignments": []
           },
           {
-            "part": "validera-html",
-            "assignments": [
-              "Varför är det viktigt att validera sin kod?",
-              "Beskriv hur du kan använda validering för att felsöka din kod."
-            ]
-          },
-          {
             "part": "validera-css",
             "assignments": [
               "Vad finns det för vinster med att validera din kod?",
               "Ge exempel på hur du kan använda validering för att felsöka din kod."
+            ]
+          },
+          {
+            "part": "validera-html",
+            "assignments": [
+              "Varför är det viktigt att validera sin kod?",
+              "Beskriv hur du kan använda validering för att felsöka din kod."
             ]
           }
         ]

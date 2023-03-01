@@ -60,4 +60,12 @@ Vad menas med att javascript körs på klient-sidan?
 
 {% endbas %}
 
+{% extra %}
+
+#### Uppgift 3
+
+Varför kan det vara en säkerhetsrisk att använda utvecklarverktygen?
+
+{% endextra %}
+
 {% enduppgifter %}
