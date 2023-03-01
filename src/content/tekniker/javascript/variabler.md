@@ -44,9 +44,9 @@ let greeting = `Hej ${name}, du är ${age} år gammal`;
 
 Testa att skriva in olika namn och födelseår. Vad händer om du skriver `let firstName = 'förnamn';` två gånger?
 
-Att sätta ihop text (sträng) variabler med + tecknet kallas för konkatenering. Det går även att använda backticks \` för att skapa en sträng och sedan använda `${variabel} `för att sätta ihop strängen.
+Att sätta ihop text (sträng) variabler med + tecknet kallas för konkatenering. Det går även att använda backticks \` när du skriver en sträng ([template literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)) och sedan använda `${variabel}` för att skriva ut värdet av en variabel.
 
-Skapa ett nytt html-dokument ```js.html```, koda i ett `<script>` element.
+Skapa ett nytt html-dokument `js.html`, koda i ett `<script>` element.
 
 ```js
 console.log('Välkommen!');
@@ -66,11 +66,11 @@ Prova olika sätt att skriva ut text i din webbläsare.
 
 #### Uppgift 1
 
-Förklara hur du deklarerar en variabel i javascript.
+Vad menas med att deklarera en variabel? Hur gör du det i javascript?
 
 #### Uppgift 2
 
-Ge exempel på hur javascript kan skriva ut meddelanden till användaren.
+Ge exempel på hur du kan skriva ut en variabels värde i konsollen och i ett dokument.
 
 {% endbas %}
 
@@ -78,7 +78,7 @@ Ge exempel på hur javascript kan skriva ut meddelanden till användaren.
 
 #### Uppgift 3
 
-Vad menas med konkatenering?
+Vad skiljer `let` och `const` från `var`?
 
 {% endextra %}
 
@@ -86,7 +86,7 @@ Vad menas med konkatenering?
 
 {% facit "Övning" %}
 
-Redigera filen ```js.html```.
+Redigera filen `js.html`.
 Skapa inmatning för följande frågor och skriv ut användarens svar (använd dig av `prompt` och `alert`).
 
 -   Hur skriver du för att deklarera en variabel i javascript?
