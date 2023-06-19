@@ -50,4 +50,5 @@ module.exports = {
         email: 'jens.andreasson@ntig.se',
         url: 'https://jensa.dev',
     },
+    gtag: 'G-VHBH8777XD'
 };
