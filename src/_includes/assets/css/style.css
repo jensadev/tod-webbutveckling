@@ -64,8 +64,8 @@ select {
     scroll-behavior: auto;
   }
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -152,25 +152,25 @@ select {
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
   /* Colors */
-  --color-primary: #087b9d;
-  --color-on-primary: #EEF9FC;
-  --color-secondary: #88659d;
-  --color-on-secondary: #FAF8FC;
-  --color-primary--light: #0aa1ce;
-  --color-primary--dark: #06556c;
-  --color-on-primary--light: white;
-  --color-on-primary--dark: #c3eaf4;
-  --color-white: hsl(0deg, 0%, 98%);
-  --color-gray-100: hsl(0deg, 0%, 96%);
-  --color-gray-200: hsl(0deg, 0%, 93%);
-  --color-gray-300: hsl(0deg, 0%, 88%);
-  --color-gray-400: hsl(0deg, 0%, 74%);
-  --color-gray-500: hsl(0deg, 0%, 62%);
-  --color-gray-600: hsl(0deg, 0%, 46%);
-  --color-gray-700: hsl(0deg, 0%, 38%);
-  --color-gray-800: hsl(0deg, 0%, 26%);
-  --color-gray-900: hsl(0deg, 0%, 13%);
-  --color-black: hsl(0deg, 0%, 6%);
+  --color-primary: #484172;
+  --color-on-primary: #B6B2CF;
+  --color-secondary: #c4c4d5;
+  --color-on-secondary: #51515F;
+  --color-primary--light: #5d5492;
+  --color-primary--dark: #332e52;
+  --color-on-primary--light: #d4d1e3;
+  --color-on-primary--dark: #9893bb;
+  --color-white: hsl(0, 0%, 98%);
+  --color-gray-100: hsl(0, 0%, 96%);
+  --color-gray-200: hsl(0, 0%, 93%);
+  --color-gray-300: hsl(0, 0%, 88%);
+  --color-gray-400: hsl(0, 0%, 74%);
+  --color-gray-500: hsl(0, 0%, 62%);
+  --color-gray-600: hsl(0, 0%, 46%);
+  --color-gray-700: hsl(0, 0%, 38%);
+  --color-gray-800: hsl(0, 0%, 26%);
+  --color-gray-900: hsl(0, 0%, 13%);
+  --color-black: hsl(0, 0%, 6%);
   /* spacing */
   --padding-xs-s: var(--space-xs) var(--space-s);
   --padding-2xs-xs: var(--space-2xs) var(--space-xs);
@@ -452,6 +452,9 @@ pre[class*=language-] {
   background-color: var(--color-gray-200);
 }
 .accordion__item-list li a {
+  display: grid;
+  place-content: center;
+  min-height: 48px;
   text-decoration: none;
 }
 .accordion__item-list li a:hover {
