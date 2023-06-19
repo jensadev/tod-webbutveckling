@@ -58,7 +58,6 @@ const setup = (jsonData, consentState = null) => {
     }
     // else if (config.area || config.theme) {
     //     console.log({config.area, config.theme});
-        
     // }
     else if (!config.theme) {
         for (const theme of jsonData.themes) {
