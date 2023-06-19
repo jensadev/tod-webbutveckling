@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: ...
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Optimering av bilder är viktigt. Det är ditt ansvar som utvecklare att se till att dina användare inte behöver ladda ner stora bilder som de inte behöver.
 
@@ -17,9 +19,7 @@ Optimering av bilder är viktigt. Det är ditt ansvar som utvecklare att se till
 - Redigera bilderna så att de är så stora som de visas på webbplatsen. Undvika att sätta storleken med CSS.
 - Dina användares surfpotter, batteri och prestanda. Du har ett ansvar som utvecklare.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 För att arbeta med bilder och optimera dem så kan du använda programvara som MS Paint eller Photoshop. Men oftast är det enklare att förlita sig på den uppsjö av webbverktyg som finns tillgängliga. Verktygen hjälper dig att komprimera, ändra storlek och konvertera bilder mellan olika format.
 
@@ -33,11 +33,11 @@ Använd dig av en bild du har eller tar. Sök reda på en eller flera tjänster 
 
 Testa att spara bilden i några olika format.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -47,11 +47,11 @@ Vad innebär det att optimera en bild?
 
 Ge exempel på bildformat och vad de passar för.
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Övning" %}
+{% extra "Övning" %}
 
 Skapa ett HTML-dokument ```optimering.html```.
 Använd dig av din bild. Optimera bilden i ett antal olika format, kvalitetsinställningar och storlekar. Lägg sedan in bilderna i HTML-dokumentet med hjälp av ```<img>```-elementet.
@@ -66,6 +66,6 @@ Ett rutnät av bilder är ett utmärkt tillfälle att öva på CSS olika display
 }
 ```
 
-{% endfacit %}
+{% endextra %}
 
 

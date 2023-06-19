@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Variabler har en tillhörande datatyp baserat på variabelns värde.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Alla programmeringsspråk har ett antal olika datatyper. Datatyper kan tillsammans utgöra datastrukturer.
 
@@ -20,9 +22,7 @@ Javascript är ett språk som är dynamiskt typat. Dynamiskt typat betyder att e
 -   Du kan kontrollera datatypen med `typeof myvar` i konsollen.
 -   Att resultatet kanske inte blir vad du förväntar dig med blandade datatyper.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Koda först i konsollen och testa.
 
@@ -65,11 +65,11 @@ console.log(bamse[0]);
 | Array   | En datastruktur som låter dig spara flera värden i samma variabel. Känns igen på hakparenteser(squarebrackets). Värden hämtas genom att ange värdets index-plats.                                                                      | `let friends = ['Skalman', 'Lille Skutt']; friends[1];`                |
 | Object  | Väldigt mycket i javascript kan vara objekt och sparas i en variabel. Objekt känns igen på måsvingar(curlybrackets). I ett objekt så kan det finnas allt från data till html-element. Ett objekts egenskaper hämtas med punktnotation. | `let moral = { message: 'Ingen blir snäll av stryk' }; moral.message;` |
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -79,19 +79,19 @@ Ge exempel på datatyper i javascript.
 
 Vad menas med dynamiskt typat?
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Förklara vad som menas med punktnotation?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Övning" %}
+{% extra "Övning" %}
 
 Fortsätt att koda och lägg till Bamse och hans vänner i en array.
 [Figurer](https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_figurer_i_Bamse#Bamse)
@@ -103,4 +103,4 @@ Fortsätt att koda och lägg till Bamse och hans vänner i en array.
 
 För att räkna antalet element i en array kan du använda `array.length`.
 
-{% endfacit %}
+{% endextra %}

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Det finns ett stort antal digitala bildformat. Några lämpar sig speciellt väl för webben, andra inte.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Alla bilder sparade på en dator använder sig av ett bildformat. Det finns ett stort antal olika bildformat och de har olika egenskaper. Det är viktigt att känna till vilka bildformat som är bäst lämpade för webben och i vilka sammanhang de fungerar bäst.
 
@@ -18,9 +20,7 @@ Alla bilder sparade på en dator använder sig av ett bildformat. Det finns ett 
 - Att en bilds komprimering kan påverka din bilds kvalité.
 - En utförlig lista över format hittar du på [Image file type and format guide](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types)
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Det finns ett väldigt stort antal bildformat och de har olika egenskaper. Det är viktigt att känna till vilka bildformat som är bäst lämpade för webben och i vilka sammanhang de fungerar bäst.
 
@@ -64,11 +64,11 @@ Det finns ett antal nya experimentella bildformat som används på webben. De op
 Använd experimentella format med försiktighet.
 {% endhint %}
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -78,22 +78,22 @@ Ge tre exempel på bildformat och varför de är lämpliga för webben.
 
 Vad är viktiga att tänka på om du använder webbformat?
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Förklara skillnaden mellan pixel- och vektorgrafik.
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Tips" %}
+{% extra "Tips" %}
 
 När du arbetar med en bild, var noggrann med att spara originalet och att inte redigera / spara i den filen. Gör en kopia!
 
-{% endfacit %}
+{% endextra %}
 
 

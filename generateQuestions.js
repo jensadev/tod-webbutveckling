@@ -9,7 +9,9 @@ let questions = themes
         let tempTheme = {
             theme: theme.theme,
         };
-        tempTheme.areas = theme.areas.map((area) => {
+        tempTheme.areas = theme.areas
+            .filter((area) => area.area !== 'slutuppgifter')
+            .map((area) => {
             let tempArea = {
                 area: area.area,
             };
@@ -17,12 +19,12 @@ let questions = themes
                 let tempPart = {
                     part: part.part,
                 };
-                tempPart.assignments = part.assignments
-                    .map((assignment) => {
-                        return assignment.text;
+                tempPart.questions = part.questions
+                    .map((question) => {
+                        return question.text;
                     })
-                    .filter((assignment) => {
-                        return assignment !== undefined;
+                    .filter((question) => {
+                        return question !== undefined;
                     });
                 return tempPart;
             });

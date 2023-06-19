@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Hur skapas en produkt och vilka moment innehåller det.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Att ta en ide till färdig produkt kräver planering, genomförande och utvärdering. Det är en process och det kräver övning. Att skapa en produkt utan att tänka igenom vad, hur och varför är som att ge sig ut på en resa utan destination och färdmedel.
 
@@ -18,9 +20,7 @@ Att ta en ide till färdig produkt kräver planering, genomförande och utvärde
 -   Vad fyller produkten för behov, löser den ett problem?
 -   Hur ska du kunna mäta detta?
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 För att testa den här arbetsmodellen ska du prova att använda den. Första stegen ska du utföra analogt så se till att du har papper och penna.
 
@@ -43,11 +43,11 @@ Använd [Marvels](https://www.marvel.com/) hemsida och försök svara på frågo
 
 Fundera på vilka SMART mål du skulle kunna sätta för dessa två webbsidor.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -57,6 +57,6 @@ Vilka fördelar kan du identifiera med att planera en produkt?
 
 Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

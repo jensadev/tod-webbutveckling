@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Alla bilder har en bredd och en höjd. Det är viktigt att känna till vilken storlek en bild har för att kunna använda den på rätt sätt.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Alla bilder har en dimension, det gäller både digitala och fysiska bilder. Men dimension menas bildens bredd och höjd. Bilder har även en upplösning och det är baserat på antalet pixlar som bildens bredd och höjd består av.
 
@@ -18,15 +20,13 @@ Tillsammans så avgöra bildens dimension och upplösning hur mycket information
 -  Att använda 72 PPI för digitala bilder begränsar bildens filstorlek.
 - Att använda rätt filformat för att spara bilden i.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 ### Dimension
 
 Alla bilder som är sparade på en dator har en bredd och en höjd. Det är vanligt att prata om en bilds upplösning (engelska resolution) men det är något annat. Dimensionerna på en bild kan till exempel vara 320 bred och 240 hög (skrivs 320 x 240). Att en bild är 320 bred betyder att den är 320 pixlar bred. Pixlar är små fyrkanter som innehåller färginformation.
 
-{% image "storleksförhållanden.png", "Storleksförhållanden" %}
+{% image "content/images/storleksförhållanden.png", "Storleksförhållanden" %}
 
 Öppna bilden för storleksförhållanden i en ny flik (högerklicka på bilden). Zooma in bilden eller spara den.
 Undersök sedan olika bildförhållanden med hjälp av din webbläsare / skrivbordsupplösningar. 
@@ -46,11 +46,11 @@ För att undersöka bilder och filformat kan du använda din dators kamera eller
 * Vilket filformat är bilden sparad i?
 * Ändra upplösningen på bilden och undersök hur det påverkar filens storlek. 
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -60,15 +60,15 @@ Beskriv vad som menas med en bilds dimension och upplösning.
 
 Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift.
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 #### Uppgift 3
 
 Vilka samband finns det mellan bildens upplösning, storlek och filformat?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
 

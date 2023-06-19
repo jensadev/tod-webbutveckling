@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Att välja, det är vad selektion betyder i programmeringen.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Ett program behöver kunna göra val. Selektion är kodstruktur som testar om uttryck är sant eller falskt. Ett vanligt sätt att utföra det är `if` satsen.
 
@@ -27,9 +29,7 @@ Javascript stöder även switch-satser.
 -   För att skriva flera uttryck använder du `else if (...)`.
 -   Om det första uttrycket är sant, körs inte något av de andra.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare och koda där.
 
@@ -65,11 +65,11 @@ if (number == guess) {
 
 
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -79,22 +79,22 @@ Vad menas med selektion?
 
 Ge tre exempel på när selektion kan vara användbart.
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Förklara skillnaden på `>` och `>=`.
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Övning" %}
+{% extra "Övning" %}
 
 I det sista exemplet finns en grund för ett gissa-tal spel. Kan du skriva färdigt logiken?
 
 Du kan använda `else if (guess > number)` för att skriva ut om gissningen var för stor. Kan du skriva `else if (...)` som skriver ut om gissningen var för liten?
 
-{% endfacit %}
+{% endextra %}

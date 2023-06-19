@@ -10,4 +10,4 @@ eleventyNavigation:
     excerpt: Utan planering så blir projekt sällan bra, det är grunden och en förutsättning för arbetet.
 ---
 
-## Området {{ title }} innehåller följande delar
+

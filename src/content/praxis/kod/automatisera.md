@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Automatisera kodstil.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Än så länge ett test av youtube shortcode.
 
@@ -15,11 +17,9 @@ eleventyNavigation:
 
 -   Att alla blir gladare av en konsekvent kodstil
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 
 {% youtube '5y1L3Y4OuX4' %}
 
-{% endinstruktioner %}
+{% endinstructions %}

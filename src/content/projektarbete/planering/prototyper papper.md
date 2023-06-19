@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Att skapa en prototyp för en produkt är ett snabbt och kostnadseffektivt sätt att prova den.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Efter att en idé har tagits fram och specificerats så är det efterföljande steget att skapa en prototyp. De flesta produkter börjar som en prototyp. Prototypen är en version av produkten under utveckling. Prototypen skapas för att kunna testa och iterera över dess kvaliteter.
 
@@ -19,9 +21,7 @@ De första stadierna av en prototyp bör utföras med så enkla tekniker som mö
 -   Öka komplexitet stegvis.
 -   Öka detaljrikedom stegvis.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 För den här övningen behöver du A4 papper och en penna.
 
@@ -29,15 +29,15 @@ För den här övningen behöver du A4 papper och en penna.
 -   Skissa sedan av en webbplats du gillar eller nyligen besökt. Gör det ur minnet.
 -   Vänd sedan på pappret så att du får en ny tom yta. Rotera pappret 90 grader så att det blir stående. Formatet liknar nu mer en mobil, skissa samma sida fast som den ser ut på en mobiltelefon.
 
-{% image "skiss.jpg", "Skiss av webbsida" %}
+{% image "content/images/skiss.jpg", "Skiss av webbsida" %}
 
 För att skapa en prototyp skriv ned en idé (använd SMART) och skriv sedan en kort beskrivning av prototypen. Fortsätt arbeta med pappret från tidigare övning. Ta fram en tom sida på pappret och skissa den här gången din idé. Du kan börja med att skissa din prototyp i desktop- eller mobilformat.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -47,6 +47,6 @@ Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det vi
 
 Vad menas med komplexitet och fidelity?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

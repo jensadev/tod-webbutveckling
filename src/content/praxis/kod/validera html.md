@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Att validera HTML är att kontrollera dess syntax.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Att skriva korrekt och felfri kod är viktigt av flera anledningar. Först och främst så påverkar det en webb-sidas funktion. Korrekt skriven kod har även positiva effekter på användbarheten samt att det är en god grund för att framtidssäkra din webbplats.
 
@@ -19,9 +21,7 @@ HTML och CSS valideras främst med automatiska verktyg.
 -   Använd validering som ett sätt att felsöka din kod.
 -   Få in vanan att testa den kod du skriver.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 För att validera din HTML kod så kan du använda [validator.nu](https://validator.nu/).
 Du kan validera med en adress, ladda upp en fil eller klistra in ditt dokument.
@@ -35,11 +35,11 @@ Du kan validera med en adress, ladda upp en fil eller klistra in ditt dokument.
 
 Om du använder VSCode så kan du använda det för att sätta regler för din validering. Ett sätt är att använda tillägget [Prettier](https://prettier.io/).Prova att installera och använda det.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -49,6 +49,6 @@ Varför är det viktigt att validera sin kod?
 
 Beskriv hur du kan använda validering för att felsöka din kod.
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Element kan ha attribut, de ger extra information om elementet.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Element kan ha attribut (egenskaper). Ett attribut är en egenskap som tillhör ett element. Det ger webbläsaren ytterligare instruktioner om hur elementet ska visas.
 
@@ -27,9 +29,7 @@ Attribut skrivs alltid i öppningstaggen.
 -   Att alltid avsluta fnuttarna, de skrivs i par.
 -   Attribut skrivs enbart i öppningstaggen.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Skapa ett nytt dokument, `attribut.html` med korrekt HTML-grundstruktur.
 
@@ -73,11 +73,11 @@ Klassens namn är kopplat till en CSS-regel. Men för att det ska fungera så m�
 </style>
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -87,9 +87,9 @@ Förklara vad ett attribut är.
 
 Ge exempel på vilka delar som ett attribut består av.
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
@@ -101,11 +101,11 @@ Hur används attribut för att peka till andra filer?
 
 Jämför `<a>` element och `<img>` element.
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Extra" %}
+{% extra "Extra" %}
 
 Använd `<img>` elementet i index.html. `<img src="fil.typ">` använder `src` attributet för att peka till en bild. Likt `href` attributet så är det viktigt att sökvägen är korrekt om det är en lokal fil.
 
@@ -113,4 +113,4 @@ Kopiera in en bildfil i samma mapp som index.html. Använd sedan `<img>` taggen 
 
 Det går även att länka till bilder med en URL.
 
-{% endfacit %}
+{% endextra %}

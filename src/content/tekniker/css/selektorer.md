@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Selektorer används för att skriva regler och välja element.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 En CSS-selektor bestämmer vilket eller vilka element som en CSS-regel påverkar. Det finns ett antal olika typer av selektorer.
 
@@ -23,9 +25,7 @@ En CSS-selektor bestämmer vilket eller vilka element som en CSS-regel påverkar
 - Ett element kan använda flera klasser, separera dem med ett blanksteg `<p class="class1 class2">`.
 - För att identifiera selektorns typ så titta på hur den börjar, bokstav är element, punkt är klass och hashtag är id. 
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Skapa två dokument, `selektorer.html` och en tillhörande css fil, ```selektorer.css```. HTML filen behöver innehålla den grundläggande HTML strukturen och en länk till CSS-dokumentet.
 
@@ -90,11 +90,11 @@ h1 {
 }
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -108,19 +108,19 @@ Ge exempel på två eller fler olika typer av selektorer.
 
 Hur kan du använda flera css regler för ett element?
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 4
 
 Vad kan du använda pseudo-klasser till?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Tips: länkar" %}
+{% extra "Tips: länkar" %}
 
 Element kan ha olika states. Detta ses framförallt på länkar. Ett state är tillexempel `hover` och state skrivs `regel:state`. Detta kallas för pseudo-klasser (eng. pseudo-classes).
 
@@ -138,4 +138,4 @@ Använd `:hover` för att skapa en stil för `.backto` länken.
 
 Det finns väldigt många fler pseudo-klasser. På [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) hittar du en lista.
 
-{% endfacit %}
+{% endextra %}

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Alla delar av webben finns på någon server, men vad är en server?
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 En server är det som din klient utbyter information med. Det är en webb-server som svarar på anrop (requests) från din klient och svarar med data (HTML, CSS, bilder och så vidare).
 
@@ -22,9 +24,7 @@ De flesta servrar kan:
 - En server identifieras med en domän, se delen om [adresser](adresser.html).
 - En server kan ha flera domäner och tjänster.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Det finns ett stort antal olika [webbservrar](https://en.wikipedia.org/wiki/Web_server) med olika funktioner och egenskaper. De flesta är öppna källkodsprogram som du kan ladda ner och köra på din egen dator. Det finns också tjänster som erbjuder webbservering, så kallade [webbhotell](https://en.wikipedia.org/wiki/Web_hosting_service).
 
@@ -43,12 +43,11 @@ De senaste åren har molntjänster kommit att ersätta de traditionella webbserv
 
 Undersök och läs på om de olika molntjänster du kan använda för att hosta en webbplats. Vad skiljer de olika alternativen åt?
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
-
+{% base %}
 #### Uppgift 1
 
 Vad menas med en webbserver? Ge exempel på tre olika webbserverar.
@@ -57,15 +56,15 @@ Vad menas med en webbserver? Ge exempel på tre olika webbserverar.
 
 Vad är en molntjänst för webbhosting?
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Förklara skillnaden mellan traditionella webbservrar och molntjänster?
 Ge exempel på fördelar och nackdelar.
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}

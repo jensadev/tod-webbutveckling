@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Här får du testa att sätta ihop delarna du lärt dig till en webbsida.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Du har lärt dig att skapa en grundstruktur för en webbsidaoch de element som används för att skapa rubriker, paragrafer punktlistor.
 
@@ -19,9 +21,7 @@ Du ska nu använda dina kunskaper för att skapa en webbsida med innehåll.
 -   HTML är otroligt robust, det låter dig göra fel.
 -   Öppna och stäng alla taggar du använder.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Skapa ett nytt dokument, `index.html` och öppna det i din textredigerare.
 
@@ -65,4 +65,4 @@ Använd dig sedan av flera HTML-element för att skapa en sida med innehåll. Du
 
 Avsluta ditt arbete med att validera din kod. Du kan validera din kod på [HTML Checker](https://validator.w3.org/nu/). Att validera koden berättar för dig om du har gjort några fel i din kod och ger dig tips på hur du kan lösa problemen.
 
-{% endinstruktioner %}
+{% endinstructions %}

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Precis som för bilder så finns det ett stort antal olika format av video som används på webben.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Precis som för bilder så använder alla videoformat olika tekniker (codecs) för att komprimera videon. Det finns ett stort antal olika format av video som används på webben. Exempel på vanliga komprimeringsformat är [MPEG](https://en.wikipedia.org/wiki/MPEG) eller [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC).
 
@@ -17,9 +19,7 @@ Precis som för bilder så använder alla videoformat olika tekniker (codecs) f�
 -   Många codecs är licensierade och kräver licens för att användas.
 -   Att det finns olika format för olika enheter. Exempelvis finns det olika format för mobiltelefoner och datorer.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 För video så finns det ett antal format, men det är även viktigt att känna till att ljudspåret och bildspåret kan vara i olika format.
 
@@ -33,16 +33,16 @@ För video så finns det ett antal format, men det är även viktigt att känna 
 Använd experimentella format med försiktighet.
 {% endhint %}
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
 Vad menas med videoformat?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Att validera CSS är att kontrollera dess syntax.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Att skriva korrekt och felfri kod är viktigt av flera anledningar. Först och främst så påverkar det en webb-sidas funktion. Korrekt skriven kod har även positiva effekter på användbarheten samt att det är en god grund för att framtidssäkra din webbplats.
 
@@ -19,9 +21,7 @@ HTML och CSS valideras främst med automatiska verktyg.
 -   Använd validering som ett sätt att felsöka din kod.
 -   Få in vanan att testa den kod du skriver.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 För att validera din CSS kod så kan du använda [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
@@ -33,11 +33,11 @@ Precis som för HTML kan du validera med adress, uppladdning eller klistra in.
 -   Har du inga fel, skapa några!
 -   Validera en webbplats du använder, du kan behöva titta på källan(CTRL+u) och sedan hitta en länkad CSS fil.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -47,6 +47,6 @@ Vad finns det för vinster med att validera din kod?
 
 Ge exempel på hur du kan använda validering för att felsöka din kod.
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

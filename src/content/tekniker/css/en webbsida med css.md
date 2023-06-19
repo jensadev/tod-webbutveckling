@@ -7,13 +7,13 @@ eleventyNavigation:
     excerpt: I den första delen så skapade du en webbsida med HTML. Nu ska du lägga till CSS för att styla sidan.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 I slutet av det första området om HTML så skapade du en grundläggande webbsida. Nu ska du lägga till CSS för att styla sidan.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Öppna filen `index.html` från HTML-området, du kan om du vill göra en kopia av den för detta moment.
 
@@ -88,4 +88,4 @@ Prova sedan att ändra färg på bakgrund, text och länkar. Om du önskar så k
 
 Precis som för din HTML-kod så kan du validera din CSS. För att validera din CSS så kan du använda dig av [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-{% endinstruktioner %}
+{% endinstructions %}

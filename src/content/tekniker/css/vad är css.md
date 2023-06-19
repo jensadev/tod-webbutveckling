@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Cascading Style Sheets, språket som styr presentationen av HTML.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används för att skapa stil och layout. CSS kan bland annat användas för att byta färger, sätta marginaler och dela upp ditt innehåll.
 
@@ -18,9 +20,7 @@ Cascading Style Sheets(CSS) är ett kompletterande språk till HTML som används
 -   En regel har en selektor (eng. selector) för att välja vilka(et) element som ska påverkas av regeln.
 -   Alla CSS regler ska öppnas och stängas, det görs med måsvingar `{ ... }`.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Öppna ett tidigare HTML dokument, ```index.html```. CSS kan skrivas direkt i HTML-dokumentet med hjälp av `<style>` taggen. Style taggen skrivs oftast nästlad i `<head>`, men det är inte ett måste.
 
@@ -68,11 +68,11 @@ CSS kan även skrivas inline, med det menas att CSS-reglerna skrivs direkt i HTM
 <p style="color: purple;"></p>
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -86,19 +86,19 @@ Vad bör du tänka på när du namnger CSS-dokument? Vilken filändelse ska du a
 
 Ge exempel på hur du kan skriva CSS-regler för att använda i HTML-dokument.
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 4
 
 Förklara vad cascade är och hur det fungerar.
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "CSS cascade" %}
+{% extra "CSS cascade" %}
 
 För CSS är det viktigt i vilken ordning de olika reglera skrivs. Det kallas för cascade (en del av namnet). Cascade styr vilken CSS-regel som används.
 
@@ -120,4 +120,4 @@ Var försiktig med `!important` eftersom det kan göra din kod svår att felsök
 
 Cascade påverkas av flera faktorer, du kan läsa mer om [Cascade, specificity, and inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade) på MDN.
 
-{% endfacit %}
+{% endextra %}

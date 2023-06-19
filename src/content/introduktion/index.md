@@ -11,5 +11,3 @@ eleventyNavigation:
 ---
 
 Det här området introducerar webben och några grundläggande begrepp. Hur fungerar webben och vad är det som faktiskt sker när du surfar.
-
-## Områden i temat {{ title }}

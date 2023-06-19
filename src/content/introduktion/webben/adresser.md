@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: För att hitta rätt på webben används adresser, eller URL.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 För att navigera på webben så använder vi adresser, [URL](https://url.spec.whatwg.org/) (eng. Uniform Resource locator). Det är en för oss människor läsbar sträng som identifierar en resurs. Resursen är allt som oftast en webbplats. Den webbplatsen finns på en server och för att nå den behöver du en klient.
 
@@ -17,9 +19,8 @@ För att navigera på webben så använder vi adresser, [URL](https://url.spec.w
 -   Hur skriver du en URL och var?
 -   Ibland kallas det för URI, Uniform Resource Identifier, det är en URLs syntax.
 
-{% endintro %}
 
-{% instruktioner %}
+## Instruktioner
 
 En URL består av flera delar. Läs det du behöver från Wikipedia artikeln om [URL](https://sv.wikipedia.org/wiki/URL) för att förstå en URLs uppbyggnad.
 
@@ -39,48 +40,52 @@ Hur används ankare på den här webbplatsen? Prova att sätta muspekaren över 
 
 Besök youtube, klicka på ett klipp och studera den URL som visas i adressfältet på din webbläsare. Om du vill så testa sedan att använda en query-parameter på den här webbsidan, vad sker då?
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
-Vad är ett protokoll? Förklara skillnaden mellan http och https?
+Vad är ett protokoll?
 
 #### Uppgift 2
 
-Vad menas med en domän och en resurs?
+Förklara skillnaden mellan http och https?
 
 #### Uppgift 3
 
-Hur används ett fragment och varför används det?
+Vad menas med en domän och en resurs?
 
 #### Uppgift 4
 
+Hur används ett fragment och varför används det?
+
+#### Uppgift 5
+
 Vad är query parameterar och vad kan de används till?
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 5
 
 Hur går det till att registrera en domän?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Extra" %}
+{% extra  %}
 
 Domäner behöver registreras för att de ska fungera. Förenklat så går det till så att du betalar en domänregister för att få en domän. Domänen registreras sedan i en databas som alla datorer som är anslutna till internet kan söka i. När en dator söker efter en domän så får den tillbaka en IP-adress som den kan använda för att kommunicera med den domänen.
 
 Du kan prova att söka efter en domän att registrera på [Internetstiftelsen](https://internetstiftelsen.se/domaner/). För andra domäner så kan du använda [Name.com](https://name.com).
 
 
-{% endfacit %}
+{% endextra %}
 
 
 <script>

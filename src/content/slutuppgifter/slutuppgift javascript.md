@@ -8,6 +8,10 @@ eleventyNavigation:
     test: true
 ---
 
+{% instructions %}
+
+## Instruktioner
+
 För att avsluta området så ska du kombinera det du hittills arbetat med i en slutuppgift.
 
 
@@ -39,3 +43,5 @@ const li = document.createElement('li');
 li.textContent = 'msg';
 ul.appendChild(li);
 ```
+
+{% endinstructions %}

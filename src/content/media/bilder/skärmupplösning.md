@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Alla skärmar har en upplösning, vilket är antalet pixlar som visas på skärmen.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 En dators skärm har en skärmupplösning och ett bildförhållande. Du känner säkert till skärmupplösningen 1920 x 1080 och kanske att det är bildförhållandet 16:9. Det är viktigt att känna till då webbsidor används på många olika enheter (devices). Varje enhet har en skärm med tillhörande upplösning och bildförhållande.
 
@@ -18,13 +20,11 @@ På grund av tekniska begränsningar användes webben enbart från stationära d
 -   Att dina tekniska förutsättningar inte är allmängiltiga.
 - Testa alltid ditt arbete på flera enheter/inställningar.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Eftersom enheters upplösning påverkar hur en webbsida ser ut är det viktigt att du känner till vilken upplösning din enhet har. Det är också viktigt att du känner till vilken upplösning dina användare har.
 
-{% image "StatCounter-comparison-ww-monthly-202110-202209.png", "Statcounter" %}
+{% image "content/images/StatCounter-comparison-ww-monthly-202110-202209.png", "Statcounter" %}
 
 Bilden är hämtad från [Statcounter](https://gs.statcounter.com/) och visar hur många enheter som använts för att besöka webbsidor under de senaste 12 månaderna. Det är tydligt att mobila enheter är mer populära än stationära datorer.
 
@@ -38,11 +38,11 @@ Statcounter har information kring vilka upplösningar är vanligast. Undersök d
 
 Använd [Statcounter](https://gs.statcounter.com/) för att undersöka vilken upplösning som är vanligast.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -52,11 +52,11 @@ Vad menas med skärmupplösning?
 
 Vad menas med bildförhållande?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Tips" %}
+{% extra "Tips" %}
 
 Testa att ändra upplösningen (i Windows eller i utvecklarverktygen) på din enhet och se hur det påverkar webbsidan. Prova att köra en upplösning som är vanligast i din region. Hur påverkar det webbsidan?
 
@@ -64,4 +64,4 @@ Många enheter är även inzoomade. Även om din enhet använder upplösningen 1
 
 Det är viktigt att du känner till alla dessa faktorer för det påverkar din webbsida och de bilder du använder samt att du vet hur du kan justera inställningarna i ditt operativsystem och webbläsare.
 
-{% endfacit %}
+{% endextra %}

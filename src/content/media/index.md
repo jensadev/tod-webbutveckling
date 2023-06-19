@@ -10,4 +10,3 @@ eleventyNavigation:
     excerpt: Bilder, video och annan media på webben.
 ---
 
-## Temat {{ title }} innehåller följande områden

@@ -9,5 +9,3 @@ eleventyNavigation:
     order: 3
     excerpt: Cascading Style Sheets
 ---
-
-## Delar i området {{ title }}

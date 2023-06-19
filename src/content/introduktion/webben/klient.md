@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: När du använder webben så använder du med största sannolikhet någon form av klient, men vad är en klient?
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Med klient menas som oftast din webbläsare. Du är en användare som använder en
 klient för att konsumera webbinnehåll. I den här kursen så ligger fokus på det som kallas front-end tekniker. Med front-end så menas det du ser / som sker i din webbläsare.
@@ -18,9 +20,7 @@ klient för att konsumera webbinnehåll. I den här kursen så ligger fokus på 
 -   De påverkas av prestandan på din dator och din surfhastighet.
 -   Eftersom de körs i din webbläsare, finns även koden tillgänglig i webbläsaren.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 I den här delen ska du prova på att använda en eller flera klienter. Exempel på klienter är:
 
@@ -36,13 +36,13 @@ Välj någon klient att testa, surfa till en eller flera webbplattser. Prova sed
 
 Du kan även använda utvecklarläget i din webbläsare (F12 / CTRL + SHIFT + i / meny) för att testa olika klienter. Verktygen låter dig emulera olika enheter och olika nätverk.
 
-{% image "device-toolbar.png", "Utvecklarverktyg, enhetsverktyg i Chrome" %}
+{% image "content/images/device-toolbar.png", "Utvecklarverktyg, enhetsverktyg i Chrome" %}
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -52,8 +52,10 @@ Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad
 
 Hur fungerar utvecklarverktygen i din webbläsare?
 
-Vad kan du göra med utvecklarverktygen?
+#### Uppgift 3
 
-{% endbas %}
+Vad kan du göra med utvecklarverktygen i webbläsaren?
 
-{% enduppgifter %}
+{% endbase %}
+
+{% endquestions %}
