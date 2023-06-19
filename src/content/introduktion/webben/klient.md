@@ -52,7 +52,9 @@ Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad
 
 Hur fungerar utvecklarverktygen i din webbläsare?
 
-Vad kan du göra med utvecklarverktygen?
+#### Uppgift 3
+
+Vad kan du göra med utvecklarverktygen i webbläsaren?
 
 {% endbase %}
 

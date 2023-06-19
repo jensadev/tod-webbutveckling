@@ -9,7 +9,9 @@ let questions = themes
         let tempTheme = {
             theme: theme.theme,
         };
-        tempTheme.areas = theme.areas.map((area) => {
+        tempTheme.areas = theme.areas
+            .filter((area) => area.area !== 'slutuppgifter')
+            .map((area) => {
             let tempArea = {
                 area: area.area,
             };

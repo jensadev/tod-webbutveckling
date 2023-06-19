@@ -10,4 +10,4 @@ eleventyNavigation:
     excerpt: Att hosta en webbplats är att göra den tillgänglig på internet. Dina filer måste finnas någonstans där de kan nås av andra.
 ---
 
-## Området {{ title }} innehåller följande delar
+

@@ -1,5 +1,39 @@
 [
   {
+    "theme": "introduktion",
+    "areas": [
+      {
+        "area": "webben",
+        "parts": [
+          {
+            "part": "adresser",
+            "questions": [
+              "Vad är ett protokoll?",
+              "Förklara skillnaden mellan http och https?",
+              "Vad menas med en domän och en resurs?",
+              "Hur används ett fragment och varför används det?",
+              "Vad är query parameterar och vad kan de används till?"
+            ]
+          },
+          {
+            "part": "klient",
+            "questions": [
+              "Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?",
+              "Hur fungerar utvecklarverktygen i din webbläsare?",
+              "Vad kan du göra med utvecklarverktygen i webbläsaren?"
+            ]
+          },
+          {
+            "part": "server",
+            "questions": [
+              "Vad är en molntjänst för webbhosting?"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "theme": "layout",
     "areas": [
       {
@@ -39,50 +73,11 @@
     ]
   },
   {
-    "theme": "introduktion",
-    "areas": [
-      {
-        "area": "webben",
-        "parts": [
-          {
-            "part": "adresser",
-            "questions": [
-              "Vad är ett protokoll? Förklara skillnaden mellan http och https?",
-              "Vad menas med en domän och en resurs?",
-              "Hur används ett fragment och varför används det?",
-              "Vad är query parameterar och vad kan de används till?"
-            ]
-          },
-          {
-            "part": "klient",
-            "questions": [
-              "Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?",
-              "Hur fungerar utvecklarverktygen i din webbläsare?"
-            ]
-          },
-          {
-            "part": "server",
-            "questions": [
-              "Vad är en molntjänst för webbhosting?"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "theme": "media",
     "areas": [
       {
         "area": "bilder",
         "parts": [
-          {
-            "part": "bildformat",
-            "questions": [
-              "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
-              "Vad är viktiga att tänka på om du använder webbformat?"
-            ]
-          },
           {
             "part": "bildoptimering",
             "questions": [
@@ -95,6 +90,13 @@
             "questions": [
               "Beskriv vad som menas med en bilds dimension och upplösning.",
               "Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift."
+            ]
+          },
+          {
+            "part": "bildformat",
+            "questions": [
+              "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
+              "Vad är viktiga att tänka på om du använder webbformat?"
             ]
           },
           {
@@ -130,11 +132,11 @@
         "area": "hosting",
         "parts": [
           {
-            "part": "molntjanster",
+            "part": "utvecklingsserver",
             "questions": []
           },
           {
-            "part": "utvecklingsserver",
+            "part": "molntjanster",
             "questions": []
           }
         ]
@@ -151,15 +153,15 @@
             "questions": []
           },
           {
-            "part": "stil",
-            "questions": []
-          },
-          {
             "part": "validera-css",
             "questions": [
               "Vad finns det för vinster med att validera din kod?",
               "Ge exempel på hur du kan använda validering för att felsöka din kod."
             ]
+          },
+          {
+            "part": "stil",
+            "questions": []
           },
           {
             "part": "validera-html",
@@ -207,17 +209,17 @@
         "area": "planering",
         "parts": [
           {
-            "part": "att-skapa-en-produkt",
-            "questions": [
-              "Vilka fördelar kan du identifiera med att planera en produkt?",
-              "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?"
-            ]
-          },
-          {
             "part": "prototyper-figma",
             "questions": [
               "Hur använder du Figma för att skapa en prototyp?",
               "Varför är det viktigt att öka komplexiteten i en prototyp?"
+            ]
+          },
+          {
+            "part": "att-skapa-en-produkt",
+            "questions": [
+              "Vilka fördelar kan du identifiera med att planera en produkt?",
+              "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?"
             ]
           },
           {
@@ -293,6 +295,13 @@
             ]
           },
           {
+            "part": "semantiska-element",
+            "questions": [
+              "Vad betyder semantik?",
+              "Ge tre exempel på semantiska element och deras betydelse."
+            ]
+          },
+          {
             "part": "attribut",
             "questions": [
               "Förklara vad ett attribut är.",
@@ -302,13 +311,6 @@
           {
             "part": "en-webbsida",
             "questions": []
-          },
-          {
-            "part": "semantiska-element",
-            "questions": [
-              "Vad betyder semantik?",
-              "Ge tre exempel på semantiska element och deras betydelse."
-            ]
           },
           {
             "part": "vad-ar-html",
@@ -323,24 +325,10 @@
         "area": "javascript",
         "parts": [
           {
-            "part": "dom",
-            "questions": [
-              "Vad menas med DOM?",
-              "Ge exempel på hur du kan välja element med javascript."
-            ]
-          },
-          {
             "part": "datatyper",
             "questions": [
               "Ge exempel på datatyper i javascript.",
               "Vad menas med dynamiskt typat?"
-            ]
-          },
-          {
-            "part": "iteration",
-            "questions": [
-              "Vad menas med iteration, vad är det som sker?",
-              "Ge exempel på olika typer av loopar i javascript."
             ]
           },
           {
@@ -349,6 +337,13 @@
               "Vad menas med en operator?",
               "Förklara skillnaderna mellan = och ==.",
               "Ge tre exmpel på uttryck som resulterar i ett numeriskt värde."
+            ]
+          },
+          {
+            "part": "dom",
+            "questions": [
+              "Vad menas med DOM?",
+              "Ge exempel på hur du kan välja element med javascript."
             ]
           },
           {
@@ -366,6 +361,13 @@
             ]
           },
           {
+            "part": "iteration",
+            "questions": [
+              "Vad menas med iteration, vad är det som sker?",
+              "Ge exempel på olika typer av loopar i javascript."
+            ]
+          },
+          {
             "part": "variabler",
             "questions": [
               "Vad menas med att deklarera en variabel? Hur gör du det i javascript?",
@@ -373,15 +375,6 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "theme": "webbutveckling",
-    "areas": [
-      {
-        "area": "slutuppgifter",
-        "parts": []
       }
     ]
   }

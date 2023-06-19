@@ -10,4 +10,4 @@ eleventyNavigation:
     excerpt: Att kunna validera och kontrollera sin kods kvalite är viktigt
 ---
 
-## Området {{ title }} innehåller följande delar
+

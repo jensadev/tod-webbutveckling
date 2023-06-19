@@ -10,4 +10,4 @@ eleventyNavigation:
     excerpt: Tillgänglighet handlar om att ingen ska hindras från att kunna använda en webb-tjänst eller applikation
 ---
 
-## Området {{ title }} innehåller följande delar
+

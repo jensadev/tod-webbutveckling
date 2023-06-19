@@ -10,4 +10,4 @@ eleventyNavigation:
     excerpt: Placeholder
 ---
 
-## Området {{ title }} innehåller följande delar
+
