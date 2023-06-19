@@ -1,5 +1,44 @@
 [
   {
+    "theme": "layout",
+    "areas": [
+      {
+        "area": "flexbox",
+        "parts": [
+          {
+            "part": "display-flex",
+            "questions": [
+              "Vad händer när ett element har display flex till skillnad från block?",
+              "Hur fungerar flex-direction? Hur påverkar det align-items och justify-content?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "grid",
+        "parts": [
+          {
+            "part": "display-grid",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "area": "responsive-design",
+        "parts": [
+          {
+            "part": "mobile-first",
+            "questions": []
+          },
+          {
+            "part": "media-queries",
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "theme": "introduktion",
     "areas": [
       {
@@ -34,50 +73,18 @@
     ]
   },
   {
-    "theme": "layout",
-    "areas": [
-      {
-        "area": "flexbox",
-        "parts": [
-          {
-            "part": "display-flex",
-            "questions": [
-              "Vad händer när ett element har display flex till skillnad från block?",
-              "Hur fungerar flex-direction? Hur påverkar det align-items och justify-content?"
-            ]
-          }
-        ]
-      },
-      {
-        "area": "grid",
-        "parts": [
-          {
-            "part": "display-grid",
-            "questions": []
-          }
-        ]
-      },
-      {
-        "area": "responsive-design",
-        "parts": [
-          {
-            "part": "media-queries",
-            "questions": []
-          },
-          {
-            "part": "mobile-first",
-            "questions": []
-          }
-        ]
-      }
-    ]
-  },
-  {
     "theme": "media",
     "areas": [
       {
         "area": "bilder",
         "parts": [
+          {
+            "part": "bildformat",
+            "questions": [
+              "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
+              "Vad är viktiga att tänka på om du använder webbformat?"
+            ]
+          },
           {
             "part": "bildoptimering",
             "questions": [
@@ -90,13 +97,6 @@
             "questions": [
               "Beskriv vad som menas med en bilds dimension och upplösning.",
               "Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift."
-            ]
-          },
-          {
-            "part": "bildformat",
-            "questions": [
-              "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
-              "Vad är viktiga att tänka på om du använder webbformat?"
             ]
           },
           {
@@ -126,6 +126,53 @@
     ]
   },
   {
+    "theme": "projektarbete",
+    "areas": [
+      {
+        "area": "dokumentation",
+        "parts": [
+          {
+            "part": "commits",
+            "questions": []
+          },
+          {
+            "part": "post-mortem",
+            "questions": [
+              "Vilka delar av ett Post Mortem är viktiga att ha med? Varför?",
+              "Vad är syftet med att berätta om positiva och negativa erfarenheter?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "planering",
+        "parts": [
+          {
+            "part": "att-skapa-en-produkt",
+            "questions": [
+              "Vilka fördelar kan du identifiera med att planera en produkt?",
+              "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?"
+            ]
+          },
+          {
+            "part": "prototyper-papper",
+            "questions": [
+              "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
+              "Vad menas med komplexitet och fidelity?"
+            ]
+          },
+          {
+            "part": "prototyper-figma",
+            "questions": [
+              "Hur använder du Figma för att skapa en prototyp?",
+              "Varför är det viktigt att öka komplexiteten i en prototyp?"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "theme": "praxis",
     "areas": [
       {
@@ -145,11 +192,15 @@
         "area": "kod",
         "parts": [
           {
+            "part": "linta",
+            "questions": []
+          },
+          {
             "part": "automatisera",
             "questions": []
           },
           {
-            "part": "linta",
+            "part": "stil",
             "questions": []
           },
           {
@@ -158,10 +209,6 @@
               "Vad finns det för vinster med att validera din kod?",
               "Ge exempel på hur du kan använda validering för att felsöka din kod."
             ]
-          },
-          {
-            "part": "stil",
-            "questions": []
           },
           {
             "part": "validera-html",
@@ -187,53 +234,6 @@
     ]
   },
   {
-    "theme": "projektarbete",
-    "areas": [
-      {
-        "area": "dokumentation",
-        "parts": [
-          {
-            "part": "commits",
-            "questions": []
-          },
-          {
-            "part": "post-mortem",
-            "questions": [
-              "Vilka delar av ett Post Mortem är viktiga att ha med? Varför?",
-              "Vad är syftet med att berätta om positiva och negativa erfarenheter?"
-            ]
-          }
-        ]
-      },
-      {
-        "area": "planering",
-        "parts": [
-          {
-            "part": "prototyper-figma",
-            "questions": [
-              "Hur använder du Figma för att skapa en prototyp?",
-              "Varför är det viktigt att öka komplexiteten i en prototyp?"
-            ]
-          },
-          {
-            "part": "att-skapa-en-produkt",
-            "questions": [
-              "Vilka fördelar kan du identifiera med att planera en produkt?",
-              "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?"
-            ]
-          },
-          {
-            "part": "prototyper-papper",
-            "questions": [
-              "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
-              "Vad menas med komplexitet och fidelity?"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "theme": "tekniker",
     "areas": [
       {
@@ -244,17 +244,6 @@
             "questions": [
               "Förklara vad boxmodellen är och hur den fungerar.",
               "Ge exempel på CSS-egenskaper som påverkar boxmodellen."
-            ]
-          },
-          {
-            "part": "en-webbsida-med-css",
-            "questions": []
-          },
-          {
-            "part": "matt-och-varden",
-            "questions": [
-              "Ge exempel på tre måttenheter",
-              "Vad är skillnaden på en absolut och en relativ måttenhet?"
             ]
           },
           {
@@ -272,6 +261,17 @@
               "Vad bör du tänka på när du namnger CSS-dokument? Vilken filändelse ska du använda?",
               "Ge exempel på hur du kan skriva CSS-regler för att använda i HTML-dokument."
             ]
+          },
+          {
+            "part": "en-webbsida-med-css",
+            "questions": []
+          },
+          {
+            "part": "matt-och-varden",
+            "questions": [
+              "Ge exempel på tre måttenheter",
+              "Vad är skillnaden på en absolut och en relativ måttenhet?"
+            ]
           }
         ]
       },
@@ -287,11 +287,10 @@
             ]
           },
           {
-            "part": "dokumentstruktur",
+            "part": "attribut",
             "questions": [
-              "Vilket element är root noden i HTML dokumentet?",
-              "Vilket element innehåller information om dokumentet?",
-              "Vilket element innehåller allt innehåll som ska visas för användaren?"
+              "Förklara vad ett attribut är.",
+              "Ge exempel på vilka delar som ett attribut består av."
             ]
           },
           {
@@ -302,28 +301,36 @@
             ]
           },
           {
-            "part": "attribut",
-            "questions": [
-              "Förklara vad ett attribut är.",
-              "Ge exempel på vilka delar som ett attribut består av."
-            ]
-          },
-          {
-            "part": "en-webbsida",
-            "questions": []
-          },
-          {
             "part": "vad-ar-html",
             "questions": [
               "Vad är HTML?",
               "Hur bör du namnge dina HTML dokument? Vilken filändelse ska du använda?"
             ]
+          },
+          {
+            "part": "dokumentstruktur",
+            "questions": [
+              "Vilket element är root noden i HTML dokumentet?",
+              "Vilket element innehåller information om dokumentet?",
+              "Vilket element innehåller allt innehåll som ska visas för användaren?"
+            ]
+          },
+          {
+            "part": "en-webbsida",
+            "questions": []
           }
         ]
       },
       {
         "area": "javascript",
         "parts": [
+          {
+            "part": "dom",
+            "questions": [
+              "Vad menas med DOM?",
+              "Ge exempel på hur du kan välja element med javascript."
+            ]
+          },
           {
             "part": "datatyper",
             "questions": [
@@ -340,10 +347,10 @@
             ]
           },
           {
-            "part": "dom",
+            "part": "iteration",
             "questions": [
-              "Vad menas med DOM?",
-              "Ge exempel på hur du kan välja element med javascript."
+              "Vad menas med iteration, vad är det som sker?",
+              "Ge exempel på olika typer av loopar i javascript."
             ]
           },
           {
@@ -358,13 +365,6 @@
             "questions": [
               "Vad är javascript?",
               "Vad menas med att javascript körs på klient-sidan?"
-            ]
-          },
-          {
-            "part": "iteration",
-            "questions": [
-              "Vad menas med iteration, vad är det som sker?",
-              "Ge exempel på olika typer av loopar i javascript."
             ]
           },
           {
