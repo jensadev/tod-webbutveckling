@@ -39,6 +39,7 @@ module.exports = {
     url: process.env.URL || 'http://localhost:8080',
     language: 'sv',
     siteName: 'Webbutveckling',
+    pwaName: 'webbutveckling.jensa.dev',
     primaryColor: curated[30].primary,
     secondaryColor: curated[30].secondary,
     siteDescription:
