@@ -1,0 +1,388 @@
+[
+  {
+    "theme": "layout",
+    "areas": [
+      {
+        "area": "flexbox",
+        "parts": [
+          {
+            "part": "display-flex",
+            "questions": [
+              "Vad händer när ett element har display flex till skillnad från block?",
+              "Hur fungerar flex-direction? Hur påverkar det align-items och justify-content?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "grid",
+        "parts": [
+          {
+            "part": "display-grid",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "area": "responsive-design",
+        "parts": [
+          {
+            "part": "media-queries",
+            "questions": []
+          },
+          {
+            "part": "mobile-first",
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "introduktion",
+    "areas": [
+      {
+        "area": "webben",
+        "parts": [
+          {
+            "part": "adresser",
+            "questions": [
+              "Vad är ett protokoll? Förklara skillnaden mellan http och https?",
+              "Vad menas med en domän och en resurs?",
+              "Hur används ett fragment och varför används det?",
+              "Vad är query parameterar och vad kan de används till?"
+            ]
+          },
+          {
+            "part": "klient",
+            "questions": [
+              "Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?",
+              "Hur fungerar utvecklarverktygen i din webbläsare?"
+            ]
+          },
+          {
+            "part": "server",
+            "questions": [
+              "Vad är en molntjänst för webbhosting?"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "media",
+    "areas": [
+      {
+        "area": "bilder",
+        "parts": [
+          {
+            "part": "bildformat",
+            "questions": [
+              "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
+              "Vad är viktiga att tänka på om du använder webbformat?"
+            ]
+          },
+          {
+            "part": "bildoptimering",
+            "questions": [
+              "Vad innebär det att optimera en bild?",
+              "Ge exempel på bildformat och vad de passar för."
+            ]
+          },
+          {
+            "part": "bildstorlek",
+            "questions": [
+              "Beskriv vad som menas med en bilds dimension och upplösning.",
+              "Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift."
+            ]
+          },
+          {
+            "part": "skarmupplosning",
+            "questions": [
+              "Vad menas med skärmupplösning?",
+              "Vad menas med bildförhållande?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "video",
+        "parts": [
+          {
+            "part": "videoformat",
+            "questions": [
+              "Vad menas med videoformat?"
+            ]
+          },
+          {
+            "part": "videokontainer",
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "praxis",
+    "areas": [
+      {
+        "area": "hosting",
+        "parts": [
+          {
+            "part": "molntjanster",
+            "questions": []
+          },
+          {
+            "part": "utvecklingsserver",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "area": "kod",
+        "parts": [
+          {
+            "part": "automatisera",
+            "questions": []
+          },
+          {
+            "part": "linta",
+            "questions": []
+          },
+          {
+            "part": "stil",
+            "questions": []
+          },
+          {
+            "part": "validera-css",
+            "questions": [
+              "Vad finns det för vinster med att validera din kod?",
+              "Ge exempel på hur du kan använda validering för att felsöka din kod."
+            ]
+          },
+          {
+            "part": "validera-html",
+            "questions": [
+              "Varför är det viktigt att validera sin kod?",
+              "Beskriv hur du kan använda validering för att felsöka din kod."
+            ]
+          }
+        ]
+      },
+      {
+        "area": "tillganglighet",
+        "parts": [
+          {
+            "part": "design-for-alla",
+            "questions": [
+              "Vad menas med design för alla?",
+              "Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "projektarbete",
+    "areas": [
+      {
+        "area": "dokumentation",
+        "parts": [
+          {
+            "part": "commits",
+            "questions": []
+          },
+          {
+            "part": "post-mortem",
+            "questions": [
+              "Vilka delar av ett Post Mortem är viktiga att ha med? Varför?",
+              "Vad är syftet med att berätta om positiva och negativa erfarenheter?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "planering",
+        "parts": [
+          {
+            "part": "att-skapa-en-produkt",
+            "questions": [
+              "Vilka fördelar kan du identifiera med att planera en produkt?",
+              "Hur påverkar det att inte ha en plan för en produkt? Vad kan hända?"
+            ]
+          },
+          {
+            "part": "prototyper-figma",
+            "questions": [
+              "Hur använder du Figma för att skapa en prototyp?",
+              "Varför är det viktigt att öka komplexiteten i en prototyp?"
+            ]
+          },
+          {
+            "part": "prototyper-papper",
+            "questions": [
+              "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
+              "Vad menas med komplexitet och fidelity?"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "tekniker",
+    "areas": [
+      {
+        "area": "css",
+        "parts": [
+          {
+            "part": "box-model",
+            "questions": [
+              "Förklara vad boxmodellen är och hur den fungerar.",
+              "Ge exempel på CSS-egenskaper som påverkar boxmodellen."
+            ]
+          },
+          {
+            "part": "en-webbsida-med-css",
+            "questions": []
+          },
+          {
+            "part": "matt-och-varden",
+            "questions": [
+              "Ge exempel på tre måttenheter",
+              "Vad är skillnaden på en absolut och en relativ måttenhet?"
+            ]
+          },
+          {
+            "part": "selektorer",
+            "questions": [
+              "Vad är en selektor?",
+              "Ge exempel på två eller fler olika typer av selektorer.",
+              "Hur kan du använda flera css regler för ett element?"
+            ]
+          },
+          {
+            "part": "vad-ar-css",
+            "questions": [
+              "Vad är CSS?",
+              "Vad bör du tänka på när du namnger CSS-dokument? Vilken filändelse ska du använda?",
+              "Ge exempel på hur du kan skriva CSS-regler för att använda i HTML-dokument."
+            ]
+          }
+        ]
+      },
+      {
+        "area": "html",
+        "parts": [
+          {
+            "part": "element",
+            "questions": [
+              "Vad är ett HTML element och hur används det?",
+              "Vilka tre delar har en HTML tagg?",
+              "Var skriver du HTML elementen som användaren ska se i ditt dokument?"
+            ]
+          },
+          {
+            "part": "dokumentstruktur",
+            "questions": [
+              "Vilket element är root noden i HTML dokumentet?",
+              "Vilket element innehåller information om dokumentet?",
+              "Vilket element innehåller allt innehåll som ska visas för användaren?"
+            ]
+          },
+          {
+            "part": "attribut",
+            "questions": [
+              "Förklara vad ett attribut är.",
+              "Ge exempel på vilka delar som ett attribut består av."
+            ]
+          },
+          {
+            "part": "en-webbsida",
+            "questions": []
+          },
+          {
+            "part": "semantiska-element",
+            "questions": [
+              "Vad betyder semantik?",
+              "Ge tre exempel på semantiska element och deras betydelse."
+            ]
+          },
+          {
+            "part": "vad-ar-html",
+            "questions": [
+              "Vad är HTML?",
+              "Hur bör du namnge dina HTML dokument? Vilken filändelse ska du använda?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "javascript",
+        "parts": [
+          {
+            "part": "dom",
+            "questions": [
+              "Vad menas med DOM?",
+              "Ge exempel på hur du kan välja element med javascript."
+            ]
+          },
+          {
+            "part": "datatyper",
+            "questions": [
+              "Ge exempel på datatyper i javascript.",
+              "Vad menas med dynamiskt typat?"
+            ]
+          },
+          {
+            "part": "iteration",
+            "questions": [
+              "Vad menas med iteration, vad är det som sker?",
+              "Ge exempel på olika typer av loopar i javascript."
+            ]
+          },
+          {
+            "part": "operatorer",
+            "questions": [
+              "Vad menas med en operator?",
+              "Förklara skillnaderna mellan = och ==.",
+              "Ge tre exmpel på uttryck som resulterar i ett numeriskt värde."
+            ]
+          },
+          {
+            "part": "selektion",
+            "questions": [
+              "Vad menas med selektion?",
+              "Ge tre exempel på när selektion kan vara användbart."
+            ]
+          },
+          {
+            "part": "vad-ar-javascript",
+            "questions": [
+              "Vad är javascript?",
+              "Vad menas med att javascript körs på klient-sidan?"
+            ]
+          },
+          {
+            "part": "variabler",
+            "questions": [
+              "Vad menas med att deklarera en variabel? Hur gör du det i javascript?",
+              "Ge exempel på hur du kan skriva ut en variabels värde i konsollen och i ett dokument."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "webbutveckling",
+    "areas": [
+      {
+        "area": "slutuppgifter",
+        "parts": []
+      }
+    ]
+  }
+]

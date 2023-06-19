@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: CSS använder olika typer av måttenheter för att ange storleken på element, fonter och så vidare.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 För att skapa en webbplats med CSS så kommer du med största sannolikhet behöva använda ett antal måttenheter. Flera av måtten grundar sig i pixlar. Måtten behövs för att bestämma storleken på allt från fonter, bilder och layouter.
 Vanliga måttenheter är:
@@ -26,9 +28,7 @@ Vanliga måttenheter är:
 -   Absoluta måttenheter är alltid lika, exempelvis `16px` är alltid lika med `16px`.
 - Inline element kan inte ha en höjd eller bredd, så dessa måttenheter fungerar inte på dessa element.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Skapa två dokument, `units.html` och `units.css`. HTML filen ska innehålla den grundläggande HTML strukturen med en länk till `.css` filen.
 
@@ -64,11 +64,11 @@ Hur har webbläsaren räknat ut måttenheterna?
 
 Öppna din webbläsares inställningar. Prova att ändra webbläsarens standard-storlek för typsnitt, hur påverkas sidan? Vilka mått påverkas?
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -77,14 +77,14 @@ Ge exempel på tre måttenheter
 
 Vad är skillnaden på en absolut och en relativ måttenhet?
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Vad är skillnaden på `em` och `rem`?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}

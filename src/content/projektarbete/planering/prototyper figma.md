@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: En prototyp skapas med olika komplexitet, efter en pappersskiss kan den med fördel digitaliseras.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 För att öka komplexiteten (fidelity) i en prototyp är det vanliga att använda en mjukvara. Det ger dig flera möjligheter att komma så nära slutprodukten som möjligt, både visuellt och interaktivt. [Figma](https://www.figma.com) är ett gratisverktyg (än så länge) som ägs av Adobe för att skapa och redigera prototyper.
 
@@ -17,9 +19,7 @@ För att öka komplexiteten (fidelity) i en prototyp är det vanliga att använd
 -   Öka komplexitet stegvis.
 -   Öka detaljrikedom stegvis.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Registrera dig på [Figma](https://www.figma.com).
 
@@ -35,11 +35,11 @@ När du har en grundläggande förståelse för hur Figma fungerar så är det d
 
 Utgå från skisserna av din prototyp. Försök återskapa delarna i din skissade prototyp med Figma.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -49,6 +49,6 @@ Hur använder du Figma för att skapa en prototyp?
 
 Varför är det viktigt att öka komplexiteten i en prototyp?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

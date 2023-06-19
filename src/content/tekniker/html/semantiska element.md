@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Semantiska element ger mer information om innehållet.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Semantik betyder mening. Med semantiska element i HTML så får webbläsaren mer information om innehållet. Det gör att webbläsaren kan tolka innehållet på rätt sätt.
 
@@ -17,9 +19,7 @@ Semantik betyder mening. Med semantiska element i HTML så får webbläsaren mer
 -   När du använder semantiska element så ökar du användbarheten på din webbplats.
 -   Din kod blir lättare att läsa och förstå.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Följ den här länken och läs om [semantiska element](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML).
 
@@ -55,11 +55,11 @@ Första listan ska vara oordnad och andra listan ska vara ordnad. I båda fallen
 -   `h2` med texten "Ordnad lista"
 -   `ol` med 5 punkter
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -69,14 +69,14 @@ Vad betyder semantik?
 
 Ge tre exempel på semantiska element och deras betydelse.
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Förklara skillnaden mellan `ol` och `ul` element?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}

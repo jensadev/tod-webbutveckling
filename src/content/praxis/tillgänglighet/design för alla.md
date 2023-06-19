@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Att skapa en design för alla handlar om att inkludera den mångfald som finns. Vi är alla olika.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Att designa för alla människor oavsett förmåga borde vara en självklarhet. I vissa fall är det ett lagkrav, som offentlig verksamhet, men det är långtifrån alla. Oavsett vad din webbplats fyller för funktion så tjänar du som alltid på att designa för alla, mycket för att det tenderar att förbättra funktionen för just alla.
 
@@ -18,9 +20,7 @@ Att designa för alla människor oavsett förmåga borde vara en självklarhet. 
 -   Bestäm hur din webbplats ska användas och av vem.
 -   Testa din webbplats på dina användare, ofta och tidigt.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Ladda ned ett eller flera verktyg för att testa användbarhet på webbplatser.
 
@@ -41,11 +41,11 @@ Förbered en kort presentation av dina resultat.
 -   Är den funktionsduglig enligt "lätt och smidig" regeln?
 -   Vad får den för resultat i verktygen?
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -55,6 +55,6 @@ Vad menas med design för alla?
 
 Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

@@ -10,4 +10,4 @@ eleventyNavigation:
     excerpt: Webben är uppbyggd av ett antal olika tekniker. Det här temat handlar om HTML, CSS och Javascript.
 ---
 
-## Områden i temat {{ title }}
+

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Med iteration menas att upprepa, loopa. Kod som gör något flera gånger.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Ett program behöver förutom att kunna göra val även kunna upprepa kod. Det är klart att ett program kan skrivas med väldigt mycket upprepning, men i sågott som alla fall är det enklare att skriva en loop som upprepar koden så länge ett eller flera villkor är sanna.
 
@@ -23,9 +25,7 @@ for (let i = 0; i < 10; i = i + 1) {
 
 -   Att det finns fler sätt att iterera än for-loopen.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Fortsätt arbeta med uppgiften från föregående del, [selektion](selektion.html).
 Skapa en loop som låter spelaren gissa tills det rätta svaret är givet.
@@ -48,11 +48,11 @@ friends.forEach((friend) => {
 });
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -63,19 +63,19 @@ Vad menas med iteration, vad är det som sker?
 Ge exempel på olika typer av loopar i javascript.
 
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Förklara hur foreach fungerar.
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Tips" %}
+{% extra "Tips" %}
 
 Det har blivit allt vanligare att i javascript använda olika metoder för att iterera över arrayer. Ett exempel på det är
 `map()` som tar en funktion som argument och returnerar en ny array.
@@ -89,4 +89,4 @@ console.log(arr);
 
 Andra exempel är `filter()` och `reduce()`.
 
-{% endfacit %}
+{% endextra %}

@@ -10,4 +10,3 @@ eleventyNavigation:
     excerpt: Layout för webben.
 ---
 
-## Temat {{ title }} innehåller följande områden

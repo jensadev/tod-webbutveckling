@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Hypertext Markup Language, webbens språk.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Hypertext Markup Language(HTML) är ett märkspråk som används för att märka upp webbsidor. HTML strukturerar upp text och märker upp den med taggar. Det för att en webbläsare ska kunna tolka texten och visa den som en webbsida.
 
@@ -22,9 +24,7 @@ HTML är en standard som styrs av [World Wide Web Consortium](https://www.w3.org
 -   Använd små bokstäver, undvik specialtecken `()@'"&%/&åäö` och mellanslag i filnamn för att undvika problem.
 -   Använd en [IDE](https://sv.wikipedia.org/wiki/Integrerad_utvecklingsmilj%C3%B6) som [Visual Studio Code](https://code.visualstudio.com/) för att skapa och redigera dina dokument.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Skapa en fil, `index.html` och öppna den för redigering. Du kan använda ett valfritt textredigeringsprogram, men det underlättar om det stöder HTML.
 
@@ -49,11 +49,11 @@ Du kan även redigera den text du skrev tidigare. Prova att använda dig av en `
 <p>Det här är text i en html fil.</p>
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -63,6 +63,6 @@ Vad är HTML?
 
 Hur bör du namnge dina HTML dokument? Vilken filändelse ska du använda?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Box model är det som omger varje element i HTML.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 Allt i CSS är boxar. Boxen kan förenklat vara av två typer, block och inline. Block element har en höjd och bredd som är lika stor som dess innehåll. Inline element har ingen höjd eller bredd, så dessa måttenheter fungerar inte på dessa element.
 Utöver detta så är storleken på elementets box en summa av flera delar.
@@ -22,13 +24,11 @@ Utöver detta så är storleken på elementets box en summa av flera delar.
 -   Måttet på en padding/border/margin dubblas, detta eftersom den finns på båda sidorna av ett element.
 -   Se till att dina element har innehåll.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 I utvecklingsverktygen i din webbläsare (F12) kan du inspektera element för att undersöka boxen. Leta efter Styles >> Computed. Prova detta verktyg för att undersöka elements storlek.
 
-{% image "boxmodel.png", "Box model" %}
+{% image "content/images/boxmodel.png", "Box model" %}
 
 Skapa ett nytt html dokument, `box.html`. Börja med att skapa grundläggande HTML-element.
 I detta skapa sedan en semantisk sidstruktur, `nav`, `main`, `footer`.
@@ -81,11 +81,11 @@ Skapa sedan ett `<p>` element. Märk upp en del av texten med `<span>`, testa se
 ```
 
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -95,11 +95,11 @@ Förklara vad boxmodellen är och hur den fungerar.
 
 Ge exempel på CSS-egenskaper som påverkar boxmodellen.
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Tips" %}
+{% extra "Tips" %}
 
 Webbläsaren har ett antal inbyggda stilar för att göra "ostilat" HTML-innehåll mer läsbart. De grundstilarna sätter padding och margin på element samt ändrar text-storlekar. Det är bra att känna till då detta påverkar hur dina element ser ut.
 
@@ -114,4 +114,4 @@ För att ta bort inbyggd padding och margin på alla element kan du använda:
 
 Mer sofistikerade varianter på detta brukar kallas för en [CSS-reset](https://meyerweb.com/eric/tools/css/reset/).
 
-{% endfacit %}
+{% endextra %}

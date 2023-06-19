@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Element är en del av den textstruktur som utgör en webbsida.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 HTML består av element. Element skrivs med hjälp av `<taggar>` som märker upp text. Webbläsaren tolkar taggarna och vilka element de representerar och visar upp resultatet som en webbsida.
 
@@ -28,9 +30,7 @@ Ett HTML element kan innehålla andra element, det kallas för nästlade element
 -   Öppna och stäng alla taggar du använder.
 -   Element som har en radbrytning efter sig kallas för **block** element.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Skapa ett nytt dokument, `element.html`.
 
@@ -63,11 +63,11 @@ Redigera dokumentet element.html och gör följande ändringar.
 </ul>
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -81,19 +81,19 @@ Vilka tre delar har en HTML tagg?
 
 Var skriver du HTML elementen som användaren ska se i ditt dokument?
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 4
 
 Hur tolkar webbläsaren en HTML tagg som inte finns och vad visas då?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Tips" %}
+{% extra "Tips" %}
 
 Testa att skriva ett element med taggar som inte finns.
 
@@ -101,4 +101,4 @@ Testa att skriva ett element med taggar som inte finns.
 <hej>Detta är ett element som inte finns</hej>
 ```
 
-{% endfacit %}
+{% endextra %}

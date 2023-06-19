@@ -7,13 +7,13 @@ eleventyNavigation:
     excerpt: Strukturen på ett HTML dokument är viktig. Den påverkar hur webbläsaren tolkar dokumentet.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 HTML dokument består av en grundstruktur som är densamma för alla dokument. Det är viktigt att följa grundstrukturen för att webbläsaren ska kunna tolka dokumentet korrekt.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Skapa ett nytt dokument, `dokumentstruktur.html` och öppna det i din textredigerare.
 
@@ -65,11 +65,11 @@ I `<body>` taggen lägger vi in allt innehåll som ska visas för användaren. D
 </body>
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -83,11 +83,11 @@ Vilket element innehåller information om dokumentet?
 
 Vilket element innehåller allt innehåll som ska visas för användaren?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Tips" %}
+{% extra "Tips" %}
 
 Om du använder Visual Studio så får du med verktyget [Emmet](https://emmet.io/). Emmet underlättar otroligt mycket för att skriva HTML.
 
@@ -95,4 +95,4 @@ Ett exempel är att du kan skriva `html:5`, tabba &#11134; och direkt få ut gru
 
 [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/)
 
-{% endfacit %}
+{% endextra %}

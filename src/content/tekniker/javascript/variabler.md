@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: För att spara värden i ett programmeringsspråk används variabler.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 En variabel är en behållare för att spara ett värde. En variabel deklareras med ett namn och tilldelas sedan ett värde.
 För att deklarera en variabel i javascript använder du `let` följt av namnet. För att tilldela ett värde till en variabel använder du `=` följt av värdet.
@@ -26,9 +28,7 @@ I mycket javascript kommer du se variabler deklareras med `var` och `const`. Fö
 -   I konsollen kan du se en variabels värde genom att skriva dess namn.
 -   I ett dokument så använder du `console.log(variabelnamn)` för att skriva ut värdet till konsollen.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare(F12) och välj console. Skriv in följande kod.
 
@@ -58,11 +58,11 @@ alert('Oj ' + name + ', ' + birthYear + ' var länge sedan!');
 
 Prova olika sätt att skriva ut text i din webbläsare.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -72,19 +72,19 @@ Vad menas med att deklarera en variabel? Hur gör du det i javascript?
 
 Ge exempel på hur du kan skriva ut en variabels värde i konsollen och i ett dokument.
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Vad skiljer `let` och `const` från `var`?
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
 
-{% facit "Övning" %}
+{% extra "Övning" %}
 
 Redigera filen `js.html`.
 Skapa inmatning för följande frågor och skriv ut användarens svar (använd dig av `prompt` och `alert`).
@@ -94,4 +94,4 @@ Skapa inmatning för följande frågor och skriv ut användarens svar (använd d
 
 Skriv ut svaret på fråga ett och två som **ett** meddelande till användaren.
 
-{% endfacit %}
+{% endextra %}

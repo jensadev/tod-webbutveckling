@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: För att kunna skriva uttryck behövs operatorer.
 ---
 
-{% intro %}
+{% instructions %}
+
+## Introduktion
 
 En operator är en matematisk symbol som producerar ett resultat. Genom att kombinera variabler, värden och operatorer kan vi skapa uttryck.
 
@@ -18,9 +20,7 @@ En operator är en matematisk symbol som producerar ett resultat. Genom att komb
 -   Ett uttryck som resulterar i ett numeriskt värde kallas för ett aritmetiskt uttryck.
 -   Du kan inte räkna med strängar. Använd `parseInt()`.
 
-{% endintro %}
-
-{% instruktioner %}
+## Instruktioner
 
 Öppna utvecklarverktygen i din webbläsare(F12) och välj console.
 
@@ -66,11 +66,11 @@ Skriv ut resultatsträngen med både `console.log()` och `alert()`. Du kan anvä
 | Likamed                               | `===`   | Undersök om två värden är densamma.                        |
 | Inte, inte likadmed                   | `! !==` | För att undersöka om något inte är, eller inte är likamed. |
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
@@ -84,14 +84,14 @@ Förklara skillnaderna mellan `=` och `==`.
 
 Ge tre exmpel på uttryck som resulterar i ett numeriskt värde.
 
-{% endbas %}
+{% endbase %}
 
-{% extra %}
+{% advanced %}
 
 #### Uppgift 3
 
 Förklara skillnaden mellan `==` och `===`.
 
-{% endextra %}
+{% endadvanced %}
 
-{% enduppgifter %}
+{% endquestions %}
