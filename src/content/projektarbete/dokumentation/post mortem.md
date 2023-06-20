@@ -32,7 +32,7 @@ Ditt Post Mortem ska innehålla följande delar.
 
 Använd gärna bilder för att illustrera och visa vad du skriver om.
 
-Du kan utgå och kopiera den här [mallen](https://gist.github.com/jensnti/c377e37ceb4138c4c29c6ab5f5f64c2f) för att skriva ditt PM i Markdown.
+Du kan utgå och kopiera den här [mallen](https://gist.github.com/jensadev/c377e37ceb4138c4c29c6ab5f5f64c2f) för att skriva ditt PM i Markdown.
 
 {% endinstructions %}
 
