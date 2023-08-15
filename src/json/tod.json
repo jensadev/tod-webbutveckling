@@ -2,60 +2,20 @@
   "subject": "webbutveckling",
   "themes": [
     {
+      "theme": "webbutveckling",
+      "areas": [
+        {
+          "area": "slutuppgifter",
+          "parts": []
+        }
+      ]
+    },
+    {
       "theme": "introduktion",
       "areas": [
         {
           "area": "webben",
           "parts": [
-            {
-              "part": "server",
-              "questions": [
-                {
-                  "question": "uppgift-2",
-                  "text": "Vad är en molntjänst för webbhosting?",
-                  "id": 2563094279,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-3",
-                  "id": 2563094278,
-                  "type": "advanced",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "klient",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?",
-                  "id": 1681101648,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Hur fungerar utvecklarverktygen i din webbläsare?",
-                  "id": 1681101651,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-3",
-                  "text": "Vad kan du göra med utvecklarverktygen i webbläsaren?",
-                  "id": 1681101650,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
             {
               "part": "adresser",
               "questions": [
@@ -107,228 +67,51 @@
                   "date": null
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "praxis",
-      "areas": [
-        {
-          "area": "hosting",
-          "parts": [
-            {
-              "part": "utvecklingsserver",
-              "questions": []
             },
             {
-              "part": "molntjanster",
-              "questions": []
-            }
-          ]
-        },
-        {
-          "area": "kod",
-          "parts": [
-            {
-              "part": "validera-css",
+              "part": "klient",
               "questions": [
                 {
                   "question": "uppgift-1",
-                  "text": "Vad finns det för vinster med att validera din kod?",
-                  "id": 1316212991,
+                  "text": "Vad menas med en klient? Kan du ge några exempel på klienter och förklara vad som skiljer dem åt?",
+                  "id": 1681101648,
                   "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
                   "question": "uppgift-2",
-                  "text": "Ge exempel på hur du kan använda validering för att felsöka din kod.",
-                  "id": 1316212988,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "validera-html",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Varför är det viktigt att validera sin kod?",
-                  "id": 1834048801,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Beskriv hur du kan använda validering för att felsöka din kod.",
-                  "id": 1834048802,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "linta",
-              "questions": []
-            },
-            {
-              "part": "automatisera",
-              "questions": []
-            },
-            {
-              "part": "stil",
-              "questions": []
-            }
-          ]
-        },
-        {
-          "area": "tillganglighet",
-          "parts": [
-            {
-              "part": "design-for-alla",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad menas med design för alla?",
-                  "id": 631948657,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?",
-                  "id": 631948658,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "media",
-      "areas": [
-        {
-          "area": "video",
-          "parts": [
-            {
-              "part": "videokontainer",
-              "questions": []
-            },
-            {
-              "part": "videoformat",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad menas med videoformat?",
-                  "id": 1460679671,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "bilder",
-          "parts": [
-            {
-              "part": "bildformat",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
-                  "id": 3372949248,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Vad är viktiga att tänka på om du använder webbformat?",
-                  "id": 3372949251,
+                  "text": "Hur fungerar utvecklarverktygen i din webbläsare?",
+                  "id": 1681101651,
                   "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
                   "question": "uppgift-3",
-                  "id": 3372949250,
+                  "text": "Vad kan du göra med utvecklarverktygen i webbläsaren?",
+                  "id": 1681101650,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "server",
+              "questions": [
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad är en molntjänst för webbhosting?",
+                  "id": 2563094279,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-3",
+                  "id": 2563094278,
                   "type": "advanced",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "bildoptimering",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad innebär det att optimera en bild?",
-                  "id": 3053005275,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge exempel på bildformat och vad de passar för.",
-                  "id": 3053005272,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "skarmupplosning",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad menas med skärmupplösning?",
-                  "id": 3938542125,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Vad menas med bildförhållande?",
-                  "id": 3938542126,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "bildstorlek",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Beskriv vad som menas med en bilds dimension och upplösning.",
-                  "id": 148858203,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift.",
-                  "id": 148858200,
-                  "type": "base",
                   "completed": false,
                   "date": null
                 }
@@ -392,6 +175,232 @@
       ]
     },
     {
+      "theme": "media",
+      "areas": [
+        {
+          "area": "bilder",
+          "parts": [
+            {
+              "part": "bildformat",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Ge tre exempel på bildformat och varför de är lämpliga för webben.",
+                  "id": 3372949248,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad är viktiga att tänka på om du använder webbformat?",
+                  "id": 3372949251,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-3",
+                  "id": 3372949250,
+                  "type": "advanced",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "bildoptimering",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad innebär det att optimera en bild?",
+                  "id": 3053005275,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på bildformat och vad de passar för.",
+                  "id": 3053005272,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "bildstorlek",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Beskriv vad som menas med en bilds dimension och upplösning.",
+                  "id": 148858203,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på vilken PPI / DPI som är lämplig för digitala bilder och för utskrift.",
+                  "id": 148858200,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "skarmupplosning",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad menas med skärmupplösning?",
+                  "id": 3938542125,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad menas med bildförhållande?",
+                  "id": 3938542126,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "area": "video",
+          "parts": [
+            {
+              "part": "videokontainer",
+              "questions": []
+            },
+            {
+              "part": "videoformat",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad menas med videoformat?",
+                  "id": 1460679671,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "praxis",
+      "areas": [
+        {
+          "area": "hosting",
+          "parts": [
+            {
+              "part": "utvecklingsserver",
+              "questions": []
+            },
+            {
+              "part": "molntjanster",
+              "questions": []
+            }
+          ]
+        },
+        {
+          "area": "kod",
+          "parts": [
+            {
+              "part": "linta",
+              "questions": []
+            },
+            {
+              "part": "validera-html",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Varför är det viktigt att validera sin kod?",
+                  "id": 1834048801,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Beskriv hur du kan använda validering för att felsöka din kod.",
+                  "id": 1834048802,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "automatisera",
+              "questions": []
+            },
+            {
+              "part": "validera-css",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad finns det för vinster med att validera din kod?",
+                  "id": 1316212991,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på hur du kan använda validering för att felsöka din kod.",
+                  "id": 1316212988,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "stil",
+              "questions": []
+            }
+          ]
+        },
+        {
+          "area": "tillganglighet",
+          "parts": [
+            {
+              "part": "design-for-alla",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad menas med design för alla?",
+                  "id": 631948657,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Varför är det viktigt att arbeta med tillgänglighet? Vilka vinster finns det?",
+                  "id": 631948658,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "theme": "projektarbete",
       "areas": [
         {
@@ -427,6 +436,27 @@
         {
           "area": "planering",
           "parts": [
+            {
+              "part": "prototyper-papper",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
+                  "id": 4268589211,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad menas med komplexitet och fidelity?",
+                  "id": 4268589208,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
             {
               "part": "prototyper-figma",
               "questions": [
@@ -468,27 +498,6 @@
                   "date": null
                 }
               ]
-            },
-            {
-              "part": "prototyper-papper",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vilka vinster kan du se med att skapa en prototyp på papper? Varför är det viktigt att skapa en prototyp?",
-                  "id": 4268589211,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Vad menas med komplexitet och fidelity?",
-                  "id": 4268589208,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
             }
           ]
         }
@@ -500,6 +509,55 @@
         {
           "area": "css",
           "parts": [
+            {
+              "part": "matt-och-varden",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Ge exempel på tre måttenheter",
+                  "id": 3223028752,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad är skillnaden på en absolut och en relativ måttenhet?",
+                  "id": 3223028755,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-3",
+                  "id": 3223028754,
+                  "type": "advanced",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "box-model",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Förklara vad boxmodellen är och hur den fungerar.",
+                  "id": 3091451717,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på CSS-egenskaper som påverkar boxmodellen.",
+                  "id": 3091451718,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
             {
               "part": "selektorer",
               "questions": [
@@ -530,55 +588,6 @@
                 {
                   "question": "uppgift-4",
                   "id": 1168235389,
-                  "type": "advanced",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "box-model",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Förklara vad boxmodellen är och hur den fungerar.",
-                  "id": 3091451717,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge exempel på CSS-egenskaper som påverkar boxmodellen.",
-                  "id": 3091451718,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "matt-och-varden",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Ge exempel på tre måttenheter",
-                  "id": 3223028752,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Vad är skillnaden på en absolut och en relativ måttenhet?",
-                  "id": 3223028755,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-3",
-                  "id": 3223028754,
                   "type": "advanced",
                   "completed": false,
                   "date": null
@@ -656,34 +665,6 @@
               "questions": []
             },
             {
-              "part": "semantiska-element",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad betyder semantik?",
-                  "id": 3099843951,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge tre exempel på semantiska element och deras betydelse.",
-                  "id": 3099843948,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-3",
-                  "id": 3099843949,
-                  "type": "advanced",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "dokumentstruktur",
               "questions": [
                 {
@@ -707,6 +688,34 @@
                   "text": "Vilket element innehåller allt innehåll som ska visas för användaren?",
                   "id": 2341660369,
                   "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "semantiska-element",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad betyder semantik?",
+                  "id": 3099843951,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge tre exempel på semantiska element och deras betydelse.",
+                  "id": 3099843948,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-3",
+                  "id": 3099843949,
+                  "type": "advanced",
                   "completed": false,
                   "date": null
                 }
@@ -789,6 +798,34 @@
           "area": "javascript",
           "parts": [
             {
+              "part": "dom",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad menas med DOM?",
+                  "id": 1184300900,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på hur du kan välja element med javascript.",
+                  "id": 1184300903,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-3",
+                  "id": 1184300902,
+                  "type": "advanced",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
               "part": "operatorer",
               "questions": [
                 {
@@ -818,6 +855,34 @@
                 {
                   "question": "uppgift-3",
                   "id": 1273040599,
+                  "type": "advanced",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "variabler",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad menas med att deklarera en variabel? Hur gör du det i javascript?",
+                  "id": 30077174,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på hur du kan skriva ut en variabels värde i konsollen och i ett dokument.",
+                  "id": 30077173,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-3",
+                  "id": 30077172,
                   "type": "advanced",
                   "completed": false,
                   "date": null
@@ -881,55 +946,27 @@
               ]
             },
             {
-              "part": "variabler",
+              "part": "iteration",
               "questions": [
                 {
                   "question": "uppgift-1",
-                  "text": "Vad menas med att deklarera en variabel? Hur gör du det i javascript?",
-                  "id": 30077174,
+                  "text": "Vad menas med iteration, vad är det som sker?",
+                  "id": 3540741333,
                   "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
                   "question": "uppgift-2",
-                  "text": "Ge exempel på hur du kan skriva ut en variabels värde i konsollen och i ett dokument.",
-                  "id": 30077173,
+                  "text": "Ge exempel på olika typer av loopar i javascript.",
+                  "id": 3540741334,
                   "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
                   "question": "uppgift-3",
-                  "id": 30077172,
-                  "type": "advanced",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "dom",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad menas med DOM?",
-                  "id": 1184300900,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge exempel på hur du kan välja element med javascript.",
-                  "id": 1184300903,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-3",
-                  "id": 1184300902,
+                  "id": 3540741335,
                   "type": "advanced",
                   "completed": false,
                   "date": null
@@ -963,45 +1000,8 @@
                   "date": null
                 }
               ]
-            },
-            {
-              "part": "iteration",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad menas med iteration, vad är det som sker?",
-                  "id": 3540741333,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge exempel på olika typer av loopar i javascript.",
-                  "id": 3540741334,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-3",
-                  "id": 3540741335,
-                  "type": "advanced",
-                  "completed": false,
-                  "date": null
-                }
-              ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "theme": "webbutveckling",
-      "areas": [
-        {
-          "area": "slutuppgifter",
-          "parts": []
         }
       ]
     }

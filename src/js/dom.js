@@ -7,7 +7,7 @@ const setupQuestions = (storage, theme, area, part) => {
     const element = document.querySelector('.part__questions');
     if (!element) return;
 
-    console.log('setupQuestions', theme, area, part);
+    // console.log('setupQuestions', theme, area, part);
 
     const questions = storage.getQuestions(theme, area, part);
 

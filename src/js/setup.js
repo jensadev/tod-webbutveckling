@@ -35,7 +35,7 @@ const setup = (jsonData, consentState = null) => {
         config.area = nav[1] ? strip(nav[1].textContent) : null;
         config.part = nav[2] ? strip(nav[2].textContent) : null;
 
-        console.log(config);
+        // console.log(config);
     }
 
     const storage = new Storage(config.subject, jsonData);
