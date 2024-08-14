@@ -50,5 +50,8 @@ module.exports = {
         name: 'Jens Andreasson',
         email: 'jens.andreasson@ntig.se',
         url: 'https://jensa.dev',
-    }
+    },
+    analytics: {
+        googleAnalyticsTrackingId: 'G-VHBH8777XD',
+    },
 };
