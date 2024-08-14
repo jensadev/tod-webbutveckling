@@ -11,8 +11,8 @@ window.addEventListener('load', () => {
     const consent = localStorage.getItem('consent');
     if (!consent && consent !== 'false') {
         consentPopup(
-            `Den här webbplatsen sparar information i din webbläsare 
-            om dina uppgifter och anteckningar.`,
+            `Den här webbplatsen använder Google Analytics för att spara information om ditt besök. 
+            Dina uppgifter och anteckningar sparas lokalt i din webbläsare.`,
             `Ok`
         );
     }
