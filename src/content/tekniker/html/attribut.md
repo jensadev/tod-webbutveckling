@@ -21,7 +21,7 @@ attribut="värde"
 
 Attribut skrivs alltid i öppningstaggen.
 
-![HTML element med egenskap](/assets/images/attributes@2x.png){.w-100}
+{% image "content/images/attributes@2x.png", "HTML element med egenskap" %}
 
 ### Tänk på
 

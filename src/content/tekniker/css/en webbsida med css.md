@@ -69,16 +69,23 @@ header {
 
 ### Centrera innehållet
 
-För att centrera innehållet på webbsidan så kan du använda dig av CSS-reglerna `margin` och `max-width`. Använd `margin: 0 auto;` för att centrera innehållet horisontellt. Använd `max-width: 800px;` för att begränsa sidans bredd.
+För att centrera innehållet på webbsidan så används ofta en klass som kallas `.container`. En klass är en CSS-regel som kan användas på flera element. En klass skrivs med en punkt före namnet. Innehållet centreras med egenskapen `margin-inline` och `max-width`. `margin-inline` sätter marginalen på båda sidor av elementet och `max-width` sätter bredden på elementet.
 
 ```css
-main {
-    margin: 0 auto;
-    max-width: 800px;
+.container {
+    margin-inline: auto;
+    max-width: 80ch;
 }
 ```
 
-I fallet ovan så är css-regeln skriven för `main` elementet. Om du vill så kan du skapa en klass för detta. Vanliga namn för den här typen av klasser är `container` eller `wrapper`.
+
+För att använda klassen så skrivs den i HTML-koden.
+
+```html
+<main class="container">
+    ...
+</main>
+```
 
 ### Färg och typsnitt
 
