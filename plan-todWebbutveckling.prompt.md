@@ -1,166 +1,198 @@
 ## Plan: Rebuild as Nuxt 3 + Nuxt Content (Vue-first, retrieval-practice LMS)
 
 Full rebuild from 11ty+custom-DOM to Nuxt 3 + Nuxt Content + static generation.
-Pedagogy model: retrieval practice (active recall, spaced repetition framing, question-first flow).
-Progress: localStorage primary, optional GitHub Gist sync via one Netlify OAuth serverless function, JSON export always available. No mandatory database.
+Pedagogy model: retrieval practice (active recall, spaced repetition, question-first flow).
+Progress: localStorage primary, optional GitHub Gist sync via one Netlify OAuth function, JSON export always available. No mandatory database. No backwards compatibility.
 
 ---
 
-## Phase 1 — Foundation (new repo, parallel tracks)
+## Phase 1 — Foundation
 
-1. Scaffold new Nuxt 3 project:
-   - nuxt-content v3 (markdown parsing, query API, typed frontmatter)
-   - @nuxtjs/color-mode, pinia, vueuse
-   - nuxt generate for fully static output
-   - Netlify adapter / netlify.toml
+0. Create new repository (separate from tod-webbutveckling):
+   - New repo name: tod (or tod-v2); no history carried over
+   - Deploy preview from new repo; old repo stays live until launch
 
-2. Port content model (parallel with 1):
-   - Copy src/content/** into new repo as-is (markdown stays canonical)
-   - Define typed frontmatter schema (zod or nuxt-content parseContent) for theme/area/part
-   - Replace shortcode blocks ({% questions %}, {% base %}, {% advanced %}) with MDC components (::questions, ::base, ::advanced)
-   - Output: typed content contract available at build time and query time
+1. Scaffold new Nuxt 3 project in the new repo:
+   - @nuxt/content v3
+   - @nuxt/image
+   - @nuxtjs/color-mode
+   - pinia + @vueuse/core
+   - @vite-pwa/nuxt
+   - nuxt generate → Netlify static
 
-3. CI schema validation:
-   - Build-step script queries all content, validates required frontmatter fields and question block shape, fails loudly on violation
+2. Content conversion (not verbatim — requires rewriting):
+   - All part markdown files must be converted from 11ty shortcode syntax to MDC block syntax
+   - Shortcode-to-MDC conversion script handles the mechanical transformation:
+     - {% instructions %}...{% endinstructions %} → ::instructions\n...\n::
+     - {% questions %}...{% endquestions %} → ::questions\n...\n::
+     - {% base %}...{% endbase %} → (question blocks inside ::questions)
+     - {% advanced %}...{% endadvanced %} → (question blocks with level="advanced")
+     - {% extra %}...{% endextra %} → ::extra\n...\n::
+     - {% hint %}...{% endhint %} → ::hint\n...\n::
+   - After mechanical conversion, each part file must be reviewed and tidied manually
+   - content:ids script assigns ULIDs to all :::question blocks after conversion
+   - src/assets/, src/fonts/ → copy verbatim
 
----
-
-## Phase 2 — Routing and Layout
-
-4. Route structure:
-   - /[theme]/                    theme summary page
-   - /[theme]/[area]/             area summary page
-   - /[theme]/[area]/[part]/      part learning page
-   - nuxt-content queryCollection() drives all nav data; no manual collections config
-
-5. Shared components:
-   - AppNav, Breadcrumb, PrevNext, Footer as Vue SFCs
-   - ContentPart renderer for MDC blocks
-   - No manual DOM queries anywhere
+3. CI: content:validate script — fails on missing/duplicate question ids, bad frontmatter, broken MDC slots
 
 ---
 
-## Part file MDC structure (canonical design)
+## Phase 2 — CSS and Theme System (no Sass, no framework)
 
-Each part markdown has these top-level MDC blocks (in order):
-- ::intro — one short paragraph + "Tänk på" bullets. Fits one screen.
-- ::instructions — short prose, code blocks, images, tables, nested ::try callouts. Content discipline: max ~one screen.
-- ::questions — contains one or more :::question{id level} blocks with #question, #hint, #answer named slots.
-- ::extra — optional supplemental content/links.
+- Plain CSS custom properties only, no preprocessor
+- Author picks one primary hue in nuxt.config or site config
+- Small build-time token generator derives full palette:
+  - 5-step lightness scale (bg, surface, border, text, accent)
+  - Semantic aliases: --color-bg, --color-surface, --color-text, --color-accent, --color-accent-subtle
+  - Dark mode: @media (prefers-color-scheme: dark) + @nuxtjs/color-mode class toggle
+- Tokens in assets/tokens.css, imported globally
+
+CSS layers:
+- Utilities: .flow (lobotomized owl), .region, .prose, .stack, .cluster, .visually-hidden
+- Components: scoped styles inside Vue SFCs
+- Block overrides: per-page via CSS cascade layers
+
+Images: @nuxt/image — responsive srcset, lazy loading, static optimisation out of the box
+
+---
+
+## Phase 3 — Part File MDC Structure
+
+Each part file in order:
+
+::intro          — one paragraph + "Tänk på" bullets, one screen
+::instructions   — short prose, code, images, tables, nested ::try callouts, one screen max
+::questions      — one or more :::question{id="ULID" level="base|advanced"} blocks
+::extra          — optional supplemental links (omit if unused)
 
 :::question named slots:
-- #question — always visible
-- #hint — revealed on first user click ("Visa ledtråd")
-
-Question identity policy:
-- Question progress is keyed by a stable source id stored in the markdown itself, not by path, title, or array index.
-- Each :::question block gets an `id` attribute persisted in source, e.g. `:::question{id="q_01HZX3..." level="base"}`.
-- ID format: ULID or UUIDv7 preferred over ad-hoc random strings because they are compact, sortable, and collision-safe.
-- Missing ids are created once by an authoring tool/script and written back into the markdown file; ids are never regenerated during normal builds.
-- Build/CI validation fails on missing ids, duplicate ids, or malformed ids.
-- File/path/title changes do not affect progress because the stored progress key is the persisted question id.
-- Copying a question requires generating a new id; editing question text keeps the same id.
-
-Authoring workflow for stable question ids:
-- Add an npm command such as `npm run content:ids` that scans all part markdown files for `:::question` blocks missing `id` and inserts a new ULID into the source.
-- Add `npm run content:validate` that checks for missing ids, duplicate ids, malformed ids, and invalid question slot structure.
-- Wire build to run validation always, and optionally run id generation before validation in local development/CI preview.
-- Recommended script chain:
-  - `content:ids` -> mutate source only when ids are missing
-  - `content:validate` -> fail on schema/id issues
-  - `build` -> assumes source is already normalized or runs `content:ids && content:validate` first
-- Teacher experience: they write markdown, save, and the repo tooling fills ids automatically during local dev or via a pre-commit/pre-build hook.
-- Safer CI policy: production CI should fail on missing ids instead of silently mutating committed content, to avoid surprise diffs.
-- Recommended local workflow: `dev` runs `content:ids` before starting Nuxt; `build` runs `content:validate`; optional Husky/lint-staged can run `content:ids` on staged markdown files.
-
-- Optional metadata for migration/debugging: store `sourcePath` and `legacyHash` in generated JSON, but never use them as primary identity.
-
-- #answer — revealed on second click ("Visa svar"), then student self-marks ✓/✗
+  #question   — always visible
+  #hint       — revealed on first click ("Visa ledtråd")
+  #answer     — revealed on second click ("Visa svar") → student self-marks ✓/✗
 
 QuestionCard state machine: idle → hint_shown → answer_shown → marked(correct|incorrect)
+No free-text input. Attempt-before-reveal is the pedagogical mechanism.
 
-No free-text input. Retrieval practice works on the attempt-before-reveal principle; typing is not required.
+::try (nested inside ::instructions) — "Prova!" callout for small hands-on tasks
 
-::try nested inside ::instructions — visually distinct "Prova!" callout for small hands-on tasks (open browser, inspect devtools, etc). No in-page editor.
-
-16/9 screen design principle: each block component is styled to fill roughly one landscape viewport. Instructions overflow = signal to shorten content, not a hard cap.
-
----
-
-## Phase 3 — Retrieval Practice UX
-
-6. Question engine:
-   - Questions authored in MDC :::question{id level} with #question, #hint, #answer slots — no HTML scraping
-   - Question id: deterministic from theme+area+part+q-index (stable even if title text changes)
-   - QuestionCard component: idle → hint_shown → answer_shown → marked state machine
-   - Progress model: {completed, correct, attempts, lastSeen, hintsUsed} per question id
-   - Question-before-content mode optional per part (frontmatter flag: questionsFirst: true)
-   - Review route /review: surfaces due questions with SM2-style lightweight interval (~50 lines, no library)
-
-7. Progress store (Pinia):
-   - Replaces Storage.js entirely
-   - vueuse/useLocalStorage for auto-persistence
-   - Schema versioned: {version, subject, progress: {[questionId]: {completed, correct, attempts, lastSeen}}}
-   - JSON export: one button writes downloadable .json
-   - JSON import: file picker restores progress
+16/9 design principle: each block fills ~one landscape viewport. Overflow = content is too long.
 
 ---
 
-## Phase 4 — GitHub Gist Sync (optional, additive)
+## Phase 4 — Question Identity and Authoring Workflow
 
-8. Netlify serverless function /api/github/auth:
-   - Handles OAuth code -> token exchange only (keeps client_secret off client)
-   - Stateless, no DB
+Each :::question carries a stable ULID in source:
+  :::question{id="01HZX3KQY7M8V2N4A6B9C1D2E3" level="base"}
 
-9. GistSync composable:
-   - After auth, reads/writes a Gist named tod-[subject]-progress.json in user's own GitHub account
-   - Merge: local wins on conflict (last-write-wins by timestamp)
-   - Always opt-in; user can disconnect any time
-   - Login badge shows GitHub avatar when connected
+Rules:
+- Generated once by tooling, never regenerated at build
+- Survives renames, rewrites, moves, reordering
+- Copy of a question block must get a new id
+- Edit of question text keeps the same id
+- Duplicated ids are a hard build failure
 
----
-
-## Phase 5 — Remaining Features (all parallel)
-
-10. Search: nuxt-content built-in fuzzy search (replaces elasticlunr + static index; indexes body + questions)
-11. Notes: NotesPad Vue component per part, Pinia + vueuse, debounced auto-save
-12. Continue + offline: ContinueBanner from Pinia last-visited; @vite-pwa/nuxt for service worker
-13. giscus: @giscus/vue per part layout for page discussion only; no role in progress tracking
+npm commands:
+- content:ids     — finds :::question blocks missing id, inserts ULID, writes back to markdown
+- content:validate — fails on missing ids, duplicate ids, broken slot structure
+- dev             — runs content:ids then starts Nuxt (invisible to teachers)
+- build           — runs content:validate (fails loudly, no silent mutation in CI)
+- Optional: Husky pre-commit runs content:ids on staged .md files
 
 ---
 
-## Phase 6 — Launch
+## Phase 5 — Retrieval Practice UX
 
-14. Content parity: script compares question counts per module between old tod.json and new content contract
-15. URL compatibility: same slug structure (theme/area/part) preserves links and SEO
-16. Acceptance checklist:
-    - All modules render, questions are interactive, progress persists across hard reload
-    - Gist sync works end-to-end in Netlify preview
-    - Review mode surfaces due questions after completing a part
+Question engine:
+- MDC parses questions at build time into typed {id, level, question, hint, answer}
+- QuestionCard SFC: idle → hint_shown → answer_shown → marked state machine
+
+Progress store (Pinia + vueuse/useLocalStorage):
+- Schema versioned: {version, subject, progress: {[questionId]: {correct, attempts, lastSeen, hintsUsed}}}
+- JSON export: one-click download
+- JSON import: file picker, restores on any device
+
+Review mode:
+- /review route — surfaces due questions via lightweight SM2 interval (~50 lines, no library)
+
+Optional per-part flag in frontmatter:
+- questionsFirst: true — shows questions before instructions (test-then-learn)
 
 ---
 
-## Files to retire
+## Phase 6 — GitHub Gist Sync (optional, additive)
 
-- src/transforms/parse-transform.js — replaced by nuxt-content MDC parsing
-- src/js/Storage.js — replaced by Pinia + vueuse
-- src/js/dom.js — replaced by Vue reactivity
-- config/shortcodes/tod.js — semantics ported to MDC component names
-- src/search-index.json.njk — retired; nuxt-content handles search
-- netlify.toml — keep structure, update build command
+Netlify function /api/github/auth:
+- OAuth code → token exchange only; client_secret never leaves server
+- Stateless, no database
 
-## Content to preserve verbatim
+GistSync composable:
+- Reads/writes Gist named tod-[subject]-progress.json in student's own GitHub account
+- Merge: local timestamp wins
+- Always opt-in; GitHub avatar shown in nav when connected
 
-- src/content/** (markdown files move as-is)
-- src/assets/, src/fonts/
+---
+
+## Phase 7 — Remaining Features (parallel)
+
+- Search: @nuxt/content built-in full-text, indexes body + question text
+- Notes: NotesPad SFC per part, Pinia + vueuse, 500ms debounced auto-save
+- Continue banner: last-visited part from Pinia, no DOM parsing
+- Offline/PWA: @vite-pwa/nuxt
+- giscus: @giscus/vue per part for discussion only, no role in progress
+- Consent banner (GDPR):
+  - Required because localStorage is used for progress/notes (ePrivacy + GDPR)
+  - Simple banner on first visit: accept/decline
+  - Accept: enables localStorage writes; sets a consent flag in sessionStorage so the banner does not re-appear mid-session
+  - Decline: site is still fully usable but no progress is persisted
+  - No analytics (removed); consent banner exists solely for localStorage compliance
+  - Consent can be revoked from a settings/footer link at any time
+
+---
+
+## Phase 8 — Launch
+
+- Content parity: question and part count check vs old tod.json
+- URL compat: same slug structure preserves links and SEO
+- Acceptance checklist:
+  - All parts render; questions are interactive; progress survives hard reload
+  - Review mode surfaces due questions after completing a part
+  - Gist sync works in Netlify preview
+  - Images: srcset + lazy loading confirmed in production build
+  - Light/dark token generation works correctly
+
+---
+
+## Routes
+
+/                         home
+/[theme]/                 theme summary
+/[theme]/[area]/          area summary
+/[theme]/[area]/[part]/   part learning page
+/review                   spaced repetition review
+/search                   full-text search
+
+All driven by queryCollection() — no manual nav config.
+
+---
+
+## Key Dependencies
+
+@nuxt/content v3, @nuxt/image, @nuxtjs/color-mode, pinia, @vueuse/core,
+@vite-pwa/nuxt, @giscus/vue, ulid (authoring script only, zero runtime)
 
 ---
 
 ## Decisions confirmed
 
-- Stack: Nuxt 3 + Nuxt Content v3, Pinia, vueuse, nuxt generate -> Netlify static
-- Svelte: excluded
-- Progress: localStorage primary + GitHub Gist optional + JSON export/import
-- giscus: page discussion/comments only
-- Pedagogy: retrieval practice (question-before-content option, SM2-style /review route)
+- Stack: Nuxt 3, Nuxt Content v3, Pinia, vueuse, nuxt generate → Netlify
+- New separate repository; old repo stays live until launch
+- No Sass: plain CSS custom properties + utility classes + scoped SFC styles
+- Theme: single hue config → full palette via CSS custom properties
+- Images: @nuxt/image
+- No backwards compatibility, no migration shim
+- Content: must be converted from 11ty shortcodes to MDC; conversion script + manual review per file
+- Progress: localStorage + optional GitHub Gist + JSON export/import
+- Consent banner: required for GDPR/ePrivacy (localStorage); no analytics
+- giscus: discussion only
+- Pedagogy: retrieval practice, optional questionsFirst mode, SM2 /review route
 - No mandatory database
